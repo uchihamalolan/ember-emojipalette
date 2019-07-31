@@ -1,0 +1,15 @@
+<div class="emoji-palette-wrapper">
+  {{#if this.searchEnabled}}
+    <div class="emoji-search-container">
+
+    </div>
+  {{/if}}
+  <div class="category-holder">
+    {{#each this.categories as |category|}}
+      <i class="category-icon icon-{{category}}" {{action "changeCategory" category}}></i>
+    {{/each}}
+  </div>
+  <div class="emoji-palette">
+    {{emoji-list category=currentCategory emojiList=currentEmojiList selectEmoji=(action "selectEmoji" emoji)}}
+  </div>
+</div>
