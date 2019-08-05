@@ -1,14 +1,17 @@
 import Component from '@ember/component';
-import { emojilist } from '@uchihamalolan/emojidex';
+import layout from './template';
+import { computed } from '@ember/object';
+import { emojidex }  from 'ember-emojipalette/utils/emojidex';
 
 export default Component.extend({
+  layout,
   // searchEnabled
   // emoji
   // render emoji palette
-  categories: Object.keys('emojilist'),
+  emojilist: emojidex.emojilist,
   currentCategory: 'people',
-  currentEmojiList: computed('currentCategory', function() {
-    return emojilist.currentCategory;
+  currentEmojiList: computed('currentCategory',function() {
+    return this.get('emojilist')[this.get('currentCategory')];
   }),
   actions: {
     changeCategory(category) {

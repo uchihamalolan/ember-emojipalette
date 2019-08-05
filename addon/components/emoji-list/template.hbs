@@ -1,5 +1,5 @@
 <div class="emoji-list {{category}}">
-  {{#each this.emojiList as |emoji|}}
-    <span class="emoji-item" {{action "selectEmoji" emoji}}>{{emoji}}</span>
+  {{#each emojiList as |emoji|}}
+    <span role="image" class="emoji-list-item" {{action "selectEmoji" emoji}}>{{emoji}}</span>
   {{/each}}
 </div>

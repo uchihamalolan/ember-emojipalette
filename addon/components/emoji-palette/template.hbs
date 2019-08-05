@@ -1,15 +1,15 @@
 <div class="emoji-palette-wrapper">
-  {{#if this.searchEnabled}}
-    <div class="emoji-search-container">
-
-    </div>
+  {{#if searchEnabled}}
+    <div class="emoji-search-container"></div>
   {{/if}}
-  <div class="category-holder">
-    {{#each this.categories as |category|}}
-      <i class="category-icon icon-{{category}}" {{action "changeCategory" category}}></i>
-    {{/each}}
-  </div>
-  <div class="emoji-palette">
-    {{emoji-list category=currentCategory emojiList=currentEmojiList selectEmoji=(action "selectEmoji" emoji)}}
+  {{emoji-list class="emoji-icon-palette" 
+    category=currentCategory 
+    emojiList=currentEmojiList 
+    selectEmoji=(action "selectEmoji")}}
+  <div class="horizontal-ruler"></div>
+  <div class="emoji-category-holder">
+    {{#each-in emojilist as |category|}}
+      <img src="/ember-emojipalette/images/{{category}}.svg" alt="{{category}}" class="emoji-category-icon emoji-icon-{{category}}" {{action "changeCategory" category}}>
+    {{/each-in}}
   </div>
 </div>
