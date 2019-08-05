@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'emojipalette',
+    modulePrefix: 'demo',
     environment,
     rootURL: '/',
     locationType: 'auto',
