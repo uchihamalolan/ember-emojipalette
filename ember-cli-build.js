@@ -5,9 +5,9 @@ const nodeSass = require('node-sass');
 
 module.exports = function(defaults) {
   let app = new EmberAddon(defaults, {
-    sassOptions: {
-      implementation: nodesass
-    }
+    // sassOptions: {
+    //   implementation: this.nodesass
+    // }
   });
 
   /*
