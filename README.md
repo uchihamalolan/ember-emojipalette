@@ -2,14 +2,12 @@
 
 To display an emoji palette for usage within your applications
 
----
 
 ## Installation
 
 ```bash
 ember install ember-emojipalette
 ```
----
 
 ## Usage
 
@@ -25,7 +23,6 @@ if you want search options, pass `searchEnabled=true` to the component (false by
 ```htmlbars
 {{emoji-palette selectedEmoji=emoji searchEnabled=true}}
 ```
----
 
 ## Installation
 
@@ -33,15 +30,11 @@ if you want search options, pass `searchEnabled=true` to the component (false by
 * `cd ember-emojipalette`
 * `npm install`
 
----
-
 ## Linting
 
 * `npm run lint:hbs`
 * `npm run lint:js`
 * `npm run lint:js -- --fix`
-
----
 
 ## Running tests
 
@@ -49,16 +42,12 @@ if you want search options, pass `searchEnabled=true` to the component (false by
 * `ember test --server` – Runs the test suite in "watch mode"
 * `ember try:each` – Runs the test suite against multiple Ember versions
 
----
-
 ## Running the dummy application
 
 * `ember serve`
 * Visit the dummy application at [http://localhost:4200](http://localhost:4200).
 
 For more information on using ember-cli, visit [https://ember-cli.com/](https://ember-cli.com/).
-
----
 
 ## License
 
