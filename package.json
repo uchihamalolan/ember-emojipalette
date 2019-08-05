@@ -21,10 +21,8 @@
     "test:all": "ember try:each"
   },
   "dependencies": {
-    "ember-cli-sass": "^10.0.1",
     "ember-cli-babel": "^6.16.0",
-    "ember-cli-htmlbars": "^3.0.0",
-    "node-sass": "^4.12.0"
+    "ember-cli-htmlbars": "^3.0.0"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.6.3",

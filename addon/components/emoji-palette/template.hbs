@@ -1,15 +1,15 @@
-<div class="emoji-palette-wrapper">
+<div class="emojidex-palette-wrapper">
   {{#if searchEnabled}}
-    <div class="emoji-search-container"></div>
+    <div class="emojidex-search-container"></div>
   {{/if}}
-  {{emoji-list class="emoji-icon-palette" 
+  {{emoji-list class="emojidex-icon-palette" 
     category=currentCategory 
     emojiList=currentEmojiList 
     selectEmoji=(action "selectEmoji")}}
-  <div class="horizontal-ruler"></div>
-  <div class="emoji-category-holder">
+  <div class="emojidex-horizontal-ruler"></div>
+  <div class="emojidex-category-holder">
     {{#each-in emojilist as |category|}}
-      <img src="/ember-emojipalette/images/{{category}}.svg" alt="{{category}}" class="emoji-category-icon emoji-icon-{{category}}" {{action "changeCategory" category}}>
+      <img src="/ember-emojipalette/images/{{category}}.svg" alt="{{category}}" class="emojidex-category-icon emoji-icon-{{category}}" {{action "changeCategory" category}}>
       {{!-- <img src="/ember-emojipalette/images/people.svg" alt="people" class="emoji-category-icon emoji-icon-people" {{action "changeCategory" "people"}}>
       <img src="/ember-emojipalette/images/nature.svg" alt="nature" class="emoji-category-icon emoji-icon-nature" {{action "changeCategory" "nature"}}>
       <img src="/ember-emojipalette/images/food.svg" alt="food" class="emoji-category-icon emoji-icon-food" {{action "changeCategory" "food"}}>

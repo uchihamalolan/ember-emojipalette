@@ -1,0 +1,45 @@
+.emojidex-palette-wrapper {
+  background-color: white;
+  display: inline-block;
+  width: 260px;
+  box-shadow: 0 1px 15px 1px rgba(0,0,0,.08);
+  border-radius: 6px;
+}
+.emojidex-category-holder {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-items: center;
+  padding: 8px 12px 8px 8px;
+}
+.emojidex-category-icon {
+  padding: 3px;
+  cursor: pointer;
+}
+.emojidex-category-icon:hover {
+  transition-delay: 1.4ms;
+  transform: scale(1.4);
+}
+.emojidex-horizontal-ruler {
+  height: 1px;
+  background: lightgray;
+}
+.emojidex-icon-palette { 
+  padding: 8px 12px 8px 8px;
+  overflow-y: auto; 
+  background: whitesmoke;
+}
+.emojidex-list {
+  display: grid;
+  justify-items: center;
+  height: 260px;
+  grid-template-columns: repeat(8, 1fr);
+}    
+.emojidex-list-item {
+  font-size: 22px;
+  padding: 3px;
+  cursor: pointer;
+}
+.emojidex-list-item:hover {
+  transition-delay: 1.4ms;
+  transform: scale(1.4);
+}
