@@ -23,7 +23,6 @@ if you want search options, pass `searchEnabled=true` to the component (false by
 ```hbs
 {{emoji-palette selectedEmoji=emoji searchEnabled=true}}
 ```
----
 
 ## Installation
 
