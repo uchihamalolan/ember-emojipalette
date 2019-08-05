@@ -6,7 +6,7 @@ To display an emoji palette for usage within your applications
 
 ## Installation
 
-```
+```bash
 ember install ember-emojipalette
 ```
 ---
@@ -15,14 +15,14 @@ ember install ember-emojipalette
 
 - just import the component `emoji-palette` within your ember application
 - `selectedEmoji` is binded to a property of the component in your application.
-```hbs
+```htmlbars
 {{emoji-palette selectedEmoji=emoji}}
 ```
 
 ### Properties
 
 if you want search options, pass `searchEnabled=true` to the component (false by default)
-```hbs
+```htmlbars
 {{emoji-palette selectedEmoji=emoji searchEnabled=true}}
 ```
 ---
