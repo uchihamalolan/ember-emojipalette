@@ -8,15 +8,16 @@
     selectEmoji=(action "selectEmoji")}}
   <div class="horizontal-ruler"></div>
   <div class="emoji-category-holder">
-    {{!-- {{#each-in emojilist as |category|}} --}}
-      <img src="/ember-emojipalette/images/people.svg" alt="people" class="emoji-category-icon emoji-icon-people" {{action "changeCategory" "people"}}>
+    {{#each-in emojilist as |category|}}
+      <img src="/ember-emojipalette/images/{{category}}.svg" alt="{{category}}" class="emoji-category-icon emoji-icon-{{category}}" {{action "changeCategory" category}}>
+      {{!-- <img src="/ember-emojipalette/images/people.svg" alt="people" class="emoji-category-icon emoji-icon-people" {{action "changeCategory" "people"}}>
       <img src="/ember-emojipalette/images/nature.svg" alt="nature" class="emoji-category-icon emoji-icon-nature" {{action "changeCategory" "nature"}}>
       <img src="/ember-emojipalette/images/food.svg" alt="food" class="emoji-category-icon emoji-icon-food" {{action "changeCategory" "food"}}>
       <img src="/ember-emojipalette/images/activity.svg" alt="activity" class="emoji-category-icon emoji-icon-activity" {{action "changeCategory" "activity"}}>
       <img src="/ember-emojipalette/images/travel.svg" alt="travel" class="emoji-category-icon emoji-icon-travel" {{action "changeCategory" "travel"}}>
       <img src="/ember-emojipalette/images/object.svg" alt="object" class="emoji-category-icon emoji-icon-object" {{action "changeCategory" "object"}}>
       <img src="/ember-emojipalette/images/symbol.svg" alt="symbol" class="emoji-category-icon emoji-icon-symbol" {{action "changeCategory" "symbol"}}>
-      <img src="/ember-emojipalette/images/flag.svg" alt="flag" class="emoji-category-icon emoji-icon-flag" {{action "changeCategory" "flag"}}>
-    {{!-- {{/each-in}} --}}
+      <img src="/ember-emojipalette/images/flag.svg" alt="flag" class="emoji-category-icon emoji-icon-flag" {{action "changeCategory" "flag"}}> --}}
+    {{/each-in}}
   </div>
 </div>
