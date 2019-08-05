@@ -9,7 +9,7 @@
   <div class="horizontal-ruler"></div>
   <div class="emoji-category-holder">
     {{#each-in emojilist as |category|}}
-      <img src="/ember-emojipalette/images/{{category}}.svg" alt="{{category}}" class="emoji-category-icon emoji-icon-{{category}}" {{action "changeCategory" category}}>
+      <img src="../ember-emojipalette/images/{{category}}.svg" alt="{{category}}" class="emoji-category-icon emoji-icon-{{category}}" {{action "changeCategory" category}}>
     {{/each-in}}
   </div>
 </div>
