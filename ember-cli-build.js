@@ -1,5 +1,18 @@
 'use strict';
 
+Addon.prototype.treeForPublic = function(tree) {
+  this._requireBuildPackages();
+
+  if (!tree) {
+    return tree;
+  }
+
+  return this.pickFiles(tree, {
+    srcDir: '/',
+    destDir: 'assets/' + this.moduleName()
+  });
+};
+
 const EmberAddon = require('ember-cli/lib/broccoli/ember-addon');
 const nodeSass = require('node-sass');
 
