@@ -2,6 +2,8 @@
 
 To display an emoji palette for usage within your applications
 
+view [demo](https://uchihamalolan.github.io/ember-emojipalette/) here.
+
 
 ## Installation
 
