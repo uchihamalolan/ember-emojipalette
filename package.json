@@ -3,11 +3,13 @@
   "version": "0.0.5",
   "description": "The default blueprint for ember-cli addons.",
   "keywords": [
-    "ember-addon"
+    "ember-addon",
+    "emoji",
+    "emoji-palette"
   ],
-  "repository": "",
+  "repository": "git@github.com:uchihamalolan/ember-emojipalette.git",
   "license": "MIT",
-  "author": "",
+  "author": "uchihamalolan",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -22,7 +24,8 @@
   },
   "dependencies": {
     "ember-cli-babel": "^6.16.0",
-    "ember-cli-htmlbars": "^3.0.0"
+    "ember-cli-htmlbars": "^3.0.0",
+    "ember-svg-jar": "^2.1.0"
   },
   "devDependencies": {
     "@ember/optional-features": "^0.6.3",
