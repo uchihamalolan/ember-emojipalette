@@ -26,6 +26,16 @@ if you want search options, pass `searchEnabled=true` to the component (false by
 {{emoji-palette selectedEmoji=emoji searchEnabled=true}}
 ```
 
+## About
+
+- This addon uses unicode for rendering emojis, instead of using spritesheets
+- Advantages are:
+  - less size or network requests (since no requirement of image assets)
+  - sharper images on increasing or decreasing the size of emoji (as they're basically glyphs)
+  - Less dependencies
+- Disadvantages:
+  - Renders slightly different on different OS and browsers
+
 ## Installation
 
 * `git clone git@github.com:uchihamalolan/ember-emojipalette.git`
