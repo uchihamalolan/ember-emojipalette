@@ -14,9 +14,9 @@
 .emojidex-category-icon {
   padding: 3px;
   cursor: pointer;
+  transition: 200ms linear transform;
 }
 .emojidex-category-icon:hover {
-  transition-delay: 1.4ms;
   transform: scale(1.4);
 }
 .emojidex-horizontal-ruler {
@@ -28,18 +28,18 @@
   overflow-y: auto; 
   background: whitesmoke;
 }
-.emojidex-list {
+.emojidex-emoji-list {
   display: grid;
   justify-items: center;
   height: 260px;
   grid-template-columns: repeat(8, 1fr);
-}    
+}
 .emojidex-list-item {
   font-size: 22px;
   padding: 3px;
   cursor: pointer;
+  transition: 200ms linear transform;
 }
 .emojidex-list-item:hover {
-  transition-delay: 1.4ms;
   transform: scale(1.4);
 }
