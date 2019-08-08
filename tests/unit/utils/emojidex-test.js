@@ -1,11 +1,14 @@
 import emojidex from 'dummy/utils/emojidex';
 import { module, test } from 'qunit';
 
-module('Unit | Utility | emojidex', function(hooks) {
+module('Unit | Utility | emojidex', function(/* hooks */) {
 
-  // Replace this with your real tests.
-  test('it works', function(assert) {
-    let result = emojidex();
-    assert.ok(result);
+  test('it provides emojidata object', function(assert) {
+    let result = emojidex.emojidex;
+    assert.equal(result.emojidata.people[0].char, '😀');
+  });
+  test('it provides emojilist value', function(assert) {
+    let result = emojidex.emojidex;
+    assert.equal(result.emojilist.people[0], '😀');
   });
 });

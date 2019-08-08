@@ -5,7 +5,7 @@ export default Component.extend({
   layout,
   actions: {
     selectEmoji(emoji) {
-      this.sendAction('selectEmoji', emoji);
+      this.selectEmoji(emoji);
     }
   }
 });

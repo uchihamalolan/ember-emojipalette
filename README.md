@@ -19,13 +19,6 @@ ember install ember-emojipalette
 {{emoji-palette selectedEmoji=emoji}}
 ```
 
-### Properties
-
-if you want search options, pass `searchEnabled=true` to the component (false by default)
-```htmlbars
-{{emoji-palette selectedEmoji=emoji searchEnabled=true}}
-```
-
 ## About
 
 - This addon uses unicode for rendering emojis, instead of using spritesheets

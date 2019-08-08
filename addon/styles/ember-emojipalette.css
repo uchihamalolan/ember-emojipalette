@@ -1,32 +1,14 @@
 .emojidex-palette-wrapper {
   background-color: white;
   display: inline-block;
-  width: 260px;
-  box-shadow: 0 1px 15px 1px rgba(0,0,0,.08);
+  box-shadow: 0 0 10px 0 rgba(0,0,0,0.1), 0 0 3px 0 #F2F2F2;
   border-radius: 6px;
-}
-.emojidex-category-holder {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  justify-items: center;
-  padding: 8px 12px 8px 8px;
-}
-.emojidex-category-icon {
-  padding: 3px;
-  cursor: pointer;
-  transition: 200ms linear transform;
-}
-.emojidex-category-icon:hover {
-  transform: scale(1.4);
-}
-.emojidex-horizontal-ruler {
-  height: 1px;
-  background: lightgray;
 }
 .emojidex-icon-palette { 
   padding: 8px 12px 8px 8px;
   overflow-y: auto; 
   background: whitesmoke;
+  border-radius: 6px;
 }
 .emojidex-emoji-list {
   display: grid;
@@ -38,8 +20,26 @@
   font-size: 22px;
   padding: 3px;
   cursor: pointer;
-  transition: 200ms linear transform;
+  transition: 200ms ease-out transform;
 }
 .emojidex-list-item:hover {
+  transform: scale(1.4);
+}
+.emojidex-horizontal-ruler {
+  height: 1px;
+  background: lightgray;
+}
+.emojidex-category-holder {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  justify-items: center;
+  padding: 8px 12px 8px 8px;
+}
+.emojidex-category-icon {
+  padding: 3px;
+  cursor: pointer;
+  transition: 200ms ease-out transform;
+}
+.emojidex-category-icon:hover {
   transform: scale(1.4);
 }

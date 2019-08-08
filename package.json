@@ -1,11 +1,13 @@
 {
   "name": "ember-emojipalette",
   "version": "0.1.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "description": "A Complete Emoji Palette for ember applications",
   "keywords": [
     "ember-addon",
     "emoji",
-    "emoji-palette"
+    "emoji-palette",
+    "ember-ui-components",
+    "ember-ui"
   ],
   "repository": "git@github.com:uchihamalolan/ember-emojipalette.git",
   "license": "MIT",
