@@ -18,6 +18,13 @@ ember install ember-emojipalette
 ```htmlbars
 {{emoji-palette selectedEmoji=emoji}}
 ```
+### Preferences
+- This addon by default displays category and does not allow infinite scroll
+- if you wish not to display categories and allow infinite scrolls pass `hideCategory=true` to the `emoji-palette` component
+Eg: 
+```htmlbars
+  {{ember-emojipalette selectedEmoji=emoji hideCategory=true}}
+```
 
 ## About
 

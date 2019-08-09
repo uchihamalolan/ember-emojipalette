@@ -11,4 +11,8 @@ module('Unit | Utility | emojidex', function(/* hooks */) {
     let result = emojidex.emojidex;
     assert.equal(result.emojilist.people[0], '😀');
   });
+  test('it returns category names on calling getCategoryNames()', function(assert) {
+    let result = emojidex.emojidex;
+    assert.equal(result.getCategoryNames().flag, 'Flags');
+  })
 });

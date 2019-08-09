@@ -6,15 +6,24 @@
 }
 .emojidex-icon-palette { 
   padding: 8px 12px 8px 8px;
-  overflow-y: auto; 
+  height: 323px;
+  overflow-y: scroll; 
   background: whitesmoke;
   border-radius: 6px;
+}
+.emojidex-list-category-label {
+  color: black;
+  opacity: 0.6;
+  font-size: 13px;
+  margin: 0 4px;
 }
 .emojidex-emoji-list {
   display: grid;
   justify-items: center;
-  height: 260px;
   grid-template-columns: repeat(8, 1fr);
+}
+.emojidex-complete-list {
+  margin: 8px 0;
 }
 .emojidex-list-item {
   font-size: 22px;
@@ -34,6 +43,7 @@
   grid-template-columns: repeat(8, 1fr);
   justify-items: center;
   padding: 8px 12px 8px 8px;
+  border-radius: 0 0 6px 6px;
 }
 .emojidex-category-icon {
   padding: 3px;

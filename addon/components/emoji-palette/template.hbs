@@ -3,13 +3,18 @@
     <div class="emojidex-search-container"></div>
   {{/if}}
   {{emoji-list class="emojidex-icon-palette" 
-    category=currentCategory 
-    emojiList=currentEmojiList 
-    selectEmoji=(action "selectEmoji")}}
-  <div class="emojidex-horizontal-ruler"></div>
-  <div class="emojidex-category-holder">
-    {{#each-in emojilist as |category|}}
-      <img src="{{get categorySVG category}}" class="emojidex-category-icon category-icon-{{category}}" {{action "changeCategory" category}}/>
-    {{/each-in}}
-  </div>
+      category=currentCategory 
+      emojiList=currentEmojiList 
+      categoryNames=categoryNames
+      isCompleteList=isCompleteList
+      selectEmoji=(action "selectEmoji")
+  }}
+  {{#unless hideCategory}}
+    <div class="emojidex-horizontal-ruler"></div>
+    <div class="emojidex-category-holder">
+      {{#each-in emojilist as |category|}}
+        <img src="{{get categorySVG category}}" class="emojidex-category-icon category-icon-{{category}}" {{action "changeCategory" category}}/>
+      {{/each-in}}
+    </div>
+  {{/unless}}
 </div>

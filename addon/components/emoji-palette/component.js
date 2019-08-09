@@ -8,12 +8,19 @@ export default Component.extend({
   layout,
   // searchEnabled
   // emoji
-  // render emoji palette
   emojilist: emojidex.emojilist,
   categorySVG: categoryIcons,
-  currentCategory: 'people',
+  categoryNames: emojidex.getCategoryNames(),
+  currentCategory: computed(function() {
+    return this.get('hideCategory') ? 'all' : 'people' ;
+  }),
   currentEmojiList: computed('currentCategory',function() {
-    return this.get('emojilist')[this.get('currentCategory')];
+    return (this.get('currentCategory') === 'all' )
+          ? this.get('emojilist')
+          : this.get('emojilist')[this.get('currentCategory')]
+  }),
+  isCompleteList: computed('currentCategory', function() {
+    return (this.get('currentCategory') === 'all') ? true : false;
   }),
   actions: {
     changeCategory(category) {
