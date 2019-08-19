@@ -8,20 +8,27 @@ export default Component.extend({
   layout,
   // searchEnabled
   // emoji
-  emojilist: emojidex.emojilist,
-  categorySVG: categoryIcons,
+  emojis: emojidex.emojilist,
   categoryNames: emojidex.getCategoryNames(),
+  categorySVG: categoryIcons,
+  isCompleteList: computed.alias('hideCategories'),
+
+  categories: computed(function() {
+    const excludedCategories = this.get('excludedCategories');
+    const categoryList = Object.keys(this.get('categoryNames'));
+    return (excludedCategories)
+      ? categoryList.filter(category => !this.excludedCategories.includes(category))
+      : categoryList;
+  }),
   currentCategory: computed(function() {
-    return this.get('hideCategory') ? 'all' : 'people' ;
+    return this.get('isCompleteList') ? 'all' : 'people' ;
   }),
-  currentEmojiList: computed('currentCategory',function() {
-    return (this.get('currentCategory') === 'all' )
-          ? this.get('emojilist')
-          : this.get('emojilist')[this.get('currentCategory')]
+  emojiList: computed('currentCategory',function() {
+    return (this.get('isCompleteList'))
+      ? this.get('emojis')
+      : this.get('emojis')[this.get('currentCategory')];
   }),
-  isCompleteList: computed('currentCategory', function() {
-    return (this.get('currentCategory') === 'all') ? true : false;
-  }),
+
   actions: {
     changeCategory(category) {
       this.set('currentCategory', category);

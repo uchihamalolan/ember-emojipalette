@@ -39,13 +39,12 @@
   background: lightgray;
 }
 .emojidex-category-holder {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  justify-items: center;
+  display: flex;
   padding: 8px 12px 8px 8px;
   border-radius: 0 0 6px 6px;
 }
 .emojidex-category-icon {
+  flex-grow: 1;
   padding: 3px;
   cursor: pointer;
   transition: 200ms ease-out transform;

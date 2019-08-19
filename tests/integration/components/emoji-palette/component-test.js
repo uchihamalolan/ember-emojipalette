@@ -12,8 +12,8 @@ module('Integration | Component | emoji-palette', function(hooks) {
     assert.equal(this.element.querySelectorAll('.emojidex-category-holder img').length, 8);
   });
 
-  test('should not display categories if hideCategory is enabled', async function(assert) {
-    await render(hbs`{{emoji-palette hideCategory=true selectedEmoji=emoji}}`);
+  test('should not display categories if hideCategories is enabled', async function(assert) {
+    await render(hbs`{{emoji-palette hideCategories=true selectedEmoji=emoji}}`);
     assert.equal(this.element.querySelectorAll('.emojidex-category-holder').length, 0, "should not display categories");
   });
 
@@ -22,5 +22,11 @@ module('Integration | Component | emoji-palette', function(hooks) {
     await render(hbs`{{emoji-palette hideCategory=true selectedEmoji=emoji}}`);
     await click('.emojidex-list-item:nth-of-type(2)');
     assert.equal(this.get('emoji'), '😃');
+  });
+
+  test('should not display categories if excludedCategories is provided', async function(assert) {
+    this.set('excludedCategories', ['flag']);
+    await render(hbs`{{emoji-palette excludedCategories=excludedCategories selectedEmoji=emoji}}`);
+    assert.equal(this.element.querySelectorAll('.category-icon-flag').length, 0, "should not display flag category icon");
   });
 });

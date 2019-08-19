@@ -1,7 +1,6 @@
 import { module, test } from 'qunit';
-import { render, visit, click } from '@ember/test-helpers';
+import { visit, click } from '@ember/test-helpers';
 import { setupApplicationTest } from 'ember-qunit';
-import hbs from 'htmlbars-inline-precompile';
 
 module('Acceptance | render emojipalette', function(hooks) {
   setupApplicationTest(hooks);
