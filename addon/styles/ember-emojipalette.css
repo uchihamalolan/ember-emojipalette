@@ -4,12 +4,20 @@
   box-shadow: 0 0 10px 0 rgba(0,0,0,0.1), 0 0 3px 0 #F2F2F2;
   border-radius: 6px;
 }
+.emojidex-searchbox {
+  width: 100%;
+  border: none;
+  padding: 8px;
+}
+.emojidex-searchbox:focus {
+  outline: none;
+}
+
 .emojidex-icon-palette { 
   padding: 8px 12px 8px 8px;
   height: 323px;
   overflow-y: scroll; 
   background: whitesmoke;
-  border-radius: 6px;
 }
 .emojidex-list-category-label {
   color: black;
@@ -41,7 +49,6 @@
 .emojidex-category-holder {
   display: flex;
   padding: 8px 12px 8px 8px;
-  border-radius: 0 0 6px 6px;
 }
 .emojidex-category-icon {
   flex-grow: 1;
@@ -51,4 +58,13 @@
 }
 .emojidex-category-icon:hover {
   transform: scale(1.4);
+}
+.emojidex-bottom-component {
+  border-radius: 0 0 6px 6px;
+}
+.emojidex-top-component {
+  border-radius: 6px 6px 0 0;
+}
+.emojidex-bottom-component.emojidex-top-component {
+  border-radius: 6px;
 }

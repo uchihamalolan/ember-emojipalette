@@ -1,4 +1,12 @@
-{{emoji-palette
-    selectedEmoji=emoji
-    excludedCategories=excludedCategories
-}}
+<button {{action "toggleEmojiPalette"}}>Toggle Container</button>
+<br>
+<br>
+<br>
+{{#if showEmojiPalette}}
+    {{emoji-palette
+        selectedEmoji=emoji
+        hideCategories=false
+        excludedCategories=excludedCategories
+        onClose=(action "toggleEmojiPalette")
+    }}
+{{/if}}

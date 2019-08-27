@@ -1,3 +1,4 @@
+<div class="emojidex-icon-palette {{unless searchEnabled 'emojidex-top-component'}} {{if isCompleteList 'emojidex-bottom-component'}}">
 {{#if isCompleteList}}
   {{#each categories as |category|}}
     <label class="emojidex-list-category-label">{{get categoryNames category}}</label>
@@ -8,9 +9,10 @@
     </div>
   {{/each}}
 {{else}}
-  <div class="emojidex-emoji-list emojidex-{{currentCategory}}-list">
+  <div class="emojidex-emoji-list emojidex-{{listType}}-list">
     {{#each emojiList as |emoji|}}
       <span role="image" class="emojidex-list-item" {{action "selectEmoji" emoji}}>{{emoji}}</span>
     {{/each}}
   </div>
 {{/if}}
+</div>
