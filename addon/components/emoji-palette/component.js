@@ -7,6 +7,7 @@ import { categoryIcons } from 'ember-emojipalette/utils/category-icons';
 export default Component.extend({
   layout,
   closeOnEsc: true,
+  closeOnBackdropClick: false,
 
   // Event Handlers
   handleKeyDown(e) {
@@ -14,6 +15,12 @@ export default Component.extend({
     if (code === 27 && this.get('closeOnEsc')) {
       this.get('onClose')();
     }
+  },
+  handleClick(e) {
+    if (e.target !== this.element || !this.get('closeOnBackdropClick')) {
+      return;
+    }
+    this.get('onClose')();
   },
 
   // Lifecycle Hooks
@@ -23,14 +30,20 @@ export default Component.extend({
       'keyDownHandler',
       this.get('handleKeyDown').bind(this)
     );
+    this.set(
+      'clickHandler',
+      this.get('handleClick').bind(this)
+    );
   },
   didInsertElement() {
     this._super(...arguments);
     document.addEventListener('keydown', this.get('keyDownHandler'));
+    document.addEventListener('click', this.get('clickHandler'));
   },
   willDestroyElement() {
     this._super(...arguments);
     document.removeEventListener('keyDown', this.handleKeyDown);
+    document.removeEventListener('click', this.get('clickHandler'));
   },
 
   // Component Properties
