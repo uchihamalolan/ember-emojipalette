@@ -1,6 +1,8 @@
 import Component from '@ember/component';
 import layout from './template';
 import { computed } from '@ember/object';
+import { later } from '@ember/runloop';
+
 import { emojidex }  from 'ember-emojipalette/utils/emojidex';
 import { categoryIcons } from 'ember-emojipalette/utils/category-icons';
 
@@ -17,10 +19,11 @@ export default Component.extend({
     }
   },
   handleClick(e) {
-    if (e.target !== this.element || !this.get('closeOnBackdropClick')) {
-      return;
+    if ( this.get('closeOnBackdropClick') && 
+      (e.target === this.element || !e.target.closest('.emojidex-palette-wrapper')) 
+    ) {
+      this.get('onClose')();
     }
-    this.get('onClose')();
   },
 
   // Lifecycle Hooks
@@ -37,12 +40,14 @@ export default Component.extend({
   },
   didInsertElement() {
     this._super(...arguments);
-    document.addEventListener('keydown', this.get('keyDownHandler'));
-    document.addEventListener('click', this.get('clickHandler'));
+    later(() => {
+      document.addEventListener('keydown', this.get('keyDownHandler'));
+      document.addEventListener('click', this.get('clickHandler'));
+    }, 1);
   },
   willDestroyElement() {
     this._super(...arguments);
-    document.removeEventListener('keyDown', this.handleKeyDown);
+    document.removeEventListener('keyDown', this.get('keyDownHandler'));
     document.removeEventListener('click', this.get('clickHandler'));
   },
 

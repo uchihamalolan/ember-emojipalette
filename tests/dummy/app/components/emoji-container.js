@@ -9,6 +9,9 @@ export default Component.extend({
   actions: {
     toggleEmojiPalette() {
       this.toggleProperty('showEmojiPalette');
+    },
+    closeEmojiPalette() {
+      this.set('showEmojiPalette', false);
     }
   }
 });
