@@ -53,7 +53,11 @@ export default Component.extend({
 
   // Component Properties
   emojidex: emojidex,
-  emojis: emojidex.emojilist,
+  emojis: computed(function() {
+    return this.get('emojiVersion')
+      ? emojidex.filteredEmojiList(this.get('emojiVersion'))
+      : emojidex.emojilist;
+  }),
   categoryNames: emojidex.getCategoryNames(),
   categorySVG: categoryIcons,
   searchTerm: '',

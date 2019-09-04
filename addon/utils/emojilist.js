@@ -1,5 +1,5 @@
 export const emojilist = {
-  "people": [
+  people: [
     "😀",
     "😃",
     "😄",
@@ -351,7 +351,7 @@ export const emojilist = {
     "💍",
     "💼"
   ],
-  "nature": [
+  nature: [
     "🙈",
     "🙉",
     "🙊",
@@ -534,7 +534,7 @@ export const emojilist = {
     "🎋",
     "🎍"
   ],
-  "food": [
+  food: [
     "🍇",
     "🍈",
     "🍉",
@@ -641,7 +641,7 @@ export const emojilist = {
     "🍴",
     "🥄"
   ],
-  "activity": [
+  activity: [
     "🕴",
     "🧗",
     "🧗‍♂️",
@@ -750,7 +750,7 @@ export const emojilist = {
     "🎬",
     "🏹"
   ],
-  "travel": [
+  travel: [
     "🚣",
     "🗾",
     "🏔",
@@ -877,7 +877,7 @@ export const emojilist = {
     "🛄",
     "🛅"
   ],
-  "object": [
+  object: [
     "💌",
     "🕳",
     "💣",
@@ -1077,7 +1077,7 @@ export const emojilist = {
     "🗿",
     "🚰"
   ],
-  "symbol": [
+  symbol: [
     "💘",
     "💝",
     "💖",
@@ -1338,7 +1338,7 @@ export const emojilist = {
     "🔳",
     "🔲"
   ],
-  "flag": [
+  flag: [
     "🏁",
     "🚩",
     "🎌",

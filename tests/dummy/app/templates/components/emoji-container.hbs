@@ -3,11 +3,12 @@
 <br>
 <br>
 {{#if showEmojiPalette}}
-    {{emoji-palette
-        selectedEmoji=emoji
-        hideCategories=false
-        closeOnBackdropClick=true
-        excludedCategories=excludedCategories
-        onClose=(action "closeEmojiPalette")
-    }}
+  {{emoji-palette
+    selectedEmoji=emoji
+    emojiVersion='9'
+    hideCategories=false
+    closeOnBackdropClick=true
+    excludedCategories=excludedCategories
+    onClose=(action "closeEmojiPalette")
+  }}
 {{/if}}

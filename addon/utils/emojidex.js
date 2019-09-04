@@ -1,12 +1,12 @@
-//import { emojidata } from './emojidata';
+/* eslint-disable no-fallthrough */
+// import { emojidata } from './emojidata';
 import { emojilist } from './emojilist';
+import { emojiListVersion } from './emojiListVersion';
 
 export const emojidex = {
-  //emojidata: emojidata,
+  // emojidata: emojidata,
   emojilist: emojilist,
-  // _searchInSubcategory(searchTerm, emoji) {
-  //   return emoji.subcategory.split(/[- ]/).filter( word => word.length > 1).includes(searchTerm);
-  // },
+  emojiListVersion: emojiListVersion,
   getCategoryNames() {
     return {
       people: "Smileys & People",
@@ -19,6 +19,28 @@ export const emojidex = {
       flag: "Flags"
     }
   },
+  getUnsupportedEmojis(version) {
+    if (version === '11') return;
+    let unsupportedEmojis = [];
+    switch (version) {
+      case '9': unsupportedEmojis = unsupportedEmojis.concat(...emojiListVersion.v10);
+      case '10': unsupportedEmojis = unsupportedEmojis.concat(...emojiListVersion.v11);
+    }
+    return unsupportedEmojis;
+  },
+  filteredEmojiList(version) {
+    const unsupportedEmojis = this.getUnsupportedEmojis(version);
+    let filteredEmojiList = {};
+    Object.entries(this.emojilist).forEach(entry => {
+      let category = entry[0];
+      let emojis = entry[1];
+      filteredEmojiList[category] = emojis.filter(emoji => !unsupportedEmojis.includes(emoji));
+    });
+    return filteredEmojiList;
+  }
+  // _searchInSubcategory(searchTerm, emoji) {
+  //   return emoji.subcategory.split(/[- ]/).filter( word => word.length > 1).includes(searchTerm);
+  // },
   // searchEmojis(searchTerm) {
   //   let searchResults = [];
   //   for(let category in emojidata) {
