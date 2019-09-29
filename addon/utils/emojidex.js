@@ -1,12 +1,13 @@
 /* eslint-disable no-fallthrough */
-// import { emojidata } from './emojidata';
+import { emojidata } from './emojidata';
 import { emojilist } from './emojilist';
 import { emojiListVersion } from './emojiListVersion';
 
 export const emojidex = {
-  // emojidata: emojidata,
+  emojidata: emojidata,
   emojilist: emojilist,
   emojiListVersion: emojiListVersion,
+
   getCategoryNames() {
     return {
       people: "Smileys & People",
@@ -37,23 +38,33 @@ export const emojidex = {
       filteredEmojiList[category] = emojis.filter(emoji => !unsupportedEmojis.includes(emoji));
     });
     return filteredEmojiList;
+  },
+  filteredEmojiData(version) {
+    const unsupportedEmojis = this.getUnsupportedEmojis(version);
+    let filteredEmojiData = {};
+    Object.entries(this.emojidata).forEach(entry => {
+      let category = entry[0];
+      let emojis = entry[1];
+      filteredEmojiData[category] = emojis.filter(emoji => !unsupportedEmojis.includes(emoji.char));
+    });
+    return filteredEmojiData;
+  },
+  searchEmojis(searchTerm) {
+    let searchResults = [];
+    for(let category in emojidata) {
+      let emojis = emojidata[category];
+      searchResults.push(
+        emojis.filter((emoji) => {
+            return (emoji.keyTerms && emoji.keyTerms.includes(searchTerm))
+            ||  (emoji.subcategory && this._searchInSubcategory(searchTerm, emoji))
+        }).map((emoji) => {
+          return emoji.char;
+        })
+      );
+    }
+    return searchResults.flat();
+  },
+  _searchInSubcategory(searchTerm, emoji) {
+    return emoji.subcategory.split(/[- ]/).filter( word => word.length > 1).includes(searchTerm);
   }
-  // _searchInSubcategory(searchTerm, emoji) {
-  //   return emoji.subcategory.split(/[- ]/).filter( word => word.length > 1).includes(searchTerm);
-  // },
-  // searchEmojis(searchTerm) {
-  //   let searchResults = [];
-  //   for(let category in emojidata) {
-  //     let emojis = emojidata[category];
-  //     searchResults.push(
-  //       emojis.filter((emoji) => {
-  //           return (emoji.keyTerms && emoji.keyTerms.includes(searchTerm))
-  //           ||  (emoji.subcategory && this._searchInSubcategory(searchTerm, emoji))
-  //       }).map((emoji) => {
-  //         return emoji.char;
-  //       })
-  //     );
-  //   }
-  //   return searchResults.flat();
-  // }
 }
