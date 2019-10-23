@@ -1,8 +1,12 @@
 .emojidex-palette-wrapper {
   background-color: white;
   display: inline-block;
-  box-shadow: 0 0 10px 0 rgba(0,0,0,0.1), 0 0 3px 0 #F2F2F2;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1), 0 0 3px 0 #f2f2f2;
   border-radius: 6px;
+}
+.emojidex-search-container {
+  margin: 5px;
+  border: 1px solid lightgrey;
 }
 .emojidex-searchbox {
   width: 100%;
@@ -13,10 +17,11 @@
   outline: none;
 }
 
-.emojidex-icon-palette { 
+.emojidex-icon-palette {
   padding: 8px 12px 8px 8px;
   height: 323px;
-  overflow-y: scroll; 
+  width: 260px;
+  overflow-y: scroll;
   background: whitesmoke;
 }
 .emojidex-list-category-label {

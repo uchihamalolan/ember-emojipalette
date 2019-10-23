@@ -1,15 +1,16 @@
 import Component from '@ember/component';
 import layout from './template';
 import { computed } from '@ember/object';
-import { later } from '@ember/runloop';
+import { later, debounce } from '@ember/runloop';
 
-import { emojidex }  from 'ember-emojipalette/utils/emojidex';
+import { emojidex } from 'ember-emojipalette/utils/emojidex';
 import { categoryIcons } from 'ember-emojipalette/utils/category-icons';
 
 export default Component.extend({
   layout,
   closeOnEsc: true,
   closeOnBackdropClick: false,
+  searchDebounce: 500,
 
   // Event Handlers
   handleKeyDown(e) {
@@ -19,8 +20,8 @@ export default Component.extend({
     }
   },
   handleClick(e) {
-    if ( this.get('closeOnBackdropClick') && 
-      (e.target === this.element || !e.target.closest('.emojidex-palette-wrapper')) 
+    if (this.get('closeOnBackdropClick') &&
+      (e.target === this.element || !e.target.closest('.emojidex-palette-wrapper'))
     ) {
       this.get('onClose')();
     }
@@ -40,6 +41,9 @@ export default Component.extend({
   },
   didInsertElement() {
     this._super(...arguments);
+    if (this.get('emojiVersion')) {
+      emojidex.setFilteredEmojiData(this.get('emojiVersion'));
+    }
     later(() => {
       document.addEventListener('keydown', this.get('keyDownHandler'));
       document.addEventListener('click', this.get('clickHandler'));
@@ -52,49 +56,57 @@ export default Component.extend({
   },
 
   // Component Properties
-  emojidex: emojidex,
-  emojis: computed(function() {
-    return this.get('emojiVersion')
-      ? emojidex.filteredEmojiList(this.get('emojiVersion'))
-      : emojidex.emojilist;
-  }),
   categoryNames: emojidex.getCategoryNames(),
   categorySVG: categoryIcons,
   searchTerm: '',
   searchPlaceholder: 'search for emoji',
 
   // Computed Properties
-  isCompleteList: computed.alias('hideCategories'),
-  isSearchResult: computed.notEmpty('searchResults'),
-  currentListType: computed(function() {
-    return this.get('isCompleteList') ? 'all' : 'people' ;
+  emojis: computed(function () {
+    return this.get('emojiVersion')
+      ? emojidex.getFilteredEmojiList(this.get('emojiVersion'))
+      : emojidex.emojilist;
   }),
-  allowedCategories: computed(function() {
-    const excludedCategories = this.get('excludedCategories');
-    const categoryList = Object.keys(this.get('categoryNames'));
-    return (excludedCategories)
-      ? categoryList.filter(category => !this.excludedCategories.includes(category))
-      : categoryList;
-  }),
-  emojiList: computed('searchResults', 'currentListType',function() {
+  emojiList: computed('searchResults', 'currentListType', function () {
     return (this.get('searchEnabled') && this.get('isSearchResult'))
       ? this.get('searchResults')
       : (this.get('isCompleteList'))
         ? this.get('emojis')
         : this.get('emojis')[this.get('currentListType')];
   }),
+  isCompleteList: computed.alias('hideCategories'),
+  isSearchResult: computed.notEmpty('searchResults'),
+  currentListType: computed(function () {
+    return this.get('isCompleteList') ? 'all' : 'people';
+  }),
+  allowedCategories: computed(function () {
+    const excludedCategories = this.get('excludedCategories');
+    const categoryList = Object.keys(this.get('categoryNames'));
+    return (excludedCategories)
+      ? categoryList.filter(category => !this.excludedCategories.includes(category))
+      : categoryList;
+  }),
+
+  // functions
+  searchEmojis() {
+    const searchTerm = this.get('searchTerm');
+    if (searchTerm.trim() === "") {
+      this.set('searchResults', null);
+      return;
+    }
+    const searchResults = emojidex.searchEmojis(searchTerm);
+    if (searchResults.length !== 0) {
+      this.set('searchResults', searchResults);
+    } else {
+      this.set('searchResults', 'none');
+    }
+  },
+
 
   // Actions
   actions: {
     searchEmojis() {
-      const searchTerm = this.get('searchTerm');
-      if (searchTerm.trim() === "") return;
-      const searchResults = this.get('emojidex').searchEmojis(searchTerm);
-      if(searchResults) {
-        this.set('searchResults', searchResults);
-      } else {
-        this.set('searchResults', 'none');
-      }
+      debounce(this, this.searchEmojis, this.searchDebounce);
     },
     changeCategory(category) {
       this.set('currentListType', category);

@@ -1,23 +1,19 @@
 export const emojidata = {
   "people": [
     {
-      "codes": "1F600",
-      "char": "😀",
+      "emoji": "😀",
       "name": "grinning face",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
-      "keyTerms": [
-        "face",
-        "grin",
-        "grinning face"
-      ]
+      "codepoints": "1F600",
+      "keyTerms": ["face", "grin", "grinning face"]
     },
     {
-      "codes": "1F603",
-      "char": "😃",
+      "emoji": "😃",
       "name": "grinning face with big eyes",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
+      "codepoints": "1F603",
       "keyTerms": [
         "face",
         "grinning face with big eyes",
@@ -27,11 +23,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F604",
-      "char": "😄",
+      "emoji": "😄",
       "name": "grinning face with smiling eyes",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
+      "codepoints": "1F604",
       "keyTerms": [
         "eye",
         "face",
@@ -42,11 +38,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F601",
-      "char": "😁",
+      "emoji": "😁",
       "name": "beaming face with smiling eyes",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
+      "codepoints": "1F601",
       "keyTerms": [
         "beaming face with smiling eyes",
         "eye",
@@ -56,11 +52,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F606",
-      "char": "😆",
+      "emoji": "😆",
       "name": "grinning squinting face",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
+      "codepoints": "1F606",
       "keyTerms": [
         "face",
         "grinning squinting face",
@@ -71,11 +67,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F605",
-      "char": "😅",
+      "emoji": "😅",
       "name": "grinning face with sweat",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
+      "codepoints": "1F605",
       "keyTerms": [
         "cold",
         "face",
@@ -86,11 +82,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F923",
-      "char": "🤣",
+      "emoji": "🤣",
       "name": "rolling on the floor laughing",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
+      "codepoints": "1F923",
       "keyTerms": [
         "face",
         "floor",
@@ -100,60 +96,43 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F602",
-      "char": "😂",
+      "emoji": "😂",
       "name": "face with tears of joy",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
-      "keyTerms": [
-        "face",
-        "face with tears of joy",
-        "joy",
-        "laugh",
-        "tear"
-      ]
+      "codepoints": "1F602",
+      "keyTerms": ["face", "face with tears of joy", "joy", "laugh", "tear"]
     },
     {
-      "codes": "1F642",
-      "char": "🙂",
+      "emoji": "🙂",
       "name": "slightly smiling face",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
-      "keyTerms": [
-        "face",
-        "slightly smiling face",
-        "smile"
-      ]
+      "codepoints": "1F642",
+      "keyTerms": ["face", "slightly smiling face", "smile"]
     },
     {
-      "codes": "1F643",
-      "char": "🙃",
+      "emoji": "🙃",
       "name": "upside-down face",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
-      "keyTerms": [
-        "face",
-        "upside-down"
-      ]
+      "codepoints": "1F643",
+      "keyTerms": ["face", "upside-down"]
     },
     {
-      "codes": "1F609",
-      "char": "😉",
+      "emoji": "😉",
       "name": "winking face",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
-      "keyTerms": [
-        "face",
-        "wink",
-        "winking face"
-      ]
+      "codepoints": "1F609",
+      "keyTerms": ["face", "wink", "winking face"]
     },
     {
-      "codes": "1F60A",
-      "char": "😊",
+      "emoji": "😊",
       "name": "smiling face with smiling eyes",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
+      "codepoints": "1F60A",
       "keyTerms": [
         "blush",
         "eye",
@@ -163,11 +142,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F607",
-      "char": "😇",
+      "emoji": "😇",
       "name": "smiling face with halo",
       "category": "Smileys & Emotion",
       "subcategory": "face-smiling",
+      "codepoints": "1F607",
       "keyTerms": [
         "angel",
         "face",
@@ -178,18 +157,25 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F970",
-      "char": "🥰",
+      "emoji": "🥰",
       "name": "smiling face with hearts",
       "category": "Smileys & Emotion",
-      "subcategory": "face-affection"
+      "subcategory": "face-affection",
+      "codepoints": "1F970",
+      "keyTerms": [
+        "adore",
+        "crush",
+        "hearts",
+        "in love",
+        "smiling face with hearts"
+      ]
     },
     {
-      "codes": "1F60D",
-      "char": "😍",
+      "emoji": "😍",
       "name": "smiling face with heart-eyes",
       "category": "Smileys & Emotion",
       "subcategory": "face-affection",
+      "codepoints": "1F60D",
       "keyTerms": [
         "eye",
         "face",
@@ -199,11 +185,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F929",
-      "char": "🤩",
+      "emoji": "🤩",
       "name": "star-struck",
       "category": "Smileys & Emotion",
       "subcategory": "face-affection",
+      "codepoints": "1F929",
       "keyTerms": [
         "eyes",
         "face",
@@ -214,35 +200,35 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F618",
-      "char": "😘",
+      "emoji": "😘",
       "name": "face blowing a kiss",
       "category": "Smileys & Emotion",
       "subcategory": "face-affection",
-      "keyTerms": [
-        "face",
-        "face blowing a kiss",
-        "kiss"
-      ]
+      "codepoints": "1F618",
+      "keyTerms": ["face", "face blowing a kiss", "kiss"]
     },
     {
-      "codes": "1F617",
-      "char": "😗",
+      "emoji": "😗",
       "name": "kissing face",
       "category": "Smileys & Emotion",
       "subcategory": "face-affection",
-      "keyTerms": [
-        "face",
-        "kiss",
-        "kissing face"
-      ]
+      "codepoints": "1F617",
+      "keyTerms": ["face", "kiss", "kissing face"]
     },
     {
-      "codes": "1F61A",
-      "char": "😚",
+      "emoji": "☺",
+      "name": "smiling face",
+      "category": "Smileys & Emotion",
+      "subcategory": "face-affection",
+      "codepoints": "263A",
+      "keyTerms": ["face", "outlined", "relaxed", "smile", "smiling face"]
+    },
+    {
+      "emoji": "😚",
       "name": "kissing face with closed eyes",
       "category": "Smileys & Emotion",
       "subcategory": "face-affection",
+      "codepoints": "1F61A",
       "keyTerms": [
         "closed",
         "eye",
@@ -252,11 +238,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F619",
-      "char": "😙",
+      "emoji": "😙",
       "name": "kissing face with smiling eyes",
       "category": "Smileys & Emotion",
       "subcategory": "face-affection",
+      "codepoints": "1F619",
       "keyTerms": [
         "eye",
         "face",
@@ -266,11 +252,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F60B",
-      "char": "😋",
+      "emoji": "😋",
       "name": "face savoring food",
       "category": "Smileys & Emotion",
       "subcategory": "face-tongue",
+      "codepoints": "1F60B",
       "keyTerms": [
         "delicious",
         "face",
@@ -281,23 +267,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F61B",
-      "char": "😛",
+      "emoji": "😛",
       "name": "face with tongue",
       "category": "Smileys & Emotion",
       "subcategory": "face-tongue",
-      "keyTerms": [
-        "face",
-        "face with tongue",
-        "tongue"
-      ]
+      "codepoints": "1F61B",
+      "keyTerms": ["face", "face with tongue", "tongue"]
     },
     {
-      "codes": "1F61C",
-      "char": "😜",
+      "emoji": "😜",
       "name": "winking face with tongue",
       "category": "Smileys & Emotion",
       "subcategory": "face-tongue",
+      "codepoints": "1F61C",
       "keyTerms": [
         "eye",
         "face",
@@ -308,25 +290,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F92A",
-      "char": "🤪",
+      "emoji": "🤪",
       "name": "zany face",
       "category": "Smileys & Emotion",
       "subcategory": "face-tongue",
-      "keyTerms": [
-        "eye",
-        "goofy",
-        "large",
-        "small",
-        "zany face"
-      ]
+      "codepoints": "1F92A",
+      "keyTerms": ["eye", "goofy", "large", "small", "zany face"]
     },
     {
-      "codes": "1F61D",
-      "char": "😝",
+      "emoji": "😝",
       "name": "squinting face with tongue",
       "category": "Smileys & Emotion",
       "subcategory": "face-tongue",
+      "codepoints": "1F61D",
       "keyTerms": [
         "eye",
         "face",
@@ -337,114 +313,89 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F911",
-      "char": "🤑",
+      "emoji": "🤑",
       "name": "money-mouth face",
       "category": "Smileys & Emotion",
       "subcategory": "face-tongue",
-      "keyTerms": [
-        "face",
-        "money",
-        "money-mouth face",
-        "mouth"
-      ]
+      "codepoints": "1F911",
+      "keyTerms": ["face", "money", "money-mouth face", "mouth"]
     },
     {
-      "codes": "1F917",
-      "char": "🤗",
+      "emoji": "🤗",
       "name": "hugging face",
       "category": "Smileys & Emotion",
       "subcategory": "face-hand",
-      "keyTerms": [
-        "face",
-        "hug",
-        "hugging"
-      ]
+      "codepoints": "1F917",
+      "keyTerms": ["face", "hug", "hugging"]
     },
     {
-      "codes": "1F92D",
-      "char": "🤭",
+      "emoji": "🤭",
       "name": "face with hand over mouth",
       "category": "Smileys & Emotion",
       "subcategory": "face-hand",
+      "codepoints": "1F92D",
       "keyTerms": [
         "face with hand over mouth",
         "whoops",
         "shock",
-        "sudden"
+        "sudden realization",
+        "surprise"
       ]
     },
     {
-      "codes": "1F92B",
-      "char": "🤫",
+      "emoji": "🤫",
       "name": "shushing face",
       "category": "Smileys & Emotion",
       "subcategory": "face-hand",
-      "keyTerms": [
-        "quiet",
-        "shush",
-        "shushing face"
-      ]
+      "codepoints": "1F92B",
+      "keyTerms": ["quiet", "shush", "shushing face"]
     },
     {
-      "codes": "1F914",
-      "char": "🤔",
+      "emoji": "🤔",
       "name": "thinking face",
       "category": "Smileys & Emotion",
       "subcategory": "face-hand",
-      "keyTerms": [
-        "face",
-        "thinking"
-      ]
+      "codepoints": "1F914",
+      "keyTerms": ["face", "thinking"]
     },
     {
-      "codes": "1F910",
-      "char": "🤐",
+      "emoji": "🤐",
       "name": "zipper-mouth face",
       "category": "Smileys & Emotion",
       "subcategory": "face-neutral-skeptical",
-      "keyTerms": [
-        "face",
-        "mouth",
-        "zipper",
-        "zipper-mouth face"
-      ]
+      "codepoints": "1F910",
+      "keyTerms": ["face", "mouth", "zipper", "zipper-mouth face"]
     },
     {
-      "codes": "1F928",
-      "char": "🤨",
+      "emoji": "🤨",
       "name": "face with raised eyebrow",
       "category": "Smileys & Emotion",
       "subcategory": "face-neutral-skeptical",
+      "codepoints": "1F928",
       "keyTerms": [
         "distrust",
         "face with raised eyebrow",
         "skeptic",
         "disapproval",
-        "class=\"keye\">disbelief",
+        "disbelief",
         "mild surprise",
         "scepticism"
       ]
     },
     {
-      "codes": "1F610",
-      "char": "😐",
+      "emoji": "😐",
       "name": "neutral face",
       "category": "Smileys & Emotion",
       "subcategory": "face-neutral-skeptical",
-      "keyTerms": [
-        "deadpan",
-        "face",
-        "meh",
-        "neutral"
-      ]
+      "codepoints": "1F610",
+      "keyTerms": ["deadpan", "face", "meh", "neutral"]
     },
     {
-      "codes": "1F611",
-      "char": "😑",
+      "emoji": "😑",
       "name": "expressionless face",
       "category": "Smileys & Emotion",
       "subcategory": "face-neutral-skeptical",
+      "codepoints": "1F611",
       "keyTerms": [
         "expressionless",
         "face",
@@ -454,49 +405,35 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F636",
-      "char": "😶",
+      "emoji": "😶",
       "name": "face without mouth",
       "category": "Smileys & Emotion",
       "subcategory": "face-neutral-skeptical",
-      "keyTerms": [
-        "face",
-        "face without mouth",
-        "mouth",
-        "quiet",
-        "silent"
-      ]
+      "codepoints": "1F636",
+      "keyTerms": ["face", "face without mouth", "mouth", "quiet", "silent"]
     },
     {
-      "codes": "1F60F",
-      "char": "😏",
+      "emoji": "😏",
       "name": "smirking face",
       "category": "Smileys & Emotion",
       "subcategory": "face-neutral-skeptical",
-      "keyTerms": [
-        "face",
-        "smirk",
-        "smirking face"
-      ]
+      "codepoints": "1F60F",
+      "keyTerms": ["face", "smirk", "smirking face"]
     },
     {
-      "codes": "1F612",
-      "char": "😒",
+      "emoji": "😒",
       "name": "unamused face",
       "category": "Smileys & Emotion",
       "subcategory": "face-neutral-skeptical",
-      "keyTerms": [
-        "face",
-        "unamused",
-        "unhappy"
-      ]
+      "codepoints": "1F612",
+      "keyTerms": ["face", "unamused", "unhappy"]
     },
     {
-      "codes": "1F644",
-      "char": "🙄",
+      "emoji": "🙄",
       "name": "face with rolling eyes",
       "category": "Smileys & Emotion",
       "subcategory": "face-neutral-skeptical",
+      "codepoints": "1F644",
       "keyTerms": [
         "eyeroll",
         "eyes",
@@ -506,95 +443,67 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F62C",
-      "char": "😬",
+      "emoji": "😬",
       "name": "grimacing face",
       "category": "Smileys & Emotion",
       "subcategory": "face-neutral-skeptical",
-      "keyTerms": [
-        "face",
-        "grimace",
-        "grimacing face"
-      ]
+      "codepoints": "1F62C",
+      "keyTerms": ["face", "grimace", "grimacing face"]
     },
     {
-      "codes": "1F925",
-      "char": "🤥",
+      "emoji": "🤥",
       "name": "lying face",
       "category": "Smileys & Emotion",
       "subcategory": "face-neutral-skeptical",
-      "keyTerms": [
-        "face",
-        "lie",
-        "lying face",
-        "pinocchio"
-      ]
+      "codepoints": "1F925",
+      "keyTerms": ["face", "lie", "lying face", "pinocchio"]
     },
     {
-      "codes": "1F60C",
-      "char": "😌",
+      "emoji": "😌",
       "name": "relieved face",
       "category": "Smileys & Emotion",
       "subcategory": "face-sleepy",
-      "keyTerms": [
-        "face",
-        "relieved"
-      ]
+      "codepoints": "1F60C",
+      "keyTerms": ["face", "relieved"]
     },
     {
-      "codes": "1F614",
-      "char": "😔",
+      "emoji": "😔",
       "name": "pensive face",
       "category": "Smileys & Emotion",
       "subcategory": "face-sleepy",
-      "keyTerms": [
-        "dejected",
-        "face",
-        "pensive"
-      ]
+      "codepoints": "1F614",
+      "keyTerms": ["dejected", "face", "pensive"]
     },
     {
-      "codes": "1F62A",
-      "char": "😪",
+      "emoji": "😪",
       "name": "sleepy face",
       "category": "Smileys & Emotion",
       "subcategory": "face-sleepy",
-      "keyTerms": [
-        "face",
-        "sleep",
-        "sleepy face"
-      ]
+      "codepoints": "1F62A",
+      "keyTerms": ["face", "sleep", "sleepy face"]
     },
     {
-      "codes": "1F924",
-      "char": "🤤",
+      "emoji": "🤤",
       "name": "drooling face",
       "category": "Smileys & Emotion",
       "subcategory": "face-sleepy",
-      "keyTerms": [
-        "drooling",
-        "face"
-      ]
+      "codepoints": "1F924",
+      "keyTerms": ["drooling", "face"]
     },
     {
-      "codes": "1F634",
-      "char": "😴",
+      "emoji": "😴",
       "name": "sleeping face",
       "category": "Smileys & Emotion",
       "subcategory": "face-sleepy",
-      "keyTerms": [
-        "face",
-        "sleep",
-        "sleeping face",
-        "zzz"
-      ]
+      "codepoints": "1F634",
+      "keyTerms": ["face", "sleep", "sleeping face", "zzz"]
     },
     {
-      "codes": "1F637",
-      "char": "😷",
+      "emoji": "😷",
       "name": "face with medical mask",
       "category": "Smileys & Emotion",
       "subcategory": "face-unwell",
+      "codepoints": "1F637",
       "keyTerms": [
         "cold",
         "doctor",
@@ -605,11 +514,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F912",
-      "char": "🤒",
+      "emoji": "🤒",
       "name": "face with thermometer",
       "category": "Smileys & Emotion",
       "subcategory": "face-unwell",
+      "codepoints": "1F912",
       "keyTerms": [
         "face",
         "face with thermometer",
@@ -619,11 +528,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F915",
-      "char": "🤕",
+      "emoji": "🤕",
       "name": "face with head-bandage",
       "category": "Smileys & Emotion",
       "subcategory": "face-unwell",
+      "codepoints": "1F915",
       "keyTerms": [
         "bandage",
         "face",
@@ -633,48 +542,35 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F922",
-      "char": "🤢",
+      "emoji": "🤢",
       "name": "nauseated face",
       "category": "Smileys & Emotion",
       "subcategory": "face-unwell",
-      "keyTerms": [
-        "face",
-        "nauseated",
-        "vomit"
-      ]
+      "codepoints": "1F922",
+      "keyTerms": ["face", "nauseated", "vomit"]
     },
     {
-      "codes": "1F92E",
-      "char": "🤮",
+      "emoji": "🤮",
       "name": "face vomiting",
       "category": "Smileys & Emotion",
       "subcategory": "face-unwell",
-      "keyTerms": [
-        "face vomiting",
-        "sick",
-        "vomit"
-      ]
+      "codepoints": "1F92E",
+      "keyTerms": ["face vomiting", "sick", "vomit"]
     },
     {
-      "codes": "1F927",
-      "char": "🤧",
+      "emoji": "🤧",
       "name": "sneezing face",
       "category": "Smileys & Emotion",
       "subcategory": "face-unwell",
-      "keyTerms": [
-        "face",
-        "gesundheit",
-        "sneeze",
-        "sneezing face"
-      ]
+      "codepoints": "1F927",
+      "keyTerms": ["face", "gesundheit", "sneeze", "sneezing face"]
     },
     {
-      "codes": "1F975",
-      "char": "🥵",
+      "emoji": "🥵",
       "name": "hot face",
       "category": "Smileys & Emotion",
       "subcategory": "face-unwell",
+      "codepoints": "1F975",
       "keyTerms": [
         "feverish",
         "heat stroke",
@@ -685,11 +581,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F976",
-      "char": "🥶",
+      "emoji": "🥶",
       "name": "cold face",
       "category": "Smileys & Emotion",
       "subcategory": "face-unwell",
+      "codepoints": "1F976",
       "keyTerms": [
         "blue-faced",
         "cold",
@@ -700,11 +596,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F974",
-      "char": "🥴",
+      "emoji": "🥴",
       "name": "woozy face",
       "category": "Smileys & Emotion",
       "subcategory": "face-unwell",
+      "codepoints": "1F974",
       "keyTerms": [
         "dizzy",
         "intoxicated",
@@ -715,60 +611,43 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F635",
-      "char": "😵",
+      "emoji": "😵",
       "name": "dizzy face",
       "category": "Smileys & Emotion",
       "subcategory": "face-unwell",
-      "keyTerms": [
-        "dizzy",
-        "face"
-      ]
+      "codepoints": "1F635",
+      "keyTerms": ["dizzy", "face"]
     },
     {
-      "codes": "1F92F",
-      "char": "🤯",
+      "emoji": "🤯",
       "name": "exploding head",
       "category": "Smileys & Emotion",
       "subcategory": "face-unwell",
-      "keyTerms": [
-        "exploding head",
-        "shocked"
-      ]
+      "codepoints": "1F92F",
+      "keyTerms": ["exploding head", "mind blown", "shocked"]
     },
     {
-      "codes": "1F920",
-      "char": "🤠",
+      "emoji": "🤠",
       "name": "cowboy hat face",
       "category": "Smileys & Emotion",
       "subcategory": "face-hat",
-      "keyTerms": [
-        "cowboy",
-        "cowgirl",
-        "face",
-        "hat"
-      ]
+      "codepoints": "1F920",
+      "keyTerms": ["cowboy", "cowgirl", "face", "hat"]
     },
     {
-      "codes": "1F973",
-      "char": "🥳",
+      "emoji": "🥳",
       "name": "partying face",
       "category": "Smileys & Emotion",
       "subcategory": "face-hat",
-      "keyTerms": [
-        "celebration",
-        "hat",
-        "horn",
-        "party",
-        "partying face"
-      ]
+      "codepoints": "1F973",
+      "keyTerms": ["celebration", "hat", "horn", "party", "partying face"]
     },
     {
-      "codes": "1F60E",
-      "char": "😎",
+      "emoji": "😎",
       "name": "smiling face with sunglasses",
       "category": "Smileys & Emotion",
       "subcategory": "face-glasses",
+      "codepoints": "1F60E",
       "keyTerms": [
         "bright",
         "cool",
@@ -779,135 +658,99 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F913",
-      "char": "🤓",
+      "emoji": "🤓",
       "name": "nerd face",
       "category": "Smileys & Emotion",
       "subcategory": "face-glasses",
-      "keyTerms": [
-        "face",
-        "geek",
-        "nerd"
-      ]
+      "codepoints": "1F913",
+      "keyTerms": ["face", "geek", "nerd"]
     },
     {
-      "codes": "1F9D0",
-      "char": "🧐",
+      "emoji": "🧐",
       "name": "face with monocle",
       "category": "Smileys & Emotion",
       "subcategory": "face-glasses",
-      "keyTerms": [
-        "face with monocle",
-        "stuffy",
-        "wealthy"
-      ]
+      "codepoints": "1F9D0",
+      "keyTerms": ["face with monocle", "stuffy", "wealthy"]
     },
     {
-      "codes": "1F615",
-      "char": "😕",
+      "emoji": "😕",
       "name": "confused face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "confused",
-        "face",
-        "meh"
-      ]
+      "codepoints": "1F615",
+      "keyTerms": ["confused", "face", "meh"]
     },
     {
-      "codes": "1F61F",
-      "char": "😟",
+      "emoji": "😟",
       "name": "worried face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "face",
-        "worried"
-      ]
+      "codepoints": "1F61F",
+      "keyTerms": ["face", "worried"]
     },
     {
-      "codes": "1F641",
-      "char": "🙁",
+      "emoji": "🙁",
       "name": "slightly frowning face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "face",
-        "frown",
-        "slightly frowning face"
-      ]
+      "codepoints": "1F641",
+      "keyTerms": ["face", "frown", "slightly frowning face"]
     },
     {
-      "codes": "1F62E",
-      "char": "😮",
+      "emoji": "☹",
+      "name": "frowning face",
+      "category": "Smileys & Emotion",
+      "subcategory": "face-concerned",
+      "codepoints": 2639,
+      "keyTerms": ["face", "frown", "frowning face"]
+    },
+    {
+      "emoji": "😮",
       "name": "face with open mouth",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "face",
-        "face with open mouth",
-        "mouth",
-        "open",
-        "sympathy"
-      ]
+      "codepoints": "1F62E",
+      "keyTerms": ["face", "face with open mouth", "mouth", "open", "sympathy"]
     },
     {
-      "codes": "1F62F",
-      "char": "😯",
+      "emoji": "😯",
       "name": "hushed face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "face",
-        "hushed",
-        "stunned",
-        "surprised"
-      ]
+      "codepoints": "1F62F",
+      "keyTerms": ["face", "hushed", "stunned", "surprised"]
     },
     {
-      "codes": "1F632",
-      "char": "😲",
+      "emoji": "😲",
       "name": "astonished face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "astonished",
-        "face",
-        "shocked",
-        "totally"
-      ]
+      "codepoints": "1F632",
+      "keyTerms": ["astonished", "face", "shocked", "totally"]
     },
     {
-      "codes": "1F633",
-      "char": "😳",
+      "emoji": "😳",
       "name": "flushed face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "dazed",
-        "face",
-        "flushed"
-      ]
+      "codepoints": "1F633",
+      "keyTerms": ["dazed", "face", "flushed"]
     },
     {
-      "codes": "1F97A",
-      "char": "🥺",
+      "emoji": "🥺",
       "name": "pleading face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "begging",
-        "mercy",
-        "pleading face",
-        "puppy eyes"
-      ]
+      "codepoints": "1F97A",
+      "keyTerms": ["begging", "mercy", "pleading face", "puppy eyes"]
     },
     {
-      "codes": "1F626",
-      "char": "😦",
+      "emoji": "😦",
       "name": "frowning face with open mouth",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
+      "codepoints": "1F626",
       "keyTerms": [
         "face",
         "frown",
@@ -917,35 +760,27 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F627",
-      "char": "😧",
+      "emoji": "😧",
       "name": "anguished face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "anguished",
-        "face"
-      ]
+      "codepoints": "1F627",
+      "keyTerms": ["anguished", "face"]
     },
     {
-      "codes": "1F628",
-      "char": "😨",
+      "emoji": "😨",
       "name": "fearful face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "face",
-        "fear",
-        "fearful",
-        "scared"
-      ]
+      "codepoints": "1F628",
+      "keyTerms": ["face", "fear", "fearful", "scared"]
     },
     {
-      "codes": "1F630",
-      "char": "😰",
+      "emoji": "😰",
       "name": "anxious face with sweat",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
+      "codepoints": "1F630",
       "keyTerms": [
         "anxious face with sweat",
         "blue",
@@ -956,11 +791,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F625",
-      "char": "😥",
+      "emoji": "😥",
       "name": "sad but relieved face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
+      "codepoints": "1F625",
       "keyTerms": [
         "disappointed",
         "face",
@@ -970,40 +805,27 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F622",
-      "char": "😢",
+      "emoji": "😢",
       "name": "crying face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "cry",
-        "crying face",
-        "face",
-        "sad",
-        "tear"
-      ]
+      "codepoints": "1F622",
+      "keyTerms": ["cry", "crying face", "face", "sad", "tear"]
     },
     {
-      "codes": "1F62D",
-      "char": "😭",
+      "emoji": "😭",
       "name": "loudly crying face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "cry",
-        "face",
-        "loudly crying face",
-        "sad",
-        "sob",
-        "tear"
-      ]
+      "codepoints": "1F62D",
+      "keyTerms": ["cry", "face", "loudly crying face", "sad", "sob", "tear"]
     },
     {
-      "codes": "1F631",
-      "char": "😱",
+      "emoji": "😱",
       "name": "face screaming in fear",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
+      "codepoints": "1F631",
       "keyTerms": [
         "face",
         "face screaming in fear",
@@ -1014,133 +836,99 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F616",
-      "char": "😖",
+      "emoji": "😖",
       "name": "confounded face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "confounded",
-        "face"
-      ]
+      "codepoints": "1F616",
+      "keyTerms": ["confounded", "face"]
     },
     {
-      "codes": "1F623",
-      "char": "😣",
+      "emoji": "😣",
       "name": "persevering face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "face",
-        "persevere",
-        "persevering face"
-      ]
+      "codepoints": "1F623",
+      "keyTerms": ["face", "persevere", "persevering face"]
     },
     {
-      "codes": "1F61E",
-      "char": "😞",
+      "emoji": "😞",
       "name": "disappointed face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "disappointed",
-        "face"
-      ]
+      "codepoints": "1F61E",
+      "keyTerms": ["disappointed", "face"]
     },
     {
-      "codes": "1F613",
-      "char": "😓",
+      "emoji": "😓",
       "name": "downcast face with sweat",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "cold",
-        "downcast face with sweat",
-        "face",
-        "sweat"
-      ]
+      "codepoints": "1F613",
+      "keyTerms": ["cold", "downcast face with sweat", "face", "sweat"]
     },
     {
-      "codes": "1F629",
-      "char": "😩",
+      "emoji": "😩",
       "name": "weary face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "face",
-        "tired",
-        "weary"
-      ]
+      "codepoints": "1F629",
+      "keyTerms": ["face", "tired", "weary"]
     },
     {
-      "codes": "1F62B",
-      "char": "😫",
+      "emoji": "😫",
       "name": "tired face",
       "category": "Smileys & Emotion",
       "subcategory": "face-concerned",
-      "keyTerms": [
-        "face",
-        "tired"
-      ]
+      "codepoints": "1F62B",
+      "keyTerms": ["face", "tired"]
     },
     {
-      "codes": "1F624",
-      "char": "😤",
+      "emoji": "🥱",
+      "name": "yawning face",
+      "category": "Smileys & Emotion",
+      "subcategory": "face-concerned",
+      "codepoints": "1F971",
+      "keyTerms": ["bored", "tired", "yawn", "yawning face"]
+    },
+    {
+      "emoji": "😤",
       "name": "face with steam from nose",
       "category": "Smileys & Emotion",
       "subcategory": "face-negative",
-      "keyTerms": [
-        "face",
-        "face with steam from nose",
-        "triumph",
-        "won"
-      ]
+      "codepoints": "1F624",
+      "keyTerms": ["face", "face with steam from nose", "triumph", "won"]
     },
     {
-      "codes": "1F621",
-      "char": "😡",
+      "emoji": "😡",
       "name": "pouting face",
       "category": "Smileys & Emotion",
       "subcategory": "face-negative",
-      "keyTerms": [
-        "angry",
-        "face",
-        "mad",
-        "pouting",
-        "rage",
-        "red"
-      ]
+      "codepoints": "1F621",
+      "keyTerms": ["angry", "face", "mad", "pouting", "rage", "red"]
     },
     {
-      "codes": "1F620",
-      "char": "😠",
+      "emoji": "😠",
       "name": "angry face",
       "category": "Smileys & Emotion",
       "subcategory": "face-negative",
-      "keyTerms": [
-        "angry",
-        "face",
-        "mad"
-      ]
+      "codepoints": "1F620",
+      "keyTerms": ["angry", "face", "mad"]
     },
     {
-      "codes": "1F92C",
-      "char": "🤬",
+      "emoji": "🤬",
       "name": "face with symbols on mouth",
       "category": "Smileys & Emotion",
       "subcategory": "face-negative",
-      "keyTerms": [
-        "face with symbols on mouth",
-        "swearing",
-        "cursing"
-      ]
+      "codepoints": "1F92C",
+      "keyTerms": ["face with symbols on mouth", "swearing", "cursing"]
     },
     {
-      "codes": "1F608",
-      "char": "😈",
+      "emoji": "😈",
       "name": "smiling face with horns",
       "category": "Smileys & Emotion",
       "subcategory": "face-negative",
+      "codepoints": "1F608",
       "keyTerms": [
         "face",
         "fairy tale",
@@ -1151,11 +939,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F47F",
-      "char": "👿",
+      "emoji": "👿",
       "name": "angry face with horns",
       "category": "Smileys & Emotion",
       "subcategory": "face-negative",
+      "codepoints": "1F47F",
       "keyTerms": [
         "angry face with horns",
         "demon",
@@ -1166,51 +954,50 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F480",
-      "char": "💀",
+      "emoji": "💀",
       "name": "skull",
       "category": "Smileys & Emotion",
       "subcategory": "face-negative",
+      "codepoints": "1F480",
+      "keyTerms": ["death", "face", "fairy tale", "monster", "skull"]
+    },
+    {
+      "emoji": "☠",
+      "name": "skull and crossbones",
+      "category": "Smileys & Emotion",
+      "subcategory": "face-negative",
+      "codepoints": 2620,
       "keyTerms": [
+        "crossbones",
         "death",
         "face",
-        "fairy tale",
         "monster",
-        "skull"
+        "skull",
+        "skull and crossbones"
       ]
     },
     {
-      "codes": "1F4A9",
-      "char": "💩",
+      "emoji": "💩",
       "name": "pile of poo",
       "category": "Smileys & Emotion",
       "subcategory": "face-costume",
-      "keyTerms": [
-        "dung",
-        "face",
-        "monster",
-        "pile of poo",
-        "poo",
-        "poop"
-      ]
+      "codepoints": "1F4A9",
+      "keyTerms": ["dung", "face", "monster", "pile of poo", "poo", "poop"]
     },
     {
-      "codes": "1F921",
-      "char": "🤡",
+      "emoji": "🤡",
       "name": "clown face",
       "category": "Smileys & Emotion",
       "subcategory": "face-costume",
-      "keyTerms": [
-        "clown",
-        "face"
-      ]
+      "codepoints": "1F921",
+      "keyTerms": ["clown", "face"]
     },
     {
-      "codes": "1F479",
-      "char": "👹",
+      "emoji": "👹",
       "name": "ogre",
       "category": "Smileys & Emotion",
       "subcategory": "face-costume",
+      "codepoints": "1F479",
       "keyTerms": [
         "creature",
         "face",
@@ -1222,11 +1009,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F47A",
-      "char": "👺",
+      "emoji": "👺",
       "name": "goblin",
       "category": "Smileys & Emotion",
       "subcategory": "face-costume",
+      "codepoints": "1F47A",
       "keyTerms": [
         "creature",
         "face",
@@ -1237,11 +1024,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F47B",
-      "char": "👻",
+      "emoji": "👻",
       "name": "ghost",
       "category": "Smileys & Emotion",
       "subcategory": "face-costume",
+      "codepoints": "1F47B",
       "keyTerms": [
         "creature",
         "face",
@@ -1252,11 +1039,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F47D",
-      "char": "👽",
+      "emoji": "👽",
       "name": "alien",
       "category": "Smileys & Emotion",
       "subcategory": "face-costume",
+      "codepoints": "1F47D",
       "keyTerms": [
         "alien",
         "creature",
@@ -1267,11 +1054,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F47E",
-      "char": "👾",
+      "emoji": "👾",
       "name": "alien monster",
       "category": "Smileys & Emotion",
       "subcategory": "face-costume",
+      "codepoints": "1F47E",
       "keyTerms": [
         "alien",
         "creature",
@@ -1282,38 +1069,27 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F916",
-      "char": "🤖",
+      "emoji": "🤖",
       "name": "robot",
       "category": "Smileys & Emotion",
       "subcategory": "face-costume",
-      "keyTerms": [
-        "face",
-        "monster",
-        "robot"
-      ]
+      "codepoints": "1F916",
+      "keyTerms": ["face", "monster", "robot"]
     },
     {
-      "codes": "1F63A",
-      "char": "😺",
+      "emoji": "😺",
       "name": "grinning cat",
       "category": "Smileys & Emotion",
       "subcategory": "cat-face",
-      "keyTerms": [
-        "cat",
-        "face",
-        "grinning",
-        "mouth",
-        "open",
-        "smile"
-      ]
+      "codepoints": "1F63A",
+      "keyTerms": ["cat", "face", "grinning", "mouth", "open", "smile"]
     },
     {
-      "codes": "1F638",
-      "char": "😸",
+      "emoji": "😸",
       "name": "grinning cat with smiling eyes",
       "category": "Smileys & Emotion",
       "subcategory": "cat-face",
+      "codepoints": "1F638",
       "keyTerms": [
         "cat",
         "eye",
@@ -1324,25 +1100,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F639",
-      "char": "😹",
+      "emoji": "😹",
       "name": "cat with tears of joy",
       "category": "Smileys & Emotion",
       "subcategory": "cat-face",
-      "keyTerms": [
-        "cat",
-        "cat with tears of joy",
-        "face",
-        "joy",
-        "tear"
-      ]
+      "codepoints": "1F639",
+      "keyTerms": ["cat", "cat with tears of joy", "face", "joy", "tear"]
     },
     {
-      "codes": "1F63B",
-      "char": "😻",
+      "emoji": "😻",
       "name": "smiling cat with heart-eyes",
       "category": "Smileys & Emotion",
       "subcategory": "cat-face",
+      "codepoints": "1F63B",
       "keyTerms": [
         "cat",
         "eye",
@@ -1354,11 +1124,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F63C",
-      "char": "😼",
+      "emoji": "😼",
       "name": "cat with wry smile",
       "category": "Smileys & Emotion",
       "subcategory": "cat-face",
+      "codepoints": "1F63C",
       "keyTerms": [
         "cat",
         "cat with wry smile",
@@ -1369,203 +1139,464 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F63D",
-      "char": "😽",
+      "emoji": "😽",
       "name": "kissing cat",
       "category": "Smileys & Emotion",
       "subcategory": "cat-face",
-      "keyTerms": [
-        "cat",
-        "eye",
-        "face",
-        "kiss",
-        "kissing cat"
-      ]
+      "codepoints": "1F63D",
+      "keyTerms": ["cat", "eye", "face", "kiss", "kissing cat"]
     },
     {
-      "codes": "1F640",
-      "char": "🙀",
+      "emoji": "🙀",
       "name": "weary cat",
       "category": "Smileys & Emotion",
       "subcategory": "cat-face",
-      "keyTerms": [
-        "cat",
-        "face",
-        "oh",
-        "surprised",
-        "weary"
-      ]
+      "codepoints": "1F640",
+      "keyTerms": ["cat", "face", "oh", "surprised", "weary"]
     },
     {
-      "codes": "1F63F",
-      "char": "😿",
+      "emoji": "😿",
       "name": "crying cat",
       "category": "Smileys & Emotion",
       "subcategory": "cat-face",
-      "keyTerms": [
-        "cat",
-        "cry",
-        "crying cat",
-        "face",
-        "sad",
-        "tear"
-      ]
+      "codepoints": "1F63F",
+      "keyTerms": ["cat", "cry", "crying cat", "face", "sad", "tear"]
     },
     {
-      "codes": "1F63E",
-      "char": "😾",
+      "emoji": "😾",
       "name": "pouting cat",
       "category": "Smileys & Emotion",
       "subcategory": "cat-face",
+      "codepoints": "1F63E",
+      "keyTerms": ["cat", "face", "pouting"]
+    },
+    {
+      "emoji": "🙈",
+      "name": "see-no-evil monkey",
+      "category": "Smileys & Emotion",
+      "subcategory": "monkey-face",
+      "codepoints": "1F648",
       "keyTerms": [
-        "cat",
+        "evil",
         "face",
-        "pouting"
+        "forbidden",
+        "monkey",
+        "see",
+        "see-no-evil monkey"
       ]
     },
     {
-      "codes": "1F48B",
-      "char": "💋",
+      "emoji": "🙉",
+      "name": "hear-no-evil monkey",
+      "category": "Smileys & Emotion",
+      "subcategory": "monkey-face",
+      "codepoints": "1F649",
+      "keyTerms": [
+        "evil",
+        "face",
+        "forbidden",
+        "hear",
+        "hear-no-evil monkey",
+        "monkey"
+      ]
+    },
+    {
+      "emoji": "🙊",
+      "name": "speak-no-evil monkey",
+      "category": "Smileys & Emotion",
+      "subcategory": "monkey-face",
+      "codepoints": "1F64A",
+      "keyTerms": [
+        "evil",
+        "face",
+        "forbidden",
+        "monkey",
+        "speak",
+        "speak-no-evil monkey"
+      ]
+    },
+    {
+      "emoji": "💋",
       "name": "kiss mark",
       "category": "Smileys & Emotion",
       "subcategory": "emotion",
-      "keyTerms": [
-        "kiss",
-        "kiss mark",
-        "lips"
-      ]
+      "codepoints": "1F48B",
+      "keyTerms": ["kiss", "kiss mark", "lips"]
     },
     {
-      "codes": "1F44B",
-      "char": "👋",
+      "emoji": "💌",
+      "name": "love letter",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F48C",
+      "keyTerms": ["heart", "letter", "love", "mail"]
+    },
+    {
+      "emoji": "💘",
+      "name": "heart with arrow",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F498",
+      "keyTerms": ["arrow", "cupid", "heart with arrow"]
+    },
+    {
+      "emoji": "💝",
+      "name": "heart with ribbon",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F49D",
+      "keyTerms": ["heart with ribbon", "ribbon", "valentine"]
+    },
+    {
+      "emoji": "💖",
+      "name": "sparkling heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F496",
+      "keyTerms": ["excited", "sparkle", "sparkling heart"]
+    },
+    {
+      "emoji": "💗",
+      "name": "growing heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F497",
+      "keyTerms": ["excited", "growing", "growing heart", "nervous", "pulse"]
+    },
+    {
+      "emoji": "💓",
+      "name": "beating heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F493",
+      "keyTerms": ["beating", "beating heart", "heartbeat", "pulsating"]
+    },
+    {
+      "emoji": "💞",
+      "name": "revolving hearts",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F49E",
+      "keyTerms": ["revolving", "revolving hearts"]
+    },
+    {
+      "emoji": "💕",
+      "name": "two hearts",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F495",
+      "keyTerms": ["love", "two hearts"]
+    },
+    {
+      "emoji": "💟",
+      "name": "heart decoration",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F49F",
+      "keyTerms": ["heart", "heart decoration"]
+    },
+    {
+      "emoji": "❣",
+      "name": "heart exclamation",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": 2763,
+      "keyTerms": ["exclamation", "heart exclamation", "mark", "punctuation"]
+    },
+    {
+      "emoji": "💔",
+      "name": "broken heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F494",
+      "keyTerms": ["break", "broken", "broken heart"]
+    },
+    {
+      "emoji": "❤",
+      "name": "red heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": 2764,
+      "keyTerms": ["heart", "red heart"]
+    },
+    {
+      "emoji": "🧡",
+      "name": "orange heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F9E1",
+      "keyTerms": ["orange", "orange heart"]
+    },
+    {
+      "emoji": "💛",
+      "name": "yellow heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F49B",
+      "keyTerms": ["yellow", "yellow heart"]
+    },
+    {
+      "emoji": "💚",
+      "name": "green heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F49A",
+      "keyTerms": ["green", "green heart"]
+    },
+    {
+      "emoji": "💙",
+      "name": "blue heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F499",
+      "keyTerms": ["blue", "blue heart"]
+    },
+    {
+      "emoji": "💜",
+      "name": "purple heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F49C",
+      "keyTerms": ["purple", "purple heart"]
+    },
+    {
+      "emoji": "🤎",
+      "name": "brown heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F90E",
+      "keyTerms": ["brown", "heart"]
+    },
+    {
+      "emoji": "🖤",
+      "name": "black heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F5A4",
+      "keyTerms": ["black", "black heart", "evil", "wicked"]
+    },
+    {
+      "emoji": "🤍",
+      "name": "white heart",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F90D",
+      "keyTerms": ["heart", "white"]
+    },
+    {
+      "emoji": "💯",
+      "name": "hundred points",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F4AF",
+      "keyTerms": ["100", "full", "hundred", "hundred points", "score"]
+    },
+    {
+      "emoji": "💢",
+      "name": "anger symbol",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F4A2",
+      "keyTerms": ["anger symbol", "angry", "comic", "mad"]
+    },
+    {
+      "emoji": "💥",
+      "name": "collision",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F4A5",
+      "keyTerms": ["boom", "collision", "comic"]
+    },
+    {
+      "emoji": "💫",
+      "name": "dizzy",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F4AB",
+      "keyTerms": ["comic", "dizzy", "star"]
+    },
+    {
+      "emoji": "💦",
+      "name": "sweat droplets",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F4A6",
+      "keyTerms": ["comic", "splashing", "sweat", "sweat droplets"]
+    },
+    {
+      "emoji": "💨",
+      "name": "dashing away",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F4A8",
+      "keyTerms": ["comic", "dash", "dashing away", "running"]
+    },
+    {
+      "emoji": "🕳",
+      "name": "hole",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F573",
+      "keyTerms": ["hole"]
+    },
+    {
+      "emoji": "💣",
+      "name": "bomb",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F4A3",
+      "keyTerms": ["bomb", "comic"]
+    },
+    {
+      "emoji": "💬",
+      "name": "speech balloon",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F4AC",
+      "keyTerms": ["balloon", "bubble", "comic", "dialog", "speech"]
+    },
+    {
+      "emoji": "👁️‍🗨️",
+      "name": "eye in speech bubble",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F441 FE0F 200D 1F5E8 FE0F",
+      "keyTerms": ["eye", "eye in speech bubble", "speech bubble", "witness"]
+    },
+    {
+      "emoji": "🗨",
+      "name": "left speech bubble",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F5E8",
+      "keyTerms": ["dialog", "left speech bubble", "speech"]
+    },
+    {
+      "emoji": "🗯",
+      "name": "right anger bubble",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F5EF",
+      "keyTerms": ["angry", "balloon", "bubble", "mad", "right anger bubble"]
+    },
+    {
+      "emoji": "💭",
+      "name": "thought balloon",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F4AD",
+      "keyTerms": ["balloon", "bubble", "comic", "thought"]
+    },
+    {
+      "emoji": "💤",
+      "name": "zzz",
+      "category": "Smileys & Emotion",
+      "subcategory": "emotion",
+      "codepoints": "1F4A4",
+      "keyTerms": ["comic", "sleep", "zzz"]
+    },
+    {
+      "emoji": "👋",
       "name": "waving hand",
       "category": "People & Body",
       "subcategory": "hand-fingers-open",
-      "keyTerms": [
-        "hand",
-        "wave",
-        "waving"
-      ]
+      "codepoints": "1F44B",
+      "keyTerms": ["hand", "wave", "waving"]
     },
     {
-      "codes": "1F91A",
-      "char": "🤚",
+      "emoji": "🤚",
       "name": "raised back of hand",
       "category": "People & Body",
       "subcategory": "hand-fingers-open",
-      "keyTerms": [
-        "backhand",
-        "raised",
-        "raised back of hand"
-      ]
+      "codepoints": "1F91A",
+      "keyTerms": ["backhand", "raised", "raised back of hand"]
     },
     {
-      "codes": "1F590",
-      "char": "🖐",
+      "emoji": "🖐",
       "name": "hand with fingers splayed",
       "category": "People & Body",
       "subcategory": "hand-fingers-open",
-      "keyTerms": [
-        "finger",
-        "hand",
-        "hand with fingers splayed",
-        "splayed"
-      ]
+      "codepoints": "1F590",
+      "keyTerms": ["finger", "hand", "hand with fingers splayed", "splayed"]
     },
     {
-      "codes": "270B",
-      "char": "✋",
+      "emoji": "✋",
       "name": "raised hand",
       "category": "People & Body",
       "subcategory": "hand-fingers-open",
-      "keyTerms": [
-        "hand",
-        "raised hand"
-      ]
+      "codepoints": "270B",
+      "keyTerms": ["hand", "raised hand"]
     },
     {
-      "codes": "1F596",
-      "char": "🖖",
+      "emoji": "🖖",
       "name": "vulcan salute",
       "category": "People & Body",
       "subcategory": "hand-fingers-open",
-      "keyTerms": [
-        "finger",
-        "hand",
-        "spock",
-        "vulcan",
-        "vulcan salute"
-      ]
+      "codepoints": "1F596",
+      "keyTerms": ["finger", "hand", "spock", "vulcan", "vulcan salute"]
     },
     {
-      "codes": "1F44C",
-      "char": "👌",
+      "emoji": "👌",
       "name": "OK hand",
       "category": "People & Body",
       "subcategory": "hand-fingers-partial",
-      "keyTerms": [
-        "hand",
-        "OK"
-      ]
+      "codepoints": "1F44C",
+      "keyTerms": ["hand", "OK"]
     },
     {
-      "codes": "1F91E",
-      "char": "🤞",
+      "emoji": "🤏",
+      "name": "pinching hand",
+      "category": "People & Body",
+      "subcategory": "hand-fingers-partial",
+      "codepoints": "1F90F",
+      "keyTerms": ["pinching hand", "small amount"]
+    },
+    {
+      "emoji": "✌",
+      "name": "victory hand",
+      "category": "People & Body",
+      "subcategory": "hand-fingers-partial",
+      "codepoints": "270C",
+      "keyTerms": ["hand", "v", "victory"]
+    },
+    {
+      "emoji": "🤞",
       "name": "crossed fingers",
       "category": "People & Body",
       "subcategory": "hand-fingers-partial",
-      "keyTerms": [
-        "cross",
-        "crossed fingers",
-        "finger",
-        "hand",
-        "luck"
-      ]
+      "codepoints": "1F91E",
+      "keyTerms": ["cross", "crossed fingers", "finger", "hand", "luck"]
     },
     {
-      "codes": "1F91F",
-      "char": "🤟",
+      "emoji": "🤟",
       "name": "love-you gesture",
       "category": "People & Body",
       "subcategory": "hand-fingers-partial",
-      "keyTerms": [
-        "hand",
-        "ILY",
-        "love-you gesture"
-      ]
+      "codepoints": "1F91F",
+      "keyTerms": ["hand", "ILY", "love-you gesture"]
     },
     {
-      "codes": "1F918",
-      "char": "🤘",
+      "emoji": "🤘",
       "name": "sign of the horns",
       "category": "People & Body",
       "subcategory": "hand-fingers-partial",
-      "keyTerms": [
-        "finger",
-        "hand",
-        "horns",
-        "rock-on",
-        "sign of the horns"
-      ]
+      "codepoints": "1F918",
+      "keyTerms": ["finger", "hand", "horns", "rock-on", "sign of the horns"]
     },
     {
-      "codes": "1F919",
-      "char": "🤙",
+      "emoji": "🤙",
       "name": "call me hand",
       "category": "People & Body",
       "subcategory": "hand-fingers-partial",
-      "keyTerms": [
-        "call",
-        "call me hand",
-        "hand"
-      ]
+      "codepoints": "1F919",
+      "keyTerms": ["call", "call me hand", "hand"]
     },
     {
-      "codes": "1F448",
-      "char": "👈",
+      "emoji": "👈",
       "name": "backhand index pointing left",
       "category": "People & Body",
       "subcategory": "hand-single-finger",
+      "codepoints": "1F448",
       "keyTerms": [
         "backhand",
         "backhand index pointing left",
@@ -1576,11 +1607,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F449",
-      "char": "👉",
+      "emoji": "👉",
       "name": "backhand index pointing right",
       "category": "People & Body",
       "subcategory": "hand-single-finger",
+      "codepoints": "1F449",
       "keyTerms": [
         "backhand",
         "backhand index pointing right",
@@ -1591,11 +1622,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F446",
-      "char": "👆",
+      "emoji": "👆",
       "name": "backhand index pointing up",
       "category": "People & Body",
       "subcategory": "hand-single-finger",
+      "codepoints": "1F446",
       "keyTerms": [
         "backhand",
         "backhand index pointing up",
@@ -1606,23 +1637,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F595",
-      "char": "🖕",
+      "emoji": "🖕",
       "name": "middle finger",
       "category": "People & Body",
       "subcategory": "hand-single-finger",
-      "keyTerms": [
-        "finger",
-        "hand",
-        "middle finger"
-      ]
+      "codepoints": "1F595",
+      "keyTerms": ["finger", "hand", "middle finger"]
     },
     {
-      "codes": "1F447",
-      "char": "👇",
+      "emoji": "👇",
       "name": "backhand index pointing down",
       "category": "People & Body",
       "subcategory": "hand-single-finger",
+      "codepoints": "1F447",
       "keyTerms": [
         "backhand",
         "backhand index pointing down",
@@ -1633,103 +1660,82 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F44D",
-      "char": "👍",
-      "name": "thumbs up",
+      "emoji": "☝",
+      "name": "index pointing up",
       "category": "People & Body",
-      "subcategory": "hand-fingers-closed",
+      "subcategory": "hand-single-finger",
+      "codepoints": "261D",
       "keyTerms": [
-        "+1",
+        "finger",
         "hand",
-        "thumb",
-        "thumbs up",
+        "index",
+        "index pointing up",
+        "point",
         "up"
       ]
     },
     {
-      "codes": "1F44E",
-      "char": "👎",
+      "emoji": "👍",
+      "name": "thumbs up",
+      "category": "People & Body",
+      "subcategory": "hand-fingers-closed",
+      "codepoints": "1F44D",
+      "keyTerms": ["+1", "hand", "thumb", "thumbs up", "up"]
+    },
+    {
+      "emoji": "👎",
       "name": "thumbs down",
       "category": "People & Body",
       "subcategory": "hand-fingers-closed",
-      "keyTerms": [
-        "-1",
-        "down",
-        "hand",
-        "thumb",
-        "thumbs down"
-      ]
+      "codepoints": "1F44E",
+      "keyTerms": ["-1", "down", "hand", "thumb", "thumbs down"]
     },
     {
-      "codes": "270A",
-      "char": "✊",
+      "emoji": "✊",
       "name": "raised fist",
       "category": "People & Body",
       "subcategory": "hand-fingers-closed",
-      "keyTerms": [
-        "clenched",
-        "fist",
-        "hand",
-        "punch",
-        "raised fist"
-      ]
+      "codepoints": "270A",
+      "keyTerms": ["clenched", "fist", "hand", "punch", "raised fist"]
     },
     {
-      "codes": "1F44A",
-      "char": "👊",
+      "emoji": "👊",
       "name": "oncoming fist",
       "category": "People & Body",
       "subcategory": "hand-fingers-closed",
-      "keyTerms": [
-        "clenched",
-        "fist",
-        "hand",
-        "oncoming fist",
-        "punch"
-      ]
+      "codepoints": "1F44A",
+      "keyTerms": ["clenched", "fist", "hand", "oncoming fist", "punch"]
     },
     {
-      "codes": "1F91B",
-      "char": "🤛",
+      "emoji": "🤛",
       "name": "left-facing fist",
       "category": "People & Body",
       "subcategory": "hand-fingers-closed",
-      "keyTerms": [
-        "fist",
-        "left-facing fist",
-        "leftwards"
-      ]
+      "codepoints": "1F91B",
+      "keyTerms": ["fist", "left-facing fist", "leftwards"]
     },
     {
-      "codes": "1F91C",
-      "char": "🤜",
+      "emoji": "🤜",
       "name": "right-facing fist",
       "category": "People & Body",
       "subcategory": "hand-fingers-closed",
-      "keyTerms": [
-        "fist",
-        "right-facing fist",
-        "rightwards"
-      ]
+      "codepoints": "1F91C",
+      "keyTerms": ["fist", "right-facing fist", "rightwards"]
     },
     {
-      "codes": "1F44F",
-      "char": "👏",
+      "emoji": "👏",
       "name": "clapping hands",
       "category": "People & Body",
       "subcategory": "hands",
-      "keyTerms": [
-        "clap",
-        "clapping hands",
-        "hand"
-      ]
+      "codepoints": "1F44F",
+      "keyTerms": ["clap", "clapping hands", "hand"]
     },
     {
-      "codes": "1F64C",
-      "char": "🙌",
+      "emoji": "🙌",
       "name": "raising hands",
       "category": "People & Body",
       "subcategory": "hands",
+      "codepoints": "1F64C",
       "keyTerms": [
         "celebration",
         "gesture",
@@ -1740,327 +1746,251 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F450",
-      "char": "👐",
+      "emoji": "👐",
       "name": "open hands",
       "category": "People & Body",
       "subcategory": "hands",
-      "keyTerms": [
-        "hand",
-        "open",
-        "open hands"
-      ]
+      "codepoints": "1F450",
+      "keyTerms": ["hand", "open", "open hands"]
     },
     {
-      "codes": "1F932",
-      "char": "🤲",
+      "emoji": "🤲",
       "name": "palms up together",
       "category": "People & Body",
       "subcategory": "hands",
-      "keyTerms": [
-        "palms up together",
-        "prayer",
-        "cupped hands"
-      ]
+      "codepoints": "1F932",
+      "keyTerms": ["palms up together", "prayer", "cupped hands"]
     },
     {
-      "codes": "1F91D",
-      "char": "🤝",
+      "emoji": "🤝",
       "name": "handshake",
       "category": "People & Body",
       "subcategory": "hands",
-      "keyTerms": [
-        "agreement",
-        "hand",
-        "handshake",
-        "meeting",
-        "shake"
-      ]
+      "codepoints": "1F91D",
+      "keyTerms": ["agreement", "hand", "handshake", "meeting", "shake"]
     },
     {
-      "codes": "1F64F",
-      "char": "🙏",
+      "emoji": "🙏",
       "name": "folded hands",
       "category": "People & Body",
       "subcategory": "hands",
-      "keyTerms": [
-        "ask",
-        "folded hands",
-        "hand",
-        "please",
-        "pray",
-        "thanks"
-      ]
+      "codepoints": "1F64F",
+      "keyTerms": ["ask", "folded hands", "hand", "please", "pray", "thanks"]
     },
     {
-      "codes": "1F485",
-      "char": "💅",
+      "emoji": "✍",
+      "name": "writing hand",
+      "category": "People & Body",
+      "subcategory": "hand-prop",
+      "codepoints": "270D",
+      "keyTerms": ["hand", "write", "writing hand"]
+    },
+    {
+      "emoji": "💅",
       "name": "nail polish",
       "category": "People & Body",
       "subcategory": "hand-prop",
-      "keyTerms": [
-        "care",
-        "cosmetics",
-        "manicure",
-        "nail",
-        "polish"
-      ]
+      "codepoints": "1F485",
+      "keyTerms": ["care", "cosmetics", "manicure", "nail", "polish"]
     },
     {
-      "codes": "1F933",
-      "char": "🤳",
+      "emoji": "🤳",
       "name": "selfie",
       "category": "People & Body",
       "subcategory": "hand-prop",
-      "keyTerms": [
-        "camera",
-        "phone",
-        "selfie"
-      ]
+      "codepoints": "1F933",
+      "keyTerms": ["camera", "phone", "selfie"]
     },
     {
-      "codes": "1F4AA",
-      "char": "💪",
+      "emoji": "💪",
       "name": "flexed biceps",
       "category": "People & Body",
       "subcategory": "body-parts",
-      "keyTerms": [
-        "biceps",
-        "comic",
-        "flex",
-        "flexed biceps",
-        "muscle"
-      ]
+      "codepoints": "1F4AA",
+      "keyTerms": ["biceps", "comic", "flex", "flexed biceps", "muscle"]
     },
     {
-      "codes": "1F9B5",
-      "char": "🦵",
+      "emoji": "🦾",
+      "name": "mechanical arm",
+      "category": "People & Body",
+      "subcategory": "body-parts",
+      "codepoints": "1F9BE",
+      "keyTerms": ["accessibility", "mechanical arm", "prosthetic"]
+    },
+    {
+      "emoji": "🦿",
+      "name": "mechanical leg",
+      "category": "People & Body",
+      "subcategory": "body-parts",
+      "codepoints": "1F9BF",
+      "keyTerms": ["accessibility", "mechanical leg", "prosthetic"]
+    },
+    {
+      "emoji": "🦵",
       "name": "leg",
       "category": "People & Body",
       "subcategory": "body-parts",
-      "keyTerms": [
-        "kick",
-        "leg",
-        "limb"
-      ]
+      "codepoints": "1F9B5",
+      "keyTerms": ["kick", "leg", "limb"]
     },
     {
-      "codes": "1F9B6",
-      "char": "🦶",
+      "emoji": "🦶",
       "name": "foot",
       "category": "People & Body",
       "subcategory": "body-parts",
-      "keyTerms": [
-        "foot",
-        "kick",
-        "stomp"
-      ]
+      "codepoints": "1F9B6",
+      "keyTerms": ["foot", "kick", "stomp"]
     },
     {
-      "codes": "1F442",
-      "char": "👂",
+      "emoji": "👂",
       "name": "ear",
       "category": "People & Body",
       "subcategory": "body-parts",
-      "keyTerms": [
-        "body",
-        "ear"
-      ]
+      "codepoints": "1F442",
+      "keyTerms": ["body", "ear"]
     },
     {
-      "codes": "1F443",
-      "char": "👃",
+      "emoji": "🦻",
+      "name": "ear with hearing aid",
+      "category": "People & Body",
+      "subcategory": "body-parts",
+      "codepoints": "1F9BB",
+      "keyTerms": ["accessibility", "ear with hearing aid", "hard of hearing"]
+    },
+    {
+      "emoji": "👃",
       "name": "nose",
       "category": "People & Body",
       "subcategory": "body-parts",
-      "keyTerms": [
-        "body",
-        "nose"
-      ]
+      "codepoints": "1F443",
+      "keyTerms": ["body", "nose"]
     },
     {
-      "codes": "1F9E0",
-      "char": "🧠",
+      "emoji": "🧠",
       "name": "brain",
       "category": "People & Body",
       "subcategory": "body-parts",
-      "keyTerms": [
-        "brain",
-        "intelligent"
-      ]
+      "codepoints": "1F9E0",
+      "keyTerms": ["brain", "intelligent"]
     },
     {
-      "codes": "1F9B7",
-      "char": "🦷",
+      "emoji": "🦷",
       "name": "tooth",
       "category": "People & Body",
       "subcategory": "body-parts",
-      "keyTerms": [
-        "dentist",
-        "tooth"
-      ]
+      "codepoints": "1F9B7",
+      "keyTerms": ["dentist", "tooth"]
     },
     {
-      "codes": "1F9B4",
-      "char": "🦴",
+      "emoji": "🦴",
       "name": "bone",
       "category": "People & Body",
       "subcategory": "body-parts",
-      "keyTerms": [
-        "bone",
-        "skeleton"
-      ]
+      "codepoints": "1F9B4",
+      "keyTerms": ["bone", "skeleton"]
     },
     {
-      "codes": "1F440",
-      "char": "👀",
+      "emoji": "👀",
       "name": "eyes",
       "category": "People & Body",
       "subcategory": "body-parts",
-      "keyTerms": [
-        "eye",
-        "eyes",
-        "face"
-      ]
+      "codepoints": "1F440",
+      "keyTerms": ["eye", "eyes", "face"]
     },
     {
-      "codes": "1F441",
-      "char": "👁",
+      "emoji": "👁",
       "name": "eye",
       "category": "People & Body",
       "subcategory": "body-parts",
-      "keyTerms": [
-        "body",
-        "eye"
-      ]
+      "codepoints": "1F441",
+      "keyTerms": ["body", "eye"]
     },
     {
-      "codes": "1F445",
-      "char": "👅",
+      "emoji": "👅",
       "name": "tongue",
       "category": "People & Body",
       "subcategory": "body-parts",
-      "keyTerms": [
-        "body",
-        "tongue"
-      ]
+      "codepoints": "1F445",
+      "keyTerms": ["body", "tongue"]
     },
     {
-      "codes": "1F444",
-      "char": "👄",
+      "emoji": "👄",
       "name": "mouth",
       "category": "People & Body",
       "subcategory": "body-parts",
-      "keyTerms": [
-        "lips",
-        "mouth"
-      ]
+      "codepoints": "1F444",
+      "keyTerms": ["lips", "mouth"]
     },
     {
-      "codes": "1F476",
-      "char": "👶",
+      "emoji": "👶",
       "name": "baby",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "baby",
-        "young"
-      ]
+      "codepoints": "1F476",
+      "keyTerms": ["baby", "young"]
     },
     {
-      "codes": "1F9D2",
-      "char": "🧒",
+      "emoji": "🧒",
       "name": "child",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "child",
-        "gender-neutral",
-        "unspecified gender",
-        "young"
-      ]
+      "codepoints": "1F9D2",
+      "keyTerms": ["child", "gender-neutral", "unspecified gender", "young"]
     },
     {
-      "codes": "1F466",
-      "char": "👦",
+      "emoji": "👦",
       "name": "boy",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "boy",
-        "young"
-      ]
+      "codepoints": "1F466",
+      "keyTerms": ["boy", "young"]
     },
     {
-      "codes": "1F467",
-      "char": "👧",
+      "emoji": "👧",
       "name": "girl",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "girl",
-        "Virgo",
-        "young",
-        "zodiac"
-      ]
+      "codepoints": "1F467",
+      "keyTerms": ["girl", "Virgo", "young", "zodiac"]
     },
     {
-      "codes": "1F9D1",
-      "char": "🧑",
+      "emoji": "🧑",
       "name": "person",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "gender-neutral",
-        "person",
-        "unspecified gender"
-      ]
+      "codepoints": "1F9D1",
+      "keyTerms": ["adult", "gender-neutral", "person", "unspecified gender"]
     },
     {
-      "codes": "1F471",
-      "char": "👱",
+      "emoji": "👱",
       "name": "person: blond hair",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "blond",
-        "blond-haired person",
-        "hair",
-        "person: blond hair"
-      ]
+      "codepoints": "1F471",
+      "keyTerms": ["blond", "blond-haired person", "hair", "person: blond hair"]
     },
     {
-      "codes": "1F468",
-      "char": "👨",
+      "emoji": "👨",
       "name": "man",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "man"
-      ]
+      "codepoints": "1F468",
+      "keyTerms": ["adult", "man"]
     },
     {
-      "codes": "1F9D4",
-      "char": "🧔",
+      "emoji": "🧔",
       "name": "man: beard",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "beard",
-        "man",
-        "man: beard",
-        "person",
-        "bewhiskered"
-      ]
+      "codepoints": "1F9D4",
+      "keyTerms": ["beard", "man", "man: beard", "person", "bewhiskered"]
     },
     {
-      "codes": "1F471 200D 2642 FE0F",
-      "char": "👱‍♂️",
+      "emoji": "👱‍♂️",
       "name": "man: blond hair",
       "category": "People & Body",
       "subcategory": "person",
+      "codepoints": "1F471 200D 2642 FE0F",
       "keyTerms": [
         "blond",
         "blond-haired man",
@@ -2070,70 +2000,51 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F468 200D 1F9B0",
-      "char": "👨‍🦰",
+      "emoji": "👨‍🦰",
       "name": "man: red hair",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "man",
-        "red hair"
-      ]
+      "codepoints": "1F468 200D 1F9B0",
+      "keyTerms": ["adult", "man", "red hair"]
     },
     {
-      "codes": "1F468 200D 1F9B1",
-      "char": "👨‍🦱",
+      "emoji": "👨‍🦱",
       "name": "man: curly hair",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "curly hair",
-        "man"
-      ]
+      "codepoints": "1F468 200D 1F9B1",
+      "keyTerms": ["adult", "curly hair", "man"]
     },
     {
-      "codes": "1F468 200D 1F9B3",
-      "char": "👨‍🦳",
+      "emoji": "👨‍🦳",
       "name": "man: white hair",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "man",
-        "white hair"
-      ]
+      "codepoints": "1F468 200D 1F9B3",
+      "keyTerms": ["adult", "man", "white hair"]
     },
     {
-      "codes": "1F468 200D 1F9B2",
-      "char": "👨‍🦲",
+      "emoji": "👨‍🦲",
       "name": "man: bald",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "bald",
-        "man"
-      ]
+      "codepoints": "1F468 200D 1F9B2",
+      "keyTerms": ["adult", "bald", "man"]
     },
     {
-      "codes": "1F469",
-      "char": "👩",
+      "emoji": "👩",
       "name": "woman",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "woman"
-      ]
+      "codepoints": "1F469",
+      "keyTerms": ["adult", "woman"]
     },
     {
-      "codes": "1F471 200D 2640 FE0F",
-      "char": "👱‍♀️",
+      "emoji": "👱‍♀️",
       "name": "woman: blond hair",
       "category": "People & Body",
       "subcategory": "person",
+      "codepoints": "1F471 200D 2640 FE0F",
       "keyTerms": [
         "blond-haired woman",
         "blonde",
@@ -2143,59 +2054,43 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F469 200D 1F9B0",
-      "char": "👩‍🦰",
+      "emoji": "👩‍🦰",
       "name": "woman: red hair",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "red hair",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F9B0",
+      "keyTerms": ["adult", "red hair", "woman"]
     },
     {
-      "codes": "1F469 200D 1F9B1",
-      "char": "👩‍🦱",
+      "emoji": "👩‍🦱",
       "name": "woman: curly hair",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "curly hair",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F9B1",
+      "keyTerms": ["adult", "curly hair", "woman"]
     },
     {
-      "codes": "1F469 200D 1F9B3",
-      "char": "👩‍🦳",
+      "emoji": "👩‍🦳",
       "name": "woman: white hair",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "white hair",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F9B3",
+      "keyTerms": ["adult", "white hair", "woman"]
     },
     {
-      "codes": "1F469 200D 1F9B2",
-      "char": "👩‍🦲",
+      "emoji": "👩‍🦲",
       "name": "woman: bald",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "bald",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F9B2",
+      "keyTerms": ["adult", "bald", "woman"]
     },
     {
-      "codes": "1F9D3",
-      "char": "🧓",
+      "emoji": "🧓",
       "name": "older person",
       "category": "People & Body",
       "subcategory": "person",
+      "codepoints": "1F9D3",
       "keyTerms": [
         "adult",
         "gender-neutral",
@@ -2205,83 +2100,89 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F474",
-      "char": "👴",
+      "emoji": "👴",
       "name": "old man",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "man",
-        "old"
-      ]
+      "codepoints": "1F474",
+      "keyTerms": ["adult", "man", "old"]
     },
     {
-      "codes": "1F475",
-      "char": "👵",
+      "emoji": "👵",
       "name": "old woman",
       "category": "People & Body",
       "subcategory": "person",
-      "keyTerms": [
-        "adult",
-        "old",
-        "woman"
-      ]
+      "codepoints": "1F475",
+      "keyTerms": ["adult", "old", "woman"]
     },
     {
-      "codes": "1F64D 200D 2642 FE0F",
-      "char": "🙍‍♂️",
+      "emoji": "🙍",
+      "name": "person frowning",
+      "category": "People & Body",
+      "subcategory": "person-gesture",
+      "codepoints": "1F64D",
+      "keyTerms": ["frown", "gesture", "person frowning"]
+    },
+    {
+      "emoji": "🙍‍♂️",
       "name": "man frowning",
       "category": "People & Body",
       "subcategory": "person-gesture",
-      "keyTerms": [
-        "frowning",
-        "gesture",
-        "man"
-      ]
+      "codepoints": "1F64D 200D 2642 FE0F",
+      "keyTerms": ["frowning", "gesture", "man"]
     },
     {
-      "codes": "1F64D 200D 2640 FE0F",
-      "char": "🙍‍♀️",
+      "emoji": "🙍‍♀️",
       "name": "woman frowning",
       "category": "People & Body",
       "subcategory": "person-gesture",
-      "keyTerms": [
-        "frowning",
-        "gesture",
-        "woman"
-      ]
+      "codepoints": "1F64D 200D 2640 FE0F",
+      "keyTerms": ["frowning", "gesture", "woman"]
     },
     {
-      "codes": "1F64E 200D 2642 FE0F",
-      "char": "🙎‍♂️",
+      "emoji": "🙎",
+      "name": "person pouting",
+      "category": "People & Body",
+      "subcategory": "person-gesture",
+      "codepoints": "1F64E",
+      "keyTerms": ["gesture", "person pouting", "pouting"]
+    },
+    {
+      "emoji": "🙎‍♂️",
       "name": "man pouting",
       "category": "People & Body",
       "subcategory": "person-gesture",
-      "keyTerms": [
-        "gesture",
-        "man",
-        "pouting"
-      ]
+      "codepoints": "1F64E 200D 2642 FE0F",
+      "keyTerms": ["gesture", "man", "pouting"]
     },
     {
-      "codes": "1F64E 200D 2640 FE0F",
-      "char": "🙎‍♀️",
+      "emoji": "🙎‍♀️",
       "name": "woman pouting",
       "category": "People & Body",
       "subcategory": "person-gesture",
+      "codepoints": "1F64E 200D 2640 FE0F",
+      "keyTerms": ["gesture", "pouting", "woman"]
+    },
+    {
+      "emoji": "🙅",
+      "name": "person gesturing NO",
+      "category": "People & Body",
+      "subcategory": "person-gesture",
+      "codepoints": "1F645",
       "keyTerms": [
+        "forbidden",
         "gesture",
-        "pouting",
-        "woman"
+        "hand",
+        "person gesturing NO",
+        "prohibited"
       ]
     },
     {
-      "codes": "1F645 200D 2642 FE0F",
-      "char": "🙅‍♂️",
+      "emoji": "🙅‍♂️",
       "name": "man gesturing NO",
       "category": "People & Body",
       "subcategory": "person-gesture",
+      "codepoints": "1F645 200D 2642 FE0F",
       "keyTerms": [
         "forbidden",
         "gesture",
@@ -2292,11 +2193,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F645 200D 2640 FE0F",
-      "char": "🙅‍♀️",
+      "emoji": "🙅‍♀️",
       "name": "woman gesturing NO",
       "category": "People & Body",
       "subcategory": "person-gesture",
+      "codepoints": "1F645 200D 2640 FE0F",
       "keyTerms": [
         "forbidden",
         "gesture",
@@ -2307,121 +2208,152 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F646 200D 2642 FE0F",
-      "char": "🙆‍♂️",
+      "emoji": "🙆",
+      "name": "person gesturing OK",
+      "category": "People & Body",
+      "subcategory": "person-gesture",
+      "codepoints": "1F646",
+      "keyTerms": ["gesture", "hand", "OK", "person gesturing OK"]
+    },
+    {
+      "emoji": "🙆‍♂️",
       "name": "man gesturing OK",
       "category": "People & Body",
       "subcategory": "person-gesture",
-      "keyTerms": [
-        "gesture",
-        "hand",
-        "man",
-        "man gesturing OK",
-        "OK"
-      ]
+      "codepoints": "1F646 200D 2642 FE0F",
+      "keyTerms": ["gesture", "hand", "man", "man gesturing OK", "OK"]
     },
     {
-      "codes": "1F646 200D 2640 FE0F",
-      "char": "🙆‍♀️",
+      "emoji": "🙆‍♀️",
       "name": "woman gesturing OK",
       "category": "People & Body",
       "subcategory": "person-gesture",
+      "codepoints": "1F646 200D 2640 FE0F",
+      "keyTerms": ["gesture", "hand", "OK", "woman", "woman gesturing OK"]
+    },
+    {
+      "emoji": "💁",
+      "name": "person tipping hand",
+      "category": "People & Body",
+      "subcategory": "person-gesture",
+      "codepoints": "1F481",
       "keyTerms": [
-        "gesture",
         "hand",
-        "OK",
-        "woman",
-        "woman gesturing OK"
+        "help",
+        "information",
+        "person tipping hand",
+        "sassy",
+        "tipping"
       ]
     },
     {
-      "codes": "1F481 200D 2642 FE0F",
-      "char": "💁‍♂️",
+      "emoji": "💁‍♂️",
       "name": "man tipping hand",
       "category": "People & Body",
       "subcategory": "person-gesture",
-      "keyTerms": [
-        "man",
-        "man tipping hand",
-        "sassy",
-        "tipping hand"
-      ]
+      "codepoints": "1F481 200D 2642 FE0F",
+      "keyTerms": ["man", "man tipping hand", "sassy", "tipping hand"]
     },
     {
-      "codes": "1F481 200D 2640 FE0F",
-      "char": "💁‍♀️",
+      "emoji": "💁‍♀️",
       "name": "woman tipping hand",
       "category": "People & Body",
       "subcategory": "person-gesture",
-      "keyTerms": [
-        "sassy",
-        "tipping hand",
-        "woman",
-        "woman tipping hand"
-      ]
+      "codepoints": "1F481 200D 2640 FE0F",
+      "keyTerms": ["sassy", "tipping hand", "woman", "woman tipping hand"]
     },
     {
-      "codes": "1F64B 200D 2642 FE0F",
-      "char": "🙋‍♂️",
+      "emoji": "🙋",
+      "name": "person raising hand",
+      "category": "People & Body",
+      "subcategory": "person-gesture",
+      "codepoints": "1F64B",
+      "keyTerms": ["gesture", "hand", "happy", "person raising hand", "raised"]
+    },
+    {
+      "emoji": "🙋‍♂️",
       "name": "man raising hand",
       "category": "People & Body",
       "subcategory": "person-gesture",
-      "keyTerms": [
-        "gesture",
-        "man",
-        "man raising hand",
-        "raising hand"
-      ]
+      "codepoints": "1F64B 200D 2642 FE0F",
+      "keyTerms": ["gesture", "man", "man raising hand", "raising hand"]
     },
     {
-      "codes": "1F64B 200D 2640 FE0F",
-      "char": "🙋‍♀️",
+      "emoji": "🙋‍♀️",
       "name": "woman raising hand",
       "category": "People & Body",
       "subcategory": "person-gesture",
-      "keyTerms": [
-        "gesture",
-        "raising hand",
-        "woman",
-        "woman raising hand"
-      ]
+      "codepoints": "1F64B 200D 2640 FE0F",
+      "keyTerms": ["gesture", "raising hand", "woman", "woman raising hand"]
     },
     {
-      "codes": "1F647 200D 2642 FE0F",
-      "char": "🙇‍♂️",
+      "emoji": "🧏",
+      "name": "deaf person",
+      "category": "People & Body",
+      "subcategory": "person-gesture",
+      "codepoints": "1F9CF",
+      "keyTerms": ["accessibility", "deaf", "deaf person", "ear", "hear"]
+    },
+    {
+      "emoji": "🧏‍♂️",
+      "name": "deaf man",
+      "category": "People & Body",
+      "subcategory": "person-gesture",
+      "codepoints": "1F9CF 200D 2642 FE0F",
+      "keyTerms": ["deaf", "man"]
+    },
+    {
+      "emoji": "🧏‍♀️",
+      "name": "deaf woman",
+      "category": "People & Body",
+      "subcategory": "person-gesture",
+      "codepoints": "1F9CF 200D 2640 FE0F",
+      "keyTerms": ["deaf", "woman"]
+    },
+    {
+      "emoji": "🙇",
+      "name": "person bowing",
+      "category": "People & Body",
+      "subcategory": "person-gesture",
+      "codepoints": "1F647",
+      "keyTerms": ["apology", "bow", "gesture", "person bowing", "sorry"]
+    },
+    {
+      "emoji": "🙇‍♂️",
       "name": "man bowing",
       "category": "People & Body",
       "subcategory": "person-gesture",
-      "keyTerms": [
-        "apology",
-        "bowing",
-        "favor",
-        "gesture",
-        "man",
-        "sorry"
-      ]
+      "codepoints": "1F647 200D 2642 FE0F",
+      "keyTerms": ["apology", "bowing", "favor", "gesture", "man", "sorry"]
     },
     {
-      "codes": "1F647 200D 2640 FE0F",
-      "char": "🙇‍♀️",
+      "emoji": "🙇‍♀️",
       "name": "woman bowing",
       "category": "People & Body",
       "subcategory": "person-gesture",
+      "codepoints": "1F647 200D 2640 FE0F",
+      "keyTerms": ["apology", "bowing", "favor", "gesture", "sorry", "woman"]
+    },
+    {
+      "emoji": "🤦",
+      "name": "person facepalming",
+      "category": "People & Body",
+      "subcategory": "person-gesture",
+      "codepoints": "1F926",
       "keyTerms": [
-        "apology",
-        "bowing",
-        "favor",
-        "gesture",
-        "sorry",
-        "woman"
+        "disbelief",
+        "exasperation",
+        "face",
+        "palm",
+        "person facepalming"
       ]
     },
     {
-      "codes": "1F926 200D 2642 FE0F",
-      "char": "🤦‍♂️",
+      "emoji": "🤦‍♂️",
       "name": "man facepalming",
       "category": "People & Body",
       "subcategory": "person-gesture",
+      "codepoints": "1F926 200D 2642 FE0F",
       "keyTerms": [
         "disbelief",
         "exasperation",
@@ -2431,11 +2363,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F926 200D 2640 FE0F",
-      "char": "🤦‍♀️",
+      "emoji": "🤦‍♀️",
       "name": "woman facepalming",
       "category": "People & Body",
       "subcategory": "person-gesture",
+      "codepoints": "1F926 200D 2640 FE0F",
       "keyTerms": [
         "disbelief",
         "exasperation",
@@ -2445,11 +2377,25 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F937 200D 2642 FE0F",
-      "char": "🤷‍♂️",
+      "emoji": "🤷",
+      "name": "person shrugging",
+      "category": "People & Body",
+      "subcategory": "person-gesture",
+      "codepoints": "1F937",
+      "keyTerms": [
+        "doubt",
+        "ignorance",
+        "indifference",
+        "person shrugging",
+        "shrug"
+      ]
+    },
+    {
+      "emoji": "🤷‍♂️",
       "name": "man shrugging",
       "category": "People & Body",
       "subcategory": "person-gesture",
+      "codepoints": "1F937 200D 2642 FE0F",
       "keyTerms": [
         "doubt",
         "ignorance",
@@ -2460,11 +2406,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F937 200D 2640 FE0F",
-      "char": "🤷‍♀️",
+      "emoji": "🤷‍♀️",
       "name": "woman shrugging",
       "category": "People & Body",
       "subcategory": "person-gesture",
+      "codepoints": "1F937 200D 2640 FE0F",
       "keyTerms": [
         "doubt",
         "ignorance",
@@ -2475,11 +2421,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F468 200D 2695 FE0F",
-      "char": "👨‍⚕️",
+      "emoji": "👨‍⚕️",
       "name": "man health worker",
       "category": "People & Body",
       "subcategory": "person-role",
+      "codepoints": "1F468 200D 2695 FE0F",
       "keyTerms": [
         "doctor",
         "healthcare",
@@ -2490,11 +2436,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F469 200D 2695 FE0F",
-      "char": "👩‍⚕️",
+      "emoji": "👩‍⚕️",
       "name": "woman health worker",
       "category": "People & Body",
       "subcategory": "person-role",
+      "codepoints": "1F469 200D 2695 FE0F",
       "keyTerms": [
         "doctor",
         "healthcare",
@@ -2505,150 +2451,99 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F468 200D 1F393",
-      "char": "👨‍🎓",
+      "emoji": "👨‍🎓",
       "name": "man student",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "graduate",
-        "man",
-        "student"
-      ]
+      "codepoints": "1F468 200D 1F393",
+      "keyTerms": ["graduate", "man", "student"]
     },
     {
-      "codes": "1F469 200D 1F393",
-      "char": "👩‍🎓",
+      "emoji": "👩‍🎓",
       "name": "woman student",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "graduate",
-        "student",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F393",
+      "keyTerms": ["graduate", "student", "woman"]
     },
     {
-      "codes": "1F468 200D 1F3EB",
-      "char": "👨‍🏫",
+      "emoji": "👨‍🏫",
       "name": "man teacher",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "instructor",
-        "man",
-        "professor",
-        "teacher"
-      ]
+      "codepoints": "1F468 200D 1F3EB",
+      "keyTerms": ["instructor", "man", "professor", "teacher"]
     },
     {
-      "codes": "1F469 200D 1F3EB",
-      "char": "👩‍🏫",
+      "emoji": "👩‍🏫",
       "name": "woman teacher",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "instructor",
-        "professor",
-        "teacher",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F3EB",
+      "keyTerms": ["instructor", "professor", "teacher", "woman"]
     },
     {
-      "codes": "1F468 200D 2696 FE0F",
-      "char": "👨‍⚖️",
+      "emoji": "👨‍⚖️",
       "name": "man judge",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "justice",
-        "man",
-        "man judge",
-        "scales"
-      ]
+      "codepoints": "1F468 200D 2696 FE0F",
+      "keyTerms": ["justice", "man", "man judge", "scales"]
     },
     {
-      "codes": "1F469 200D 2696 FE0F",
-      "char": "👩‍⚖️",
+      "emoji": "👩‍⚖️",
       "name": "woman judge",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "judge",
-        "scales",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 2696 FE0F",
+      "keyTerms": ["judge", "scales", "woman"]
     },
     {
-      "codes": "1F468 200D 1F33E",
-      "char": "👨‍🌾",
+      "emoji": "👨‍🌾",
       "name": "man farmer",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "farmer",
-        "gardener",
-        "man",
-        "rancher"
-      ]
+      "codepoints": "1F468 200D 1F33E",
+      "keyTerms": ["farmer", "gardener", "man", "rancher"]
     },
     {
-      "codes": "1F469 200D 1F33E",
-      "char": "👩‍🌾",
+      "emoji": "👩‍🌾",
       "name": "woman farmer",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "farmer",
-        "gardener",
-        "rancher",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F33E",
+      "keyTerms": ["farmer", "gardener", "rancher", "woman"]
     },
     {
-      "codes": "1F468 200D 1F373",
-      "char": "👨‍🍳",
+      "emoji": "👨‍🍳",
       "name": "man cook",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "chef",
-        "cook",
-        "man"
-      ]
+      "codepoints": "1F468 200D 1F373",
+      "keyTerms": ["chef", "cook", "man"]
     },
     {
-      "codes": "1F469 200D 1F373",
-      "char": "👩‍🍳",
+      "emoji": "👩‍🍳",
       "name": "woman cook",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "chef",
-        "cook",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F373",
+      "keyTerms": ["chef", "cook", "woman"]
     },
     {
-      "codes": "1F468 200D 1F527",
-      "char": "👨‍🔧",
+      "emoji": "👨‍🔧",
       "name": "man mechanic",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "electrician",
-        "man",
-        "mechanic",
-        "plumber",
-        "tradesperson"
-      ]
+      "codepoints": "1F468 200D 1F527",
+      "keyTerms": ["electrician", "man", "mechanic", "plumber", "tradesperson"]
     },
     {
-      "codes": "1F469 200D 1F527",
-      "char": "👩‍🔧",
+      "emoji": "👩‍🔧",
       "name": "woman mechanic",
       "category": "People & Body",
       "subcategory": "person-role",
+      "codepoints": "1F469 200D 1F527",
       "keyTerms": [
         "electrician",
         "mechanic",
@@ -2658,39 +2553,27 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F468 200D 1F3ED",
-      "char": "👨‍🏭",
+      "emoji": "👨‍🏭",
       "name": "man factory worker",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "assembly",
-        "factory",
-        "industrial",
-        "man",
-        "worker"
-      ]
+      "codepoints": "1F468 200D 1F3ED",
+      "keyTerms": ["assembly", "factory", "industrial", "man", "worker"]
     },
     {
-      "codes": "1F469 200D 1F3ED",
-      "char": "👩‍🏭",
+      "emoji": "👩‍🏭",
       "name": "woman factory worker",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "assembly",
-        "factory",
-        "industrial",
-        "woman",
-        "worker"
-      ]
+      "codepoints": "1F469 200D 1F3ED",
+      "keyTerms": ["assembly", "factory", "industrial", "woman", "worker"]
     },
     {
-      "codes": "1F468 200D 1F4BC",
-      "char": "👨‍💼",
+      "emoji": "👨‍💼",
       "name": "man office worker",
       "category": "People & Body",
       "subcategory": "person-role",
+      "codepoints": "1F468 200D 1F4BC",
       "keyTerms": [
         "architect",
         "business",
@@ -2701,11 +2584,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F469 200D 1F4BC",
-      "char": "👩‍💼",
+      "emoji": "👩‍💼",
       "name": "woman office worker",
       "category": "People & Body",
       "subcategory": "person-role",
+      "codepoints": "1F469 200D 1F4BC",
       "keyTerms": [
         "architect",
         "business",
@@ -2716,11 +2599,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F468 200D 1F52C",
-      "char": "👨‍🔬",
+      "emoji": "👨‍🔬",
       "name": "man scientist",
       "category": "People & Body",
       "subcategory": "person-role",
+      "codepoints": "1F468 200D 1F52C",
       "keyTerms": [
         "biologist",
         "chemist",
@@ -2731,11 +2614,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F469 200D 1F52C",
-      "char": "👩‍🔬",
+      "emoji": "👩‍🔬",
       "name": "woman scientist",
       "category": "People & Body",
       "subcategory": "person-role",
+      "codepoints": "1F469 200D 1F52C",
       "keyTerms": [
         "biologist",
         "chemist",
@@ -2746,11 +2629,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F468 200D 1F4BB",
-      "char": "👨‍💻",
+      "emoji": "👨‍💻",
       "name": "man technologist",
       "category": "People & Body",
       "subcategory": "person-role",
+      "codepoints": "1F468 200D 1F4BB",
       "keyTerms": [
         "coder",
         "developer",
@@ -2761,11 +2644,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F469 200D 1F4BB",
-      "char": "👩‍💻",
+      "emoji": "👩‍💻",
       "name": "woman technologist",
       "category": "People & Body",
       "subcategory": "person-role",
+      "codepoints": "1F469 200D 1F4BB",
       "keyTerms": [
         "coder",
         "developer",
@@ -2776,373 +2659,291 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F468 200D 1F3A4",
-      "char": "👨‍🎤",
+      "emoji": "👨‍🎤",
       "name": "man singer",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "actor",
-        "entertainer",
-        "man",
-        "rock",
-        "singer",
-        "star"
-      ]
+      "codepoints": "1F468 200D 1F3A4",
+      "keyTerms": ["actor", "entertainer", "man", "rock", "singer", "star"]
     },
     {
-      "codes": "1F469 200D 1F3A4",
-      "char": "👩‍🎤",
+      "emoji": "👩‍🎤",
       "name": "woman singer",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "actor",
-        "entertainer",
-        "rock",
-        "singer",
-        "star",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F3A4",
+      "keyTerms": ["actor", "entertainer", "rock", "singer", "star", "woman"]
     },
     {
-      "codes": "1F468 200D 1F3A8",
-      "char": "👨‍🎨",
+      "emoji": "👨‍🎨",
       "name": "man artist",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "artist",
-        "man",
-        "palette"
-      ]
+      "codepoints": "1F468 200D 1F3A8",
+      "keyTerms": ["artist", "man", "palette"]
     },
     {
-      "codes": "1F469 200D 1F3A8",
-      "char": "👩‍🎨",
+      "emoji": "👩‍🎨",
       "name": "woman artist",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "artist",
-        "palette",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F3A8",
+      "keyTerms": ["artist", "palette", "woman"]
     },
     {
-      "codes": "1F468 200D 2708 FE0F",
-      "char": "👨‍✈️",
+      "emoji": "👨‍✈️",
       "name": "man pilot",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "man",
-        "pilot",
-        "plane"
-      ]
+      "codepoints": "1F468 200D 2708 FE0F",
+      "keyTerms": ["man", "pilot", "plane"]
     },
     {
-      "codes": "1F469 200D 2708 FE0F",
-      "char": "👩‍✈️",
+      "emoji": "👩‍✈️",
       "name": "woman pilot",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "pilot",
-        "plane",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 2708 FE0F",
+      "keyTerms": ["pilot", "plane", "woman"]
     },
     {
-      "codes": "1F468 200D 1F680",
-      "char": "👨‍🚀",
+      "emoji": "👨‍🚀",
       "name": "man astronaut",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "astronaut",
-        "man",
-        "rocket"
-      ]
+      "codepoints": "1F468 200D 1F680",
+      "keyTerms": ["astronaut", "man", "rocket"]
     },
     {
-      "codes": "1F469 200D 1F680",
-      "char": "👩‍🚀",
+      "emoji": "👩‍🚀",
       "name": "woman astronaut",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "astronaut",
-        "rocket",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F680",
+      "keyTerms": ["astronaut", "rocket", "woman"]
     },
     {
-      "codes": "1F468 200D 1F692",
-      "char": "👨‍🚒",
+      "emoji": "👨‍🚒",
       "name": "man firefighter",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "firefighter",
-        "firetruck",
-        "man"
-      ]
+      "codepoints": "1F468 200D 1F692",
+      "keyTerms": ["firefighter", "firetruck", "man"]
     },
     {
-      "codes": "1F469 200D 1F692",
-      "char": "👩‍🚒",
+      "emoji": "👩‍🚒",
       "name": "woman firefighter",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "firefighter",
-        "firetruck",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F692",
+      "keyTerms": ["firefighter", "firetruck", "woman"]
     },
     {
-      "codes": "1F46E 200D 2642 FE0F",
-      "char": "👮‍♂️",
+      "emoji": "👮",
+      "name": "police officer",
+      "category": "People & Body",
+      "subcategory": "person-role",
+      "codepoints": "1F46E",
+      "keyTerms": ["cop", "officer", "police"]
+    },
+    {
+      "emoji": "👮‍♂️",
       "name": "man police officer",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "cop",
-        "man",
-        "officer",
-        "police"
-      ]
+      "codepoints": "1F46E 200D 2642 FE0F",
+      "keyTerms": ["cop", "man", "officer", "police"]
     },
     {
-      "codes": "1F46E 200D 2640 FE0F",
-      "char": "👮‍♀️",
+      "emoji": "👮‍♀️",
       "name": "woman police officer",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "cop",
-        "officer",
-        "police",
-        "woman"
-      ]
+      "codepoints": "1F46E 200D 2640 FE0F",
+      "keyTerms": ["cop", "officer", "police", "woman"]
     },
     {
-      "codes": "1F575 FE0F 200D 2642 FE0F",
-      "char": "🕵️‍♂️",
+      "emoji": "🕵",
+      "name": "detective",
+      "category": "People & Body",
+      "subcategory": "person-role",
+      "codepoints": "1F575",
+      "keyTerms": ["detective", "sleuth", "spy"]
+    },
+    {
+      "emoji": "🕵️‍♂️",
       "name": "man detective",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "detective",
-        "man",
-        "sleuth",
-        "spy"
-      ]
+      "codepoints": "1F575 FE0F 200D 2642 FE0F",
+      "keyTerms": ["detective", "man", "sleuth", "spy"]
     },
     {
-      "codes": "1F575 FE0F 200D 2640 FE0F",
-      "char": "🕵️‍♀️",
+      "emoji": "🕵️‍♀️",
       "name": "woman detective",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "detective",
-        "sleuth",
-        "spy",
-        "woman"
-      ]
+      "codepoints": "1F575 FE0F 200D 2640 FE0F",
+      "keyTerms": ["detective", "sleuth", "spy", "woman"]
     },
     {
-      "codes": "1F482 200D 2642 FE0F",
-      "char": "💂‍♂️",
+      "emoji": "💂",
+      "name": "guard",
+      "category": "People & Body",
+      "subcategory": "person-role",
+      "codepoints": "1F482",
+      "keyTerms": ["guard"]
+    },
+    {
+      "emoji": "💂‍♂️",
       "name": "man guard",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "guard",
-        "man"
-      ]
+      "codepoints": "1F482 200D 2642 FE0F",
+      "keyTerms": ["guard", "man"]
     },
     {
-      "codes": "1F482 200D 2640 FE0F",
-      "char": "💂‍♀️",
+      "emoji": "💂‍♀️",
       "name": "woman guard",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "guard",
-        "woman"
-      ]
+      "codepoints": "1F482 200D 2640 FE0F",
+      "keyTerms": ["guard", "woman"]
     },
     {
-      "codes": "1F477 200D 2642 FE0F",
-      "char": "👷‍♂️",
+      "emoji": "👷",
+      "name": "construction worker",
+      "category": "People & Body",
+      "subcategory": "person-role",
+      "codepoints": "1F477",
+      "keyTerms": ["construction", "hat", "worker"]
+    },
+    {
+      "emoji": "👷‍♂️",
       "name": "man construction worker",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "construction",
-        "man",
-        "worker"
-      ]
+      "codepoints": "1F477 200D 2642 FE0F",
+      "keyTerms": ["construction", "man", "worker"]
     },
     {
-      "codes": "1F477 200D 2640 FE0F",
-      "char": "👷‍♀️",
+      "emoji": "👷‍♀️",
       "name": "woman construction worker",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "construction",
-        "woman",
-        "worker"
-      ]
+      "codepoints": "1F477 200D 2640 FE0F",
+      "keyTerms": ["construction", "woman", "worker"]
     },
     {
-      "codes": "1F934",
-      "char": "🤴",
+      "emoji": "🤴",
       "name": "prince",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "prince"
-      ]
+      "codepoints": "1F934",
+      "keyTerms": ["prince"]
     },
     {
-      "codes": "1F478",
-      "char": "👸",
+      "emoji": "👸",
       "name": "princess",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "fairy tale",
-        "fantasy",
-        "princess"
-      ]
+      "codepoints": "1F478",
+      "keyTerms": ["fairy tale", "fantasy", "princess"]
     },
     {
-      "codes": "1F473 200D 2642 FE0F",
-      "char": "👳‍♂️",
+      "emoji": "👳",
+      "name": "person wearing turban",
+      "category": "People & Body",
+      "subcategory": "person-role",
+      "codepoints": "1F473",
+      "keyTerms": ["person wearing turban", "turban"]
+    },
+    {
+      "emoji": "👳‍♂️",
       "name": "man wearing turban",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "man",
-        "man wearing turban",
-        "turban"
-      ]
+      "codepoints": "1F473 200D 2642 FE0F",
+      "keyTerms": ["man", "man wearing turban", "turban"]
     },
     {
-      "codes": "1F473 200D 2640 FE0F",
-      "char": "👳‍♀️",
+      "emoji": "👳‍♀️",
       "name": "woman wearing turban",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "turban",
-        "woman",
-        "woman wearing turban"
-      ]
+      "codepoints": "1F473 200D 2640 FE0F",
+      "keyTerms": ["turban", "woman", "woman wearing turban"]
     },
     {
-      "codes": "1F472",
-      "char": "👲",
+      "emoji": "👲",
       "name": "man with Chinese cap",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "gua pi mao",
-        "hat",
-        "man",
-        "man with Chinese cap"
-      ]
+      "codepoints": "1F472",
+      "keyTerms": ["gua pi mao", "hat", "man", "man with Chinese cap"]
     },
     {
-      "codes": "1F9D5",
-      "char": "🧕",
+      "emoji": "🧕",
       "name": "woman with headscarf",
       "category": "People & Body",
       "subcategory": "person-role",
+      "codepoints": "1F9D5",
       "keyTerms": [
         "headscarf",
         "hijab",
         "mantilla",
         "tichel",
         "woman with headscarf",
-        "bandana"
+        "bandana",
+        "head kerchief"
       ]
     },
     {
-      "codes": "1F935",
-      "char": "🤵",
+      "emoji": "🤵",
       "name": "man in tuxedo",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "groom",
-        "man",
-        "man in tuxedo",
-        "tuxedo"
-      ]
+      "codepoints": "1F935",
+      "keyTerms": ["groom", "man", "man in tuxedo", "tuxedo"]
     },
     {
-      "codes": "1F470",
-      "char": "👰",
+      "emoji": "👰",
       "name": "bride with veil",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "bride",
-        "bride with veil",
-        "veil",
-        "wedding"
-      ]
+      "codepoints": "1F470",
+      "keyTerms": ["bride", "bride with veil", "veil", "wedding"]
     },
     {
-      "codes": "1F930",
-      "char": "🤰",
+      "emoji": "🤰",
       "name": "pregnant woman",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "pregnant",
-        "woman"
-      ]
+      "codepoints": "1F930",
+      "keyTerms": ["pregnant", "woman"]
     },
     {
-      "codes": "1F931",
-      "char": "🤱",
+      "emoji": "🤱",
       "name": "breast-feeding",
       "category": "People & Body",
       "subcategory": "person-role",
-      "keyTerms": [
-        "baby",
-        "breast",
-        "breast-feeding",
-        "nursing"
-      ]
+      "codepoints": "1F931",
+      "keyTerms": ["baby", "breast", "breast-feeding", "nursing"]
     },
     {
-      "codes": "1F47C",
-      "char": "👼",
+      "emoji": "👼",
       "name": "baby angel",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "angel",
-        "baby",
-        "face",
-        "fairy tale",
-        "fantasy"
-      ]
+      "codepoints": "1F47C",
+      "keyTerms": ["angel", "baby", "face", "fairy tale", "fantasy"]
     },
     {
-      "codes": "1F385",
-      "char": "🎅",
+      "emoji": "🎅",
       "name": "Santa Claus",
       "category": "People & Body",
       "subcategory": "person-fantasy",
+      "codepoints": "1F385",
       "keyTerms": [
         "celebration",
         "Christmas",
@@ -3153,11 +2954,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F936",
-      "char": "🤶",
+      "emoji": "🤶",
       "name": "Mrs. Claus",
       "category": "People & Body",
       "subcategory": "person-fantasy",
+      "codepoints": "1F936",
       "keyTerms": [
         "celebration",
         "Christmas",
@@ -3168,25 +2969,34 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F9B8 200D 2642 FE0F",
-      "char": "🦸‍♂️",
-      "name": "man superhero",
+      "emoji": "🦸",
+      "name": "superhero",
       "category": "People & Body",
       "subcategory": "person-fantasy",
+      "codepoints": "1F9B8",
       "keyTerms": [
         "good",
         "hero",
-        "man",
-        "man superhero",
-        "superpower"
+        "heroine",
+        "superhero",
+        "superpower",
+        "superpowers"
       ]
     },
     {
-      "codes": "1F9B8 200D 2640 FE0F",
-      "char": "🦸‍♀️",
+      "emoji": "🦸‍♂️",
+      "name": "man superhero",
+      "category": "People & Body",
+      "subcategory": "person-fantasy",
+      "codepoints": "1F9B8 200D 2642 FE0F",
+      "keyTerms": ["good", "hero", "man", "man superhero", "superpower"]
+    },
+    {
+      "emoji": "🦸‍♀️",
       "name": "woman superhero",
       "category": "People & Body",
       "subcategory": "person-fantasy",
+      "codepoints": "1F9B8 200D 2640 FE0F",
       "keyTerms": [
         "good",
         "hero",
@@ -3197,11 +3007,27 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F9B9 200D 2642 FE0F",
-      "char": "🦹‍♂️",
+      "emoji": "🦹",
+      "name": "supervillain",
+      "category": "People & Body",
+      "subcategory": "person-fantasy",
+      "codepoints": "1F9B9",
+      "keyTerms": [
+        "criminal",
+        "evil",
+        "superpower",
+        "supervillain",
+        "villain",
+        "bad",
+        "superpowers"
+      ]
+    },
+    {
+      "emoji": "🦹‍♂️",
       "name": "man supervillain",
       "category": "People & Body",
       "subcategory": "person-fantasy",
+      "codepoints": "1F9B9 200D 2642 FE0F",
       "keyTerms": [
         "criminal",
         "evil",
@@ -3212,11 +3038,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F9B9 200D 2640 FE0F",
-      "char": "🦹‍♀️",
+      "emoji": "🦹‍♀️",
       "name": "woman supervillain",
       "category": "People & Body",
       "subcategory": "person-fantasy",
+      "codepoints": "1F9B9 200D 2640 FE0F",
       "keyTerms": [
         "criminal",
         "evil",
@@ -3227,309 +3053,429 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F9D9 200D 2642 FE0F",
-      "char": "🧙‍♂️",
+      "emoji": "🧙",
+      "name": "mage",
+      "category": "People & Body",
+      "subcategory": "person-fantasy",
+      "codepoints": "1F9D9",
+      "keyTerms": ["mage", "sorcerer", "sorceress", "witch", "wizard"]
+    },
+    {
+      "emoji": "🧙‍♂️",
       "name": "man mage",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "man mage",
-        "sorcerer",
-        "wizard"
-      ]
+      "codepoints": "1F9D9 200D 2642 FE0F",
+      "keyTerms": ["man mage", "sorcerer", "wizard"]
     },
     {
-      "codes": "1F9D9 200D 2640 FE0F",
-      "char": "🧙‍♀️",
+      "emoji": "🧙‍♀️",
       "name": "woman mage",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "sorceress",
-        "witch",
-        "woman mage"
-      ]
+      "codepoints": "1F9D9 200D 2640 FE0F",
+      "keyTerms": ["sorceress", "witch", "woman mage"]
     },
     {
-      "codes": "1F9DA 200D 2642 FE0F",
-      "char": "🧚‍♂️",
+      "emoji": "🧚",
+      "name": "fairy",
+      "category": "People & Body",
+      "subcategory": "person-fantasy",
+      "codepoints": "1F9DA",
+      "keyTerms": ["fairy", "Oberon", "Puck", "Titania"]
+    },
+    {
+      "emoji": "🧚‍♂️",
       "name": "man fairy",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "man fairy",
-        "Oberon",
-        "Puck"
-      ]
+      "codepoints": "1F9DA 200D 2642 FE0F",
+      "keyTerms": ["man fairy", "Oberon", "Puck"]
     },
     {
-      "codes": "1F9DA 200D 2640 FE0F",
-      "char": "🧚‍♀️",
+      "emoji": "🧚‍♀️",
       "name": "woman fairy",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "Titania",
-        "woman fairy"
-      ]
+      "codepoints": "1F9DA 200D 2640 FE0F",
+      "keyTerms": ["Titania", "woman fairy"]
     },
     {
-      "codes": "1F9DB 200D 2642 FE0F",
-      "char": "🧛‍♂️",
+      "emoji": "🧛",
+      "name": "vampire",
+      "category": "People & Body",
+      "subcategory": "person-fantasy",
+      "codepoints": "1F9DB",
+      "keyTerms": ["Dracula", "undead", "vampire"]
+    },
+    {
+      "emoji": "🧛‍♂️",
       "name": "man vampire",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "Dracula",
-        "man vampire",
-        "undead"
-      ]
+      "codepoints": "1F9DB 200D 2642 FE0F",
+      "keyTerms": ["Dracula", "man vampire", "undead"]
     },
     {
-      "codes": "1F9DB 200D 2640 FE0F",
-      "char": "🧛‍♀️",
+      "emoji": "🧛‍♀️",
       "name": "woman vampire",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "undead",
-        "woman vampire"
-      ]
+      "codepoints": "1F9DB 200D 2640 FE0F",
+      "keyTerms": ["<td class='name'"]
     },
     {
-      "codes": "1F9DC 200D 2642 FE0F",
-      "char": "🧜‍♂️",
+      "emoji": "🧜",
+      "name": "merperson",
+      "category": "People & Body",
+      "subcategory": "person-fantasy",
+      "codepoints": "1F9DC",
+      "keyTerms": ["mermaid", "merman", "merperson", "merwoman"]
+    },
+    {
+      "emoji": "🧜‍♂️",
       "name": "merman",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "merman",
-        "Triton"
-      ]
+      "codepoints": "1F9DC 200D 2642 FE0F",
+      "keyTerms": ["merman", "Triton"]
     },
     {
-      "codes": "1F9DC 200D 2640 FE0F",
-      "char": "🧜‍♀️",
+      "emoji": "🧜‍♀️",
       "name": "mermaid",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "mermaid",
-        "merwoman"
-      ]
+      "codepoints": "1F9DC 200D 2640 FE0F",
+      "keyTerms": ["mermaid", "merwoman"]
     },
     {
-      "codes": "1F9DD 200D 2642 FE0F",
-      "char": "🧝‍♂️",
+      "emoji": "🧝",
+      "name": "elf",
+      "category": "People & Body",
+      "subcategory": "person-fantasy",
+      "codepoints": "1F9DD",
+      "keyTerms": ["elf", "magical", "LOTR style"]
+    },
+    {
+      "emoji": "🧝‍♂️",
       "name": "man elf",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "magical",
-        "man elf"
-      ]
+      "codepoints": "1F9DD 200D 2642 FE0F",
+      "keyTerms": ["magical", "man elf"]
     },
     {
-      "codes": "1F9DD 200D 2640 FE0F",
-      "char": "🧝‍♀️",
+      "emoji": "🧝‍♀️",
       "name": "woman elf",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "magical",
-        "woman elf"
-      ]
+      "codepoints": "1F9DD 200D 2640 FE0F",
+      "keyTerms": ["magical", "woman elf"]
     },
     {
-      "codes": "1F9DE 200D 2642 FE0F",
-      "char": "🧞‍♂️",
+      "emoji": "🧞",
+      "name": "genie",
+      "category": "People & Body",
+      "subcategory": "person-fantasy",
+      "codepoints": "1F9DE",
+      "keyTerms": ["djinn", "genie", "(non-human color)"]
+    },
+    {
+      "emoji": "🧞‍♂️",
       "name": "man genie",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "djinn",
-        "man genie"
-      ]
+      "codepoints": "1F9DE 200D 2642 FE0F",
+      "keyTerms": ["djinn", "man genie"]
     },
     {
-      "codes": "1F9DE 200D 2640 FE0F",
-      "char": "🧞‍♀️",
+      "emoji": "🧞‍♀️",
       "name": "woman genie",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "djinn",
-        "woman genie"
-      ]
+      "codepoints": "1F9DE 200D 2640 FE0F",
+      "keyTerms": ["djinn", "woman genie"]
     },
     {
-      "codes": "1F9DF 200D 2642 FE0F",
-      "char": "🧟‍♂️",
+      "emoji": "🧟",
+      "name": "zombie",
+      "category": "People & Body",
+      "subcategory": "person-fantasy",
+      "codepoints": "1F9DF",
+      "keyTerms": ["<td class='name'"]
+    },
+    {
+      "emoji": "🧟‍♂️",
       "name": "man zombie",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "man zombie",
-        "undead",
-        "walking dead"
-      ]
+      "codepoints": "1F9DF 200D 2642 FE0F",
+      "keyTerms": ["man zombie", "undead", "walking dead"]
     },
     {
-      "codes": "1F9DF 200D 2640 FE0F",
-      "char": "🧟‍♀️",
+      "emoji": "🧟‍♀️",
       "name": "woman zombie",
       "category": "People & Body",
       "subcategory": "person-fantasy",
-      "keyTerms": [
-        "undead",
-        "walking dead",
-        "woman zombie"
-      ]
+      "codepoints": "1F9DF 200D 2640 FE0F",
+      "keyTerms": ["<td class='name'"]
     },
     {
-      "codes": "1F486 200D 2642 FE0F",
-      "char": "💆‍♂️",
+      "emoji": "💆",
+      "name": "person getting massage",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F486",
+      "keyTerms": ["face", "massage", "person getting massage", "salon"]
+    },
+    {
+      "emoji": "💆‍♂️",
       "name": "man getting massage",
       "category": "People & Body",
       "subcategory": "person-activity",
-      "keyTerms": [
-        "face",
-        "man",
-        "man getting massage",
-        "massage"
-      ]
+      "codepoints": "1F486 200D 2642 FE0F",
+      "keyTerms": ["face", "man", "man getting massage", "massage"]
     },
     {
-      "codes": "1F486 200D 2640 FE0F",
-      "char": "💆‍♀️",
+      "emoji": "💆‍♀️",
       "name": "woman getting massage",
       "category": "People & Body",
       "subcategory": "person-activity",
+      "codepoints": "1F486 200D 2640 FE0F",
+      "keyTerms": ["face", "massage", "woman", "woman getting massage"]
+    },
+    {
+      "emoji": "💇",
+      "name": "person getting haircut",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F487",
       "keyTerms": [
-        "face",
-        "massage",
-        "woman",
-        "woman getting massage"
+        "barber",
+        "beauty",
+        "haircut",
+        "parlor",
+        "person getting haircut"
       ]
     },
     {
-      "codes": "1F487 200D 2642 FE0F",
-      "char": "💇‍♂️",
+      "emoji": "💇‍♂️",
       "name": "man getting haircut",
       "category": "People & Body",
       "subcategory": "person-activity",
-      "keyTerms": [
-        "haircut",
-        "man",
-        "man getting haircut"
-      ]
+      "codepoints": "1F487 200D 2642 FE0F",
+      "keyTerms": ["haircut", "man", "man getting haircut"]
     },
     {
-      "codes": "1F487 200D 2640 FE0F",
-      "char": "💇‍♀️",
+      "emoji": "💇‍♀️",
       "name": "woman getting haircut",
       "category": "People & Body",
       "subcategory": "person-activity",
-      "keyTerms": [
-        "haircut",
-        "woman",
-        "woman getting haircut"
-      ]
+      "codepoints": "1F487 200D 2640 FE0F",
+      "keyTerms": ["haircut", "woman", "woman getting haircut"]
     },
     {
-      "codes": "1F6B6 200D 2642 FE0F",
-      "char": "🚶‍♂️",
+      "emoji": "🚶",
+      "name": "person walking",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F6B6",
+      "keyTerms": ["hike", "person walking", "walk", "walking"]
+    },
+    {
+      "emoji": "🚶‍♂️",
       "name": "man walking",
       "category": "People & Body",
       "subcategory": "person-activity",
-      "keyTerms": [
-        "hike",
-        "man",
-        "man walking",
-        "walk"
-      ]
+      "codepoints": "1F6B6 200D 2642 FE0F",
+      "keyTerms": ["hike", "man", "man walking", "walk"]
     },
     {
-      "codes": "1F6B6 200D 2640 FE0F",
-      "char": "🚶‍♀️",
+      "emoji": "🚶‍♀️",
       "name": "woman walking",
       "category": "People & Body",
       "subcategory": "person-activity",
+      "codepoints": "1F6B6 200D 2640 FE0F",
+      "keyTerms": ["hike", "walk", "woman", "woman walking"]
+    },
+    {
+      "emoji": "🧍",
+      "name": "person standing",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F9CD",
+      "keyTerms": ["person standing", "stand", "standing"]
+    },
+    {
+      "emoji": "🧍‍♂️",
+      "name": "man standing",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F9CD 200D 2642 FE0F",
+      "keyTerms": ["man", "standing"]
+    },
+    {
+      "emoji": "🧍‍♀️",
+      "name": "woman standing",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F9CD 200D 2640 FE0F",
+      "keyTerms": ["standing", "woman"]
+    },
+    {
+      "emoji": "🧎",
+      "name": "person kneeling",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F9CE",
+      "keyTerms": ["kneel", "kneeling", "person kneeling"]
+    },
+    {
+      "emoji": "🧎‍♂️",
+      "name": "man kneeling",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F9CE 200D 2642 FE0F",
+      "keyTerms": ["kneeling", "man"]
+    },
+    {
+      "emoji": "🧎‍♀️",
+      "name": "woman kneeling",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F9CE 200D 2640 FE0F",
+      "keyTerms": ["kneeling", "woman"]
+    },
+    {
+      "emoji": "👨‍🦯",
+      "name": "man with probing cane",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F468 200D 1F9AF",
+      "keyTerms": ["accessibility", "blind", "man", "man with probing cane"]
+    },
+    {
+      "emoji": "👩‍🦯",
+      "name": "woman with probing cane",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F469 200D 1F9AF",
+      "keyTerms": ["accessibility", "blind", "woman", "woman with probing cane"]
+    },
+    {
+      "emoji": "👨‍🦼",
+      "name": "man in motorized wheelchair",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F468 200D 1F9BC",
       "keyTerms": [
-        "hike",
-        "walk",
-        "woman",
-        "woman walking"
+        "accessibility",
+        "man",
+        "man in motorized wheelchair",
+        "wheelchair"
       ]
     },
     {
-      "codes": "1F3C3 200D 2642 FE0F",
-      "char": "🏃‍♂️",
+      "emoji": "👩‍🦼",
+      "name": "woman in motorized wheelchair",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F469 200D 1F9BC",
+      "keyTerms": [
+        "accessibility",
+        "wheelchair",
+        "woman",
+        "woman in motorized wheelchair"
+      ]
+    },
+    {
+      "emoji": "👨‍🦽",
+      "name": "man in manual wheelchair",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F468 200D 1F9BD",
+      "keyTerms": [
+        "accessibility",
+        "man",
+        "man in manual wheelchair",
+        "wheelchair"
+      ]
+    },
+    {
+      "emoji": "👩‍🦽",
+      "name": "woman in manual wheelchair",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F469 200D 1F9BD",
+      "keyTerms": [
+        "accessibility",
+        "wheelchair",
+        "woman",
+        "woman in manual wheelchair"
+      ]
+    },
+    {
+      "emoji": "🏃",
+      "name": "person running",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F3C3",
+      "keyTerms": ["marathon", "person running", "running"]
+    },
+    {
+      "emoji": "🏃‍♂️",
       "name": "man running",
       "category": "People & Body",
       "subcategory": "person-activity",
-      "keyTerms": [
-        "man",
-        "marathon",
-        "racing",
-        "running"
-      ]
+      "codepoints": "1F3C3 200D 2642 FE0F",
+      "keyTerms": ["man", "marathon", "racing", "running"]
     },
     {
-      "codes": "1F3C3 200D 2640 FE0F",
-      "char": "🏃‍♀️",
+      "emoji": "🏃‍♀️",
       "name": "woman running",
       "category": "People & Body",
       "subcategory": "person-activity",
-      "keyTerms": [
-        "marathon",
-        "racing",
-        "running",
-        "woman"
-      ]
+      "codepoints": "1F3C3 200D 2640 FE0F",
+      "keyTerms": ["marathon", "racing", "running", "woman"]
     },
     {
-      "codes": "1F483",
-      "char": "💃",
+      "emoji": "💃",
       "name": "woman dancing",
       "category": "People & Body",
       "subcategory": "person-activity",
-      "keyTerms": [
-        "dancing",
-        "woman"
-      ]
+      "codepoints": "1F483",
+      "keyTerms": ["dancing", "woman"]
     },
     {
-      "codes": "1F57A",
-      "char": "🕺",
+      "emoji": "🕺",
       "name": "man dancing",
       "category": "People & Body",
       "subcategory": "person-activity",
-      "keyTerms": [
-        "dance",
-        "man",
-        "man dancing"
-      ]
+      "codepoints": "1F57A",
+      "keyTerms": ["dance", "man", "man dancing"]
     },
     {
-      "codes": "1F574",
-      "char": "🕴",
+      "emoji": "🕴",
       "name": "man in suit levitating",
       "category": "People & Body",
       "subcategory": "person-activity",
-      "keyTerms": [
-        "business",
-        "man",
-        "man in suit levitating",
-        "suit"
-      ]
+      "codepoints": "1F574",
+      "keyTerms": ["business", "man", "man in suit levitating", "suit"]
     },
     {
-      "codes": "1F46F 200D 2642 FE0F",
-      "char": "👯‍♂️",
+      "emoji": "👯",
+      "name": "people with bunny ears",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F46F",
+      "keyTerms": ["bunny ear", "dancer", "partying", "people with bunny ears"]
+    },
+    {
+      "emoji": "👯‍♂️",
       "name": "men with bunny ears",
       "category": "People & Body",
       "subcategory": "person-activity",
+      "codepoints": "1F46F 200D 2642 FE0F",
       "keyTerms": [
         "bunny ear",
         "dancer",
@@ -3539,11 +3485,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F46F 200D 2640 FE0F",
-      "char": "👯‍♀️",
+      "emoji": "👯‍♀️",
       "name": "women with bunny ears",
       "category": "People & Body",
       "subcategory": "person-activity",
+      "codepoints": "1F46F 200D 2640 FE0F",
       "keyTerms": [
         "bunny ear",
         "dancer",
@@ -3553,48 +3499,478 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F9D6 200D 2642 FE0F",
-      "char": "🧖‍♂️",
+      "emoji": "🧖",
+      "name": "person in steamy room",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F9D6",
+      "keyTerms": [
+        "person in steamy room",
+        "sauna",
+        "steam room",
+        "hamam",
+        "steambath"
+      ]
+    },
+    {
+      "emoji": "🧖‍♂️",
       "name": "man in steamy room",
       "category": "People & Body",
       "subcategory": "person-activity",
-      "keyTerms": [
-        "man in steamy room",
-        "sauna",
-        "steam room"
-      ]
+      "codepoints": "1F9D6 200D 2642 FE0F",
+      "keyTerms": ["man in steamy room", "sauna", "steam room"]
     },
     {
-      "codes": "1F9D6 200D 2640 FE0F",
-      "char": "🧖‍♀️",
+      "emoji": "🧖‍♀️",
       "name": "woman in steamy room",
       "category": "People & Body",
       "subcategory": "person-activity",
+      "codepoints": "1F9D6 200D 2640 FE0F",
+      "keyTerms": ["sauna", "steam room", "woman in steamy room"]
+    },
+    {
+      "emoji": "🧗",
+      "name": "person climbing",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F9D7",
+      "keyTerms": ["climber", "person climbing"]
+    },
+    {
+      "emoji": "🧗‍♂️",
+      "name": "man climbing",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F9D7 200D 2642 FE0F",
+      "keyTerms": ["climber", "man climbing"]
+    },
+    {
+      "emoji": "🧗‍♀️",
+      "name": "woman climbing",
+      "category": "People & Body",
+      "subcategory": "person-activity",
+      "codepoints": "1F9D7 200D 2640 FE0F",
+      "keyTerms": ["climber", "woman climbing"]
+    },
+    {
+      "emoji": "🤺",
+      "name": "person fencing",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F93A",
+      "keyTerms": ["fencer", "fencing", "person fencing", "sword"]
+    },
+    {
+      "emoji": "🏇",
+      "name": "horse racing",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3C7",
+      "keyTerms": ["horse", "jockey", "racehorse", "racing"]
+    },
+    {
+      "emoji": "⛷",
+      "name": "skier",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "26F7",
+      "keyTerms": ["ski", "skier", "snow"]
+    },
+    {
+      "emoji": "🏂",
+      "name": "snowboarder",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3C2",
+      "keyTerms": ["ski", "snow", "snowboard", "snowboarder"]
+    },
+    {
+      "emoji": "🏌",
+      "name": "person golfing",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3CC",
+      "keyTerms": ["ball", "golf", "person golfing"]
+    },
+    {
+      "emoji": "🏌️‍♂️",
+      "name": "man golfing",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3CC FE0F 200D 2642 FE0F",
+      "keyTerms": ["golf", "man", "man golfing"]
+    },
+    {
+      "emoji": "🏌️‍♀️",
+      "name": "woman golfing",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3CC FE0F 200D 2640 FE0F",
+      "keyTerms": ["golf", "woman", "woman golfing"]
+    },
+    {
+      "emoji": "🏄",
+      "name": "person surfing",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3C4",
+      "keyTerms": ["person surfing", "surfing"]
+    },
+    {
+      "emoji": "🏄‍♂️",
+      "name": "man surfing",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3C4 200D 2642 FE0F",
+      "keyTerms": ["man", "surfing"]
+    },
+    {
+      "emoji": "🏄‍♀️",
+      "name": "woman surfing",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3C4 200D 2640 FE0F",
+      "keyTerms": ["surfing", "woman"]
+    },
+    {
+      "emoji": "🚣",
+      "name": "person rowing boat",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F6A3",
+      "keyTerms": ["boat", "person rowing boat", "rowboat"]
+    },
+    {
+      "emoji": "🚣‍♂️",
+      "name": "man rowing boat",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F6A3 200D 2642 FE0F",
+      "keyTerms": ["boat", "man", "man rowing boat", "rowboat"]
+    },
+    {
+      "emoji": "🚣‍♀️",
+      "name": "woman rowing boat",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F6A3 200D 2640 FE0F",
+      "keyTerms": ["boat", "rowboat", "woman", "woman rowing boat"]
+    },
+    {
+      "emoji": "🏊",
+      "name": "person swimming",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3CA",
+      "keyTerms": ["person swimming", "swim"]
+    },
+    {
+      "emoji": "🏊‍♂️",
+      "name": "man swimming",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3CA 200D 2642 FE0F",
+      "keyTerms": ["man", "man swimming", "swim"]
+    },
+    {
+      "emoji": "🏊‍♀️",
+      "name": "woman swimming",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3CA 200D 2640 FE0F",
+      "keyTerms": ["swim", "woman", "woman swimming"]
+    },
+    {
+      "emoji": "⛹",
+      "name": "person bouncing ball",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "26F9",
+      "keyTerms": ["ball", "person bouncing ball"]
+    },
+    {
+      "emoji": "⛹️‍♂️",
+      "name": "man bouncing ball",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "26F9 FE0F 200D 2642 FE0F",
+      "keyTerms": ["ball", "man", "man bouncing ball"]
+    },
+    {
+      "emoji": "⛹️‍♀️",
+      "name": "woman bouncing ball",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "26F9 FE0F 200D 2640 FE0F",
+      "keyTerms": ["ball", "woman", "woman bouncing ball"]
+    },
+    {
+      "emoji": "🏋",
+      "name": "person lifting weights",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3CB",
+      "keyTerms": ["lifter", "person lifting weights", "weight"]
+    },
+    {
+      "emoji": "🏋️‍♂️",
+      "name": "man lifting weights",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3CB FE0F 200D 2642 FE0F",
+      "keyTerms": ["man", "man lifting weights", "weight lifter"]
+    },
+    {
+      "emoji": "🏋️‍♀️",
+      "name": "woman lifting weights",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F3CB FE0F 200D 2640 FE0F",
+      "keyTerms": ["weight lifter", "woman", "woman lifting weights"]
+    },
+    {
+      "emoji": "🚴",
+      "name": "person biking",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F6B4",
+      "keyTerms": ["bicycle", "biking", "cyclist", "person biking"]
+    },
+    {
+      "emoji": "🚴‍♂️",
+      "name": "man biking",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F6B4 200D 2642 FE0F",
+      "keyTerms": ["bicycle", "biking", "cyclist", "man"]
+    },
+    {
+      "emoji": "🚴‍♀️",
+      "name": "woman biking",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F6B4 200D 2640 FE0F",
+      "keyTerms": ["bicycle", "biking", "cyclist", "woman"]
+    },
+    {
+      "emoji": "🚵",
+      "name": "person mountain biking",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F6B5",
       "keyTerms": [
-        "sauna",
-        "steam room",
-        "woman in steamy room"
+        "bicycle",
+        "bicyclist",
+        "bike",
+        "cyclist",
+        "mountain",
+        "person mountain biking"
       ]
     },
     {
-      "codes": "1F9D8",
-      "char": "🧘",
+      "emoji": "🚵‍♂️",
+      "name": "man mountain biking",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F6B5 200D 2642 FE0F",
+      "keyTerms": [
+        "bicycle",
+        "bike",
+        "cyclist",
+        "man",
+        "man mountain biking",
+        "mountain"
+      ]
+    },
+    {
+      "emoji": "🚵‍♀️",
+      "name": "woman mountain biking",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F6B5 200D 2640 FE0F",
+      "keyTerms": ["bicycle", "bike", "biking", "cyclist", "mountain", "woman"]
+    },
+    {
+      "emoji": "🤸",
+      "name": "person cartwheeling",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F938",
+      "keyTerms": ["cartwheel", "gymnastics", "person cartwheeling"]
+    },
+    {
+      "emoji": "🤸‍♂️",
+      "name": "man cartwheeling",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F938 200D 2642 FE0F",
+      "keyTerms": ["cartwheel", "gymnastics", "man", "man cartwheeling"]
+    },
+    {
+      "emoji": "🤸‍♀️",
+      "name": "woman cartwheeling",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F938 200D 2640 FE0F",
+      "keyTerms": ["cartwheel", "gymnastics", "woman", "woman cartwheeling"]
+    },
+    {
+      "emoji": "🤼",
+      "name": "people wrestling",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F93C",
+      "keyTerms": ["people wrestling", "wrestle", "wrestler"]
+    },
+    {
+      "emoji": "🤼‍♂️",
+      "name": "men wrestling",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F93C 200D 2642 FE0F",
+      "keyTerms": ["men", "men wrestling", "wrestle"]
+    },
+    {
+      "emoji": "🤼‍♀️",
+      "name": "women wrestling",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F93C 200D 2640 FE0F",
+      "keyTerms": ["women", "women wrestling", "wrestle"]
+    },
+    {
+      "emoji": "🤽",
+      "name": "person playing water polo",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F93D",
+      "keyTerms": ["person playing water polo", "polo", "water"]
+    },
+    {
+      "emoji": "🤽‍♂️",
+      "name": "man playing water polo",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F93D 200D 2642 FE0F",
+      "keyTerms": ["man", "man playing water polo", "water polo"]
+    },
+    {
+      "emoji": "🤽‍♀️",
+      "name": "woman playing water polo",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F93D 200D 2640 FE0F",
+      "keyTerms": ["water polo", "woman", "woman playing water polo"]
+    },
+    {
+      "emoji": "🤾",
+      "name": "person playing handball",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F93E",
+      "keyTerms": ["ball", "handball", "person playing handball"]
+    },
+    {
+      "emoji": "🤾‍♂️",
+      "name": "man playing handball",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F93E 200D 2642 FE0F",
+      "keyTerms": ["handball", "man", "man playing handball"]
+    },
+    {
+      "emoji": "🤾‍♀️",
+      "name": "woman playing handball",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F93E 200D 2640 FE0F",
+      "keyTerms": ["handball", "woman", "woman playing handball"]
+    },
+    {
+      "emoji": "🤹",
+      "name": "person juggling",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F939",
+      "keyTerms": ["balance", "juggle", "multitask", "person juggling", "skill"]
+    },
+    {
+      "emoji": "🤹‍♂️",
+      "name": "man juggling",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F939 200D 2642 FE0F",
+      "keyTerms": ["juggling", "man", "multitask"]
+    },
+    {
+      "emoji": "🤹‍♀️",
+      "name": "woman juggling",
+      "category": "People & Body",
+      "subcategory": "person-sport",
+      "codepoints": "1F939 200D 2640 FE0F",
+      "keyTerms": ["juggling", "multitask", "woman"]
+    },
+    {
+      "emoji": "🧘",
       "name": "person in lotus position",
       "category": "People & Body",
       "subcategory": "person-resting",
+      "codepoints": "1F9D8",
+      "keyTerms": ["meditation", "person in lotus position", "yoga", "serenity"]
+    },
+    {
+      "emoji": "🧘‍♂️",
+      "name": "man in lotus position",
+      "category": "People & Body",
+      "subcategory": "person-resting",
+      "codepoints": "1F9D8 200D 2642 FE0F",
+      "keyTerms": ["man in lotus position", "meditation", "yoga"]
+    },
+    {
+      "emoji": "🧘‍♀️",
+      "name": "woman in lotus position",
+      "category": "People & Body",
+      "subcategory": "person-resting",
+      "codepoints": "1F9D8 200D 2640 FE0F",
+      "keyTerms": ["meditation", "woman in lotus position", "yoga"]
+    },
+    {
+      "emoji": "🛀",
+      "name": "person taking bath",
+      "category": "People & Body",
+      "subcategory": "person-resting",
+      "codepoints": "1F6C0",
+      "keyTerms": ["bath", "bathtub", "person taking bath"]
+    },
+    {
+      "emoji": "🛌",
+      "name": "person in bed",
+      "category": "People & Body",
+      "subcategory": "person-resting",
+      "codepoints": "1F6CC",
+      "keyTerms": ["hotel", "person in bed", "sleep"]
+    },
+    {
+      "emoji": "🧑‍🤝‍🧑",
+      "name": "people holding hands",
+      "category": "People & Body",
+      "subcategory": "family",
+      "codepoints": "1F9D1 200D 1F91D 200D 1F9D1",
       "keyTerms": [
-        "meditation",
-        "person in lotus position",
-        "yoga",
-        "serenity"
+        "couple",
+        "hand",
+        "hold",
+        "holding hands",
+        "people holding hands",
+        "person"
       ]
     },
     {
-      "codes": "1F46D",
-      "char": "👭",
+      "emoji": "👭",
       "name": "women holding hands",
       "category": "People & Body",
       "subcategory": "family",
+      "codepoints": "1F46D",
       "keyTerms": [
         "couple",
         "hand",
@@ -3604,11 +3980,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F46B",
-      "char": "👫",
+      "emoji": "👫",
       "name": "woman and man holding hands",
       "category": "People & Body",
       "subcategory": "family",
+      "codepoints": "1F46B",
       "keyTerms": [
         "couple",
         "hand",
@@ -3620,11 +3996,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F46C",
-      "char": "👬",
+      "emoji": "👬",
       "name": "men holding hands",
       "category": "People & Body",
       "subcategory": "family",
+      "codepoints": "1F46C",
       "keyTerms": [
         "couple",
         "Gemini",
@@ -3637,2331 +4013,1775 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F48F",
-      "char": "💏",
+      "emoji": "💏",
       "name": "kiss",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "couple",
-        "kiss"
-      ]
+      "codepoints": "1F48F",
+      "keyTerms": ["couple", "kiss"]
     },
     {
-      "codes": "1F468 200D 2764 FE0F 200D 1F48B 200D 1F468",
-      "char": "👨‍❤️‍💋‍👨",
+      "emoji": "👩‍❤️‍💋‍👨",
+      "name": "kiss: woman, man",
+      "category": "People & Body",
+      "subcategory": "family",
+      "codepoints": "1F469 200D 2764 FE0F 200D 1F48B 200D 1F468",
+      "keyTerms": ["couple", "kiss", "man", "woman"]
+    },
+    {
+      "emoji": "👨‍❤️‍💋‍👨",
       "name": "kiss: man, man",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": ""
+      "codepoints": "1F468 200D 2764 FE0F 200D 1F48B 200D 1F468",
+      "keyTerms": ["couple", "kiss", "man"]
     },
     {
-      "codes": "1F469 200D 2764 FE0F 200D 1F48B 200D 1F469",
-      "char": "👩‍❤️‍💋‍👩",
+      "emoji": "👩‍❤️‍💋‍👩",
       "name": "kiss: woman, woman",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": ""
+      "codepoints": "1F469 200D 2764 FE0F 200D 1F48B 200D 1F469",
+      "keyTerms": ["couple", "kiss", "woman"]
     },
     {
-      "codes": "1F491",
-      "char": "💑",
+      "emoji": "💑",
       "name": "couple with heart",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "couple",
-        "couple with heart",
-        "love"
-      ]
+      "codepoints": "1F491",
+      "keyTerms": ["couple", "couple with heart", "love"]
     },
     {
-      "codes": "1F468 200D 2764 FE0F 200D 1F468",
-      "char": "👨‍❤️‍👨",
+      "emoji": "👩‍❤️‍👨",
+      "name": "couple with heart: woman, man",
+      "category": "People & Body",
+      "subcategory": "family",
+      "codepoints": "1F469 200D 2764 FE0F 200D 1F468",
+      "keyTerms": ["couple", "couple with heart", "love", "man", "woman"]
+    },
+    {
+      "emoji": "👨‍❤️‍👨",
       "name": "couple with heart: man, man",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "couple",
-        "couple with heart",
-        "love",
-        "man"
-      ]
+      "codepoints": "1F468 200D 2764 FE0F 200D 1F468",
+      "keyTerms": ["couple", "couple with heart", "love", "man"]
     },
     {
-      "codes": "1F469 200D 2764 FE0F 200D 1F469",
-      "char": "👩‍❤️‍👩",
+      "emoji": "👩‍❤️‍👩",
       "name": "couple with heart: woman, woman",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "couple",
-        "couple with heart",
-        "love",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 2764 FE0F 200D 1F469",
+      "keyTerms": ["couple", "couple with heart", "love", "woman"]
     },
     {
-      "codes": "1F46A",
-      "char": "👪",
+      "emoji": "👪",
       "name": "family",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "family"
-      ]
+      "codepoints": "1F46A",
+      "keyTerms": ["family"]
     },
     {
-      "codes": "1F468 200D 1F469 200D 1F466",
-      "char": "👨‍👩‍👦",
+      "emoji": "👨‍👩‍👦",
       "name": "family: man, woman, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "boy",
-        "family",
-        "man",
-        "woman"
-      ]
+      "codepoints": "1F468 200D 1F469 200D 1F466",
+      "keyTerms": ["boy", "family", "man", "woman"]
     },
     {
-      "codes": "1F468 200D 1F469 200D 1F467",
-      "char": "👨‍👩‍👧",
+      "emoji": "👨‍👩‍👧",
       "name": "family: man, woman, girl",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "family",
-        "girl",
-        "man",
-        "woman"
-      ]
+      "codepoints": "1F468 200D 1F469 200D 1F467",
+      "keyTerms": ["family", "girl", "man", "woman"]
     },
     {
-      "codes": "1F468 200D 1F469 200D 1F467 200D 1F466",
-      "char": "👨‍👩‍👧‍👦",
+      "emoji": "👨‍👩‍👧‍👦",
       "name": "family: man, woman, girl, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": ""
+      "codepoints": "1F468 200D 1F469 200D 1F467 200D 1F466",
+      "keyTerms": ["boy", "family", "girl", "man", "woman"]
     },
     {
-      "codes": "1F468 200D 1F469 200D 1F466 200D 1F466",
-      "char": "👨‍👩‍👦‍👦",
+      "emoji": "👨‍👩‍👦‍👦",
       "name": "family: man, woman, boy, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": ""
+      "codepoints": "1F468 200D 1F469 200D 1F466 200D 1F466",
+      "keyTerms": ["boy", "family", "man", "woman"]
     },
     {
-      "codes": "1F468 200D 1F469 200D 1F467 200D 1F467",
-      "char": "👨‍👩‍👧‍👧",
+      "emoji": "👨‍👩‍👧‍👧",
       "name": "family: man, woman, girl, girl",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": ""
+      "codepoints": "1F468 200D 1F469 200D 1F467 200D 1F467",
+      "keyTerms": ["family", "girl", "man", "woman"]
     },
     {
-      "codes": "1F468 200D 1F468 200D 1F466",
-      "char": "👨‍👨‍👦",
+      "emoji": "👨‍👨‍👦",
       "name": "family: man, man, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "boy",
-        "family",
-        "man"
-      ]
+      "codepoints": "1F468 200D 1F468 200D 1F466",
+      "keyTerms": ["boy", "family", "man"]
     },
     {
-      "codes": "1F468 200D 1F468 200D 1F467",
-      "char": "👨‍👨‍👧",
+      "emoji": "👨‍👨‍👧",
       "name": "family: man, man, girl",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "family",
-        "girl",
-        "man"
-      ]
+      "codepoints": "1F468 200D 1F468 200D 1F467",
+      "keyTerms": ["family", "girl", "man"]
     },
     {
-      "codes": "1F468 200D 1F468 200D 1F467 200D 1F466",
-      "char": "👨‍👨‍👧‍👦",
+      "emoji": "👨‍👨‍👧‍👦",
       "name": "family: man, man, girl, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": ""
+      "codepoints": "1F468 200D 1F468 200D 1F467 200D 1F466",
+      "keyTerms": ["boy", "family", "girl", "man"]
     },
     {
-      "codes": "1F468 200D 1F468 200D 1F466 200D 1F466",
-      "char": "👨‍👨‍👦‍👦",
+      "emoji": "👨‍👨‍👦‍👦",
       "name": "family: man, man, boy, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": ""
+      "codepoints": "1F468 200D 1F468 200D 1F466 200D 1F466",
+      "keyTerms": ["boy", "family", "man"]
     },
     {
-      "codes": "1F468 200D 1F468 200D 1F467 200D 1F467",
-      "char": "👨‍👨‍👧‍👧",
+      "emoji": "👨‍👨‍👧‍👧",
       "name": "family: man, man, girl, girl",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": ""
+      "codepoints": "1F468 200D 1F468 200D 1F467 200D 1F467",
+      "keyTerms": ["family", "girl", "man"]
     },
     {
-      "codes": "1F469 200D 1F469 200D 1F466",
-      "char": "👩‍👩‍👦",
+      "emoji": "👩‍👩‍👦",
       "name": "family: woman, woman, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "boy",
-        "family",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F469 200D 1F466",
+      "keyTerms": ["boy", "family", "woman"]
     },
     {
-      "codes": "1F469 200D 1F469 200D 1F467",
-      "char": "👩‍👩‍👧",
+      "emoji": "👩‍👩‍👧",
       "name": "family: woman, woman, girl",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "family",
-        "girl",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F469 200D 1F467",
+      "keyTerms": ["family", "girl", "woman"]
     },
     {
-      "codes": "1F469 200D 1F469 200D 1F467 200D 1F466",
-      "char": "👩‍👩‍👧‍👦",
+      "emoji": "👩‍👩‍👧‍👦",
       "name": "family: woman, woman, girl, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": ""
+      "codepoints": "1F469 200D 1F469 200D 1F467 200D 1F466",
+      "keyTerms": ["boy", "family", "girl", "woman"]
     },
     {
-      "codes": "1F469 200D 1F469 200D 1F466 200D 1F466",
-      "char": "👩‍👩‍👦‍👦",
+      "emoji": "👩‍👩‍👦‍👦",
       "name": "family: woman, woman, boy, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": ""
+      "codepoints": "1F469 200D 1F469 200D 1F466 200D 1F466",
+      "keyTerms": ["boy", "family", "woman"]
     },
     {
-      "codes": "1F469 200D 1F469 200D 1F467 200D 1F467",
-      "char": "👩‍👩‍👧‍👧",
+      "emoji": "👩‍👩‍👧‍👧",
       "name": "family: woman, woman, girl, girl",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": ""
+      "codepoints": "1F469 200D 1F469 200D 1F467 200D 1F467",
+      "keyTerms": ["family", "girl", "woman"]
     },
     {
-      "codes": "1F468 200D 1F466",
-      "char": "👨‍👦",
+      "emoji": "👨‍👦",
       "name": "family: man, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "boy",
-        "family",
-        "man"
-      ]
+      "codepoints": "1F468 200D 1F466",
+      "keyTerms": ["boy", "family", "man"]
     },
     {
-      "codes": "1F468 200D 1F466 200D 1F466",
-      "char": "👨‍👦‍👦",
+      "emoji": "👨‍👦‍👦",
       "name": "family: man, boy, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "boy",
-        "family",
-        "man"
-      ]
+      "codepoints": "1F468 200D 1F466 200D 1F466",
+      "keyTerms": ["boy", "family", "man"]
     },
     {
-      "codes": "1F468 200D 1F467",
-      "char": "👨‍👧",
+      "emoji": "👨‍👧",
       "name": "family: man, girl",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "family",
-        "girl",
-        "man"
-      ]
+      "codepoints": "1F468 200D 1F467",
+      "keyTerms": ["family", "girl", "man"]
     },
     {
-      "codes": "1F468 200D 1F467 200D 1F466",
-      "char": "👨‍👧‍👦",
+      "emoji": "👨‍👧‍👦",
       "name": "family: man, girl, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "boy",
-        "family",
-        "girl",
-        "man"
-      ]
+      "codepoints": "1F468 200D 1F467 200D 1F466",
+      "keyTerms": ["boy", "family", "girl", "man"]
     },
     {
-      "codes": "1F468 200D 1F467 200D 1F467",
-      "char": "👨‍👧‍👧",
+      "emoji": "👨‍👧‍👧",
       "name": "family: man, girl, girl",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "family",
-        "girl",
-        "man"
-      ]
+      "codepoints": "1F468 200D 1F467 200D 1F467",
+      "keyTerms": ["family", "girl", "man"]
     },
     {
-      "codes": "1F469 200D 1F466",
-      "char": "👩‍👦",
+      "emoji": "👩‍👦",
       "name": "family: woman, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "boy",
-        "family",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F466",
+      "keyTerms": ["boy", "family", "woman"]
     },
     {
-      "codes": "1F469 200D 1F466 200D 1F466",
-      "char": "👩‍👦‍👦",
+      "emoji": "👩‍👦‍👦",
       "name": "family: woman, boy, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "boy",
-        "family",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F466 200D 1F466",
+      "keyTerms": ["boy", "family", "woman"]
     },
     {
-      "codes": "1F469 200D 1F467",
-      "char": "👩‍👧",
+      "emoji": "👩‍👧",
       "name": "family: woman, girl",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "family",
-        "girl",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F467",
+      "keyTerms": ["family", "girl", "woman"]
     },
     {
-      "codes": "1F469 200D 1F467 200D 1F466",
-      "char": "👩‍👧‍👦",
+      "emoji": "👩‍👧‍👦",
       "name": "family: woman, girl, boy",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "boy",
-        "family",
-        "girl",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F467 200D 1F466",
+      "keyTerms": ["boy", "family", "girl", "woman"]
     },
     {
-      "codes": "1F469 200D 1F467 200D 1F467",
-      "char": "👩‍👧‍👧",
+      "emoji": "👩‍👧‍👧",
       "name": "family: woman, girl, girl",
       "category": "People & Body",
       "subcategory": "family",
-      "keyTerms": [
-        "family",
-        "girl",
-        "woman"
-      ]
+      "codepoints": "1F469 200D 1F467 200D 1F467",
+      "keyTerms": ["family", "girl", "woman"]
+    },
+    {
+      "emoji": "🗣",
+      "name": "speaking head",
+      "category": "People & Body",
+      "subcategory": "person-symbol",
+      "codepoints": "1F5E3",
+      "keyTerms": ["face", "head", "silhouette", "speak", "speaking"]
+    },
+    {
+      "emoji": "👤",
+      "name": "bust in silhouette",
+      "category": "People & Body",
+      "subcategory": "person-symbol",
+      "codepoints": "1F464",
+      "keyTerms": ["bust", "bust in silhouette", "silhouette"]
+    },
+    {
+      "emoji": "👥",
+      "name": "busts in silhouette",
+      "category": "People & Body",
+      "subcategory": "person-symbol",
+      "codepoints": "1F465",
+      "keyTerms": ["bust", "busts in silhouette", "silhouette"]
+    },
+    {
+      "emoji": "👣",
+      "name": "footprints",
+      "category": "People & Body",
+      "subcategory": "person-symbol",
+      "codepoints": "1F463",
+      "keyTerms": ["clothing", "footprint", "footprints", "print"]
     }
   ],
   "nature": [
     {
-      "codes": "1F435",
-      "char": "🐵",
+      "emoji": "🐵",
       "name": "monkey face",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "face",
-        "monkey"
-      ]
+      "codepoints": "1F435",
+      "keyTerms": ["face", "monkey"]
     },
     {
-      "codes": "1F412",
-      "char": "🐒",
+      "emoji": "🐒",
       "name": "monkey",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "monkey"
-      ]
+      "codepoints": "1F412",
+      "keyTerms": ["monkey"]
     },
     {
-      "codes": "1F98D",
-      "char": "🦍",
+      "emoji": "🦍",
       "name": "gorilla",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "gorilla"
-      ]
+      "codepoints": "1F98D",
+      "keyTerms": ["gorilla"]
     },
     {
-      "codes": "1F436",
-      "char": "🐶",
+      "emoji": "🦧",
+      "name": "orangutan",
+      "category": "Animals & Nature",
+      "subcategory": "animal-mammal",
+      "codepoints": "1F9A7",
+      "keyTerms": ["ape", "orangutan"]
+    },
+    {
+      "emoji": "🐶",
       "name": "dog face",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "dog",
-        "face",
-        "pet"
-      ]
+      "codepoints": "1F436",
+      "keyTerms": ["dog", "face", "pet"]
     },
     {
-      "codes": "1F415",
-      "char": "🐕",
+      "emoji": "🐕",
       "name": "dog",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "dog",
-        "pet"
-      ]
+      "codepoints": "1F415",
+      "keyTerms": ["dog", "pet"]
     },
     {
-      "codes": "1F429",
-      "char": "🐩",
+      "emoji": "🦮",
+      "name": "guide dog",
+      "category": "Animals & Nature",
+      "subcategory": "animal-mammal",
+      "codepoints": "1F9AE",
+      "keyTerms": ["accessibility", "blind", "guide", "guide dog"]
+    },
+    {
+      "emoji": "🐕‍🦺",
+      "name": "service dog",
+      "category": "Animals & Nature",
+      "subcategory": "animal-mammal",
+      "codepoints": "1F415 200D 1F9BA",
+      "keyTerms": ["accessibility", "assistance", "dog", "service"]
+    },
+    {
+      "emoji": "🐩",
       "name": "poodle",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "dog",
-        "poodle"
-      ]
+      "codepoints": "1F429",
+      "keyTerms": ["dog", "poodle"]
     },
     {
-      "codes": "1F43A",
-      "char": "🐺",
+      "emoji": "🐺",
       "name": "wolf",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "face",
-        "wolf"
-      ]
+      "codepoints": "1F43A",
+      "keyTerms": ["face", "wolf"]
     },
     {
-      "codes": "1F98A",
-      "char": "🦊",
+      "emoji": "🦊",
       "name": "fox",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "face",
-        "fox"
-      ]
+      "codepoints": "1F98A",
+      "keyTerms": ["face", "fox"]
     },
     {
-      "codes": "1F99D",
-      "char": "🦝",
+      "emoji": "🦝",
       "name": "raccoon",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "curious",
-        "raccoon",
-        "sly"
-      ]
+      "codepoints": "1F99D",
+      "keyTerms": ["curious", "raccoon", "sly"]
     },
     {
-      "codes": "1F431",
-      "char": "🐱",
+      "emoji": "🐱",
       "name": "cat face",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "cat",
-        "face",
-        "pet"
-      ]
+      "codepoints": "1F431",
+      "keyTerms": ["cat", "face", "pet"]
     },
     {
-      "codes": "1F408",
-      "char": "🐈",
+      "emoji": "🐈",
       "name": "cat",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "cat",
-        "pet"
-      ]
+      "codepoints": "1F408",
+      "keyTerms": ["cat", "pet"]
     },
     {
-      "codes": "1F981",
-      "char": "🦁",
+      "emoji": "🦁",
       "name": "lion",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "face",
-        "Leo",
-        "lion",
-        "zodiac"
-      ]
+      "codepoints": "1F981",
+      "keyTerms": ["face", "Leo", "lion", "zodiac"]
     },
     {
-      "codes": "1F42F",
-      "char": "🐯",
+      "emoji": "🐯",
       "name": "tiger face",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "face",
-        "tiger"
-      ]
+      "codepoints": "1F42F",
+      "keyTerms": ["face", "tiger"]
     },
     {
-      "codes": "1F405",
-      "char": "🐅",
+      "emoji": "🐅",
       "name": "tiger",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "tiger"
-      ]
+      "codepoints": "1F405",
+      "keyTerms": ["tiger"]
     },
     {
-      "codes": "1F406",
-      "char": "🐆",
+      "emoji": "🐆",
       "name": "leopard",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "leopard"
-      ]
+      "codepoints": "1F406",
+      "keyTerms": ["leopard"]
     },
     {
-      "codes": "1F434",
-      "char": "🐴",
+      "emoji": "🐴",
       "name": "horse face",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "face",
-        "horse"
-      ]
+      "codepoints": "1F434",
+      "keyTerms": ["face", "horse"]
     },
     {
-      "codes": "1F40E",
-      "char": "🐎",
+      "emoji": "🐎",
       "name": "horse",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "equestrian",
-        "horse",
-        "racehorse",
-        "racing"
-      ]
+      "codepoints": "1F40E",
+      "keyTerms": ["equestrian", "horse", "racehorse", "racing"]
     },
     {
-      "codes": "1F984",
-      "char": "🦄",
+      "emoji": "🦄",
       "name": "unicorn",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "face",
-        "unicorn"
-      ]
+      "codepoints": "1F984",
+      "keyTerms": ["face", "unicorn"]
     },
     {
-      "codes": "1F993",
-      "char": "🦓",
+      "emoji": "🦓",
       "name": "zebra",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "stripe",
-        "zebra"
-      ]
+      "codepoints": "1F993",
+      "keyTerms": ["stripe", "zebra"]
     },
     {
-      "codes": "1F42E",
-      "char": "🐮",
+      "emoji": "🦌",
+      "name": "deer",
+      "category": "Animals & Nature",
+      "subcategory": "animal-mammal",
+      "codepoints": "1F98C",
+      "keyTerms": ["deer"]
+    },
+    {
+      "emoji": "🐮",
       "name": "cow face",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "cow",
-        "face"
-      ]
+      "codepoints": "1F42E",
+      "keyTerms": ["cow", "face"]
     },
     {
-      "codes": "1F402",
-      "char": "🐂",
+      "emoji": "🐂",
       "name": "ox",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "bull",
-        "ox",
-        "Taurus",
-        "zodiac"
-      ]
+      "codepoints": "1F402",
+      "keyTerms": ["bull", "ox", "Taurus", "zodiac"]
     },
     {
-      "codes": "1F403",
-      "char": "🐃",
+      "emoji": "🐃",
       "name": "water buffalo",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "buffalo",
-        "water"
-      ]
+      "codepoints": "1F403",
+      "keyTerms": ["buffalo", "water"]
     },
     {
-      "codes": "1F404",
-      "char": "🐄",
+      "emoji": "🐄",
       "name": "cow",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "cow"
-      ]
+      "codepoints": "1F404",
+      "keyTerms": ["cow"]
     },
     {
-      "codes": "1F437",
-      "char": "🐷",
+      "emoji": "🐷",
       "name": "pig face",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "face",
-        "pig"
-      ]
+      "codepoints": "1F437",
+      "keyTerms": ["face", "pig"]
     },
     {
-      "codes": "1F416",
-      "char": "🐖",
+      "emoji": "🐖",
       "name": "pig",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "pig",
-        "sow"
-      ]
+      "codepoints": "1F416",
+      "keyTerms": ["pig", "sow"]
     },
     {
-      "codes": "1F417",
-      "char": "🐗",
+      "emoji": "🐗",
       "name": "boar",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "boar",
-        "pig"
-      ]
+      "codepoints": "1F417",
+      "keyTerms": ["boar", "pig"]
     },
     {
-      "codes": "1F43D",
-      "char": "🐽",
+      "emoji": "🐽",
       "name": "pig nose",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "face",
-        "nose",
-        "pig"
-      ]
+      "codepoints": "1F43D",
+      "keyTerms": ["face", "nose", "pig"]
     },
     {
-      "codes": "1F40F",
-      "char": "🐏",
+      "emoji": "🐏",
       "name": "ram",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "Aries",
-        "male",
-        "ram",
-        "sheep",
-        "zodiac"
-      ]
+      "codepoints": "1F40F",
+      "keyTerms": ["Aries", "male", "ram", "sheep", "zodiac"]
     },
     {
-      "codes": "1F411",
-      "char": "🐑",
+      "emoji": "🐑",
       "name": "ewe",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "ewe",
-        "female",
-        "sheep"
-      ]
+      "codepoints": "1F411",
+      "keyTerms": ["ewe", "female", "sheep"]
     },
     {
-      "codes": "1F410",
-      "char": "🐐",
+      "emoji": "🐐",
       "name": "goat",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "Capricorn",
-        "goat",
-        "zodiac"
-      ]
+      "codepoints": "1F410",
+      "keyTerms": ["Capricorn", "goat", "zodiac"]
     },
     {
-      "codes": "1F42A",
-      "char": "🐪",
+      "emoji": "🐪",
       "name": "camel",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "camel",
-        "dromedary",
-        "hump"
-      ]
+      "codepoints": "1F42A",
+      "keyTerms": ["camel", "dromedary", "hump"]
     },
     {
-      "codes": "1F42B",
-      "char": "🐫",
+      "emoji": "🐫",
       "name": "two-hump camel",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "bactrian",
-        "camel",
-        "hump",
-        "two-hump camel"
-      ]
+      "codepoints": "1F42B",
+      "keyTerms": ["bactrian", "camel", "hump", "two-hump camel"]
     },
     {
-      "codes": "1F999",
-      "char": "🦙",
+      "emoji": "🦙",
       "name": "llama",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "alpaca",
-        "guanaco",
-        "llama",
-        "vicuña",
-        "wool"
-      ]
+      "codepoints": "1F999",
+      "keyTerms": ["alpaca", "guanaco", "llama", "vicuña", "wool"]
     },
     {
-      "codes": "1F992",
-      "char": "🦒",
+      "emoji": "🦒",
       "name": "giraffe",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "giraffe",
-        "spots"
-      ]
+      "codepoints": "1F992",
+      "keyTerms": ["giraffe", "spots"]
     },
     {
-      "codes": "1F418",
-      "char": "🐘",
+      "emoji": "🐘",
       "name": "elephant",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "elephant"
-      ]
+      "codepoints": "1F418",
+      "keyTerms": ["elephant"]
     },
     {
-      "codes": "1F98F",
-      "char": "🦏",
+      "emoji": "🦏",
       "name": "rhinoceros",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "rhinoceros"
-      ]
+      "codepoints": "1F98F",
+      "keyTerms": ["rhinoceros"]
     },
     {
-      "codes": "1F99B",
-      "char": "🦛",
+      "emoji": "🦛",
       "name": "hippopotamus",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "hippo",
-        "hippopotamus"
-      ]
+      "codepoints": "1F99B",
+      "keyTerms": ["hippo", "hippopotamus"]
     },
     {
-      "codes": "1F42D",
-      "char": "🐭",
+      "emoji": "🐭",
       "name": "mouse face",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "face",
-        "mouse"
-      ]
+      "codepoints": "1F42D",
+      "keyTerms": ["face", "mouse"]
     },
     {
-      "codes": "1F401",
-      "char": "🐁",
+      "emoji": "🐁",
       "name": "mouse",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "mouse"
-      ]
+      "codepoints": "1F401",
+      "keyTerms": ["mouse"]
     },
     {
-      "codes": "1F400",
-      "char": "🐀",
+      "emoji": "🐀",
       "name": "rat",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "rat"
-      ]
+      "codepoints": "1F400",
+      "keyTerms": ["rat"]
     },
     {
-      "codes": "1F439",
-      "char": "🐹",
+      "emoji": "🐹",
       "name": "hamster",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "face",
-        "hamster",
-        "pet"
-      ]
+      "codepoints": "1F439",
+      "keyTerms": ["face", "hamster", "pet"]
     },
     {
-      "codes": "1F430",
-      "char": "🐰",
+      "emoji": "🐰",
       "name": "rabbit face",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "bunny",
-        "face",
-        "pet",
-        "rabbit"
-      ]
+      "codepoints": "1F430",
+      "keyTerms": ["bunny", "face", "pet", "rabbit"]
     },
     {
-      "codes": "1F407",
-      "char": "🐇",
+      "emoji": "🐇",
       "name": "rabbit",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "bunny",
-        "pet",
-        "rabbit"
-      ]
+      "codepoints": "1F407",
+      "keyTerms": ["bunny", "pet", "rabbit"]
     },
     {
-      "codes": "1F43F",
-      "char": "🐿",
+      "emoji": "🐿",
       "name": "chipmunk",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "chipmunk",
-        "squirrel"
-      ]
+      "codepoints": "1F43F",
+      "keyTerms": ["chipmunk", "squirrel"]
     },
     {
-      "codes": "1F994",
-      "char": "🦔",
+      "emoji": "🦔",
       "name": "hedgehog",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "hedgehog",
-        "spiny"
-      ]
+      "codepoints": "1F994",
+      "keyTerms": ["hedgehog", "spiny"]
     },
     {
-      "codes": "1F987",
-      "char": "🦇",
+      "emoji": "🦇",
       "name": "bat",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "bat",
-        "vampire"
-      ]
+      "codepoints": "1F987",
+      "keyTerms": ["bat", "vampire"]
     },
     {
-      "codes": "1F43B",
-      "char": "🐻",
+      "emoji": "🐻",
       "name": "bear",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "bear",
-        "face"
-      ]
+      "codepoints": "1F43B",
+      "keyTerms": ["bear", "face"]
     },
     {
-      "codes": "1F428",
-      "char": "🐨",
+      "emoji": "🐨",
       "name": "koala",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "bear",
-        "koala"
-      ]
+      "codepoints": "1F428",
+      "keyTerms": ["bear", "koala"]
     },
     {
-      "codes": "1F43C",
-      "char": "🐼",
+      "emoji": "🐼",
       "name": "panda",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "face",
-        "panda"
-      ]
+      "codepoints": "1F43C",
+      "keyTerms": ["face", "panda"]
     },
     {
-      "codes": "1F998",
-      "char": "🦘",
+      "emoji": "🦥",
+      "name": "sloth",
+      "category": "Animals & Nature",
+      "subcategory": "animal-mammal",
+      "codepoints": "1F9A5",
+      "keyTerms": ["lazy", "sloth", "slow"]
+    },
+    {
+      "emoji": "🦦",
+      "name": "otter",
+      "category": "Animals & Nature",
+      "subcategory": "animal-mammal",
+      "codepoints": "1F9A6",
+      "keyTerms": ["fishing", "otter", "playful"]
+    },
+    {
+      "emoji": "🦨",
+      "name": "skunk",
+      "category": "Animals & Nature",
+      "subcategory": "animal-mammal",
+      "codepoints": "1F9A8",
+      "keyTerms": ["skunk", "stink"]
+    },
+    {
+      "emoji": "🦘",
       "name": "kangaroo",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "Australia",
-        "joey",
-        "jump",
-        "kangaroo",
-        "marsupial"
-      ]
+      "codepoints": "1F998",
+      "keyTerms": ["Australia", "joey", "jump", "kangaroo", "marsupial"]
     },
     {
-      "codes": "1F9A1",
-      "char": "🦡",
+      "emoji": "🦡",
       "name": "badger",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "badger",
-        "honey badger",
-        "pester"
-      ]
+      "codepoints": "1F9A1",
+      "keyTerms": ["badger", "honey badger", "pester"]
     },
     {
-      "codes": "1F43E",
-      "char": "🐾",
+      "emoji": "🐾",
       "name": "paw prints",
       "category": "Animals & Nature",
       "subcategory": "animal-mammal",
-      "keyTerms": [
-        "feet",
-        "paw",
-        "paw prints",
-        "print"
-      ]
+      "codepoints": "1F43E",
+      "keyTerms": ["feet", "paw", "paw prints", "print"]
     },
     {
-      "codes": "1F983",
-      "char": "🦃",
+      "emoji": "🦃",
       "name": "turkey",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "bird",
-        "turkey"
-      ]
+      "codepoints": "1F983",
+      "keyTerms": ["bird", "turkey"]
     },
     {
-      "codes": "1F414",
-      "char": "🐔",
+      "emoji": "🐔",
       "name": "chicken",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "bird",
-        "chicken"
-      ]
+      "codepoints": "1F414",
+      "keyTerms": ["bird", "chicken"]
     },
     {
-      "codes": "1F413",
-      "char": "🐓",
+      "emoji": "🐓",
       "name": "rooster",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "bird",
-        "rooster"
-      ]
+      "codepoints": "1F413",
+      "keyTerms": ["bird", "rooster"]
     },
     {
-      "codes": "1F423",
-      "char": "🐣",
+      "emoji": "🐣",
       "name": "hatching chick",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "baby",
-        "bird",
-        "chick",
-        "hatching"
-      ]
+      "codepoints": "1F423",
+      "keyTerms": ["baby", "bird", "chick", "hatching"]
     },
     {
-      "codes": "1F424",
-      "char": "🐤",
+      "emoji": "🐤",
       "name": "baby chick",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "baby",
-        "bird",
-        "chick"
-      ]
+      "codepoints": "1F424",
+      "keyTerms": ["baby", "bird", "chick"]
     },
     {
-      "codes": "1F425",
-      "char": "🐥",
+      "emoji": "🐥",
       "name": "front-facing baby chick",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "baby",
-        "bird",
-        "chick",
-        "front-facing baby chick"
-      ]
+      "codepoints": "1F425",
+      "keyTerms": ["baby", "bird", "chick", "front-facing baby chick"]
     },
     {
-      "codes": "1F426",
-      "char": "🐦",
+      "emoji": "🐦",
       "name": "bird",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "bird"
-      ]
+      "codepoints": "1F426",
+      "keyTerms": ["bird"]
     },
     {
-      "codes": "1F427",
-      "char": "🐧",
+      "emoji": "🐧",
       "name": "penguin",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "bird",
-        "penguin"
-      ]
+      "codepoints": "1F427",
+      "keyTerms": ["bird", "penguin"]
     },
     {
-      "codes": "1F54A",
-      "char": "🕊",
+      "emoji": "🕊",
       "name": "dove",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "bird",
-        "dove",
-        "fly",
-        "peace"
-      ]
+      "codepoints": "1F54A",
+      "keyTerms": ["bird", "dove", "fly", "peace"]
     },
     {
-      "codes": "1F985",
-      "char": "🦅",
+      "emoji": "🦅",
       "name": "eagle",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "bird",
-        "eagle"
-      ]
+      "codepoints": "1F985",
+      "keyTerms": ["bird", "eagle"]
     },
     {
-      "codes": "1F986",
-      "char": "🦆",
+      "emoji": "🦆",
       "name": "duck",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "bird",
-        "duck"
-      ]
+      "codepoints": "1F986",
+      "keyTerms": ["bird", "duck"]
     },
     {
-      "codes": "1F9A2",
-      "char": "🦢",
+      "emoji": "🦢",
       "name": "swan",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "bird",
-        "cygnet",
-        "swan",
-        "ugly duckling"
-      ]
+      "codepoints": "1F9A2",
+      "keyTerms": ["bird", "cygnet", "swan", "ugly duckling"]
     },
     {
-      "codes": "1F989",
-      "char": "🦉",
+      "emoji": "🦉",
       "name": "owl",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "bird",
-        "owl",
-        "wise"
-      ]
+      "codepoints": "1F989",
+      "keyTerms": ["bird", "owl", "wise"]
     },
     {
-      "codes": "1F99A",
-      "char": "🦚",
+      "emoji": "🦩",
+      "name": "flamingo",
+      "category": "Animals & Nature",
+      "subcategory": "animal-bird",
+      "codepoints": "1F9A9",
+      "keyTerms": ["flamboyant", "flamingo", "tropical"]
+    },
+    {
+      "emoji": "🦚",
       "name": "peacock",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "bird",
-        "ostentatious",
-        "peacock",
-        "peahen",
-        "proud"
-      ]
+      "codepoints": "1F99A",
+      "keyTerms": ["bird", "ostentatious", "peacock", "peahen", "proud"]
     },
     {
-      "codes": "1F99C",
-      "char": "🦜",
+      "emoji": "🦜",
       "name": "parrot",
       "category": "Animals & Nature",
       "subcategory": "animal-bird",
-      "keyTerms": [
-        "bird",
-        "parrot",
-        "pirate",
-        "talk"
-      ]
+      "codepoints": "1F99C",
+      "keyTerms": ["bird", "parrot", "pirate", "talk"]
     },
     {
-      "codes": "1F438",
-      "char": "🐸",
+      "emoji": "🐸",
       "name": "frog",
       "category": "Animals & Nature",
       "subcategory": "animal-amphibian",
-      "keyTerms": [
-        "face",
-        "frog"
-      ]
+      "codepoints": "1F438",
+      "keyTerms": ["face", "frog"]
     },
     {
-      "codes": "1F40A",
-      "char": "🐊",
+      "emoji": "🐊",
       "name": "crocodile",
       "category": "Animals & Nature",
       "subcategory": "animal-reptile",
-      "keyTerms": [
-        "crocodile"
-      ]
+      "codepoints": "1F40A",
+      "keyTerms": ["crocodile"]
     },
     {
-      "codes": "1F422",
-      "char": "🐢",
+      "emoji": "🐢",
       "name": "turtle",
       "category": "Animals & Nature",
       "subcategory": "animal-reptile",
-      "keyTerms": [
-        "terrapin",
-        "tortoise",
-        "turtle"
-      ]
+      "codepoints": "1F422",
+      "keyTerms": ["terrapin", "tortoise", "turtle"]
     },
     {
-      "codes": "1F98E",
-      "char": "🦎",
+      "emoji": "🦎",
       "name": "lizard",
       "category": "Animals & Nature",
       "subcategory": "animal-reptile",
-      "keyTerms": [
-        "lizard",
-        "reptile"
-      ]
+      "codepoints": "1F98E",
+      "keyTerms": ["lizard", "reptile"]
     },
     {
-      "codes": "1F40D",
-      "char": "🐍",
+      "emoji": "🐍",
       "name": "snake",
       "category": "Animals & Nature",
       "subcategory": "animal-reptile",
-      "keyTerms": [
-        "bearer",
-        "Ophiuchus",
-        "serpent",
-        "snake",
-        "zodiac"
-      ]
+      "codepoints": "1F40D",
+      "keyTerms": ["bearer", "Ophiuchus", "serpent", "snake", "zodiac"]
     },
     {
-      "codes": "1F432",
-      "char": "🐲",
+      "emoji": "🐲",
       "name": "dragon face",
       "category": "Animals & Nature",
       "subcategory": "animal-reptile",
-      "keyTerms": [
-        "dragon",
-        "face",
-        "fairy tale"
-      ]
+      "codepoints": "1F432",
+      "keyTerms": ["dragon", "face", "fairy tale"]
     },
     {
-      "codes": "1F409",
-      "char": "🐉",
+      "emoji": "🐉",
       "name": "dragon",
       "category": "Animals & Nature",
       "subcategory": "animal-reptile",
-      "keyTerms": [
-        "dragon",
-        "fairy tale"
-      ]
+      "codepoints": "1F409",
+      "keyTerms": ["dragon", "fairy tale"]
     },
     {
-      "codes": "1F995",
-      "char": "🦕",
+      "emoji": "🦕",
       "name": "sauropod",
       "category": "Animals & Nature",
       "subcategory": "animal-reptile",
-      "keyTerms": [
-        "brachiosaurus",
-        "brontosaurus",
-        "diplodocus",
-        "sauropod"
-      ]
+      "codepoints": "1F995",
+      "keyTerms": ["brachiosaurus", "brontosaurus", "diplodocus", "sauropod"]
     },
     {
-      "codes": "1F996",
-      "char": "🦖",
+      "emoji": "🦖",
       "name": "T-Rex",
       "category": "Animals & Nature",
       "subcategory": "animal-reptile",
-      "keyTerms": [
-        "T-Rex",
-        "Tyrannosaurus Rex"
-      ]
+      "codepoints": "1F996",
+      "keyTerms": ["T-Rex", "Tyrannosaurus Rex"]
     },
     {
-      "codes": "1F433",
-      "char": "🐳",
+      "emoji": "🐳",
       "name": "spouting whale",
       "category": "Animals & Nature",
       "subcategory": "animal-marine",
-      "keyTerms": [
-        "face",
-        "spouting",
-        "whale"
-      ]
+      "codepoints": "1F433",
+      "keyTerms": ["face", "spouting", "whale"]
     },
     {
-      "codes": "1F40B",
-      "char": "🐋",
+      "emoji": "🐋",
       "name": "whale",
       "category": "Animals & Nature",
       "subcategory": "animal-marine",
-      "keyTerms": [
-        "whale"
-      ]
+      "codepoints": "1F40B",
+      "keyTerms": ["whale"]
     },
     {
-      "codes": "1F42C",
-      "char": "🐬",
+      "emoji": "🐬",
       "name": "dolphin",
       "category": "Animals & Nature",
       "subcategory": "animal-marine",
-      "keyTerms": [
-        "dolphin",
-        "flipper"
-      ]
+      "codepoints": "1F42C",
+      "keyTerms": ["dolphin", "flipper"]
     },
     {
-      "codes": "1F41F",
-      "char": "🐟",
+      "emoji": "🐟",
       "name": "fish",
       "category": "Animals & Nature",
       "subcategory": "animal-marine",
-      "keyTerms": [
-        "fish",
-        "Pisces",
-        "zodiac"
-      ]
+      "codepoints": "1F41F",
+      "keyTerms": ["fish", "Pisces", "zodiac"]
     },
     {
-      "codes": "1F420",
-      "char": "🐠",
+      "emoji": "🐠",
       "name": "tropical fish",
       "category": "Animals & Nature",
       "subcategory": "animal-marine",
-      "keyTerms": [
-        "fish",
-        "tropical"
-      ]
+      "codepoints": "1F420",
+      "keyTerms": ["fish", "tropical"]
     },
     {
-      "codes": "1F421",
-      "char": "🐡",
+      "emoji": "🐡",
       "name": "blowfish",
       "category": "Animals & Nature",
       "subcategory": "animal-marine",
-      "keyTerms": [
-        "blowfish",
-        "fish"
-      ]
+      "codepoints": "1F421",
+      "keyTerms": ["blowfish", "fish"]
     },
     {
-      "codes": "1F988",
-      "char": "🦈",
+      "emoji": "🦈",
       "name": "shark",
       "category": "Animals & Nature",
       "subcategory": "animal-marine",
-      "keyTerms": [
-        "fish",
-        "shark"
-      ]
+      "codepoints": "1F988",
+      "keyTerms": ["fish", "shark"]
     },
     {
-      "codes": "1F419",
-      "char": "🐙",
+      "emoji": "🐙",
       "name": "octopus",
       "category": "Animals & Nature",
       "subcategory": "animal-marine",
-      "keyTerms": [
-        "octopus"
-      ]
+      "codepoints": "1F419",
+      "keyTerms": ["octopus"]
     },
     {
-      "codes": "1F41A",
-      "char": "🐚",
+      "emoji": "🐚",
       "name": "spiral shell",
       "category": "Animals & Nature",
       "subcategory": "animal-marine",
-      "keyTerms": [
-        "shell",
-        "spiral"
-      ]
+      "codepoints": "1F41A",
+      "keyTerms": ["shell", "spiral"]
     },
     {
-      "codes": "1F40C",
-      "char": "🐌",
+      "emoji": "🐌",
       "name": "snail",
       "category": "Animals & Nature",
       "subcategory": "animal-bug",
-      "keyTerms": [
-        "snail"
-      ]
+      "codepoints": "1F40C",
+      "keyTerms": ["snail"]
     },
     {
-      "codes": "1F98B",
-      "char": "🦋",
+      "emoji": "🦋",
       "name": "butterfly",
       "category": "Animals & Nature",
       "subcategory": "animal-bug",
-      "keyTerms": [
-        "butterfly",
-        "insect",
-        "pretty"
-      ]
+      "codepoints": "1F98B",
+      "keyTerms": ["butterfly", "insect", "pretty"]
     },
     {
-      "codes": "1F41B",
-      "char": "🐛",
+      "emoji": "🐛",
       "name": "bug",
       "category": "Animals & Nature",
       "subcategory": "animal-bug",
-      "keyTerms": [
-        "bug",
-        "insect"
-      ]
+      "codepoints": "1F41B",
+      "keyTerms": ["bug", "insect"]
     },
     {
-      "codes": "1F41C",
-      "char": "🐜",
+      "emoji": "🐜",
       "name": "ant",
       "category": "Animals & Nature",
       "subcategory": "animal-bug",
-      "keyTerms": [
-        "ant",
-        "insect"
-      ]
+      "codepoints": "1F41C",
+      "keyTerms": ["ant", "insect"]
     },
     {
-      "codes": "1F41D",
-      "char": "🐝",
+      "emoji": "🐝",
       "name": "honeybee",
       "category": "Animals & Nature",
       "subcategory": "animal-bug",
+      "codepoints": "1F41D",
+      "keyTerms": ["bee", "honeybee", "insect"]
+    },
+    {
+      "emoji": "🐞",
+      "name": "lady beetle",
+      "category": "Animals & Nature",
+      "subcategory": "animal-bug",
+      "codepoints": "1F41E",
+      "keyTerms": ["beetle", "insect", "lady beetle", "ladybird", "ladybug"]
+    },
+    {
+      "emoji": "🦗",
+      "name": "cricket",
+      "category": "Animals & Nature",
+      "subcategory": "animal-bug",
+      "codepoints": "1F997",
+      "keyTerms": ["cricket", "grasshopper", "Orthoptera"]
+    },
+    {
+      "emoji": "🕷",
+      "name": "spider",
+      "category": "Animals & Nature",
+      "subcategory": "animal-bug",
+      "codepoints": "1F577",
+      "keyTerms": ["insect", "spider"]
+    },
+    {
+      "emoji": "🕸",
+      "name": "spider web",
+      "category": "Animals & Nature",
+      "subcategory": "animal-bug",
+      "codepoints": "1F578",
+      "keyTerms": ["spider", "web"]
+    },
+    {
+      "emoji": "🦂",
+      "name": "scorpion",
+      "category": "Animals & Nature",
+      "subcategory": "animal-bug",
+      "codepoints": "1F982",
+      "keyTerms": ["scorpio", "Scorpio", "scorpion", "zodiac"]
+    },
+    {
+      "emoji": "🦟",
+      "name": "mosquito",
+      "category": "Animals & Nature",
+      "subcategory": "animal-bug",
+      "codepoints": "1F99F",
       "keyTerms": [
-        "bee",
-        "honeybee",
+        "disease",
+        "fever",
+        "malaria",
+        "mosquito",
+        "pest",
+        "virus",
         "insect"
       ]
     },
     {
-      "codes": "1F41E",
-      "char": "🐞",
-      "name": "lady beetle",
-      "category": "Animals & Nature",
-      "subcategory": "animal-bug",
-      "keyTerms": [
-        "beetle",
-        "insect",
-        "lady beetle",
-        "ladybird",
-        "ladybug"
-      ]
-    },
-    {
-      "codes": "1F997",
-      "char": "🦗",
-      "name": "cricket",
-      "category": "Animals & Nature",
-      "subcategory": "animal-bug",
-      "keyTerms": [
-        "cricket",
-        "grasshopper",
-        "Orthoptera"
-      ]
-    },
-    {
-      "codes": "1F577",
-      "char": "🕷",
-      "name": "spider",
-      "category": "Animals & Nature",
-      "subcategory": "animal-bug",
-      "keyTerms": [
-        "insect",
-        "spider"
-      ]
-    },
-    {
-      "codes": "1F578",
-      "char": "🕸",
-      "name": "spider web",
-      "category": "Animals & Nature",
-      "subcategory": "animal-bug",
-      "keyTerms": [
-        "spider",
-        "web"
-      ]
-    },
-    {
-      "codes": "1F982",
-      "char": "🦂",
-      "name": "scorpion",
-      "category": "Animals & Nature",
-      "subcategory": "animal-bug",
-      "keyTerms": [
-        "scorpio",
-        "Scorpio",
-        "scorpion",
-        "zodiac"
-      ]
-    },
-    {
-      "codes": "1F99F",
-      "char": "🦟",
-      "name": "mosquito",
-      "category": "Animals & Nature",
-      "subcategory": "animal-bug",
-      "keyTerms": [
-        "disease",
-        "fever",
-        "insect",
-        "malaria",
-        "mosquito",
-        "virus"
-      ]
-    },
-    {
-      "codes": "1F9A0",
-      "char": "🦠",
+      "emoji": "🦠",
       "name": "microbe",
       "category": "Animals & Nature",
       "subcategory": "animal-bug",
-      "keyTerms": [
-        "amoeba",
-        "bacteria",
-        "microbe",
-        "virus"
-      ]
+      "codepoints": "1F9A0",
+      "keyTerms": ["amoeba", "bacteria", "microbe", "virus"]
     },
     {
-      "codes": "1F490",
-      "char": "💐",
+      "emoji": "💐",
       "name": "bouquet",
       "category": "Animals & Nature",
       "subcategory": "plant-flower",
-      "keyTerms": [
-        "bouquet",
-        "flower"
-      ]
+      "codepoints": "1F490",
+      "keyTerms": ["bouquet", "flower"]
     },
     {
-      "codes": "1F338",
-      "char": "🌸",
+      "emoji": "🌸",
       "name": "cherry blossom",
       "category": "Animals & Nature",
       "subcategory": "plant-flower",
-      "keyTerms": [
-        "blossom",
-        "cherry",
-        "flower"
-      ]
+      "codepoints": "1F338",
+      "keyTerms": ["blossom", "cherry", "flower"]
     },
     {
-      "codes": "1F4AE",
-      "char": "💮",
+      "emoji": "💮",
       "name": "white flower",
       "category": "Animals & Nature",
       "subcategory": "plant-flower",
-      "keyTerms": [
-        "flower",
-        "white flower"
-      ]
+      "codepoints": "1F4AE",
+      "keyTerms": ["flower", "white flower"]
     },
     {
-      "codes": "1F3F5",
-      "char": "🏵",
+      "emoji": "🏵",
       "name": "rosette",
       "category": "Animals & Nature",
       "subcategory": "plant-flower",
-      "keyTerms": [
-        "plant",
-        "rosette"
-      ]
+      "codepoints": "1F3F5",
+      "keyTerms": ["plant", "rosette"]
     },
     {
-      "codes": "1F339",
-      "char": "🌹",
+      "emoji": "🌹",
       "name": "rose",
       "category": "Animals & Nature",
       "subcategory": "plant-flower",
-      "keyTerms": [
-        "flower",
-        "rose"
-      ]
+      "codepoints": "1F339",
+      "keyTerms": ["flower", "rose"]
     },
     {
-      "codes": "1F940",
-      "char": "🥀",
+      "emoji": "🥀",
       "name": "wilted flower",
       "category": "Animals & Nature",
       "subcategory": "plant-flower",
-      "keyTerms": [
-        "flower",
-        "wilted"
-      ]
+      "codepoints": "1F940",
+      "keyTerms": ["flower", "wilted"]
     },
     {
-      "codes": "1F33A",
-      "char": "🌺",
+      "emoji": "🌺",
       "name": "hibiscus",
       "category": "Animals & Nature",
       "subcategory": "plant-flower",
-      "keyTerms": [
-        "flower",
-        "hibiscus"
-      ]
+      "codepoints": "1F33A",
+      "keyTerms": ["flower", "hibiscus"]
     },
     {
-      "codes": "1F33B",
-      "char": "🌻",
+      "emoji": "🌻",
       "name": "sunflower",
       "category": "Animals & Nature",
       "subcategory": "plant-flower",
-      "keyTerms": [
-        "flower",
-        "sun",
-        "sunflower"
-      ]
+      "codepoints": "1F33B",
+      "keyTerms": ["flower", "sun", "sunflower"]
     },
     {
-      "codes": "1F33C",
-      "char": "🌼",
+      "emoji": "🌼",
       "name": "blossom",
       "category": "Animals & Nature",
       "subcategory": "plant-flower",
-      "keyTerms": [
-        "blossom",
-        "flower"
-      ]
+      "codepoints": "1F33C",
+      "keyTerms": ["blossom", "flower"]
     },
     {
-      "codes": "1F337",
-      "char": "🌷",
+      "emoji": "🌷",
       "name": "tulip",
       "category": "Animals & Nature",
       "subcategory": "plant-flower",
-      "keyTerms": [
-        "flower",
-        "tulip"
-      ]
+      "codepoints": "1F337",
+      "keyTerms": ["flower", "tulip"]
     },
     {
-      "codes": "1F331",
-      "char": "🌱",
+      "emoji": "🌱",
       "name": "seedling",
       "category": "Animals & Nature",
       "subcategory": "plant-other",
-      "keyTerms": [
-        "seedling",
-        "young"
-      ]
+      "codepoints": "1F331",
+      "keyTerms": ["seedling", "young"]
     },
     {
-      "codes": "1F332",
-      "char": "🌲",
+      "emoji": "🌲",
       "name": "evergreen tree",
       "category": "Animals & Nature",
       "subcategory": "plant-other",
-      "keyTerms": [
-        "evergreen tree",
-        "tree"
-      ]
+      "codepoints": "1F332",
+      "keyTerms": ["evergreen tree", "tree"]
     },
     {
-      "codes": "1F333",
-      "char": "🌳",
+      "emoji": "🌳",
       "name": "deciduous tree",
       "category": "Animals & Nature",
       "subcategory": "plant-other",
-      "keyTerms": [
-        "deciduous",
-        "shedding",
-        "tree"
-      ]
+      "codepoints": "1F333",
+      "keyTerms": ["deciduous", "shedding", "tree"]
     },
     {
-      "codes": "1F334",
-      "char": "🌴",
+      "emoji": "🌴",
       "name": "palm tree",
       "category": "Animals & Nature",
       "subcategory": "plant-other",
-      "keyTerms": [
-        "palm",
-        "tree"
-      ]
+      "codepoints": "1F334",
+      "keyTerms": ["palm", "tree"]
     },
     {
-      "codes": "1F335",
-      "char": "🌵",
+      "emoji": "🌵",
       "name": "cactus",
       "category": "Animals & Nature",
       "subcategory": "plant-other",
-      "keyTerms": [
-        "cactus",
-        "plant"
-      ]
+      "codepoints": "1F335",
+      "keyTerms": ["cactus", "plant"]
     },
     {
-      "codes": "1F33E",
-      "char": "🌾",
+      "emoji": "🌾",
       "name": "sheaf of rice",
       "category": "Animals & Nature",
       "subcategory": "plant-other",
-      "keyTerms": [
-        "ear",
-        "grain",
-        "rice",
-        "sheaf of rice"
-      ]
+      "codepoints": "1F33E",
+      "keyTerms": ["ear", "grain", "rice", "sheaf of rice"]
     },
     {
-      "codes": "1F33F",
-      "char": "🌿",
+      "emoji": "🌿",
       "name": "herb",
       "category": "Animals & Nature",
       "subcategory": "plant-other",
-      "keyTerms": [
-        "herb",
-        "leaf"
-      ]
+      "codepoints": "1F33F",
+      "keyTerms": ["herb", "leaf"]
     },
     {
-      "codes": "2618",
-      "char": "☘",
+      "emoji": "☘",
       "name": "shamrock",
       "category": "Animals & Nature",
       "subcategory": "plant-other",
-      "keyTerms": [
-        "plant",
-        "shamrock"
-      ]
+      "codepoints": 2618,
+      "keyTerms": ["plant", "shamrock"]
     },
     {
-      "codes": "1F340",
-      "char": "🍀",
+      "emoji": "🍀",
       "name": "four leaf clover",
       "category": "Animals & Nature",
       "subcategory": "plant-other",
-      "keyTerms": [
-        "4",
-        "clover",
-        "four",
-        "four-leaf clover",
-        "leaf"
-      ]
+      "codepoints": "1F340",
+      "keyTerms": ["4", "clover", "four", "four-leaf clover", "leaf"]
     },
     {
-      "codes": "1F341",
-      "char": "🍁",
+      "emoji": "🍁",
       "name": "maple leaf",
       "category": "Animals & Nature",
       "subcategory": "plant-other",
-      "keyTerms": [
-        "falling",
-        "leaf",
-        "maple"
-      ]
+      "codepoints": "1F341",
+      "keyTerms": ["falling", "leaf", "maple"]
     },
     {
-      "codes": "1F342",
-      "char": "🍂",
+      "emoji": "🍂",
       "name": "fallen leaf",
       "category": "Animals & Nature",
       "subcategory": "plant-other",
-      "keyTerms": [
-        "fallen leaf",
-        "falling",
-        "leaf"
-      ]
+      "codepoints": "1F342",
+      "keyTerms": ["fallen leaf", "falling", "leaf"]
     },
     {
-      "codes": "1F343",
-      "char": "🍃",
+      "emoji": "🍃",
       "name": "leaf fluttering in wind",
       "category": "Animals & Nature",
       "subcategory": "plant-other",
-      "keyTerms": [
-        "blow",
-        "flutter",
-        "leaf",
-        "leaf fluttering in wind",
-        "wind"
-      ]
+      "codepoints": "1F343",
+      "keyTerms": ["blow", "flutter", "leaf", "leaf fluttering in wind", "wind"]
     }
   ],
   "food": [
     {
-      "codes": "1F347",
-      "char": "🍇",
+      "emoji": "🍇",
       "name": "grapes",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "fruit",
-        "grape",
-        "grapes"
-      ]
+      "codepoints": "1F347",
+      "keyTerms": ["fruit", "grape", "grapes"]
     },
     {
-      "codes": "1F348",
-      "char": "🍈",
+      "emoji": "🍈",
       "name": "melon",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "fruit",
-        "melon"
-      ]
+      "codepoints": "1F348",
+      "keyTerms": ["fruit", "melon"]
     },
     {
-      "codes": "1F349",
-      "char": "🍉",
+      "emoji": "🍉",
       "name": "watermelon",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "fruit",
-        "watermelon"
-      ]
+      "codepoints": "1F349",
+      "keyTerms": ["fruit", "watermelon"]
     },
     {
-      "codes": "1F34A",
-      "char": "🍊",
+      "emoji": "🍊",
       "name": "tangerine",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "fruit",
-        "orange",
-        "tangerine"
-      ]
+      "codepoints": "1F34A",
+      "keyTerms": ["fruit", "orange", "tangerine"]
     },
     {
-      "codes": "1F34B",
-      "char": "🍋",
+      "emoji": "🍋",
       "name": "lemon",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "citrus",
-        "fruit",
-        "lemon"
-      ]
+      "codepoints": "1F34B",
+      "keyTerms": ["citrus", "fruit", "lemon"]
     },
     {
-      "codes": "1F34C",
-      "char": "🍌",
+      "emoji": "🍌",
       "name": "banana",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "banana",
-        "fruit"
-      ]
+      "codepoints": "1F34C",
+      "keyTerms": ["banana", "fruit"]
     },
     {
-      "codes": "1F34D",
-      "char": "🍍",
+      "emoji": "🍍",
       "name": "pineapple",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "fruit",
-        "pineapple"
-      ]
+      "codepoints": "1F34D",
+      "keyTerms": ["fruit", "pineapple"]
     },
     {
-      "codes": "1F96D",
-      "char": "🥭",
+      "emoji": "🥭",
       "name": "mango",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "fruit",
-        "mango",
-        "tropical",
-        "shaker"
-      ]
+      "codepoints": "1F96D",
+      "keyTerms": ["fruit", "mango", "tropical", "shaker"]
     },
     {
-      "codes": "1F34E",
-      "char": "🍎",
+      "emoji": "🍎",
       "name": "red apple",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "apple",
-        "fruit",
-        "red"
-      ]
+      "codepoints": "1F34E",
+      "keyTerms": ["apple", "fruit", "red"]
     },
     {
-      "codes": "1F34F",
-      "char": "🍏",
+      "emoji": "🍏",
       "name": "green apple",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "apple",
-        "fruit",
-        "green"
-      ]
+      "codepoints": "1F34F",
+      "keyTerms": ["apple", "fruit", "green"]
     },
     {
-      "codes": "1F350",
-      "char": "🍐",
+      "emoji": "🍐",
       "name": "pear",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "fruit",
-        "pear"
-      ]
+      "codepoints": "1F350",
+      "keyTerms": ["fruit", "pear"]
     },
     {
-      "codes": "1F351",
-      "char": "🍑",
+      "emoji": "🍑",
       "name": "peach",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "fruit",
-        "peach"
-      ]
+      "codepoints": "1F351",
+      "keyTerms": ["fruit", "peach"]
     },
     {
-      "codes": "1F352",
-      "char": "🍒",
+      "emoji": "🍒",
       "name": "cherries",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "berries",
-        "cherries",
-        "cherry",
-        "fruit",
-        "red"
-      ]
+      "codepoints": "1F352",
+      "keyTerms": ["berries", "cherries", "cherry", "fruit", "red"]
     },
     {
-      "codes": "1F353",
-      "char": "🍓",
+      "emoji": "🍓",
       "name": "strawberry",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "berry",
-        "fruit",
-        "strawberry"
-      ]
+      "codepoints": "1F353",
+      "keyTerms": ["berry", "fruit", "strawberry"]
     },
     {
-      "codes": "1F95D",
-      "char": "🥝",
+      "emoji": "🥝",
       "name": "kiwi fruit",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "food",
-        "fruit",
-        "kiwi"
-      ]
+      "codepoints": "1F95D",
+      "keyTerms": ["food", "fruit", "kiwi"]
     },
     {
-      "codes": "1F345",
-      "char": "🍅",
+      "emoji": "🍅",
       "name": "tomato",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "fruit",
-        "tomato",
-        "vegetable"
-      ]
+      "codepoints": "1F345",
+      "keyTerms": ["fruit", "tomato", "vegetable"]
     },
     {
-      "codes": "1F965",
-      "char": "🥥",
+      "emoji": "🥥",
       "name": "coconut",
       "category": "Food & Drink",
       "subcategory": "food-fruit",
-      "keyTerms": [
-        "coconut",
-        "palm",
-        "piña colada"
-      ]
+      "codepoints": "1F965",
+      "keyTerms": ["coconut", "palm", "piña colada"]
     },
     {
-      "codes": "1F951",
-      "char": "🥑",
+      "emoji": "🥑",
       "name": "avocado",
       "category": "Food & Drink",
       "subcategory": "food-vegetable",
-      "keyTerms": [
-        "avocado",
-        "food",
-        "fruit"
-      ]
+      "codepoints": "1F951",
+      "keyTerms": ["avocado", "food", "fruit"]
     },
     {
-      "codes": "1F346",
-      "char": "🍆",
+      "emoji": "🍆",
       "name": "eggplant",
       "category": "Food & Drink",
       "subcategory": "food-vegetable",
-      "keyTerms": [
-        "aubergine",
-        "eggplant",
-        "vegetable"
-      ]
+      "codepoints": "1F346",
+      "keyTerms": ["aubergine", "eggplant", "vegetable"]
     },
     {
-      "codes": "1F954",
-      "char": "🥔",
+      "emoji": "🥔",
       "name": "potato",
       "category": "Food & Drink",
       "subcategory": "food-vegetable",
-      "keyTerms": [
-        "food",
-        "potato",
-        "vegetable"
-      ]
+      "codepoints": "1F954",
+      "keyTerms": ["food", "potato", "vegetable"]
     },
     {
-      "codes": "1F955",
-      "char": "🥕",
+      "emoji": "🥕",
       "name": "carrot",
       "category": "Food & Drink",
       "subcategory": "food-vegetable",
-      "keyTerms": [
-        "carrot",
-        "food",
-        "vegetable"
-      ]
+      "codepoints": "1F955",
+      "keyTerms": ["carrot", "food", "vegetable"]
     },
     {
-      "codes": "1F33D",
-      "char": "🌽",
+      "emoji": "🌽",
       "name": "ear of corn",
       "category": "Food & Drink",
       "subcategory": "food-vegetable",
-      "keyTerms": [
-        "corn",
-        "ear",
-        "ear of corn",
-        "maize",
-        "maze"
-      ]
+      "codepoints": "1F33D",
+      "keyTerms": ["corn", "ear", "ear of corn", "maize", "maze"]
     },
     {
-      "codes": "1F336",
-      "char": "🌶",
+      "emoji": "🌶",
       "name": "hot pepper",
       "category": "Food & Drink",
       "subcategory": "food-vegetable",
-      "keyTerms": [
-        "hot",
-        "pepper"
-      ]
+      "codepoints": "1F336",
+      "keyTerms": ["hot", "pepper"]
     },
     {
-      "codes": "1F952",
-      "char": "🥒",
+      "emoji": "🥒",
       "name": "cucumber",
       "category": "Food & Drink",
       "subcategory": "food-vegetable",
-      "keyTerms": [
-        "cucumber",
-        "food",
-        "pickle",
-        "vegetable"
-      ]
+      "codepoints": "1F952",
+      "keyTerms": ["cucumber", "food", "pickle", "vegetable"]
     },
     {
-      "codes": "1F96C",
-      "char": "🥬",
+      "emoji": "🥬",
       "name": "leafy green",
       "category": "Food & Drink",
       "subcategory": "food-vegetable",
-      "keyTerms": [
-        "bok choy",
-        "cabbage",
-        "kale",
-        "leafy green",
-        "lettuce"
-      ]
+      "codepoints": "1F96C",
+      "keyTerms": ["bok choy", "cabbage", "kale", "leafy green", "lettuce"]
     },
     {
-      "codes": "1F966",
-      "char": "🥦",
+      "emoji": "🥦",
       "name": "broccoli",
       "category": "Food & Drink",
       "subcategory": "food-vegetable",
-      "keyTerms": [
-        "broccoli",
-        "wild cabbage"
-      ]
+      "codepoints": "1F966",
+      "keyTerms": ["broccoli", "wild cabbage"]
     },
     {
-      "codes": "1F344",
-      "char": "🍄",
+      "emoji": "🧄",
+      "name": "garlic",
+      "category": "Food & Drink",
+      "subcategory": "food-vegetable",
+      "codepoints": "1F9C4",
+      "keyTerms": ["flavoring", "garlic"]
+    },
+    {
+      "emoji": "🧅",
+      "name": "onion",
+      "category": "Food & Drink",
+      "subcategory": "food-vegetable",
+      "codepoints": "1F9C5",
+      "keyTerms": ["flavoring", "onion"]
+    },
+    {
+      "emoji": "🍄",
       "name": "mushroom",
       "category": "Food & Drink",
       "subcategory": "food-vegetable",
-      "keyTerms": [
-        "mushroom",
-        "toadstool"
-      ]
+      "codepoints": "1F344",
+      "keyTerms": ["mushroom", "toadstool"]
     },
     {
-      "codes": "1F95C",
-      "char": "🥜",
+      "emoji": "🥜",
       "name": "peanuts",
       "category": "Food & Drink",
       "subcategory": "food-vegetable",
-      "keyTerms": [
-        "food",
-        "nut",
-        "peanut",
-        "peanuts",
-        "vegetable"
-      ]
+      "codepoints": "1F95C",
+      "keyTerms": ["food", "nut", "peanut", "peanuts", "vegetable"]
     },
     {
-      "codes": "1F330",
-      "char": "🌰",
+      "emoji": "🌰",
       "name": "chestnut",
       "category": "Food & Drink",
       "subcategory": "food-vegetable",
-      "keyTerms": [
-        "chestnut",
-        "plant"
-      ]
+      "codepoints": "1F330",
+      "keyTerms": ["chestnut", "plant"]
     },
     {
-      "codes": "1F35E",
-      "char": "🍞",
+      "emoji": "🍞",
       "name": "bread",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "bread",
-        "loaf"
-      ]
+      "codepoints": "1F35E",
+      "keyTerms": ["bread", "loaf"]
     },
     {
-      "codes": "1F950",
-      "char": "🥐",
+      "emoji": "🥐",
       "name": "croissant",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "bread",
-        "crescent roll",
-        "croissant",
-        "food",
-        "french"
-      ]
+      "codepoints": "1F950",
+      "keyTerms": ["bread", "breakfast", "croissant", "food", "french", "roll"]
     },
     {
-      "codes": "1F956",
-      "char": "🥖",
+      "emoji": "🥖",
       "name": "baguette bread",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "baguette",
-        "bread",
-        "food",
-        "french"
-      ]
+      "codepoints": "1F956",
+      "keyTerms": ["baguette", "bread", "food", "french"]
     },
     {
-      "codes": "1F968",
-      "char": "🥨",
+      "emoji": "🥨",
       "name": "pretzel",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "pretzel",
-        "twisted",
-        "convoluted"
-      ]
+      "codepoints": "1F968",
+      "keyTerms": ["pretzel", "twisted", "convoluted"]
     },
     {
-      "codes": "1F96F",
-      "char": "🥯",
+      "emoji": "🥯",
       "name": "bagel",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "bagel",
-        "bakery",
-        "schmear"
-      ]
+      "codepoints": "1F96F",
+      "keyTerms": ["bagel", "bakery", "breakfast", "schmear"]
     },
     {
-      "codes": "1F95E",
-      "char": "🥞",
+      "emoji": "🥞",
       "name": "pancakes",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "crêpe",
-        "food",
-        "hotcake",
-        "pancake",
-        "pancakes"
-      ]
+      "codepoints": "1F95E",
+      "keyTerms": ["breakfast", "crêpe", "food", "hotcake", "pancake"]
     },
     {
-      "codes": "1F9C0",
-      "char": "🧀",
+      "emoji": "🧇",
+      "name": "waffle",
+      "category": "Food & Drink",
+      "subcategory": "food-prepared",
+      "codepoints": "1F9C7",
+      "keyTerms": ["breakfast", "indecisive", "iron", "waffle"]
+    },
+    {
+      "emoji": "🧀",
       "name": "cheese wedge",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "cheese",
-        "cheese wedge"
-      ]
+      "codepoints": "1F9C0",
+      "keyTerms": ["cheese", "cheese wedge"]
     },
     {
-      "codes": "1F356",
-      "char": "🍖",
+      "emoji": "🍖",
       "name": "meat on bone",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "bone",
-        "meat",
-        "meat on bone"
-      ]
+      "codepoints": "1F356",
+      "keyTerms": ["bone", "meat", "meat on bone"]
     },
     {
-      "codes": "1F357",
-      "char": "🍗",
+      "emoji": "🍗",
       "name": "poultry leg",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "bone",
-        "chicken",
-        "drumstick",
-        "leg",
-        "poultry"
-      ]
+      "codepoints": "1F357",
+      "keyTerms": ["bone", "chicken", "drumstick", "leg", "poultry"]
     },
     {
-      "codes": "1F969",
-      "char": "🥩",
+      "emoji": "🥩",
       "name": "cut of meat",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "chop",
-        "cut of meat",
-        "lambchop",
-        "porkchop",
-        "steak"
-      ]
+      "codepoints": "1F969",
+      "keyTerms": ["chop", "cut of meat", "lambchop", "porkchop", "steak"]
     },
     {
-      "codes": "1F953",
-      "char": "🥓",
+      "emoji": "🥓",
       "name": "bacon",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "bacon",
-        "food",
-        "meat"
-      ]
+      "codepoints": "1F953",
+      "keyTerms": ["bacon", "breakfast", "food", "meat"]
     },
     {
-      "codes": "1F354",
-      "char": "🍔",
+      "emoji": "🍔",
       "name": "hamburger",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "burger",
-        "hamburger"
-      ]
+      "codepoints": "1F354",
+      "keyTerms": ["burger", "hamburger"]
     },
     {
-      "codes": "1F35F",
-      "char": "🍟",
+      "emoji": "🍟",
       "name": "french fries",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "french",
-        "fries"
-      ]
+      "codepoints": "1F35F",
+      "keyTerms": ["french", "fries"]
     },
     {
-      "codes": "1F355",
-      "char": "🍕",
+      "emoji": "🍕",
       "name": "pizza",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "cheese",
-        "pizza",
-        "slice"
-      ]
+      "codepoints": "1F355",
+      "keyTerms": ["cheese", "pizza", "slice"]
     },
     {
-      "codes": "1F32D",
-      "char": "🌭",
+      "emoji": "🌭",
       "name": "hot dog",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "frankfurter",
-        "hot dog",
-        "hotdog",
-        "sausage"
-      ]
+      "codepoints": "1F32D",
+      "keyTerms": ["frankfurter", "hot dog", "hotdog", "sausage"]
     },
     {
-      "codes": "1F96A",
-      "char": "🥪",
+      "emoji": "🥪",
       "name": "sandwich",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "bread",
-        "sandwich"
-      ]
+      "codepoints": "1F96A",
+      "keyTerms": ["bread", "sandwich"]
     },
     {
-      "codes": "1F32E",
-      "char": "🌮",
+      "emoji": "🌮",
       "name": "taco",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "mexican",
-        "taco"
-      ]
+      "codepoints": "1F32E",
+      "keyTerms": ["mexican", "taco"]
     },
     {
-      "codes": "1F32F",
-      "char": "🌯",
+      "emoji": "🌯",
       "name": "burrito",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "burrito",
-        "mexican",
-        "wrap"
-      ]
+      "codepoints": "1F32F",
+      "keyTerms": ["burrito", "mexican", "wrap"]
     },
     {
-      "codes": "1F959",
-      "char": "🥙",
+      "emoji": "🥙",
       "name": "stuffed flatbread",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "falafel",
-        "flatbread",
-        "food",
-        "gyro",
-        "kebab",
-        "stuffed"
-      ]
+      "codepoints": "1F959",
+      "keyTerms": ["falafel", "flatbread", "food", "gyro", "kebab", "stuffed"]
     },
     {
-      "codes": "1F373",
-      "char": "🍳",
+      "emoji": "🧆",
+      "name": "falafel",
+      "category": "Food & Drink",
+      "subcategory": "food-prepared",
+      "codepoints": "1F9C6",
+      "keyTerms": ["chickpea", "falafel", "meatball"]
+    },
+    {
+      "emoji": "🥚",
+      "name": "egg",
+      "category": "Food & Drink",
+      "subcategory": "food-prepared",
+      "codepoints": "1F95A",
+      "keyTerms": ["breakfast", "egg", "food"]
+    },
+    {
+      "emoji": "🍳",
       "name": "cooking",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "cooking",
-        "egg",
-        "frying",
-        "pan"
-      ]
+      "codepoints": "1F373",
+      "keyTerms": ["breakfast", "cooking", "egg", "frying", "pan"]
     },
     {
-      "codes": "1F958",
-      "char": "🥘",
+      "emoji": "🥘",
       "name": "shallow pan of food",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
+      "codepoints": "1F958",
       "keyTerms": [
         "casserole",
         "food",
@@ -5972,254 +5792,186 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F372",
-      "char": "🍲",
+      "emoji": "🍲",
       "name": "pot of food",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "pot",
-        "pot of food",
-        "stew"
-      ]
+      "codepoints": "1F372",
+      "keyTerms": ["pot", "pot of food", "stew"]
     },
     {
-      "codes": "1F963",
-      "char": "🥣",
+      "emoji": "🥣",
       "name": "bowl with spoon",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
+      "codepoints": "1F963",
       "keyTerms": [
         "bowl with spoon",
         "breakfast",
         "cereal",
         "congee",
         "oatmeal",
-        "class=\"keye\">porridge"
+        "porridge"
       ]
     },
     {
-      "codes": "1F957",
-      "char": "🥗",
+      "emoji": "🥗",
       "name": "green salad",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "food",
-        "green",
-        "salad"
-      ]
+      "codepoints": "1F957",
+      "keyTerms": ["food", "green", "salad"]
     },
     {
-      "codes": "1F37F",
-      "char": "🍿",
+      "emoji": "🍿",
       "name": "popcorn",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "popcorn"
-      ]
+      "codepoints": "1F37F",
+      "keyTerms": ["popcorn"]
     },
     {
-      "codes": "1F9C2",
-      "char": "🧂",
+      "emoji": "🧈",
+      "name": "butter",
+      "category": "Food & Drink",
+      "subcategory": "food-prepared",
+      "codepoints": "1F9C8",
+      "keyTerms": ["butter", "dairy"]
+    },
+    {
+      "emoji": "🧂",
       "name": "salt",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "condiment",
-        "salt",
-        "shaker"
-      ]
+      "codepoints": "1F9C2",
+      "keyTerms": ["condiment", "salt", "shaker"]
     },
     {
-      "codes": "1F96B",
-      "char": "🥫",
+      "emoji": "🥫",
       "name": "canned food",
       "category": "Food & Drink",
       "subcategory": "food-prepared",
-      "keyTerms": [
-        "can",
-        "canned food"
-      ]
+      "codepoints": "1F96B",
+      "keyTerms": ["can", "canned food"]
     },
     {
-      "codes": "1F371",
-      "char": "🍱",
+      "emoji": "🍱",
       "name": "bento box",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "bento",
-        "box"
-      ]
+      "codepoints": "1F371",
+      "keyTerms": ["bento", "box"]
     },
     {
-      "codes": "1F358",
-      "char": "🍘",
+      "emoji": "🍘",
       "name": "rice cracker",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "cracker",
-        "rice"
-      ]
+      "codepoints": "1F358",
+      "keyTerms": ["cracker", "rice"]
     },
     {
-      "codes": "1F359",
-      "char": "🍙",
+      "emoji": "🍙",
       "name": "rice ball",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "ball",
-        "Japanese",
-        "rice"
-      ]
+      "codepoints": "1F359",
+      "keyTerms": ["ball", "Japanese", "rice"]
     },
     {
-      "codes": "1F35A",
-      "char": "🍚",
+      "emoji": "🍚",
       "name": "cooked rice",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "cooked",
-        "rice"
-      ]
+      "codepoints": "1F35A",
+      "keyTerms": ["cooked", "rice"]
     },
     {
-      "codes": "1F35B",
-      "char": "🍛",
+      "emoji": "🍛",
       "name": "curry rice",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "curry",
-        "rice"
-      ]
+      "codepoints": "1F35B",
+      "keyTerms": ["curry", "rice"]
     },
     {
-      "codes": "1F35C",
-      "char": "🍜",
+      "emoji": "🍜",
       "name": "steaming bowl",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "bowl",
-        "noodle",
-        "ramen",
-        "steaming"
-      ]
+      "codepoints": "1F35C",
+      "keyTerms": ["bowl", "noodle", "ramen", "steaming"]
     },
     {
-      "codes": "1F35D",
-      "char": "🍝",
+      "emoji": "🍝",
       "name": "spaghetti",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "pasta",
-        "spaghetti"
-      ]
+      "codepoints": "1F35D",
+      "keyTerms": ["pasta", "spaghetti"]
     },
     {
-      "codes": "1F360",
-      "char": "🍠",
+      "emoji": "🍠",
       "name": "roasted sweet potato",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "potato",
-        "roasted",
-        "sweet"
-      ]
+      "codepoints": "1F360",
+      "keyTerms": ["potato", "roasted", "sweet"]
     },
     {
-      "codes": "1F362",
-      "char": "🍢",
+      "emoji": "🍢",
       "name": "oden",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "kebab",
-        "oden",
-        "seafood",
-        "skewer",
-        "stick"
-      ]
+      "codepoints": "1F362",
+      "keyTerms": ["kebab", "oden", "seafood", "skewer", "stick"]
     },
     {
-      "codes": "1F363",
-      "char": "🍣",
+      "emoji": "🍣",
       "name": "sushi",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "sushi"
-      ]
+      "codepoints": "1F363",
+      "keyTerms": ["sushi"]
     },
     {
-      "codes": "1F364",
-      "char": "🍤",
+      "emoji": "🍤",
       "name": "fried shrimp",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "fried",
-        "prawn",
-        "shrimp",
-        "tempura"
-      ]
+      "codepoints": "1F364",
+      "keyTerms": ["fried", "prawn", "shrimp", "tempura"]
     },
     {
-      "codes": "1F365",
-      "char": "🍥",
+      "emoji": "🍥",
       "name": "fish cake with swirl",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "cake",
-        "fish",
-        "fish cake with swirl",
-        "pastry",
-        "swirl"
-      ]
+      "codepoints": "1F365",
+      "keyTerms": ["cake", "fish", "fish cake with swirl", "pastry", "swirl"]
     },
     {
-      "codes": "1F96E",
-      "char": "🥮",
+      "emoji": "🥮",
       "name": "moon cake",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "autumn",
-        "festival",
-        "moon cake",
-        "yuèbǐng"
-      ]
+      "codepoints": "1F96E",
+      "keyTerms": ["autumn", "festival", "moon cake", "yuèbǐng"]
     },
     {
-      "codes": "1F361",
-      "char": "🍡",
+      "emoji": "🍡",
       "name": "dango",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "dango",
-        "dessert",
-        "Japanese",
-        "skewer",
-        "stick",
-        "sweet"
-      ]
+      "codepoints": "1F361",
+      "keyTerms": ["dango", "dessert", "Japanese", "skewer", "stick", "sweet"]
     },
     {
-      "codes": "1F95F",
-      "char": "🥟",
+      "emoji": "🥟",
       "name": "dumpling",
       "category": "Food & Drink",
       "subcategory": "food-asian",
+      "codepoints": "1F95F",
       "keyTerms": [
         "dumpling",
         "empanada",
@@ -6230,99 +5982,107 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F960",
-      "char": "🥠",
+      "emoji": "🥠",
       "name": "fortune cookie",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "fortune cookie",
-        "prophecy"
-      ]
+      "codepoints": "1F960",
+      "keyTerms": ["fortune cookie", "prophecy"]
     },
     {
-      "codes": "1F961",
-      "char": "🥡",
+      "emoji": "🥡",
       "name": "takeout box",
       "category": "Food & Drink",
       "subcategory": "food-asian",
-      "keyTerms": [
-        "oyster pail",
-        "takeout box"
-      ]
+      "codepoints": "1F961",
+      "keyTerms": ["oyster pail", "takeout box"]
     },
     {
-      "codes": "1F366",
-      "char": "🍦",
+      "emoji": "🦀",
+      "name": "crab",
+      "category": "Food & Drink",
+      "subcategory": "food-marine",
+      "codepoints": "1F980",
+      "keyTerms": ["Cancer", "crab", "zodiac"]
+    },
+    {
+      "emoji": "🦞",
+      "name": "lobster",
+      "category": "Food & Drink",
+      "subcategory": "food-marine",
+      "codepoints": "1F99E",
+      "keyTerms": ["bisque", "claws", "lobster", "seafood"]
+    },
+    {
+      "emoji": "🦐",
+      "name": "shrimp",
+      "category": "Food & Drink",
+      "subcategory": "food-marine",
+      "codepoints": "1F990",
+      "keyTerms": ["food", "shellfish", "shrimp", "small"]
+    },
+    {
+      "emoji": "🦑",
+      "name": "squid",
+      "category": "Food & Drink",
+      "subcategory": "food-marine",
+      "codepoints": "1F991",
+      "keyTerms": ["food", "molusc", "squid"]
+    },
+    {
+      "emoji": "🦪",
+      "name": "oyster",
+      "category": "Food & Drink",
+      "subcategory": "food-marine",
+      "codepoints": "1F9AA",
+      "keyTerms": ["diving", "oyster", "pearl"]
+    },
+    {
+      "emoji": "🍦",
       "name": "soft ice cream",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "cream",
-        "dessert",
-        "ice",
-        "icecream",
-        "soft",
-        "sweet"
-      ]
+      "codepoints": "1F366",
+      "keyTerms": ["cream", "dessert", "ice", "icecream", "soft", "sweet"]
     },
     {
-      "codes": "1F367",
-      "char": "🍧",
+      "emoji": "🍧",
       "name": "shaved ice",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "dessert",
-        "ice",
-        "shaved",
-        "sweet"
-      ]
+      "codepoints": "1F367",
+      "keyTerms": ["dessert", "ice", "shaved", "sweet"]
     },
     {
-      "codes": "1F368",
-      "char": "🍨",
+      "emoji": "🍨",
       "name": "ice cream",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "cream",
-        "dessert",
-        "ice",
-        "sweet"
-      ]
+      "codepoints": "1F368",
+      "keyTerms": ["cream", "dessert", "ice", "sweet"]
     },
     {
-      "codes": "1F369",
-      "char": "🍩",
+      "emoji": "🍩",
       "name": "doughnut",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "dessert",
-        "donut",
-        "doughnut",
-        "sweet"
-      ]
+      "codepoints": "1F369",
+      "keyTerms": ["breakfast", "dessert", "donut", "doughnut", "sweet"]
     },
     {
-      "codes": "1F36A",
-      "char": "🍪",
+      "emoji": "🍪",
       "name": "cookie",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "cookie",
-        "dessert",
-        "sweet"
-      ]
+      "codepoints": "1F36A",
+      "keyTerms": ["cookie", "dessert", "sweet"]
     },
     {
-      "codes": "1F382",
-      "char": "🎂",
+      "emoji": "🎂",
       "name": "birthday cake",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
+      "codepoints": "1F382",
       "keyTerms": [
         "birthday",
         "cake",
@@ -6333,157 +6093,99 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F370",
-      "char": "🍰",
+      "emoji": "🍰",
       "name": "shortcake",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "cake",
-        "dessert",
-        "pastry",
-        "shortcake",
-        "slice",
-        "sweet"
-      ]
+      "codepoints": "1F370",
+      "keyTerms": ["cake", "dessert", "pastry", "shortcake", "slice", "sweet"]
     },
     {
-      "codes": "1F9C1",
-      "char": "🧁",
+      "emoji": "🧁",
       "name": "cupcake",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "bakery",
-        "cupcake",
-        "sweet"
-      ]
+      "codepoints": "1F9C1",
+      "keyTerms": ["bakery", "cupcake", "sweet"]
     },
     {
-      "codes": "1F967",
-      "char": "🥧",
+      "emoji": "🥧",
       "name": "pie",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "filling",
-        "pastry",
-        "pie",
-        "fruit",
-        "meat"
-      ]
+      "codepoints": "1F967",
+      "keyTerms": ["filling", "pastry", "pie", "fruit", "meat"]
     },
     {
-      "codes": "1F36B",
-      "char": "🍫",
+      "emoji": "🍫",
       "name": "chocolate bar",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "bar",
-        "chocolate",
-        "dessert",
-        "sweet"
-      ]
+      "codepoints": "1F36B",
+      "keyTerms": ["bar", "chocolate", "dessert", "sweet"]
     },
     {
-      "codes": "1F36C",
-      "char": "🍬",
+      "emoji": "🍬",
       "name": "candy",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "candy",
-        "dessert",
-        "sweet"
-      ]
+      "codepoints": "1F36C",
+      "keyTerms": ["candy", "dessert", "sweet"]
     },
     {
-      "codes": "1F36D",
-      "char": "🍭",
+      "emoji": "🍭",
       "name": "lollipop",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "candy",
-        "dessert",
-        "lollipop",
-        "sweet"
-      ]
+      "codepoints": "1F36D",
+      "keyTerms": ["candy", "dessert", "lollipop", "sweet"]
     },
     {
-      "codes": "1F36E",
-      "char": "🍮",
+      "emoji": "🍮",
       "name": "custard",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "custard",
-        "dessert",
-        "pudding",
-        "sweet"
-      ]
+      "codepoints": "1F36E",
+      "keyTerms": ["custard", "dessert", "pudding", "sweet"]
     },
     {
-      "codes": "1F36F",
-      "char": "🍯",
+      "emoji": "🍯",
       "name": "honey pot",
       "category": "Food & Drink",
       "subcategory": "food-sweet",
-      "keyTerms": [
-        "honey",
-        "honeypot",
-        "pot",
-        "sweet"
-      ]
+      "codepoints": "1F36F",
+      "keyTerms": ["honey", "honeypot", "pot", "sweet"]
     },
     {
-      "codes": "1F37C",
-      "char": "🍼",
+      "emoji": "🍼",
       "name": "baby bottle",
       "category": "Food & Drink",
       "subcategory": "drink",
-      "keyTerms": [
-        "baby",
-        "bottle",
-        "drink",
-        "milk"
-      ]
+      "codepoints": "1F37C",
+      "keyTerms": ["baby", "bottle", "drink", "milk"]
     },
     {
-      "codes": "1F95B",
-      "char": "🥛",
+      "emoji": "🥛",
       "name": "glass of milk",
       "category": "Food & Drink",
       "subcategory": "drink",
-      "keyTerms": [
-        "drink",
-        "glass",
-        "glass of milk",
-        "milk"
-      ]
+      "codepoints": "1F95B",
+      "keyTerms": ["drink", "glass", "glass of milk", "milk"]
     },
     {
-      "codes": "2615",
-      "char": "☕",
+      "emoji": "☕",
       "name": "hot beverage",
       "category": "Food & Drink",
       "subcategory": "drink",
-      "keyTerms": [
-        "beverage",
-        "coffee",
-        "drink",
-        "hot",
-        "steaming",
-        "tea"
-      ]
+      "codepoints": 2615,
+      "keyTerms": ["beverage", "coffee", "drink", "hot", "steaming", "tea"]
     },
     {
-      "codes": "1F375",
-      "char": "🍵",
+      "emoji": "🍵",
       "name": "teacup without handle",
       "category": "Food & Drink",
       "subcategory": "drink",
+      "codepoints": "1F375",
       "keyTerms": [
         "beverage",
         "cup",
@@ -6494,26 +6196,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F376",
-      "char": "🍶",
+      "emoji": "🍶",
       "name": "sake",
       "category": "Food & Drink",
       "subcategory": "drink",
-      "keyTerms": [
-        "bar",
-        "beverage",
-        "bottle",
-        "cup",
-        "drink",
-        "sake"
-      ]
+      "codepoints": "1F376",
+      "keyTerms": ["bar", "beverage", "bottle", "cup", "drink", "sake"]
     },
     {
-      "codes": "1F37E",
-      "char": "🍾",
+      "emoji": "🍾",
       "name": "bottle with popping cork",
       "category": "Food & Drink",
       "subcategory": "drink",
+      "codepoints": "1F37E",
       "keyTerms": [
         "bar",
         "bottle",
@@ -6524,133 +6219,114 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F377",
-      "char": "🍷",
+      "emoji": "🍷",
       "name": "wine glass",
       "category": "Food & Drink",
       "subcategory": "drink",
-      "keyTerms": [
-        "bar",
-        "beverage",
-        "drink",
-        "glass",
-        "wine"
-      ]
+      "codepoints": "1F377",
+      "keyTerms": ["bar", "beverage", "drink", "glass", "wine"]
     },
     {
-      "codes": "1F378",
-      "char": "🍸",
+      "emoji": "🍸",
       "name": "cocktail glass",
       "category": "Food & Drink",
       "subcategory": "drink",
-      "keyTerms": [
-        "bar",
-        "cocktail",
-        "drink",
-        "glass"
-      ]
+      "codepoints": "1F378",
+      "keyTerms": ["bar", "cocktail", "drink", "glass"]
     },
     {
-      "codes": "1F379",
-      "char": "🍹",
+      "emoji": "🍹",
       "name": "tropical drink",
       "category": "Food & Drink",
       "subcategory": "drink",
-      "keyTerms": [
-        "bar",
-        "drink",
-        "tropical"
-      ]
+      "codepoints": "1F379",
+      "keyTerms": ["bar", "drink", "tropical"]
     },
     {
-      "codes": "1F37A",
-      "char": "🍺",
+      "emoji": "🍺",
       "name": "beer mug",
       "category": "Food & Drink",
       "subcategory": "drink",
-      "keyTerms": [
-        "bar",
-        "beer",
-        "drink",
-        "mug"
-      ]
+      "codepoints": "1F37A",
+      "keyTerms": ["bar", "beer", "drink", "mug"]
     },
     {
-      "codes": "1F37B",
-      "char": "🍻",
+      "emoji": "🍻",
       "name": "clinking beer mugs",
       "category": "Food & Drink",
       "subcategory": "drink",
-      "keyTerms": [
-        "bar",
-        "beer",
-        "clink",
-        "clinking beer mugs",
-        "drink",
-        "mug"
-      ]
+      "codepoints": "1F37B",
+      "keyTerms": ["bar", "beer", "clink", "clinking beer mugs", "drink", "mug"]
     },
     {
-      "codes": "1F942",
-      "char": "🥂",
+      "emoji": "🥂",
       "name": "clinking glasses",
       "category": "Food & Drink",
       "subcategory": "drink",
-      "keyTerms": [
-        "celebrate",
-        "clink",
-        "clinking glasses",
-        "drink",
-        "glass"
-      ]
+      "codepoints": "1F942",
+      "keyTerms": ["celebrate", "clink", "clinking glasses", "drink", "glass"]
     },
     {
-      "codes": "1F943",
-      "char": "🥃",
+      "emoji": "🥃",
       "name": "tumbler glass",
       "category": "Food & Drink",
       "subcategory": "drink",
-      "keyTerms": [
-        "glass",
-        "liquor",
-        "shot",
-        "tumbler",
-        "whisky"
-      ]
+      "codepoints": "1F943",
+      "keyTerms": ["glass", "liquor", "shot", "tumbler", "whisky"]
     },
     {
-      "codes": "1F964",
-      "char": "🥤",
+      "emoji": "🥤",
       "name": "cup with straw",
       "category": "Food & Drink",
       "subcategory": "drink",
+      "codepoints": "1F964",
       "keyTerms": [
         "cup with straw",
         "juice",
         "soda",
         "malt",
-        "soft"
+        "soft drink",
+        "water"
       ]
     },
     {
-      "codes": "1F962",
-      "char": "🥢",
+      "emoji": "🧃",
+      "name": "beverage box",
+      "category": "Food & Drink",
+      "subcategory": "drink",
+      "codepoints": "1F9C3",
+      "keyTerms": ["beverage", "box", "juice", "straw", "sweet", "juice box"]
+    },
+    {
+      "emoji": "🧉",
+      "name": "mate",
+      "category": "Food & Drink",
+      "subcategory": "drink",
+      "codepoints": "1F9C9",
+      "keyTerms": ["drink", "mate"]
+    },
+    {
+      "emoji": "🧊",
+      "name": "ice cube",
+      "category": "Food & Drink",
+      "subcategory": "drink",
+      "codepoints": "1F9CA",
+      "keyTerms": ["cold", "ice", "ice cube", "iceberg"]
+    },
+    {
+      "emoji": "🥢",
       "name": "chopsticks",
       "category": "Food & Drink",
       "subcategory": "dishware",
-      "keyTerms": [
-        "chopsticks",
-        "hashi",
-        "jeotgarak",
-        "kuaizi"
-      ]
+      "codepoints": "1F962",
+      "keyTerms": ["chopsticks", "hashi", "jeotgarak", "kuaizi"]
     },
     {
-      "codes": "1F37D",
-      "char": "🍽",
+      "emoji": "🍽",
       "name": "fork and knife with plate",
       "category": "Food & Drink",
       "subcategory": "dishware",
+      "codepoints": "1F37D",
       "keyTerms": [
         "cooking",
         "fork",
@@ -6660,359 +6336,429 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F374",
-      "char": "🍴",
+      "emoji": "🍴",
       "name": "fork and knife",
       "category": "Food & Drink",
       "subcategory": "dishware",
-      "keyTerms": [
-        "cooking",
-        "cutlery",
-        "fork",
-        "fork and knife",
-        "knife"
-      ]
+      "codepoints": "1F374",
+      "keyTerms": ["cooking", "cutlery", "fork", "fork and knife", "knife"]
     },
     {
-      "codes": "1F944",
-      "char": "🥄",
+      "emoji": "🥄",
       "name": "spoon",
       "category": "Food & Drink",
       "subcategory": "dishware",
+      "codepoints": "1F944",
+      "keyTerms": ["spoon", "tableware"]
+    },
+    {
+      "emoji": "🔪",
+      "name": "kitchen knife",
+      "category": "Food & Drink",
+      "subcategory": "dishware",
+      "codepoints": "1F52A",
       "keyTerms": [
-        "spoon",
-        "tableware"
+        "cooking",
+        "hocho",
+        "kitchen knife",
+        "knife",
+        "tool",
+        "weapon"
       ]
+    },
+    {
+      "emoji": "🏺",
+      "name": "amphora",
+      "category": "Food & Drink",
+      "subcategory": "dishware",
+      "codepoints": "1F3FA",
+      "keyTerms": ["amphora", "Aquarius", "cooking", "drink", "jug", "zodiac"]
     }
   ],
   "activity": [
     {
-      "codes": "1F397",
-      "char": "🎗",
+      "emoji": "🎃",
+      "name": "jack-o-lantern",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F383",
+      "keyTerms": [
+        "celebration",
+        "halloween",
+        "jack",
+        "jack-o-lantern",
+        "lantern"
+      ]
+    },
+    {
+      "emoji": "🎄",
+      "name": "Christmas tree",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F384",
+      "keyTerms": ["celebration", "Christmas", "tree"]
+    },
+    {
+      "emoji": "🎆",
+      "name": "fireworks",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F386",
+      "keyTerms": ["celebration", "fireworks"]
+    },
+    {
+      "emoji": "🎇",
+      "name": "sparkler",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F387",
+      "keyTerms": ["celebration", "fireworks", "sparkle", "sparkler"]
+    },
+    {
+      "emoji": "🧨",
+      "name": "firecracker",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F9E8",
+      "keyTerms": ["dynamite", "explosive", "firecracker", "fireworks"]
+    },
+    {
+      "emoji": "✨",
+      "name": "sparkles",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": 2728,
+      "keyTerms": ["*", "sparkle", "sparkles", "star"]
+    },
+    {
+      "emoji": "🎈",
+      "name": "balloon",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F388",
+      "keyTerms": ["balloon", "celebration"]
+    },
+    {
+      "emoji": "🎉",
+      "name": "party popper",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F389",
+      "keyTerms": ["celebration", "party", "popper", "tada"]
+    },
+    {
+      "emoji": "🎊",
+      "name": "confetti ball",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F38A",
+      "keyTerms": ["ball", "celebration", "confetti"]
+    },
+    {
+      "emoji": "🎋",
+      "name": "tanabata tree",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F38B",
+      "keyTerms": ["banner", "celebration", "Japanese", "tanabata tree", "tree"]
+    },
+    {
+      "emoji": "🎍",
+      "name": "pine decoration",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F38D",
+      "keyTerms": [
+        "bamboo",
+        "celebration",
+        "Japanese",
+        "pine",
+        "pine decoration"
+      ]
+    },
+    {
+      "emoji": "🎎",
+      "name": "Japanese dolls",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F38E",
+      "keyTerms": [
+        "celebration",
+        "doll",
+        "festival",
+        "Japanese",
+        "Japanese dolls"
+      ]
+    },
+    {
+      "emoji": "🎏",
+      "name": "carp streamer",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F38F",
+      "keyTerms": ["carp", "celebration", "streamer"]
+    },
+    {
+      "emoji": "🎐",
+      "name": "wind chime",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F390",
+      "keyTerms": ["bell", "celebration", "chime", "wind"]
+    },
+    {
+      "emoji": "🎑",
+      "name": "moon viewing ceremony",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F391",
+      "keyTerms": ["celebration", "ceremony", "moon", "moon viewing ceremony"]
+    },
+    {
+      "emoji": "🧧",
+      "name": "red envelope",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F9E7",
+      "keyTerms": [
+        "gift",
+        "good luck",
+        "hóngbāo",
+        "lai see",
+        "money",
+        "red envelope"
+      ]
+    },
+    {
+      "emoji": "🎀",
+      "name": "ribbon",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F380",
+      "keyTerms": ["celebration", "ribbon"]
+    },
+    {
+      "emoji": "🎁",
+      "name": "wrapped gift",
+      "category": "Activities",
+      "subcategory": "event",
+      "codepoints": "1F381",
+      "keyTerms": ["box", "celebration", "gift", "present", "wrapped"]
+    },
+    {
+      "emoji": "🎗",
       "name": "reminder ribbon",
       "category": "Activities",
       "subcategory": "event",
-      "keyTerms": [
-        "celebration",
-        "reminder",
-        "ribbon"
-      ]
+      "codepoints": "1F397",
+      "keyTerms": ["celebration", "reminder", "ribbon"]
     },
     {
-      "codes": "1F39F",
-      "char": "🎟",
+      "emoji": "🎟",
       "name": "admission tickets",
       "category": "Activities",
       "subcategory": "event",
-      "keyTerms": [
-        "admission",
-        "admission tickets",
-        "ticket"
-      ]
+      "codepoints": "1F39F",
+      "keyTerms": ["admission", "admission tickets", "ticket"]
     },
     {
-      "codes": "1F3AB",
-      "char": "🎫",
+      "emoji": "🎫",
       "name": "ticket",
       "category": "Activities",
       "subcategory": "event",
-      "keyTerms": [
-        "admission",
-        "ticket"
-      ]
+      "codepoints": "1F3AB",
+      "keyTerms": ["admission", "ticket"]
     },
     {
-      "codes": "1F396",
-      "char": "🎖",
+      "emoji": "🎖",
       "name": "military medal",
       "category": "Activities",
       "subcategory": "award-medal",
-      "keyTerms": [
-        "celebration",
-        "medal",
-        "military"
-      ]
+      "codepoints": "1F396",
+      "keyTerms": ["celebration", "medal", "military"]
     },
     {
-      "codes": "1F3C6",
-      "char": "🏆",
+      "emoji": "🏆",
       "name": "trophy",
       "category": "Activities",
       "subcategory": "award-medal",
-      "keyTerms": [
-        "prize",
-        "trophy"
-      ]
+      "codepoints": "1F3C6",
+      "keyTerms": ["prize", "trophy"]
     },
     {
-      "codes": "1F3C5",
-      "char": "🏅",
+      "emoji": "🏅",
       "name": "sports medal",
       "category": "Activities",
       "subcategory": "award-medal",
-      "keyTerms": [
-        "medal",
-        "sports medal"
-      ]
+      "codepoints": "1F3C5",
+      "keyTerms": ["medal", "sports medal"]
     },
     {
-      "codes": "1F947",
-      "char": "🥇",
+      "emoji": "🥇",
       "name": "1st place medal",
       "category": "Activities",
       "subcategory": "award-medal",
-      "keyTerms": [
-        "1st place medal",
-        "first",
-        "gold",
-        "medal"
-      ]
+      "codepoints": "1F947",
+      "keyTerms": ["1st place medal", "first", "gold", "medal"]
     },
     {
-      "codes": "1F948",
-      "char": "🥈",
+      "emoji": "🥈",
       "name": "2nd place medal",
       "category": "Activities",
       "subcategory": "award-medal",
-      "keyTerms": [
-        "2nd place medal",
-        "medal",
-        "second",
-        "silver"
-      ]
+      "codepoints": "1F948",
+      "keyTerms": ["2nd place medal", "medal", "second", "silver"]
     },
     {
-      "codes": "1F949",
-      "char": "🥉",
+      "emoji": "🥉",
       "name": "3rd place medal",
       "category": "Activities",
       "subcategory": "award-medal",
-      "keyTerms": [
-        "3rd place medal",
-        "bronze",
-        "medal",
-        "third"
-      ]
+      "codepoints": "1F949",
+      "keyTerms": ["3rd place medal", "bronze", "medal", "third"]
     },
     {
-      "codes": "26BD",
-      "char": "⚽",
+      "emoji": "⚽",
       "name": "soccer ball",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ball",
-        "football",
-        "soccer"
-      ]
+      "codepoints": "26BD",
+      "keyTerms": ["ball", "football", "soccer"]
     },
     {
-      "codes": "26BE",
-      "char": "⚾",
+      "emoji": "⚾",
       "name": "baseball",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ball",
-        "baseball"
-      ]
+      "codepoints": "26BE",
+      "keyTerms": ["ball", "baseball"]
     },
     {
-      "codes": "1F94E",
-      "char": "🥎",
+      "emoji": "🥎",
       "name": "softball",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ball",
-        "glove",
-        "softball",
-        "underarm"
-      ]
+      "codepoints": "1F94E",
+      "keyTerms": ["ball", "glove", "softball", "underarm"]
     },
     {
-      "codes": "1F3C0",
-      "char": "🏀",
+      "emoji": "🏀",
       "name": "basketball",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ball",
-        "basketball",
-        "hoop"
-      ]
+      "codepoints": "1F3C0",
+      "keyTerms": ["ball", "basketball", "hoop"]
     },
     {
-      "codes": "1F3D0",
-      "char": "🏐",
+      "emoji": "🏐",
       "name": "volleyball",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ball",
-        "game",
-        "volleyball"
-      ]
+      "codepoints": "1F3D0",
+      "keyTerms": ["ball", "game", "volleyball"]
     },
     {
-      "codes": "1F3C8",
-      "char": "🏈",
+      "emoji": "🏈",
       "name": "american football",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "american",
-        "ball",
-        "football"
-      ]
+      "codepoints": "1F3C8",
+      "keyTerms": ["american", "ball", "football"]
     },
     {
-      "codes": "1F3C9",
-      "char": "🏉",
+      "emoji": "🏉",
       "name": "rugby football",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ball",
-        "football",
-        "rugby"
-      ]
+      "codepoints": "1F3C9",
+      "keyTerms": ["ball", "football", "rugby"]
     },
     {
-      "codes": "1F3BE",
-      "char": "🎾",
+      "emoji": "🎾",
       "name": "tennis",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ball",
-        "racquet",
-        "tennis"
-      ]
+      "codepoints": "1F3BE",
+      "keyTerms": ["ball", "racquet", "tennis"]
     },
     {
-      "codes": "1F94F",
-      "char": "🥏",
+      "emoji": "🥏",
       "name": "flying disc",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "flying disc",
-        "ultimate"
-      ]
+      "codepoints": "1F94F",
+      "keyTerms": ["flying disc", "ultimate"]
     },
     {
-      "codes": "1F3B3",
-      "char": "🎳",
+      "emoji": "🎳",
       "name": "bowling",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ball",
-        "bowling",
-        "game"
-      ]
+      "codepoints": "1F3B3",
+      "keyTerms": ["ball", "bowling", "game"]
     },
     {
-      "codes": "1F3CF",
-      "char": "🏏",
+      "emoji": "🏏",
       "name": "cricket game",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ball",
-        "bat",
-        "cricket game",
-        "game"
-      ]
+      "codepoints": "1F3CF",
+      "keyTerms": ["ball", "bat", "cricket game", "game"]
     },
     {
-      "codes": "1F3D1",
-      "char": "🏑",
+      "emoji": "🏑",
       "name": "field hockey",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ball",
-        "field",
-        "game",
-        "hockey",
-        "stick"
-      ]
+      "codepoints": "1F3D1",
+      "keyTerms": ["ball", "field", "game", "hockey", "stick"]
     },
     {
-      "codes": "1F3D2",
-      "char": "🏒",
+      "emoji": "🏒",
       "name": "ice hockey",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "game",
-        "hockey",
-        "ice",
-        "puck",
-        "stick"
-      ]
+      "codepoints": "1F3D2",
+      "keyTerms": ["game", "hockey", "ice", "puck", "stick"]
     },
     {
-      "codes": "1F94D",
-      "char": "🥍",
+      "emoji": "🥍",
       "name": "lacrosse",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ball",
-        "goal",
-        "lacrosse",
-        "stick"
-      ]
+      "codepoints": "1F94D",
+      "keyTerms": ["ball", "goal", "lacrosse", "stick"]
     },
     {
-      "codes": "1F3D3",
-      "char": "🏓",
+      "emoji": "🏓",
       "name": "ping pong",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ball",
-        "bat",
-        "game",
-        "paddle",
-        "ping pong",
-        "table tennis"
-      ]
+      "codepoints": "1F3D3",
+      "keyTerms": ["ball", "bat", "game", "paddle", "ping pong", "table tennis"]
     },
     {
-      "codes": "1F3F8",
-      "char": "🏸",
+      "emoji": "🏸",
       "name": "badminton",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "badminton",
-        "birdie",
-        "game",
-        "racquet",
-        "shuttlecock"
-      ]
+      "codepoints": "1F3F8",
+      "keyTerms": ["badminton", "birdie", "game", "racquet", "shuttlecock"]
     },
     {
-      "codes": "1F94A",
-      "char": "🥊",
+      "emoji": "🥊",
       "name": "boxing glove",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "boxing",
-        "glove"
-      ]
+      "codepoints": "1F94A",
+      "keyTerms": ["boxing", "glove"]
     },
     {
-      "codes": "1F94B",
-      "char": "🥋",
+      "emoji": "🥋",
       "name": "martial arts uniform",
       "category": "Activities",
       "subcategory": "sport",
+      "codepoints": "1F94B",
       "keyTerms": [
         "judo",
         "karate",
@@ -7023,191 +6769,264 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "26F3",
-      "char": "⛳",
+      "emoji": "🥅",
+      "name": "goal net",
+      "category": "Activities",
+      "subcategory": "sport",
+      "codepoints": "1F945",
+      "keyTerms": ["goal", "net"]
+    },
+    {
+      "emoji": "⛳",
       "name": "flag in hole",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "flag in hole",
-        "golf",
-        "hole"
-      ]
+      "codepoints": "26F3",
+      "keyTerms": ["flag in hole", "golf", "hole"]
     },
     {
-      "codes": "26F8",
-      "char": "⛸",
+      "emoji": "⛸",
       "name": "ice skate",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ice",
-        "skate"
-      ]
+      "codepoints": "26F8",
+      "keyTerms": ["ice", "skate"]
     },
     {
-      "codes": "1F3A3",
-      "char": "🎣",
+      "emoji": "🎣",
       "name": "fishing pole",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "fish",
-        "fishing pole",
-        "pole"
-      ]
+      "codepoints": "1F3A3",
+      "keyTerms": ["fish", "fishing pole", "pole"]
     },
     {
-      "codes": "1F3BD",
-      "char": "🎽",
+      "emoji": "🤿",
+      "name": "diving mask",
+      "category": "Activities",
+      "subcategory": "sport",
+      "codepoints": "1F93F",
+      "keyTerms": ["diving", "diving mask", "scuba", "snorkeling"]
+    },
+    {
+      "emoji": "🎽",
       "name": "running shirt",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "athletics",
-        "running",
-        "sash",
-        "shirt"
-      ]
+      "codepoints": "1F3BD",
+      "keyTerms": ["athletics", "running", "sash", "shirt"]
     },
     {
-      "codes": "1F3BF",
-      "char": "🎿",
+      "emoji": "🎿",
       "name": "skis",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "ski",
-        "skis",
-        "snow"
-      ]
+      "codepoints": "1F3BF",
+      "keyTerms": ["ski", "skis", "snow"]
     },
     {
-      "codes": "1F6F7",
-      "char": "🛷",
+      "emoji": "🛷",
       "name": "sled",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "sled",
-        "sledge",
-        "sleigh",
-        "luge",
-        "toboggan"
-      ]
+      "codepoints": "1F6F7",
+      "keyTerms": ["sled", "sledge", "sleigh", "luge", "toboggan"]
     },
     {
-      "codes": "1F94C",
-      "char": "🥌",
+      "emoji": "🥌",
       "name": "curling stone",
       "category": "Activities",
       "subcategory": "sport",
-      "keyTerms": [
-        "curling stone",
-        "game",
-        "rock"
-      ]
+      "codepoints": "1F94C",
+      "keyTerms": ["curling stone", "game", "rock"]
     },
     {
-      "codes": "1F3AF",
-      "char": "🎯",
+      "emoji": "🎯",
       "name": "direct hit",
       "category": "Activities",
       "subcategory": "game",
-      "keyTerms": [
-        "bullseye",
-        "dart",
-        "direct hit",
-        "game",
-        "hit",
-        "target"
-      ]
+      "codepoints": "1F3AF",
+      "keyTerms": ["bullseye", "dart", "direct hit", "game", "hit", "target"]
     },
     {
-      "codes": "1F3B1",
-      "char": "🎱",
+      "emoji": "🪀",
+      "name": "yo-yo",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": "1FA80",
+      "keyTerms": ["fluctuate", "toy", "yo-yo"]
+    },
+    {
+      "emoji": "🪁",
+      "name": "kite",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": "1FA81",
+      "keyTerms": ["fly", "kite", "soar"]
+    },
+    {
+      "emoji": "🎱",
       "name": "pool 8 ball",
       "category": "Activities",
       "subcategory": "game",
+      "codepoints": "1F3B1",
+      "keyTerms": ["8", "ball", "billiard", "eight", "game", "pool 8 ball"]
+    },
+    {
+      "emoji": "🔮",
+      "name": "crystal ball",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": "1F52E",
       "keyTerms": [
-        "8",
         "ball",
-        "billiard",
-        "eight",
-        "game",
-        "pool 8 ball"
+        "crystal",
+        "fairy tale",
+        "fantasy",
+        "fortune",
+        "tool"
       ]
     },
     {
-      "codes": "1F3AE",
-      "char": "🎮",
+      "emoji": "🧿",
+      "name": "nazar amulet",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": "1F9FF",
+      "keyTerms": [
+        "bead",
+        "charm",
+        "evil-eye",
+        "nazar",
+        "nazar amulet",
+        "talisman"
+      ]
+    },
+    {
+      "emoji": "🎮",
       "name": "video game",
       "category": "Activities",
       "subcategory": "game",
-      "keyTerms": [
-        "controller",
-        "game",
-        "video game"
-      ]
+      "codepoints": "1F3AE",
+      "keyTerms": ["controller", "game", "video game"]
     },
     {
-      "codes": "1F3B0",
-      "char": "🎰",
+      "emoji": "🕹",
+      "name": "joystick",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": "1F579",
+      "keyTerms": ["game", "joystick", "video game"]
+    },
+    {
+      "emoji": "🎰",
       "name": "slot machine",
       "category": "Activities",
       "subcategory": "game",
-      "keyTerms": [
-        "game",
-        "slot",
-        "slot machine"
-      ]
+      "codepoints": "1F3B0",
+      "keyTerms": ["game", "slot", "slot machine"]
     },
     {
-      "codes": "1F3B2",
-      "char": "🎲",
+      "emoji": "🎲",
       "name": "game die",
       "category": "Activities",
       "subcategory": "game",
-      "keyTerms": [
-        "dice",
-        "die",
-        "game"
-      ]
+      "codepoints": "1F3B2",
+      "keyTerms": ["dice", "die", "game"]
     },
     {
-      "codes": "1F9E9",
-      "char": "🧩",
+      "emoji": "🧩",
       "name": "puzzle piece",
       "category": "Activities",
       "subcategory": "game",
-      "keyTerms": [
-        "clue",
-        "interlocking",
-        "jigsaw",
-        "piece",
-        "puzzle"
-      ]
+      "codepoints": "1F9E9",
+      "keyTerms": ["clue", "interlocking", "jigsaw", "piece", "puzzle"]
     },
     {
-      "codes": "265F",
-      "char": "♟",
+      "emoji": "🧸",
+      "name": "teddy bear",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": "1F9F8",
+      "keyTerms": ["plaything", "plush", "stuffed", "teddy bear", "toy"]
+    },
+    {
+      "emoji": "♠",
+      "name": "spade suit",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": 2660,
+      "keyTerms": ["card", "game", "spade suit"]
+    },
+    {
+      "emoji": "♥",
+      "name": "heart suit",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": 2665,
+      "keyTerms": ["card", "game", "heart suit"]
+    },
+    {
+      "emoji": "♦",
+      "name": "diamond suit",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": 2666,
+      "keyTerms": ["card", "diamond suit", "game"]
+    },
+    {
+      "emoji": "♣",
+      "name": "club suit",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": 2663,
+      "keyTerms": ["card", "club suit", "game"]
+    },
+    {
+      "emoji": "♟",
       "name": "chess pawn",
       "category": "Activities",
       "subcategory": "game",
+      "codepoints": "265F",
+      "keyTerms": ["chess", "chess pawn", "dupe", "expendable", "red shirt"]
+    },
+    {
+      "emoji": "🃏",
+      "name": "joker",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": "1F0CF",
+      "keyTerms": ["card", "game", "joker", "wildcard"]
+    },
+    {
+      "emoji": "🀄",
+      "name": "mahjong red dragon",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": "1F004",
+      "keyTerms": ["game", "mahjong", "mahjong red dragon", "red"]
+    },
+    {
+      "emoji": "🎴",
+      "name": "flower playing cards",
+      "category": "Activities",
+      "subcategory": "game",
+      "codepoints": "1F3B4",
       "keyTerms": [
-        "chess",
-        "chess pawn",
-        "dupe",
-        "expendable",
-        "red shirt"
+        "card",
+        "flower",
+        "flower playing cards",
+        "game",
+        "Japanese",
+        "playing"
       ]
     },
     {
-      "codes": "1F3AD",
-      "char": "🎭",
+      "emoji": "🎭",
       "name": "performing arts",
       "category": "Activities",
       "subcategory": "arts & crafts",
+      "codepoints": "1F3AD",
       "keyTerms": [
         "art",
         "mask",
@@ -7218,545 +7037,486 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F3A8",
-      "char": "🎨",
+      "emoji": "🖼",
+      "name": "framed picture",
+      "category": "Activities",
+      "subcategory": "arts & crafts",
+      "codepoints": "1F5BC",
+      "keyTerms": [
+        "art",
+        "frame",
+        "framed picture",
+        "museum",
+        "painting",
+        "picture"
+      ]
+    },
+    {
+      "emoji": "🎨",
       "name": "artist palette",
       "category": "Activities",
       "subcategory": "arts & crafts",
-      "keyTerms": [
-        "art",
-        "artist palette",
-        "museum",
-        "painting",
-        "palette"
-      ]
+      "codepoints": "1F3A8",
+      "keyTerms": ["art", "artist palette", "museum", "painting", "palette"]
     },
     {
-      "codes": "1F9F5",
-      "char": "🧵",
+      "emoji": "🧵",
       "name": "thread",
       "category": "Activities",
       "subcategory": "arts & crafts",
-      "keyTerms": [
-        "needle",
-        "sewing",
-        "spool",
-        "string",
-        "thread"
-      ]
+      "codepoints": "1F9F5",
+      "keyTerms": ["needle", "sewing", "spool", "string", "thread"]
     },
     {
-      "codes": "1F9F6",
-      "char": "🧶",
+      "emoji": "🧶",
       "name": "yarn",
       "category": "Activities",
       "subcategory": "arts & crafts",
-      "keyTerms": [
-        "ball",
-        "crochet",
-        "knit",
-        "yarn"
-      ]
+      "codepoints": "1F9F6",
+      "keyTerms": ["ball", "crochet", "knit", "yarn"]
     }
   ],
   "travel": [
     {
-      "codes": "1F5FE",
-      "char": "🗾",
+      "emoji": "🌍",
+      "name": "globe showing Europe-Africa",
+      "category": "Travel & Places",
+      "subcategory": "place-map",
+      "codepoints": "1F30D",
+      "keyTerms": [
+        "Africa",
+        "earth",
+        "Europe",
+        "globe",
+        "globe showing Europe-Africa",
+        "world"
+      ]
+    },
+    {
+      "emoji": "🌎",
+      "name": "globe showing Americas",
+      "category": "Travel & Places",
+      "subcategory": "place-map",
+      "codepoints": "1F30E",
+      "keyTerms": [
+        "Americas",
+        "earth",
+        "globe",
+        "globe showing Americas",
+        "world"
+      ]
+    },
+    {
+      "emoji": "🌏",
+      "name": "globe showing Asia-Australia",
+      "category": "Travel & Places",
+      "subcategory": "place-map",
+      "codepoints": "1F30F",
+      "keyTerms": [
+        "Asia",
+        "Australia",
+        "earth",
+        "globe",
+        "globe showing Asia-Australia",
+        "world"
+      ]
+    },
+    {
+      "emoji": "🌐",
+      "name": "globe with meridians",
+      "category": "Travel & Places",
+      "subcategory": "place-map",
+      "codepoints": "1F310",
+      "keyTerms": [
+        "earth",
+        "globe",
+        "globe with meridians",
+        "meridians",
+        "world"
+      ]
+    },
+    {
+      "emoji": "🗺",
+      "name": "world map",
+      "category": "Travel & Places",
+      "subcategory": "place-map",
+      "codepoints": "1F5FA",
+      "keyTerms": ["map", "world"]
+    },
+    {
+      "emoji": "🗾",
       "name": "map of Japan",
       "category": "Travel & Places",
       "subcategory": "place-map",
-      "keyTerms": [
-        "Japan",
-        "map",
-        "map of Japan"
-      ]
+      "codepoints": "1F5FE",
+      "keyTerms": ["Japan", "map", "map of Japan"]
     },
     {
-      "codes": "1F3D4",
-      "char": "🏔",
+      "emoji": "🧭",
+      "name": "compass",
+      "category": "Travel & Places",
+      "subcategory": "place-map",
+      "codepoints": "1F9ED",
+      "keyTerms": ["compass", "magnetic", "navigation", "orienteering"]
+    },
+    {
+      "emoji": "🏔",
       "name": "snow-capped mountain",
       "category": "Travel & Places",
       "subcategory": "place-geographic",
-      "keyTerms": [
-        "cold",
-        "mountain",
-        "snow",
-        "snow-capped mountain"
-      ]
+      "codepoints": "1F3D4",
+      "keyTerms": ["cold", "mountain", "snow", "snow-capped mountain"]
     },
     {
-      "codes": "26F0",
-      "char": "⛰",
+      "emoji": "⛰",
       "name": "mountain",
       "category": "Travel & Places",
       "subcategory": "place-geographic",
-      "keyTerms": [
-        "mountain"
-      ]
+      "codepoints": "26F0",
+      "keyTerms": ["mountain"]
     },
     {
-      "codes": "1F30B",
-      "char": "🌋",
+      "emoji": "🌋",
       "name": "volcano",
       "category": "Travel & Places",
       "subcategory": "place-geographic",
-      "keyTerms": [
-        "eruption",
-        "mountain",
-        "volcano"
-      ]
+      "codepoints": "1F30B",
+      "keyTerms": ["eruption", "mountain", "volcano"]
     },
     {
-      "codes": "1F5FB",
-      "char": "🗻",
+      "emoji": "🗻",
       "name": "mount fuji",
       "category": "Travel & Places",
       "subcategory": "place-geographic",
-      "keyTerms": [
-        "fuji",
-        "mount fuji",
-        "mountain"
-      ]
+      "codepoints": "1F5FB",
+      "keyTerms": ["fuji", "mount fuji", "mountain"]
     },
     {
-      "codes": "1F3D5",
-      "char": "🏕",
+      "emoji": "🏕",
       "name": "camping",
       "category": "Travel & Places",
       "subcategory": "place-geographic",
-      "keyTerms": [
-        "camping"
-      ]
+      "codepoints": "1F3D5",
+      "keyTerms": ["camping"]
     },
     {
-      "codes": "1F3D6",
-      "char": "🏖",
+      "emoji": "🏖",
       "name": "beach with umbrella",
       "category": "Travel & Places",
       "subcategory": "place-geographic",
-      "keyTerms": [
-        "beach",
-        "beach with umbrella",
-        "umbrella"
-      ]
+      "codepoints": "1F3D6",
+      "keyTerms": ["beach", "beach with umbrella", "umbrella"]
     },
     {
-      "codes": "1F3DC",
-      "char": "🏜",
+      "emoji": "🏜",
       "name": "desert",
       "category": "Travel & Places",
       "subcategory": "place-geographic",
-      "keyTerms": [
-        "desert"
-      ]
+      "codepoints": "1F3DC",
+      "keyTerms": ["desert"]
     },
     {
-      "codes": "1F3DD",
-      "char": "🏝",
+      "emoji": "🏝",
       "name": "desert island",
       "category": "Travel & Places",
       "subcategory": "place-geographic",
-      "keyTerms": [
-        "desert",
-        "island"
-      ]
+      "codepoints": "1F3DD",
+      "keyTerms": ["desert", "island"]
     },
     {
-      "codes": "1F3DE",
-      "char": "🏞",
+      "emoji": "🏞",
       "name": "national park",
       "category": "Travel & Places",
       "subcategory": "place-geographic",
-      "keyTerms": [
-        "national park",
-        "park"
-      ]
+      "codepoints": "1F3DE",
+      "keyTerms": ["national park", "park"]
     },
     {
-      "codes": "1F3DF",
-      "char": "🏟",
+      "emoji": "🏟",
       "name": "stadium",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "stadium"
-      ]
+      "codepoints": "1F3DF",
+      "keyTerms": ["stadium"]
     },
     {
-      "codes": "1F3DB",
-      "char": "🏛",
+      "emoji": "🏛",
       "name": "classical building",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "classical",
-        "classical building"
-      ]
+      "codepoints": "1F3DB",
+      "keyTerms": ["classical", "classical building"]
     },
     {
-      "codes": "1F3D7",
-      "char": "🏗",
+      "emoji": "🏗",
       "name": "building construction",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "building construction",
-        "construction"
-      ]
+      "codepoints": "1F3D7",
+      "keyTerms": ["building construction", "construction"]
     },
     {
-      "codes": "1F3D8",
-      "char": "🏘",
+      "emoji": "🧱",
+      "name": "brick",
+      "category": "Travel & Places",
+      "subcategory": "place-building",
+      "codepoints": "1F9F1",
+      "keyTerms": ["brick", "bricks", "clay", "mortar", "wall"]
+    },
+    {
+      "emoji": "🏘",
       "name": "houses",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "houses"
-      ]
+      "codepoints": "1F3D8",
+      "keyTerms": ["houses"]
     },
     {
-      "codes": "1F3DA",
-      "char": "🏚",
+      "emoji": "🏚",
       "name": "derelict house",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "derelict",
-        "house"
-      ]
+      "codepoints": "1F3DA",
+      "keyTerms": ["derelict", "house"]
     },
     {
-      "codes": "1F3E0",
-      "char": "🏠",
+      "emoji": "🏠",
       "name": "house",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "home",
-        "house"
-      ]
+      "codepoints": "1F3E0",
+      "keyTerms": ["home", "house"]
     },
     {
-      "codes": "1F3E1",
-      "char": "🏡",
+      "emoji": "🏡",
       "name": "house with garden",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "garden",
-        "home",
-        "house",
-        "house with garden"
-      ]
+      "codepoints": "1F3E1",
+      "keyTerms": ["garden", "home", "house", "house with garden"]
     },
     {
-      "codes": "1F3E2",
-      "char": "🏢",
+      "emoji": "🏢",
       "name": "office building",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "building",
-        "office building"
-      ]
+      "codepoints": "1F3E2",
+      "keyTerms": ["building", "office building"]
     },
     {
-      "codes": "1F3E3",
-      "char": "🏣",
+      "emoji": "🏣",
       "name": "Japanese post office",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "Japanese",
-        "Japanese post office",
-        "post"
-      ]
+      "codepoints": "1F3E3",
+      "keyTerms": ["Japanese", "Japanese post office", "post"]
     },
     {
-      "codes": "1F3E4",
-      "char": "🏤",
+      "emoji": "🏤",
       "name": "post office",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "European",
-        "post",
-        "post office"
-      ]
+      "codepoints": "1F3E4",
+      "keyTerms": ["European", "post", "post office"]
     },
     {
-      "codes": "1F3E5",
-      "char": "🏥",
+      "emoji": "🏥",
       "name": "hospital",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "doctor",
-        "hospital",
-        "medicine"
-      ]
+      "codepoints": "1F3E5",
+      "keyTerms": ["doctor", "hospital", "medicine"]
     },
     {
-      "codes": "1F3E6",
-      "char": "🏦",
+      "emoji": "🏦",
       "name": "bank",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "bank",
-        "building"
-      ]
+      "codepoints": "1F3E6",
+      "keyTerms": ["bank", "building"]
     },
     {
-      "codes": "1F3E8",
-      "char": "🏨",
+      "emoji": "🏨",
       "name": "hotel",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "building",
-        "hotel"
-      ]
+      "codepoints": "1F3E8",
+      "keyTerms": ["building", "hotel"]
     },
     {
-      "codes": "1F3E9",
-      "char": "🏩",
+      "emoji": "🏩",
       "name": "love hotel",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "hotel",
-        "love"
-      ]
+      "codepoints": "1F3E9",
+      "keyTerms": ["hotel", "love"]
     },
     {
-      "codes": "1F3EA",
-      "char": "🏪",
+      "emoji": "🏪",
       "name": "convenience store",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "convenience",
-        "store"
-      ]
+      "codepoints": "1F3EA",
+      "keyTerms": ["convenience", "store"]
     },
     {
-      "codes": "1F3EB",
-      "char": "🏫",
+      "emoji": "🏫",
       "name": "school",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "building",
-        "school"
-      ]
+      "codepoints": "1F3EB",
+      "keyTerms": ["building", "school"]
     },
     {
-      "codes": "1F3EC",
-      "char": "🏬",
+      "emoji": "🏬",
       "name": "department store",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "department",
-        "store"
-      ]
+      "codepoints": "1F3EC",
+      "keyTerms": ["department", "store"]
     },
     {
-      "codes": "1F3ED",
-      "char": "🏭",
+      "emoji": "🏭",
       "name": "factory",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "building",
-        "factory"
-      ]
+      "codepoints": "1F3ED",
+      "keyTerms": ["building", "factory"]
     },
     {
-      "codes": "1F3EF",
-      "char": "🏯",
+      "emoji": "🏯",
       "name": "Japanese castle",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "castle",
-        "Japanese"
-      ]
+      "codepoints": "1F3EF",
+      "keyTerms": ["castle", "Japanese"]
     },
     {
-      "codes": "1F3F0",
-      "char": "🏰",
+      "emoji": "🏰",
       "name": "castle",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "castle",
-        "European"
-      ]
+      "codepoints": "1F3F0",
+      "keyTerms": ["castle", "European"]
     },
     {
-      "codes": "1F492",
-      "char": "💒",
+      "emoji": "💒",
       "name": "wedding",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "chapel",
-        "romance",
-        "wedding"
-      ]
+      "codepoints": "1F492",
+      "keyTerms": ["chapel", "romance", "wedding"]
     },
     {
-      "codes": "1F5FC",
-      "char": "🗼",
+      "emoji": "🗼",
       "name": "Tokyo tower",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "Tokyo",
-        "tower"
-      ]
+      "codepoints": "1F5FC",
+      "keyTerms": ["Tokyo", "tower"]
     },
     {
-      "codes": "1F5FD",
-      "char": "🗽",
+      "emoji": "🗽",
       "name": "Statue of Liberty",
       "category": "Travel & Places",
       "subcategory": "place-building",
-      "keyTerms": [
-        "liberty",
-        "statue",
-        "Statue of Liberty"
-      ]
+      "codepoints": "1F5FD",
+      "keyTerms": ["liberty", "statue", "Statue of Liberty"]
     },
     {
-      "codes": "26EA",
-      "char": "⛪",
+      "emoji": "⛪",
       "name": "church",
       "category": "Travel & Places",
       "subcategory": "place-religious",
-      "keyTerms": [
-        "Christian",
-        "church",
-        "cross",
-        "religion"
-      ]
+      "codepoints": "26EA",
+      "keyTerms": ["Christian", "church", "cross", "religion"]
     },
     {
-      "codes": "1F54C",
-      "char": "🕌",
+      "emoji": "🕌",
       "name": "mosque",
       "category": "Travel & Places",
       "subcategory": "place-religious",
-      "keyTerms": [
-        "islam",
-        "mosque",
-        "Muslim",
-        "religion"
-      ]
+      "codepoints": "1F54C",
+      "keyTerms": ["islam", "mosque", "Muslim", "religion"]
     },
     {
-      "codes": "1F54D",
-      "char": "🕍",
+      "emoji": "🛕",
+      "name": "hindu temple",
+      "category": "Travel & Places",
+      "subcategory": "place-religious",
+      "codepoints": "1F6D5",
+      "keyTerms": ["hindu", "temple"]
+    },
+    {
+      "emoji": "🕍",
       "name": "synagogue",
       "category": "Travel & Places",
       "subcategory": "place-religious",
-      "keyTerms": [
-        "Jew",
-        "Jewish",
-        "religion",
-        "synagogue",
-        "temple"
-      ]
+      "codepoints": "1F54D",
+      "keyTerms": ["Jew", "Jewish", "religion", "synagogue", "temple"]
     },
     {
-      "codes": "26E9",
-      "char": "⛩",
+      "emoji": "⛩",
       "name": "shinto shrine",
       "category": "Travel & Places",
       "subcategory": "place-religious",
-      "keyTerms": [
-        "religion",
-        "shinto",
-        "shrine"
-      ]
+      "codepoints": 26000000000,
+      "keyTerms": ["religion", "shinto", "shrine"]
     },
     {
-      "codes": "1F54B",
-      "char": "🕋",
+      "emoji": "🕋",
       "name": "kaaba",
       "category": "Travel & Places",
       "subcategory": "place-religious",
-      "keyTerms": [
-        "islam",
-        "kaaba",
-        "Muslim",
-        "religion"
-      ]
+      "codepoints": "1F54B",
+      "keyTerms": ["islam", "kaaba", "Muslim", "religion"]
     },
     {
-      "codes": "26F2",
-      "char": "⛲",
+      "emoji": "⛲",
       "name": "fountain",
       "category": "Travel & Places",
       "subcategory": "place-other",
-      "keyTerms": [
-        "fountain"
-      ]
+      "codepoints": "26F2",
+      "keyTerms": ["fountain"]
     },
     {
-      "codes": "26FA",
-      "char": "⛺",
+      "emoji": "⛺",
       "name": "tent",
       "category": "Travel & Places",
       "subcategory": "place-other",
-      "keyTerms": [
-        "camping",
-        "tent"
-      ]
+      "codepoints": "26FA",
+      "keyTerms": ["camping", "tent"]
     },
     {
-      "codes": "1F301",
-      "char": "🌁",
+      "emoji": "🌁",
       "name": "foggy",
       "category": "Travel & Places",
       "subcategory": "place-other",
-      "keyTerms": [
-        "fog",
-        "foggy"
-      ]
+      "codepoints": "1F301",
+      "keyTerms": ["fog", "foggy"]
     },
     {
-      "codes": "1F303",
-      "char": "🌃",
+      "emoji": "🌃",
       "name": "night with stars",
       "category": "Travel & Places",
       "subcategory": "place-other",
-      "keyTerms": [
-        "night",
-        "night with stars",
-        "star"
-      ]
+      "codepoints": "1F303",
+      "keyTerms": ["night", "night with stars", "star"]
     },
     {
-      "codes": "1F3D9",
-      "char": "🏙",
+      "emoji": "🏙",
       "name": "cityscape",
       "category": "Travel & Places",
       "subcategory": "place-other",
-      "keyTerms": [
-        "city",
-        "cityscape"
-      ]
+      "codepoints": "1F3D9",
+      "keyTerms": ["city", "cityscape"]
     },
     {
-      "codes": "1F304",
-      "char": "🌄",
+      "emoji": "🌄",
       "name": "sunrise over mountains",
       "category": "Travel & Places",
       "subcategory": "place-other",
+      "codepoints": "1F304",
       "keyTerms": [
         "morning",
         "mountain",
@@ -7766,23 +7526,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F305",
-      "char": "🌅",
+      "emoji": "🌅",
       "name": "sunrise",
       "category": "Travel & Places",
       "subcategory": "place-other",
-      "keyTerms": [
-        "morning",
-        "sun",
-        "sunrise"
-      ]
+      "codepoints": "1F305",
+      "keyTerms": ["morning", "sun", "sunrise"]
     },
     {
-      "codes": "1F306",
-      "char": "🌆",
+      "emoji": "🌆",
       "name": "cityscape at dusk",
       "category": "Travel & Places",
       "subcategory": "place-other",
+      "codepoints": "1F306",
       "keyTerms": [
         "city",
         "cityscape at dusk",
@@ -7793,99 +7549,91 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F307",
-      "char": "🌇",
+      "emoji": "🌇",
       "name": "sunset",
       "category": "Travel & Places",
       "subcategory": "place-other",
-      "keyTerms": [
-        "dusk",
-        "sun",
-        "sunset"
-      ]
+      "codepoints": "1F307",
+      "keyTerms": ["dusk", "sun", "sunset"]
     },
     {
-      "codes": "1F309",
-      "char": "🌉",
+      "emoji": "🌉",
       "name": "bridge at night",
       "category": "Travel & Places",
       "subcategory": "place-other",
-      "keyTerms": [
-        "bridge",
-        "bridge at night",
-        "night"
-      ]
+      "codepoints": "1F309",
+      "keyTerms": ["bridge", "bridge at night", "night"]
     },
     {
-      "codes": "1F3A0",
-      "char": "🎠",
+      "emoji": "♨",
+      "name": "hot springs",
+      "category": "Travel & Places",
+      "subcategory": "place-other",
+      "codepoints": 2668,
+      "keyTerms": ["hot", "hotsprings", "springs", "steaming"]
+    },
+    {
+      "emoji": "🎠",
       "name": "carousel horse",
       "category": "Travel & Places",
       "subcategory": "place-other",
-      "keyTerms": [
-        "carousel",
-        "horse"
-      ]
+      "codepoints": "1F3A0",
+      "keyTerms": ["carousel", "horse"]
     },
     {
-      "codes": "1F3A1",
-      "char": "🎡",
+      "emoji": "🎡",
       "name": "ferris wheel",
       "category": "Travel & Places",
       "subcategory": "place-other",
-      "keyTerms": [
-        "amusement park",
-        "ferris",
-        "wheel"
-      ]
+      "codepoints": "1F3A1",
+      "keyTerms": ["amusement park", "ferris", "wheel"]
     },
     {
-      "codes": "1F3A2",
-      "char": "🎢",
+      "emoji": "🎢",
       "name": "roller coaster",
       "category": "Travel & Places",
       "subcategory": "place-other",
-      "keyTerms": [
-        "amusement park",
-        "coaster",
-        "roller"
-      ]
+      "codepoints": "1F3A2",
+      "keyTerms": ["amusement park", "coaster", "roller"]
     },
     {
-      "codes": "1F682",
-      "char": "🚂",
+      "emoji": "💈",
+      "name": "barber pole",
+      "category": "Travel & Places",
+      "subcategory": "place-other",
+      "codepoints": "1F488",
+      "keyTerms": ["barber", "haircut", "pole"]
+    },
+    {
+      "emoji": "🎪",
+      "name": "circus tent",
+      "category": "Travel & Places",
+      "subcategory": "place-other",
+      "codepoints": "1F3AA",
+      "keyTerms": ["circus", "tent"]
+    },
+    {
+      "emoji": "🚂",
       "name": "locomotive",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "engine",
-        "locomotive",
-        "railway",
-        "steam",
-        "train"
-      ]
+      "codepoints": "1F682",
+      "keyTerms": ["engine", "locomotive", "railway", "steam", "train"]
     },
     {
-      "codes": "1F683",
-      "char": "🚃",
+      "emoji": "🚃",
       "name": "railway car",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "car",
-        "electric",
-        "railway",
-        "train",
-        "tram",
-        "trolleybus"
-      ]
+      "codepoints": "1F683",
+      "keyTerms": ["car", "electric", "railway", "train", "tram", "trolleybus"]
     },
     {
-      "codes": "1F684",
-      "char": "🚄",
+      "emoji": "🚄",
       "name": "high-speed train",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
+      "codepoints": "1F684",
       "keyTerms": [
         "high-speed train",
         "railway",
@@ -7895,541 +7643,443 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F685",
-      "char": "🚅",
+      "emoji": "🚅",
       "name": "bullet train",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "bullet",
-        "railway",
-        "shinkansen",
-        "speed",
-        "train"
-      ]
+      "codepoints": "1F685",
+      "keyTerms": ["bullet", "railway", "shinkansen", "speed", "train"]
     },
     {
-      "codes": "1F686",
-      "char": "🚆",
+      "emoji": "🚆",
       "name": "train",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "railway",
-        "train"
-      ]
+      "codepoints": "1F686",
+      "keyTerms": ["railway", "train"]
     },
     {
-      "codes": "1F687",
-      "char": "🚇",
+      "emoji": "🚇",
       "name": "metro",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "metro",
-        "subway"
-      ]
+      "codepoints": "1F687",
+      "keyTerms": ["metro", "subway"]
     },
     {
-      "codes": "1F688",
-      "char": "🚈",
+      "emoji": "🚈",
       "name": "light rail",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "light rail",
-        "railway"
-      ]
+      "codepoints": "1F688",
+      "keyTerms": ["light rail", "railway"]
     },
     {
-      "codes": "1F689",
-      "char": "🚉",
+      "emoji": "🚉",
       "name": "station",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "railway",
-        "station",
-        "train"
-      ]
+      "codepoints": "1F689",
+      "keyTerms": ["railway", "station", "train"]
     },
     {
-      "codes": "1F68A",
-      "char": "🚊",
+      "emoji": "🚊",
       "name": "tram",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "tram",
-        "trolleybus"
-      ]
+      "codepoints": "1F68A",
+      "keyTerms": ["tram", "trolleybus"]
     },
     {
-      "codes": "1F69D",
-      "char": "🚝",
+      "emoji": "🚝",
       "name": "monorail",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "monorail",
-        "vehicle"
-      ]
+      "codepoints": "1F69D",
+      "keyTerms": ["monorail", "vehicle"]
     },
     {
-      "codes": "1F69E",
-      "char": "🚞",
+      "emoji": "🚞",
       "name": "mountain railway",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "car",
-        "mountain",
-        "railway"
-      ]
+      "codepoints": "1F69E",
+      "keyTerms": ["car", "mountain", "railway"]
     },
     {
-      "codes": "1F68B",
-      "char": "🚋",
+      "emoji": "🚋",
       "name": "tram car",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "car",
-        "tram",
-        "trolleybus"
-      ]
+      "codepoints": "1F68B",
+      "keyTerms": ["car", "tram", "trolleybus"]
     },
     {
-      "codes": "1F68C",
-      "char": "🚌",
+      "emoji": "🚌",
       "name": "bus",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "bus",
-        "vehicle"
-      ]
+      "codepoints": "1F68C",
+      "keyTerms": ["bus", "vehicle"]
     },
     {
-      "codes": "1F68D",
-      "char": "🚍",
+      "emoji": "🚍",
       "name": "oncoming bus",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "bus",
-        "oncoming"
-      ]
+      "codepoints": "1F68D",
+      "keyTerms": ["bus", "oncoming"]
     },
     {
-      "codes": "1F68E",
-      "char": "🚎",
+      "emoji": "🚎",
       "name": "trolleybus",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "bus",
-        "tram",
-        "trolley",
-        "trolleybus"
-      ]
+      "codepoints": "1F68E",
+      "keyTerms": ["bus", "tram", "trolley", "trolleybus"]
     },
     {
-      "codes": "1F690",
-      "char": "🚐",
+      "emoji": "🚐",
       "name": "minibus",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "bus",
-        "minibus"
-      ]
+      "codepoints": "1F690",
+      "keyTerms": ["bus", "minibus"]
     },
     {
-      "codes": "1F691",
-      "char": "🚑",
+      "emoji": "🚑",
       "name": "ambulance",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "ambulance",
-        "vehicle"
-      ]
+      "codepoints": "1F691",
+      "keyTerms": ["ambulance", "vehicle"]
     },
     {
-      "codes": "1F692",
-      "char": "🚒",
+      "emoji": "🚒",
       "name": "fire engine",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "engine",
-        "fire",
-        "truck"
-      ]
+      "codepoints": "1F692",
+      "keyTerms": ["engine", "fire", "truck"]
     },
     {
-      "codes": "1F693",
-      "char": "🚓",
+      "emoji": "🚓",
       "name": "police car",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "car",
-        "patrol",
-        "police"
-      ]
+      "codepoints": "1F693",
+      "keyTerms": ["car", "patrol", "police"]
     },
     {
-      "codes": "1F694",
-      "char": "🚔",
+      "emoji": "🚔",
       "name": "oncoming police car",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "car",
-        "oncoming",
-        "police"
-      ]
+      "codepoints": "1F694",
+      "keyTerms": ["car", "oncoming", "police"]
     },
     {
-      "codes": "1F695",
-      "char": "🚕",
+      "emoji": "🚕",
       "name": "taxi",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "taxi",
-        "vehicle"
-      ]
+      "codepoints": "1F695",
+      "keyTerms": ["taxi", "vehicle"]
     },
     {
-      "codes": "1F696",
-      "char": "🚖",
+      "emoji": "🚖",
       "name": "oncoming taxi",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "oncoming",
-        "taxi"
-      ]
+      "codepoints": "1F696",
+      "keyTerms": ["oncoming", "taxi"]
     },
     {
-      "codes": "1F697",
-      "char": "🚗",
+      "emoji": "🚗",
       "name": "automobile",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "automobile",
-        "car"
-      ]
+      "codepoints": "1F697",
+      "keyTerms": ["automobile", "car"]
     },
     {
-      "codes": "1F698",
-      "char": "🚘",
+      "emoji": "🚘",
       "name": "oncoming automobile",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "automobile",
-        "car",
-        "oncoming"
-      ]
+      "codepoints": "1F698",
+      "keyTerms": ["automobile", "car", "oncoming"]
     },
     {
-      "codes": "1F69A",
-      "char": "🚚",
+      "emoji": "🚙",
+      "name": "sport utility vehicle",
+      "category": "Travel & Places",
+      "subcategory": "transport-ground",
+      "codepoints": "1F699",
+      "keyTerms": ["recreational", "sport utility", "sport utility vehicle"]
+    },
+    {
+      "emoji": "🚚",
       "name": "delivery truck",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "delivery",
-        "truck"
-      ]
+      "codepoints": "1F69A",
+      "keyTerms": ["delivery", "truck"]
     },
     {
-      "codes": "1F69B",
-      "char": "🚛",
+      "emoji": "🚛",
       "name": "articulated lorry",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "articulated lorry",
-        "lorry",
-        "semi",
-        "truck"
-      ]
+      "codepoints": "1F69B",
+      "keyTerms": ["articulated lorry", "lorry", "semi", "truck"]
     },
     {
-      "codes": "1F69C",
-      "char": "🚜",
+      "emoji": "🚜",
       "name": "tractor",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "tractor",
-        "vehicle"
-      ]
+      "codepoints": "1F69C",
+      "keyTerms": ["tractor", "vehicle"]
     },
     {
-      "codes": "1F3CE",
-      "char": "🏎",
+      "emoji": "🏎",
       "name": "racing car",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "car",
-        "racing"
-      ]
+      "codepoints": "1F3CE",
+      "keyTerms": ["car", "racing"]
     },
     {
-      "codes": "1F3CD",
-      "char": "🏍",
+      "emoji": "🏍",
       "name": "motorcycle",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "motorcycle",
-        "racing"
-      ]
+      "codepoints": "1F3CD",
+      "keyTerms": ["motorcycle", "racing"]
     },
     {
-      "codes": "1F6F5",
-      "char": "🛵",
+      "emoji": "🛵",
       "name": "motor scooter",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "motor",
-        "scooter"
-      ]
+      "codepoints": "1F6F5",
+      "keyTerms": ["motor", "scooter"]
     },
     {
-      "codes": "1F6B2",
-      "char": "🚲",
+      "emoji": "🦽",
+      "name": "manual wheelchair",
+      "category": "Travel & Places",
+      "subcategory": "transport-ground",
+      "codepoints": "1F9BD",
+      "keyTerms": ["accessibility", "manual wheelchair"]
+    },
+    {
+      "emoji": "🦼",
+      "name": "motorized wheelchair",
+      "category": "Travel & Places",
+      "subcategory": "transport-ground",
+      "codepoints": "1F9BC",
+      "keyTerms": ["accessibility", "motorized wheelchair"]
+    },
+    {
+      "emoji": "🛺",
+      "name": "auto rickshaw",
+      "category": "Travel & Places",
+      "subcategory": "transport-ground",
+      "codepoints": "1F6FA",
+      "keyTerms": ["auto rickshaw", "tuk tuk"]
+    },
+    {
+      "emoji": "🚲",
       "name": "bicycle",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "bicycle",
-        "bike"
-      ]
+      "codepoints": "1F6B2",
+      "keyTerms": ["bicycle", "bike"]
     },
     {
-      "codes": "1F6F4",
-      "char": "🛴",
+      "emoji": "🛴",
       "name": "kick scooter",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "kick",
-        "scooter"
-      ]
+      "codepoints": "1F6F4",
+      "keyTerms": ["kick", "scooter"]
     },
     {
-      "codes": "1F68F",
-      "char": "🚏",
+      "emoji": "🛹",
+      "name": "skateboard",
+      "category": "Travel & Places",
+      "subcategory": "transport-ground",
+      "codepoints": "1F6F9",
+      "keyTerms": ["board", "skateboard"]
+    },
+    {
+      "emoji": "🚏",
       "name": "bus stop",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "bus",
-        "busstop",
-        "stop"
-      ]
+      "codepoints": "1F68F",
+      "keyTerms": ["bus", "busstop", "stop"]
     },
     {
-      "codes": "1F6E4",
-      "char": "🛤",
+      "emoji": "🛣",
+      "name": "motorway",
+      "category": "Travel & Places",
+      "subcategory": "transport-ground",
+      "codepoints": "1F6E3",
+      "keyTerms": ["highway", "motorway", "road"]
+    },
+    {
+      "emoji": "🛤",
       "name": "railway track",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "railway",
-        "railway track",
-        "train"
-      ]
+      "codepoints": "1F6E4",
+      "keyTerms": ["railway", "railway track", "train"]
     },
     {
-      "codes": "26FD",
-      "char": "⛽",
+      "emoji": "🛢",
+      "name": "oil drum",
+      "category": "Travel & Places",
+      "subcategory": "transport-ground",
+      "codepoints": "1F6E2",
+      "keyTerms": ["drum", "oil"]
+    },
+    {
+      "emoji": "⛽",
       "name": "fuel pump",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "diesel",
-        "fuel",
-        "fuelpump",
-        "gas",
-        "pump",
-        "station"
-      ]
+      "codepoints": "26FD",
+      "keyTerms": ["diesel", "fuel", "fuelpump", "gas", "pump", "station"]
     },
     {
-      "codes": "1F6A8",
-      "char": "🚨",
+      "emoji": "🚨",
       "name": "police car light",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "beacon",
-        "car",
-        "light",
-        "police",
-        "revolving"
-      ]
+      "codepoints": "1F6A8",
+      "keyTerms": ["beacon", "car", "light", "police", "revolving"]
     },
     {
-      "codes": "1F6A5",
-      "char": "🚥",
+      "emoji": "🚥",
       "name": "horizontal traffic light",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "horizontal traffic light",
-        "light",
-        "signal",
-        "traffic"
-      ]
+      "codepoints": "1F6A5",
+      "keyTerms": ["horizontal traffic light", "light", "signal", "traffic"]
     },
     {
-      "codes": "1F6A6",
-      "char": "🚦",
+      "emoji": "🚦",
       "name": "vertical traffic light",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "light",
-        "signal",
-        "traffic",
-        "vertical traffic light"
-      ]
+      "codepoints": "1F6A6",
+      "keyTerms": ["light", "signal", "traffic", "vertical traffic light"]
     },
     {
-      "codes": "1F6A7",
-      "char": "🚧",
+      "emoji": "🛑",
+      "name": "stop sign",
+      "category": "Travel & Places",
+      "subcategory": "transport-ground",
+      "codepoints": "1F6D1",
+      "keyTerms": ["octagonal", "sign", "stop"]
+    },
+    {
+      "emoji": "🚧",
       "name": "construction",
       "category": "Travel & Places",
       "subcategory": "transport-ground",
-      "keyTerms": [
-        "barrier",
-        "construction"
-      ]
+      "codepoints": "1F6A7",
+      "keyTerms": ["barrier", "construction"]
     },
     {
-      "codes": "2693",
-      "char": "⚓",
+      "emoji": "⚓",
       "name": "anchor",
       "category": "Travel & Places",
       "subcategory": "transport-water",
-      "keyTerms": [
-        "anchor",
-        "ship",
-        "tool"
-      ]
+      "codepoints": 2693,
+      "keyTerms": ["anchor", "ship", "tool"]
     },
     {
-      "codes": "26F5",
-      "char": "⛵",
+      "emoji": "⛵",
       "name": "sailboat",
       "category": "Travel & Places",
       "subcategory": "transport-water",
-      "keyTerms": [
-        "boat",
-        "resort",
-        "sailboat",
-        "sea",
-        "yacht"
-      ]
+      "codepoints": "26F5",
+      "keyTerms": ["boat", "resort", "sailboat", "sea", "yacht"]
     },
     {
-      "codes": "1F6A4",
-      "char": "🚤",
+      "emoji": "🛶",
+      "name": "canoe",
+      "category": "Travel & Places",
+      "subcategory": "transport-water",
+      "codepoints": "1F6F6",
+      "keyTerms": ["boat", "canoe"]
+    },
+    {
+      "emoji": "🚤",
       "name": "speedboat",
       "category": "Travel & Places",
       "subcategory": "transport-water",
-      "keyTerms": [
-        "boat",
-        "speedboat"
-      ]
+      "codepoints": "1F6A4",
+      "keyTerms": ["boat", "speedboat"]
     },
     {
-      "codes": "1F6F3",
-      "char": "🛳",
+      "emoji": "🛳",
       "name": "passenger ship",
       "category": "Travel & Places",
       "subcategory": "transport-water",
-      "keyTerms": [
-        "passenger",
-        "ship"
-      ]
+      "codepoints": "1F6F3",
+      "keyTerms": ["passenger", "ship"]
     },
     {
-      "codes": "26F4",
-      "char": "⛴",
+      "emoji": "⛴",
       "name": "ferry",
       "category": "Travel & Places",
       "subcategory": "transport-water",
-      "keyTerms": [
-        "boat",
-        "ferry",
-        "passenger"
-      ]
+      "codepoints": "26F4",
+      "keyTerms": ["boat", "ferry", "passenger"]
     },
     {
-      "codes": "1F6E5",
-      "char": "🛥",
+      "emoji": "🛥",
       "name": "motor boat",
       "category": "Travel & Places",
       "subcategory": "transport-water",
-      "keyTerms": [
-        "boat",
-        "motor boat",
-        "motorboat"
-      ]
+      "codepoints": "1F6E5",
+      "keyTerms": ["boat", "motor boat", "motorboat"]
     },
     {
-      "codes": "1F6A2",
-      "char": "🚢",
+      "emoji": "🚢",
       "name": "ship",
       "category": "Travel & Places",
       "subcategory": "transport-water",
-      "keyTerms": [
-        "boat",
-        "passenger",
-        "ship"
-      ]
+      "codepoints": "1F6A2",
+      "keyTerms": ["boat", "passenger", "ship"]
     },
     {
-      "codes": "2708",
-      "char": "✈",
+      "emoji": "✈",
       "name": "airplane",
       "category": "Travel & Places",
       "subcategory": "transport-air",
-      "keyTerms": [
-        "aeroplane",
-        "airplane"
-      ]
+      "codepoints": 2708,
+      "keyTerms": ["aeroplane", "airplane"]
     },
     {
-      "codes": "1F6E9",
-      "char": "🛩",
+      "emoji": "🛩",
       "name": "small airplane",
       "category": "Travel & Places",
       "subcategory": "transport-air",
-      "keyTerms": [
-        "aeroplane",
-        "airplane",
-        "small airplane"
-      ]
+      "codepoints": "1F6E9",
+      "keyTerms": ["aeroplane", "airplane", "small airplane"]
     },
     {
-      "codes": "1F6EB",
-      "char": "🛫",
+      "emoji": "🛫",
       "name": "airplane departure",
       "category": "Travel & Places",
       "subcategory": "transport-air",
+      "codepoints": "1F6EB",
       "keyTerms": [
         "aeroplane",
         "airplane",
@@ -8439,11 +8089,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F6EC",
-      "char": "🛬",
+      "emoji": "🛬",
       "name": "airplane arrival",
       "category": "Travel & Places",
       "subcategory": "transport-air",
+      "codepoints": "1F6EC",
       "keyTerms": [
         "aeroplane",
         "airplane",
@@ -8454,255 +8104,1323 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F4BA",
-      "char": "💺",
+      "emoji": "🪂",
+      "name": "parachute",
+      "category": "Travel & Places",
+      "subcategory": "transport-air",
+      "codepoints": "1FA82",
+      "keyTerms": ["hang-glide", "parachute", "parasail", "skydive"]
+    },
+    {
+      "emoji": "💺",
       "name": "seat",
       "category": "Travel & Places",
       "subcategory": "transport-air",
-      "keyTerms": [
-        "chair",
-        "seat"
-      ]
+      "codepoints": "1F4BA",
+      "keyTerms": ["chair", "seat"]
     },
     {
-      "codes": "1F681",
-      "char": "🚁",
+      "emoji": "🚁",
       "name": "helicopter",
       "category": "Travel & Places",
       "subcategory": "transport-air",
-      "keyTerms": [
-        "helicopter",
-        "vehicle"
-      ]
+      "codepoints": "1F681",
+      "keyTerms": ["helicopter", "vehicle"]
     },
     {
-      "codes": "1F69F",
-      "char": "🚟",
+      "emoji": "🚟",
       "name": "suspension railway",
       "category": "Travel & Places",
       "subcategory": "transport-air",
-      "keyTerms": [
-        "railway",
-        "suspension"
-      ]
+      "codepoints": "1F69F",
+      "keyTerms": ["railway", "suspension"]
     },
     {
-      "codes": "1F6A0",
-      "char": "🚠",
+      "emoji": "🚠",
       "name": "mountain cableway",
       "category": "Travel & Places",
       "subcategory": "transport-air",
-      "keyTerms": [
-        "cable",
-        "gondola",
-        "mountain",
-        "mountain cableway"
-      ]
+      "codepoints": "1F6A0",
+      "keyTerms": ["cable", "gondola", "mountain", "mountain cableway"]
     },
     {
-      "codes": "1F6A1",
-      "char": "🚡",
+      "emoji": "🚡",
       "name": "aerial tramway",
       "category": "Travel & Places",
       "subcategory": "transport-air",
-      "keyTerms": [
-        "aerial",
-        "cable",
-        "car",
-        "gondola",
-        "tramway"
-      ]
+      "codepoints": "1F6A1",
+      "keyTerms": ["aerial", "cable", "car", "gondola", "tramway"]
     },
     {
-      "codes": "1F6F0",
-      "char": "🛰",
+      "emoji": "🛰",
       "name": "satellite",
       "category": "Travel & Places",
       "subcategory": "transport-air",
-      "keyTerms": [
-        "satellite",
-        "space"
-      ]
+      "codepoints": "1F6F0",
+      "keyTerms": ["satellite", "space"]
     },
     {
-      "codes": "1F680",
-      "char": "🚀",
+      "emoji": "🚀",
       "name": "rocket",
       "category": "Travel & Places",
       "subcategory": "transport-air",
-      "keyTerms": [
-        "rocket",
-        "space"
-      ]
+      "codepoints": "1F680",
+      "keyTerms": ["rocket", "space"]
     },
     {
-      "codes": "1F6F8",
-      "char": "🛸",
+      "emoji": "🛸",
       "name": "flying saucer",
       "category": "Travel & Places",
       "subcategory": "transport-air",
-      "keyTerms": [
-        "flying saucer",
-        "UFO"
-      ]
+      "codepoints": "1F6F8",
+      "keyTerms": ["flying saucer", "UFO"]
     },
     {
-      "codes": "1F320",
-      "char": "🌠",
-      "name": "shooting star",
+      "emoji": "🛎",
+      "name": "bellhop bell",
+      "category": "Travel & Places",
+      "subcategory": "hotel",
+      "codepoints": "1F6CE",
+      "keyTerms": ["bell", "bellhop", "hotel"]
+    },
+    {
+      "emoji": "🧳",
+      "name": "luggage",
+      "category": "Travel & Places",
+      "subcategory": "hotel",
+      "codepoints": "1F9F3",
+      "keyTerms": ["luggage", "packing", "travel"]
+    },
+    {
+      "emoji": "⌛",
+      "name": "hourglass done",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "231B",
+      "keyTerms": ["hourglass done", "sand", "timer"]
+    },
+    {
+      "emoji": "⏳",
+      "name": "hourglass not done",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "23F3",
+      "keyTerms": ["hourglass", "hourglass not done", "sand", "timer"]
+    },
+    {
+      "emoji": "⌚",
+      "name": "watch",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "231A",
+      "keyTerms": ["clock", "watch"]
+    },
+    {
+      "emoji": "⏰",
+      "name": "alarm clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "23F0",
+      "keyTerms": ["alarm", "clock"]
+    },
+    {
+      "emoji": "⏱",
+      "name": "stopwatch",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "23F1",
+      "keyTerms": ["clock", "stopwatch"]
+    },
+    {
+      "emoji": "⏲",
+      "name": "timer clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "23F2",
+      "keyTerms": ["clock", "timer"]
+    },
+    {
+      "emoji": "🕰",
+      "name": "mantelpiece clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F570",
+      "keyTerms": ["clock", "mantelpiece clock"]
+    },
+    {
+      "emoji": "🕛",
+      "name": "twelve o’clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F55B",
+      "keyTerms": ["00", "12", "12:00", "clock", "o’clock", "twelve"]
+    },
+    {
+      "emoji": "🕧",
+      "name": "twelve-thirty",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F567",
+      "keyTerms": ["12", "12:30", "clock", "thirty", "twelve", "twelve-thirty"]
+    },
+    {
+      "emoji": "🕐",
+      "name": "one o’clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F550",
+      "keyTerms": ["00", "1", "1:00", "clock", "o’clock", "one"]
+    },
+    {
+      "emoji": "🕜",
+      "name": "one-thirty",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F55C",
+      "keyTerms": ["1", "1:30", "clock", "one", "one-thirty", "thirty"]
+    },
+    {
+      "emoji": "🕑",
+      "name": "two o’clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F551",
+      "keyTerms": ["00", "2", "2:00", "clock", "o’clock", "two"]
+    },
+    {
+      "emoji": "🕝",
+      "name": "two-thirty",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F55D",
+      "keyTerms": ["2", "2:30", "clock", "thirty", "two", "two-thirty"]
+    },
+    {
+      "emoji": "🕒",
+      "name": "three o’clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F552",
+      "keyTerms": ["00", "3", "3:00", "clock", "o’clock", "three"]
+    },
+    {
+      "emoji": "🕞",
+      "name": "three-thirty",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F55E",
+      "keyTerms": ["3", "3:30", "clock", "thirty", "three", "three-thirty"]
+    },
+    {
+      "emoji": "🕓",
+      "name": "four o’clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F553",
+      "keyTerms": ["00", "4", "4:00", "clock", "four", "o’clock"]
+    },
+    {
+      "emoji": "🕟",
+      "name": "four-thirty",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F55F",
+      "keyTerms": ["4", "4:30", "clock", "four", "four-thirty", "thirty"]
+    },
+    {
+      "emoji": "🕔",
+      "name": "five o’clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F554",
+      "keyTerms": ["00", "5", "5:00", "clock", "five", "o’clock"]
+    },
+    {
+      "emoji": "🕠",
+      "name": "five-thirty",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F560",
+      "keyTerms": ["5", "5:30", "clock", "five", "five-thirty", "thirty"]
+    },
+    {
+      "emoji": "🕕",
+      "name": "six o’clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F555",
+      "keyTerms": ["00", "6", "6:00", "clock", "o’clock", "six"]
+    },
+    {
+      "emoji": "🕡",
+      "name": "six-thirty",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F561",
+      "keyTerms": ["6", "6:30", "clock", "six", "six-thirty", "thirty"]
+    },
+    {
+      "emoji": "🕖",
+      "name": "seven o’clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F556",
+      "keyTerms": ["00", "7", "7:00", "clock", "o’clock", "seven"]
+    },
+    {
+      "emoji": "🕢",
+      "name": "seven-thirty",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F562",
+      "keyTerms": ["7", "7:30", "clock", "seven", "seven-thirty", "thirty"]
+    },
+    {
+      "emoji": "🕗",
+      "name": "eight o’clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F557",
+      "keyTerms": ["00", "8", "8:00", "clock", "eight", "o’clock"]
+    },
+    {
+      "emoji": "🕣",
+      "name": "eight-thirty",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F563",
+      "keyTerms": ["8", "8:30", "clock", "eight", "eight-thirty", "thirty"]
+    },
+    {
+      "emoji": "🕘",
+      "name": "nine o’clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F558",
+      "keyTerms": ["00", "9", "9:00", "clock", "nine", "o’clock"]
+    },
+    {
+      "emoji": "🕤",
+      "name": "nine-thirty",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F564",
+      "keyTerms": ["9", "9:30", "clock", "nine", "nine-thirty", "thirty"]
+    },
+    {
+      "emoji": "🕙",
+      "name": "ten o’clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F559",
+      "keyTerms": ["00", "10", "10:00", "clock", "o’clock", "ten"]
+    },
+    {
+      "emoji": "🕥",
+      "name": "ten-thirty",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F565",
+      "keyTerms": ["10", "10:30", "clock", "ten", "ten-thirty", "thirty"]
+    },
+    {
+      "emoji": "🕚",
+      "name": "eleven o’clock",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F55A",
+      "keyTerms": ["00", "11", "11:00", "clock", "eleven", "o’clock"]
+    },
+    {
+      "emoji": "🕦",
+      "name": "eleven-thirty",
+      "category": "Travel & Places",
+      "subcategory": "time",
+      "codepoints": "1F566",
+      "keyTerms": ["11", "11:30", "clock", "eleven", "eleven-thirty", "thirty"]
+    },
+    {
+      "emoji": "🌑",
+      "name": "new moon",
       "category": "Travel & Places",
       "subcategory": "sky & weather",
+      "codepoints": "1F311",
+      "keyTerms": ["dark", "moon", "new moon"]
+    },
+    {
+      "emoji": "🌒",
+      "name": "waxing crescent moon",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F312",
+      "keyTerms": ["crescent", "moon", "waxing"]
+    },
+    {
+      "emoji": "🌓",
+      "name": "first quarter moon",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F313",
+      "keyTerms": ["first quarter moon", "moon", "quarter"]
+    },
+    {
+      "emoji": "🌔",
+      "name": "waxing gibbous moon",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F314",
+      "keyTerms": ["gibbous", "moon", "waxing"]
+    },
+    {
+      "emoji": "🌕",
+      "name": "full moon",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F315",
+      "keyTerms": ["full", "moon"]
+    },
+    {
+      "emoji": "🌖",
+      "name": "waning gibbous moon",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F316",
+      "keyTerms": ["gibbous", "moon", "waning"]
+    },
+    {
+      "emoji": "🌗",
+      "name": "last quarter moon",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F317",
+      "keyTerms": ["last quarter moon", "moon", "quarter"]
+    },
+    {
+      "emoji": "🌘",
+      "name": "waning crescent moon",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F318",
+      "keyTerms": ["crescent", "moon", "waning"]
+    },
+    {
+      "emoji": "🌙",
+      "name": "crescent moon",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F319",
+      "keyTerms": ["crescent", "moon"]
+    },
+    {
+      "emoji": "🌚",
+      "name": "new moon face",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F31A",
+      "keyTerms": ["face", "moon", "new moon face"]
+    },
+    {
+      "emoji": "🌛",
+      "name": "first quarter moon face",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F31B",
+      "keyTerms": ["face", "first quarter moon face", "moon", "quarter"]
+    },
+    {
+      "emoji": "🌜",
+      "name": "last quarter moon face",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F31C",
+      "keyTerms": ["face", "last quarter moon face", "moon", "quarter"]
+    },
+    {
+      "emoji": "🌡",
+      "name": "thermometer",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F321",
+      "keyTerms": ["thermometer", "weather"]
+    },
+    {
+      "emoji": "☀",
+      "name": "sun",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": 2600,
+      "keyTerms": ["bright", "rays", "sun", "sunny"]
+    },
+    {
+      "emoji": "🌝",
+      "name": "full moon face",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F31D",
+      "keyTerms": ["bright", "face", "full", "moon"]
+    },
+    {
+      "emoji": "🌞",
+      "name": "sun with face",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F31E",
+      "keyTerms": ["bright", "face", "sun", "sun with face"]
+    },
+    {
+      "emoji": "🪐",
+      "name": "ringed planet",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1FA90",
+      "keyTerms": ["ringed planet", "saturn", "saturnine"]
+    },
+    {
+      "emoji": "⭐",
+      "name": "star",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "2B50",
+      "keyTerms": ["star"]
+    },
+    {
+      "emoji": "🌟",
+      "name": "glowing star",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F31F",
       "keyTerms": [
-        "falling",
-        "shooting",
+        "glittery",
+        "glow",
+        "glowing star",
+        "shining",
+        "sparkle",
         "star"
       ]
     },
     {
-      "codes": "1F30C",
-      "char": "🌌",
+      "emoji": "🌠",
+      "name": "shooting star",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F320",
+      "keyTerms": ["falling", "shooting", "star"]
+    },
+    {
+      "emoji": "🌌",
       "name": "milky way",
       "category": "Travel & Places",
       "subcategory": "sky & weather",
+      "codepoints": "1F30C",
+      "keyTerms": ["milky way", "space"]
+    },
+    {
+      "emoji": "☁",
+      "name": "cloud",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": 2601,
+      "keyTerms": ["cloud", "weather"]
+    },
+    {
+      "emoji": "⛅",
+      "name": "sun behind cloud",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "26C5",
+      "keyTerms": ["cloud", "sun", "sun behind cloud"]
+    },
+    {
+      "emoji": "⛈",
+      "name": "cloud with lightning and rain",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "26C8",
+      "keyTerms": ["cloud", "cloud with lightning and rain", "rain", "thunder"]
+    },
+    {
+      "emoji": "🌤",
+      "name": "sun behind small cloud",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F324",
+      "keyTerms": ["cloud", "sun", "sun behind small cloud"]
+    },
+    {
+      "emoji": "🌥",
+      "name": "sun behind large cloud",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F325",
+      "keyTerms": ["cloud", "sun", "sun behind large cloud"]
+    },
+    {
+      "emoji": "🌦",
+      "name": "sun behind rain cloud",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F326",
+      "keyTerms": ["cloud", "rain", "sun", "sun behind rain cloud"]
+    },
+    {
+      "emoji": "🌧",
+      "name": "cloud with rain",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F327",
+      "keyTerms": ["cloud", "cloud with rain", "rain"]
+    },
+    {
+      "emoji": "🌨",
+      "name": "cloud with snow",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F328",
+      "keyTerms": ["cloud", "cloud with snow", "cold", "snow"]
+    },
+    {
+      "emoji": "🌩",
+      "name": "cloud with lightning",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F329",
+      "keyTerms": ["cloud", "cloud with lightning", "lightning"]
+    },
+    {
+      "emoji": "🌪",
+      "name": "tornado",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F32A",
+      "keyTerms": ["cloud", "tornado", "whirlwind"]
+    },
+    {
+      "emoji": "🌫",
+      "name": "fog",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F32B",
+      "keyTerms": ["cloud", "fog"]
+    },
+    {
+      "emoji": "🌬",
+      "name": "wind face",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F32C",
+      "keyTerms": ["blow", "cloud", "face", "wind"]
+    },
+    {
+      "emoji": "🌀",
+      "name": "cyclone",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F300",
+      "keyTerms": ["cyclone", "dizzy", "hurricane", "twister", "typhoon"]
+    },
+    {
+      "emoji": "🌈",
+      "name": "rainbow",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F308",
+      "keyTerms": ["rain", "rainbow"]
+    },
+    {
+      "emoji": "🌂",
+      "name": "closed umbrella",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F302",
+      "keyTerms": ["closed umbrella", "clothing", "rain", "umbrella"]
+    },
+    {
+      "emoji": "☂",
+      "name": "umbrella",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": 2602,
+      "keyTerms": ["clothing", "rain", "umbrella"]
+    },
+    {
+      "emoji": "☔",
+      "name": "umbrella with rain drops",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": 2614,
       "keyTerms": [
-        "milky way",
-        "space"
+        "clothing",
+        "drop",
+        "rain",
+        "umbrella",
+        "umbrella with rain drops"
       ]
     },
     {
-      "codes": "26F1",
-      "char": "⛱",
+      "emoji": "⛱",
       "name": "umbrella on ground",
       "category": "Travel & Places",
       "subcategory": "sky & weather",
+      "codepoints": "26F1",
+      "keyTerms": ["rain", "sun", "umbrella", "umbrella on ground"]
+    },
+    {
+      "emoji": "⚡",
+      "name": "high voltage",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "26A1",
       "keyTerms": [
-        "rain",
-        "sun",
-        "umbrella",
-        "umbrella on ground"
+        "danger",
+        "electric",
+        "high voltage",
+        "lightning",
+        "voltage",
+        "zap"
       ]
+    },
+    {
+      "emoji": "❄",
+      "name": "snowflake",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": 2744,
+      "keyTerms": ["cold", "snow", "snowflake"]
+    },
+    {
+      "emoji": "☃",
+      "name": "snowman",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": 2603,
+      "keyTerms": ["cold", "snow", "snowman"]
+    },
+    {
+      "emoji": "⛄",
+      "name": "snowman without snow",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "26C4",
+      "keyTerms": ["cold", "snow", "snowman", "snowman without snow"]
+    },
+    {
+      "emoji": "☄",
+      "name": "comet",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": 2604,
+      "keyTerms": ["comet", "space"]
+    },
+    {
+      "emoji": "🔥",
+      "name": "fire",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F525",
+      "keyTerms": ["fire", "flame", "tool"]
+    },
+    {
+      "emoji": "💧",
+      "name": "droplet",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F4A7",
+      "keyTerms": ["cold", "comic", "drop", "droplet", "sweat"]
+    },
+    {
+      "emoji": "🌊",
+      "name": "water wave",
+      "category": "Travel & Places",
+      "subcategory": "sky & weather",
+      "codepoints": "1F30A",
+      "keyTerms": ["ocean", "water", "wave"]
     }
   ],
   "object": [
     {
-      "codes": "1F6CD",
-      "char": "🛍",
+      "emoji": "👓",
+      "name": "glasses",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F453",
+      "keyTerms": ["clothing", "eye", "eyeglasses", "eyewear", "glasses"]
+    },
+    {
+      "emoji": "🕶",
+      "name": "sunglasses",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F576",
+      "keyTerms": ["dark", "eye", "eyewear", "glasses", "sunglasses"]
+    },
+    {
+      "emoji": "🥽",
+      "name": "goggles",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F97D",
+      "keyTerms": ["eye protection", "goggles", "swimming", "welding"]
+    },
+    {
+      "emoji": "🥼",
+      "name": "lab coat",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F97C",
+      "keyTerms": ["doctor", "experiment", "lab coat", "scientist"]
+    },
+    {
+      "emoji": "🦺",
+      "name": "safety vest",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F9BA",
+      "keyTerms": ["emergency", "safety", "vest"]
+    },
+    {
+      "emoji": "👔",
+      "name": "necktie",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F454",
+      "keyTerms": ["clothing", "necktie", "tie"]
+    },
+    {
+      "emoji": "👕",
+      "name": "t-shirt",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F455",
+      "keyTerms": ["clothing", "shirt", "t-shirt", "tshirt"]
+    },
+    {
+      "emoji": "👖",
+      "name": "jeans",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F456",
+      "keyTerms": ["clothing", "jeans", "pants", "trousers"]
+    },
+    {
+      "emoji": "🧣",
+      "name": "scarf",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F9E3",
+      "keyTerms": ["neck", "scarf"]
+    },
+    {
+      "emoji": "🧤",
+      "name": "gloves",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F9E4",
+      "keyTerms": ["gloves", "hand"]
+    },
+    {
+      "emoji": "🧥",
+      "name": "coat",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F9E5",
+      "keyTerms": ["coat", "jacket"]
+    },
+    {
+      "emoji": "🧦",
+      "name": "socks",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F9E6",
+      "keyTerms": ["socks", "stocking"]
+    },
+    {
+      "emoji": "👗",
+      "name": "dress",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F457",
+      "keyTerms": ["clothing", "dress"]
+    },
+    {
+      "emoji": "👘",
+      "name": "kimono",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F458",
+      "keyTerms": ["clothing", "kimono"]
+    },
+    {
+      "emoji": "🥻",
+      "name": "sari",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F97B",
+      "keyTerms": ["clothing", "dress", "sari"]
+    },
+    {
+      "emoji": "🩱",
+      "name": "one-piece swimsuit",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1FA71",
+      "keyTerms": ["bathing suit", "one-piece swimsuit", "swimsuit"]
+    },
+    {
+      "emoji": "🩲",
+      "name": "swim brief",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1FA72",
+      "keyTerms": [
+        "bathing suit",
+        "briefs",
+        "one-piece",
+        "swimsuit",
+        "underwear"
+      ]
+    },
+    {
+      "emoji": "🩳",
+      "name": "shorts",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1FA73",
+      "keyTerms": ["bathing suit", "pants", "shorts", "underwear", "swimsuit"]
+    },
+    {
+      "emoji": "👙",
+      "name": "bikini",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F459",
+      "keyTerms": ["bikini", "clothing", "swim"]
+    },
+    {
+      "emoji": "👚",
+      "name": "woman’s clothes",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F45A",
+      "keyTerms": ["clothing", "woman", "woman’s clothes"]
+    },
+    {
+      "emoji": "👛",
+      "name": "purse",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F45B",
+      "keyTerms": ["clothing", "coin", "purse"]
+    },
+    {
+      "emoji": "👜",
+      "name": "handbag",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F45C",
+      "keyTerms": ["bag", "clothing", "handbag", "purse"]
+    },
+    {
+      "emoji": "👝",
+      "name": "clutch bag",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F45D",
+      "keyTerms": ["bag", "clothing", "clutch bag", "pouch"]
+    },
+    {
+      "emoji": "🛍",
       "name": "shopping bags",
       "category": "Objects",
       "subcategory": "clothing",
+      "codepoints": "1F6CD",
+      "keyTerms": ["bag", "hotel", "shopping", "shopping bags"]
+    },
+    {
+      "emoji": "🎒",
+      "name": "backpack",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F392",
+      "keyTerms": ["backpack", "bag", "rucksack", "satchel", "school"]
+    },
+    {
+      "emoji": "👞",
+      "name": "man’s shoe",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F45E",
+      "keyTerms": ["clothing", "man", "man’s shoe", "shoe"]
+    },
+    {
+      "emoji": "👟",
+      "name": "running shoe",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F45F",
+      "keyTerms": ["athletic", "clothing", "running shoe", "shoe", "sneaker"]
+    },
+    {
+      "emoji": "🥾",
+      "name": "hiking boot",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F97E",
+      "keyTerms": ["backpacking", "boot", "camping", "hiking"]
+    },
+    {
+      "emoji": "🥿",
+      "name": "flat shoe",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F97F",
+      "keyTerms": ["ballet flat", "flat shoe", "slip-on", "slipper"]
+    },
+    {
+      "emoji": "👠",
+      "name": "high-heeled shoe",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F460",
+      "keyTerms": ["clothing", "heel", "high-heeled shoe", "shoe", "woman"]
+    },
+    {
+      "emoji": "👡",
+      "name": "woman’s sandal",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F461",
+      "keyTerms": ["clothing", "sandal", "shoe", "woman", "woman’s sandal"]
+    },
+    {
+      "emoji": "🩰",
+      "name": "ballet shoes",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1FA70",
+      "keyTerms": ["ballet", "ballet shoes", "dance"]
+    },
+    {
+      "emoji": "👢",
+      "name": "woman’s boot",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F462",
+      "keyTerms": ["boot", "clothing", "shoe", "woman", "woman’s boot"]
+    },
+    {
+      "emoji": "👑",
+      "name": "crown",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F451",
+      "keyTerms": ["clothing", "crown", "king", "queen"]
+    },
+    {
+      "emoji": "👒",
+      "name": "woman’s hat",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F452",
+      "keyTerms": ["clothing", "hat", "woman", "woman’s hat"]
+    },
+    {
+      "emoji": "🎩",
+      "name": "top hat",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F3A9",
+      "keyTerms": ["clothing", "hat", "top", "tophat"]
+    },
+    {
+      "emoji": "🎓",
+      "name": "graduation cap",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F393",
+      "keyTerms": ["cap", "celebration", "clothing", "graduation", "hat"]
+    },
+    {
+      "emoji": "🧢",
+      "name": "billed cap",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F9E2",
+      "keyTerms": ["baseball cap", "billed cap"]
+    },
+    {
+      "emoji": "⛑",
+      "name": "rescue worker’s helmet",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "26D1",
       "keyTerms": [
-        "bag",
-        "hotel",
-        "shopping",
-        "shopping bags"
+        "aid",
+        "cross",
+        "face",
+        "hat",
+        "helmet",
+        "rescue worker’s helmet"
       ]
     },
     {
-      "codes": "1F4FF",
-      "char": "📿",
+      "emoji": "📿",
       "name": "prayer beads",
       "category": "Objects",
       "subcategory": "clothing",
-      "keyTerms": [
-        "beads",
-        "clothing",
-        "necklace",
-        "prayer",
-        "religion"
-      ]
+      "codepoints": "1F4FF",
+      "keyTerms": ["beads", "clothing", "necklace", "prayer", "religion"]
     },
     {
-      "codes": "1F48E",
-      "char": "💎",
+      "emoji": "💄",
+      "name": "lipstick",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F484",
+      "keyTerms": ["cosmetics", "lipstick", "makeup"]
+    },
+    {
+      "emoji": "💍",
+      "name": "ring",
+      "category": "Objects",
+      "subcategory": "clothing",
+      "codepoints": "1F48D",
+      "keyTerms": ["diamond", "ring"]
+    },
+    {
+      "emoji": "💎",
       "name": "gem stone",
       "category": "Objects",
       "subcategory": "clothing",
-      "keyTerms": [
-        "diamond",
-        "gem",
-        "gem stone",
-        "jewel"
-      ]
+      "codepoints": "1F48E",
+      "keyTerms": ["diamond", "gem", "gem stone", "jewel"]
     },
     {
-      "codes": "1F4EF",
-      "char": "📯",
+      "emoji": "🔇",
+      "name": "muted speaker",
+      "category": "Objects",
+      "subcategory": "sound",
+      "codepoints": "1F507",
+      "keyTerms": ["mute", "muted speaker", "quiet", "silent", "speaker"]
+    },
+    {
+      "emoji": "🔈",
+      "name": "speaker low volume",
+      "category": "Objects",
+      "subcategory": "sound",
+      "codepoints": "1F508",
+      "keyTerms": ["soft", "speaker low volume"]
+    },
+    {
+      "emoji": "🔉",
+      "name": "speaker medium volume",
+      "category": "Objects",
+      "subcategory": "sound",
+      "codepoints": "1F509",
+      "keyTerms": ["medium", "speaker medium volume"]
+    },
+    {
+      "emoji": "🔊",
+      "name": "speaker high volume",
+      "category": "Objects",
+      "subcategory": "sound",
+      "codepoints": "1F50A",
+      "keyTerms": ["loud", "speaker high volume"]
+    },
+    {
+      "emoji": "📢",
+      "name": "loudspeaker",
+      "category": "Objects",
+      "subcategory": "sound",
+      "codepoints": "1F4E2",
+      "keyTerms": ["loud", "loudspeaker", "public address"]
+    },
+    {
+      "emoji": "📣",
+      "name": "megaphone",
+      "category": "Objects",
+      "subcategory": "sound",
+      "codepoints": "1F4E3",
+      "keyTerms": ["cheering", "megaphone"]
+    },
+    {
+      "emoji": "📯",
       "name": "postal horn",
       "category": "Objects",
       "subcategory": "sound",
+      "codepoints": "1F4EF",
+      "keyTerms": ["horn", "post", "postal"]
+    },
+    {
+      "emoji": "🔔",
+      "name": "bell",
+      "category": "Objects",
+      "subcategory": "sound",
+      "codepoints": "1F514",
+      "keyTerms": ["bell"]
+    },
+    {
+      "emoji": "🔕",
+      "name": "bell with slash",
+      "category": "Objects",
+      "subcategory": "sound",
+      "codepoints": "1F515",
       "keyTerms": [
-        "horn",
-        "post",
-        "postal"
+        "bell",
+        "bell with slash",
+        "forbidden",
+        "mute",
+        "quiet",
+        "silent"
       ]
     },
     {
-      "codes": "1F399",
-      "char": "🎙",
+      "emoji": "🎼",
+      "name": "musical score",
+      "category": "Objects",
+      "subcategory": "music",
+      "codepoints": "1F3BC",
+      "keyTerms": ["music", "musical score", "score"]
+    },
+    {
+      "emoji": "🎵",
+      "name": "musical note",
+      "category": "Objects",
+      "subcategory": "music",
+      "codepoints": "1F3B5",
+      "keyTerms": ["music", "musical note", "note"]
+    },
+    {
+      "emoji": "🎶",
+      "name": "musical notes",
+      "category": "Objects",
+      "subcategory": "music",
+      "codepoints": "1F3B6",
+      "keyTerms": ["music", "musical notes", "note", "notes"]
+    },
+    {
+      "emoji": "🎙",
       "name": "studio microphone",
       "category": "Objects",
       "subcategory": "music",
-      "keyTerms": [
-        "mic",
-        "microphone",
-        "music",
-        "studio"
-      ]
+      "codepoints": "1F399",
+      "keyTerms": ["mic", "microphone", "music", "studio"]
     },
     {
-      "codes": "1F39A",
-      "char": "🎚",
+      "emoji": "🎚",
       "name": "level slider",
       "category": "Objects",
       "subcategory": "music",
-      "keyTerms": [
-        "level",
-        "music",
-        "slider"
-      ]
+      "codepoints": "1F39A",
+      "keyTerms": ["level", "music", "slider"]
     },
     {
-      "codes": "1F39B",
-      "char": "🎛",
+      "emoji": "🎛",
       "name": "control knobs",
       "category": "Objects",
       "subcategory": "music",
-      "keyTerms": [
-        "control",
-        "knobs",
-        "music"
-      ]
+      "codepoints": "1F39B",
+      "keyTerms": ["control", "knobs", "music"]
     },
     {
-      "codes": "1F4FB",
-      "char": "📻",
+      "emoji": "🎤",
+      "name": "microphone",
+      "category": "Objects",
+      "subcategory": "music",
+      "codepoints": "1F3A4",
+      "keyTerms": ["karaoke", "mic", "microphone"]
+    },
+    {
+      "emoji": "🎧",
+      "name": "headphone",
+      "category": "Objects",
+      "subcategory": "music",
+      "codepoints": "1F3A7",
+      "keyTerms": ["earbud", "headphone"]
+    },
+    {
+      "emoji": "📻",
       "name": "radio",
       "category": "Objects",
       "subcategory": "music",
+      "codepoints": "1F4FB",
+      "keyTerms": ["radio", "video"]
+    },
+    {
+      "emoji": "🎷",
+      "name": "saxophone",
+      "category": "Objects",
+      "subcategory": "musical-instrument",
+      "codepoints": "1F3B7",
+      "keyTerms": ["instrument", "music", "sax", "saxophone"]
+    },
+    {
+      "emoji": "🎸",
+      "name": "guitar",
+      "category": "Objects",
+      "subcategory": "musical-instrument",
+      "codepoints": "1F3B8",
+      "keyTerms": ["guitar", "instrument", "music"]
+    },
+    {
+      "emoji": "🎹",
+      "name": "musical keyboard",
+      "category": "Objects",
+      "subcategory": "musical-instrument",
+      "codepoints": "1F3B9",
       "keyTerms": [
-        "radio",
-        "video"
+        "instrument",
+        "keyboard",
+        "music",
+        "musical keyboard",
+        "piano"
       ]
     },
     {
-      "codes": "1F4F1",
-      "char": "📱",
+      "emoji": "🎺",
+      "name": "trumpet",
+      "category": "Objects",
+      "subcategory": "musical-instrument",
+      "codepoints": "1F3BA",
+      "keyTerms": ["instrument", "music", "trumpet"]
+    },
+    {
+      "emoji": "🎻",
+      "name": "violin",
+      "category": "Objects",
+      "subcategory": "musical-instrument",
+      "codepoints": "1F3BB",
+      "keyTerms": ["instrument", "music", "violin"]
+    },
+    {
+      "emoji": "🪕",
+      "name": "banjo",
+      "category": "Objects",
+      "subcategory": "musical-instrument",
+      "codepoints": "1FA95",
+      "keyTerms": ["banjo", "music", "stringed"]
+    },
+    {
+      "emoji": "🥁",
+      "name": "drum",
+      "category": "Objects",
+      "subcategory": "musical-instrument",
+      "codepoints": "1F941",
+      "keyTerms": ["drum", "drumsticks", "music"]
+    },
+    {
+      "emoji": "📱",
       "name": "mobile phone",
       "category": "Objects",
       "subcategory": "phone",
-      "keyTerms": [
-        "cell",
-        "mobile",
-        "phone",
-        "telephone"
-      ]
+      "codepoints": "1F4F1",
+      "keyTerms": ["cell", "mobile", "phone", "telephone"]
     },
     {
-      "codes": "1F4F2",
-      "char": "📲",
+      "emoji": "📲",
       "name": "mobile phone with arrow",
       "category": "Objects",
       "subcategory": "phone",
+      "codepoints": "1F4F2",
       "keyTerms": [
         "arrow",
         "cell",
@@ -8713,307 +9431,219 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "260E",
-      "char": "☎",
+      "emoji": "☎",
       "name": "telephone",
       "category": "Objects",
       "subcategory": "phone",
-      "keyTerms": [
-        "phone",
-        "telephone"
-      ]
+      "codepoints": "260E",
+      "keyTerms": ["phone", "telephone"]
     },
     {
-      "codes": "1F4DE",
-      "char": "📞",
+      "emoji": "📞",
       "name": "telephone receiver",
       "category": "Objects",
       "subcategory": "phone",
-      "keyTerms": [
-        "phone",
-        "receiver",
-        "telephone"
-      ]
+      "codepoints": "1F4DE",
+      "keyTerms": ["phone", "receiver", "telephone"]
     },
     {
-      "codes": "1F4DF",
-      "char": "📟",
+      "emoji": "📟",
       "name": "pager",
       "category": "Objects",
       "subcategory": "phone",
-      "keyTerms": [
-        "pager"
-      ]
+      "codepoints": "1F4DF",
+      "keyTerms": ["pager"]
     },
     {
-      "codes": "1F4E0",
-      "char": "📠",
+      "emoji": "📠",
       "name": "fax machine",
       "category": "Objects",
       "subcategory": "phone",
-      "keyTerms": [
-        "fax",
-        "fax machine"
-      ]
+      "codepoints": "1F4E0",
+      "keyTerms": ["fax", "fax machine"]
     },
     {
-      "codes": "1F50B",
-      "char": "🔋",
+      "emoji": "🔋",
       "name": "battery",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "battery"
-      ]
+      "codepoints": "1F50B",
+      "keyTerms": ["battery"]
     },
     {
-      "codes": "1F50C",
-      "char": "🔌",
+      "emoji": "🔌",
       "name": "electric plug",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "electric",
-        "electricity",
-        "plug"
-      ]
+      "codepoints": "1F50C",
+      "keyTerms": ["electric", "electricity", "plug"]
     },
     {
-      "codes": "1F4BB",
-      "char": "💻",
+      "emoji": "💻",
       "name": "laptop computer",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "computer",
-        "laptop computer",
-        "pc",
-        "personal"
-      ]
+      "codepoints": "1F4BB",
+      "keyTerms": ["computer", "laptop", "pc", "personal"]
     },
     {
-      "codes": "1F5A5",
-      "char": "🖥",
+      "emoji": "🖥",
       "name": "desktop computer",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "computer",
-        "desktop"
-      ]
+      "codepoints": "1F5A5",
+      "keyTerms": ["computer", "desktop"]
     },
     {
-      "codes": "1F5A8",
-      "char": "🖨",
+      "emoji": "🖨",
       "name": "printer",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "computer",
-        "printer"
-      ]
+      "codepoints": "1F5A8",
+      "keyTerms": ["computer", "printer"]
     },
     {
-      "codes": "2328",
-      "char": "⌨",
+      "emoji": "⌨",
       "name": "keyboard",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "computer",
-        "keyboard"
-      ]
+      "codepoints": 2328,
+      "keyTerms": ["computer", "keyboard"]
     },
     {
-      "codes": "1F5B1",
-      "char": "🖱",
+      "emoji": "🖱",
       "name": "computer mouse",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "computer",
-        "computer mouse"
-      ]
+      "codepoints": "1F5B1",
+      "keyTerms": ["computer", "computer mouse"]
     },
     {
-      "codes": "1F5B2",
-      "char": "🖲",
+      "emoji": "🖲",
       "name": "trackball",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "computer",
-        "trackball"
-      ]
+      "codepoints": "1F5B2",
+      "keyTerms": ["computer", "trackball"]
     },
     {
-      "codes": "1F4BD",
-      "char": "💽",
+      "emoji": "💽",
       "name": "computer disk",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "computer",
-        "disk",
-        "minidisk",
-        "optical"
-      ]
+      "codepoints": "1F4BD",
+      "keyTerms": ["computer", "disk", "minidisk", "optical"]
     },
     {
-      "codes": "1F4BE",
-      "char": "💾",
+      "emoji": "💾",
       "name": "floppy disk",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "computer",
-        "disk",
-        "floppy"
-      ]
+      "codepoints": "1F4BE",
+      "keyTerms": ["computer", "disk", "floppy"]
     },
     {
-      "codes": "1F4BF",
-      "char": "💿",
+      "emoji": "💿",
       "name": "optical disk",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "cd",
-        "computer",
-        "disk",
-        "optical"
-      ]
+      "codepoints": "1F4BF",
+      "keyTerms": ["cd", "computer", "disk", "optical"]
     },
     {
-      "codes": "1F4C0",
-      "char": "📀",
+      "emoji": "📀",
       "name": "dvd",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "blu-ray",
-        "computer",
-        "disk",
-        "dvd",
-        "optical"
-      ]
+      "codepoints": "1F4C0",
+      "keyTerms": ["blu-ray", "computer", "disk", "dvd", "optical"]
     },
     {
-      "codes": "1F9EE",
-      "char": "🧮",
+      "emoji": "🧮",
       "name": "abacus",
       "category": "Objects",
       "subcategory": "computer",
-      "keyTerms": [
-        "abacus",
-        "calculation"
-      ]
+      "codepoints": "1F9EE",
+      "keyTerms": ["abacus", "calculation"]
     },
     {
-      "codes": "1F3A5",
-      "char": "🎥",
+      "emoji": "🎥",
       "name": "movie camera",
       "category": "Objects",
       "subcategory": "light & video",
-      "keyTerms": [
-        "camera",
-        "cinema",
-        "movie"
-      ]
+      "codepoints": "1F3A5",
+      "keyTerms": ["camera", "cinema", "movie"]
     },
     {
-      "codes": "1F39E",
-      "char": "🎞",
+      "emoji": "🎞",
       "name": "film frames",
       "category": "Objects",
       "subcategory": "light & video",
-      "keyTerms": [
-        "cinema",
-        "film",
-        "frames",
-        "movie"
-      ]
+      "codepoints": "1F39E",
+      "keyTerms": ["cinema", "film", "frames", "movie"]
     },
     {
-      "codes": "1F4FD",
-      "char": "📽",
+      "emoji": "📽",
       "name": "film projector",
       "category": "Objects",
       "subcategory": "light & video",
-      "keyTerms": [
-        "cinema",
-        "film",
-        "movie",
-        "projector",
-        "video"
-      ]
+      "codepoints": "1F4FD",
+      "keyTerms": ["cinema", "film", "movie", "projector", "video"]
     },
     {
-      "codes": "1F4FA",
-      "char": "📺",
+      "emoji": "🎬",
+      "name": "clapper board",
+      "category": "Objects",
+      "subcategory": "light & video",
+      "codepoints": "1F3AC",
+      "keyTerms": ["clapper", "clapper board", "movie"]
+    },
+    {
+      "emoji": "📺",
       "name": "television",
       "category": "Objects",
       "subcategory": "light & video",
-      "keyTerms": [
-        "television",
-        "tv",
-        "video"
-      ]
+      "codepoints": "1F4FA",
+      "keyTerms": ["television", "tv", "video"]
     },
     {
-      "codes": "1F4F7",
-      "char": "📷",
+      "emoji": "📷",
       "name": "camera",
       "category": "Objects",
       "subcategory": "light & video",
-      "keyTerms": [
-        "camera",
-        "video"
-      ]
+      "codepoints": "1F4F7",
+      "keyTerms": ["camera", "video"]
     },
     {
-      "codes": "1F4F8",
-      "char": "📸",
+      "emoji": "📸",
       "name": "camera with flash",
       "category": "Objects",
       "subcategory": "light & video",
-      "keyTerms": [
-        "camera",
-        "camera with flash",
-        "flash",
-        "video"
-      ]
+      "codepoints": "1F4F8",
+      "keyTerms": ["camera", "camera with flash", "flash", "video"]
     },
     {
-      "codes": "1F4F9",
-      "char": "📹",
+      "emoji": "📹",
       "name": "video camera",
       "category": "Objects",
       "subcategory": "light & video",
-      "keyTerms": [
-        "camera",
-        "video"
-      ]
+      "codepoints": "1F4F9",
+      "keyTerms": ["camera", "video"]
     },
     {
-      "codes": "1F4FC",
-      "char": "📼",
+      "emoji": "📼",
       "name": "videocassette",
       "category": "Objects",
       "subcategory": "light & video",
-      "keyTerms": [
-        "tape",
-        "vhs",
-        "video",
-        "videocassette"
-      ]
+      "codepoints": "1F4FC",
+      "keyTerms": ["tape", "vhs", "video", "videocassette"]
     },
     {
-      "codes": "1F50D",
-      "char": "🔍",
+      "emoji": "🔍",
       "name": "magnifying glass tilted left",
       "category": "Objects",
       "subcategory": "light & video",
+      "codepoints": "1F50D",
       "keyTerms": [
         "glass",
         "magnifying",
@@ -9023,11 +9653,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F50E",
-      "char": "🔎",
+      "emoji": "🔎",
       "name": "magnifying glass tilted right",
       "category": "Objects",
       "subcategory": "light & video",
+      "codepoints": "1F50E",
       "keyTerms": [
         "glass",
         "magnifying",
@@ -9037,64 +9667,51 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F56F",
-      "char": "🕯",
+      "emoji": "🕯",
       "name": "candle",
       "category": "Objects",
       "subcategory": "light & video",
-      "keyTerms": [
-        "candle",
-        "light"
-      ]
+      "codepoints": "1F56F",
+      "keyTerms": ["candle", "light"]
     },
     {
-      "codes": "1F4A1",
-      "char": "💡",
+      "emoji": "💡",
       "name": "light bulb",
       "category": "Objects",
       "subcategory": "light & video",
-      "keyTerms": [
-        "bulb",
-        "comic",
-        "electric",
-        "idea",
-        "light"
-      ]
+      "codepoints": "1F4A1",
+      "keyTerms": ["bulb", "comic", "electric", "idea", "light"]
     },
     {
-      "codes": "1F526",
-      "char": "🔦",
+      "emoji": "🔦",
       "name": "flashlight",
       "category": "Objects",
       "subcategory": "light & video",
-      "keyTerms": [
-        "electric",
-        "flashlight",
-        "light",
-        "tool",
-        "torch"
-      ]
+      "codepoints": "1F526",
+      "keyTerms": ["electric", "flashlight", "light", "tool", "torch"]
     },
     {
-      "codes": "1F3EE",
-      "char": "🏮",
+      "emoji": "🏮",
       "name": "red paper lantern",
       "category": "Objects",
       "subcategory": "light & video",
-      "keyTerms": [
-        "bar",
-        "lantern",
-        "light",
-        "red",
-        "red paper lantern"
-      ]
+      "codepoints": "1F3EE",
+      "keyTerms": ["bar", "lantern", "light", "red", "red paper lantern"]
     },
     {
-      "codes": "1F4D4",
-      "char": "📔",
+      "emoji": "🪔",
+      "name": "diya lamp",
+      "category": "Objects",
+      "subcategory": "light & video",
+      "codepoints": "1FA94",
+      "keyTerms": ["diya", "lamp", "oil"]
+    },
+    {
+      "emoji": "📔",
       "name": "notebook with decorative cover",
       "category": "Objects",
       "subcategory": "book-paper",
+      "codepoints": "1F4D4",
       "keyTerms": [
         "book",
         "cover",
@@ -9104,135 +9721,107 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F4D5",
-      "char": "📕",
+      "emoji": "📕",
       "name": "closed book",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "book",
-        "closed"
-      ]
+      "codepoints": "1F4D5",
+      "keyTerms": ["book", "closed"]
     },
     {
-      "codes": "1F4D6",
-      "char": "📖",
+      "emoji": "📖",
       "name": "open book",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "book",
-        "open"
-      ]
+      "codepoints": "1F4D6",
+      "keyTerms": ["book", "open"]
     },
     {
-      "codes": "1F4D7",
-      "char": "📗",
+      "emoji": "📗",
       "name": "green book",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "book",
-        "green"
-      ]
+      "codepoints": "1F4D7",
+      "keyTerms": ["book", "green"]
     },
     {
-      "codes": "1F4D8",
-      "char": "📘",
+      "emoji": "📘",
       "name": "blue book",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "blue",
-        "book"
-      ]
+      "codepoints": "1F4D8",
+      "keyTerms": ["blue", "book"]
     },
     {
-      "codes": "1F4D9",
-      "char": "📙",
+      "emoji": "📙",
       "name": "orange book",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "book",
-        "orange"
-      ]
+      "codepoints": "1F4D9",
+      "keyTerms": ["book", "orange"]
     },
     {
-      "codes": "1F4DA",
-      "char": "📚",
+      "emoji": "📚",
       "name": "books",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "book",
-        "books"
-      ]
+      "codepoints": "1F4DA",
+      "keyTerms": ["book", "books"]
     },
     {
-      "codes": "1F4D3",
-      "char": "📓",
+      "emoji": "📓",
       "name": "notebook",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "notebook"
-      ]
+      "codepoints": "1F4D3",
+      "keyTerms": ["notebook"]
     },
     {
-      "codes": "1F4C3",
-      "char": "📃",
+      "emoji": "📒",
+      "name": "ledger",
+      "category": "Objects",
+      "subcategory": "book-paper",
+      "codepoints": "1F4D2",
+      "keyTerms": ["ledger", "notebook"]
+    },
+    {
+      "emoji": "📃",
       "name": "page with curl",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "curl",
-        "document",
-        "page",
-        "page with curl"
-      ]
+      "codepoints": "1F4C3",
+      "keyTerms": ["curl", "document", "page", "page with curl"]
     },
     {
-      "codes": "1F4DC",
-      "char": "📜",
+      "emoji": "📜",
       "name": "scroll",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "paper",
-        "scroll"
-      ]
+      "codepoints": "1F4DC",
+      "keyTerms": ["paper", "scroll"]
     },
     {
-      "codes": "1F4C4",
-      "char": "📄",
+      "emoji": "📄",
       "name": "page facing up",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "document",
-        "page",
-        "page facing up"
-      ]
+      "codepoints": "1F4C4",
+      "keyTerms": ["document", "page", "page facing up"]
     },
     {
-      "codes": "1F4F0",
-      "char": "📰",
+      "emoji": "📰",
       "name": "newspaper",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "news",
-        "newspaper",
-        "paper"
-      ]
+      "codepoints": "1F4F0",
+      "keyTerms": ["news", "newspaper", "paper"]
     },
     {
-      "codes": "1F5DE",
-      "char": "🗞",
+      "emoji": "🗞",
       "name": "rolled-up newspaper",
       "category": "Objects",
       "subcategory": "book-paper",
+      "codepoints": "1F5DE",
       "keyTerms": [
         "news",
         "newspaper",
@@ -9242,118 +9831,75 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F4D1",
-      "char": "📑",
+      "emoji": "📑",
       "name": "bookmark tabs",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "bookmark",
-        "mark",
-        "marker",
-        "tabs"
-      ]
+      "codepoints": "1F4D1",
+      "keyTerms": ["bookmark", "mark", "marker", "tabs"]
     },
     {
-      "codes": "1F516",
-      "char": "🔖",
+      "emoji": "🔖",
       "name": "bookmark",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "bookmark",
-        "mark"
-      ]
+      "codepoints": "1F516",
+      "keyTerms": ["bookmark", "mark"]
     },
     {
-      "codes": "1F3F7",
-      "char": "🏷",
+      "emoji": "🏷",
       "name": "label",
       "category": "Objects",
       "subcategory": "book-paper",
-      "keyTerms": [
-        "label"
-      ]
+      "codepoints": "1F3F7",
+      "keyTerms": ["label"]
     },
     {
-      "codes": "1F4B0",
-      "char": "💰",
+      "emoji": "💰",
       "name": "money bag",
       "category": "Objects",
       "subcategory": "money",
-      "keyTerms": [
-        "bag",
-        "dollar",
-        "money",
-        "moneybag"
-      ]
+      "codepoints": "1F4B0",
+      "keyTerms": ["bag", "dollar", "money", "moneybag"]
     },
     {
-      "codes": "1F4B4",
-      "char": "💴",
+      "emoji": "💴",
       "name": "yen banknote",
       "category": "Objects",
       "subcategory": "money",
-      "keyTerms": [
-        "banknote",
-        "bill",
-        "currency",
-        "money",
-        "note",
-        "yen"
-      ]
+      "codepoints": "1F4B4",
+      "keyTerms": ["banknote", "bill", "currency", "money", "note", "yen"]
     },
     {
-      "codes": "1F4B5",
-      "char": "💵",
+      "emoji": "💵",
       "name": "dollar banknote",
       "category": "Objects",
       "subcategory": "money",
-      "keyTerms": [
-        "banknote",
-        "bill",
-        "currency",
-        "dollar",
-        "money",
-        "note"
-      ]
+      "codepoints": "1F4B5",
+      "keyTerms": ["banknote", "bill", "currency", "dollar", "money", "note"]
     },
     {
-      "codes": "1F4B6",
-      "char": "💶",
+      "emoji": "💶",
       "name": "euro banknote",
       "category": "Objects",
       "subcategory": "money",
-      "keyTerms": [
-        "banknote",
-        "bill",
-        "currency",
-        "euro",
-        "money",
-        "note"
-      ]
+      "codepoints": "1F4B6",
+      "keyTerms": ["banknote", "bill", "currency", "euro", "money", "note"]
     },
     {
-      "codes": "1F4B7",
-      "char": "💷",
+      "emoji": "💷",
       "name": "pound banknote",
       "category": "Objects",
       "subcategory": "money",
-      "keyTerms": [
-        "banknote",
-        "bill",
-        "currency",
-        "money",
-        "note",
-        "pound"
-      ]
+      "codepoints": "1F4B7",
+      "keyTerms": ["banknote", "bill", "currency", "money", "note", "pound"]
     },
     {
-      "codes": "1F4B8",
-      "char": "💸",
+      "emoji": "💸",
       "name": "money with wings",
       "category": "Objects",
       "subcategory": "money",
+      "codepoints": "1F4B8",
       "keyTerms": [
         "banknote",
         "bill",
@@ -9364,62 +9910,74 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F4B3",
-      "char": "💳",
+      "emoji": "💳",
       "name": "credit card",
       "category": "Objects",
       "subcategory": "money",
-      "keyTerms": [
-        "card",
-        "credit",
-        "money"
-      ]
+      "codepoints": "1F4B3",
+      "keyTerms": ["card", "credit", "money"]
     },
     {
-      "codes": "1F9FE",
-      "char": "🧾",
+      "emoji": "🧾",
       "name": "receipt",
       "category": "Objects",
       "subcategory": "money",
+      "codepoints": "1F9FE",
+      "keyTerms": ["accounting", "bookkeeping", "evidence", "proof", "receipt"]
+    },
+    {
+      "emoji": "💹",
+      "name": "chart increasing with yen",
+      "category": "Objects",
+      "subcategory": "money",
+      "codepoints": "1F4B9",
       "keyTerms": [
-        "accounting",
-        "bookkeeping",
-        "evidence",
-        "proof",
-        "receipt"
+        "chart",
+        "chart increasing with yen",
+        "graph",
+        "growth",
+        "money",
+        "yen"
       ]
     },
     {
-      "codes": "2709",
-      "char": "✉",
+      "emoji": "💱",
+      "name": "currency exchange",
+      "category": "Objects",
+      "subcategory": "money",
+      "codepoints": "1F4B1",
+      "keyTerms": ["bank", "currency", "exchange", "money"]
+    },
+    {
+      "emoji": "💲",
+      "name": "heavy dollar sign",
+      "category": "Objects",
+      "subcategory": "money",
+      "codepoints": "1F4B2",
+      "keyTerms": ["currency", "dollar", "heavy dollar sign", "money"]
+    },
+    {
+      "emoji": "✉",
       "name": "envelope",
       "category": "Objects",
       "subcategory": "mail",
-      "keyTerms": [
-        "email",
-        "envelope",
-        "letter"
-      ]
+      "codepoints": 2709,
+      "keyTerms": ["email", "envelope", "letter"]
     },
     {
-      "codes": "1F4E7",
-      "char": "📧",
+      "emoji": "📧",
       "name": "e-mail",
       "category": "Objects",
       "subcategory": "mail",
-      "keyTerms": [
-        "e-mail",
-        "email",
-        "letter",
-        "mail"
-      ]
+      "codepoints": "1F4E7",
+      "keyTerms": ["e-mail", "email", "letter", "mail"]
     },
     {
-      "codes": "1F4E8",
-      "char": "📨",
+      "emoji": "📨",
       "name": "incoming envelope",
       "category": "Objects",
       "subcategory": "mail",
+      "codepoints": "1F4E8",
       "keyTerms": [
         "e-mail",
         "email",
@@ -9430,11 +9988,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F4E9",
-      "char": "📩",
+      "emoji": "📩",
       "name": "envelope with arrow",
       "category": "Objects",
       "subcategory": "mail",
+      "codepoints": "1F4E9",
       "keyTerms": [
         "arrow",
         "e-mail",
@@ -9445,53 +10003,35 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F4E4",
-      "char": "📤",
+      "emoji": "📤",
       "name": "outbox tray",
       "category": "Objects",
       "subcategory": "mail",
-      "keyTerms": [
-        "box",
-        "letter",
-        "mail",
-        "outbox",
-        "sent",
-        "tray"
-      ]
+      "codepoints": "1F4E4",
+      "keyTerms": ["box", "letter", "mail", "outbox", "sent", "tray"]
     },
     {
-      "codes": "1F4E5",
-      "char": "📥",
+      "emoji": "📥",
       "name": "inbox tray",
       "category": "Objects",
       "subcategory": "mail",
-      "keyTerms": [
-        "box",
-        "inbox",
-        "letter",
-        "mail",
-        "receive",
-        "tray"
-      ]
+      "codepoints": "1F4E5",
+      "keyTerms": ["box", "inbox", "letter", "mail", "receive", "tray"]
     },
     {
-      "codes": "1F4E6",
-      "char": "📦",
+      "emoji": "📦",
       "name": "package",
       "category": "Objects",
       "subcategory": "mail",
-      "keyTerms": [
-        "box",
-        "package",
-        "parcel"
-      ]
+      "codepoints": "1F4E6",
+      "keyTerms": ["box", "package", "parcel"]
     },
     {
-      "codes": "1F4EB",
-      "char": "📫",
+      "emoji": "📫",
       "name": "closed mailbox with raised flag",
       "category": "Objects",
       "subcategory": "mail",
+      "codepoints": "1F4EB",
       "keyTerms": [
         "closed",
         "closed mailbox with raised flag",
@@ -9501,11 +10041,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F4EA",
-      "char": "📪",
+      "emoji": "📪",
       "name": "closed mailbox with lowered flag",
       "category": "Objects",
       "subcategory": "mail",
+      "codepoints": "1F4EA",
       "keyTerms": [
         "closed",
         "closed mailbox with lowered flag",
@@ -9516,11 +10056,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F4EC",
-      "char": "📬",
+      "emoji": "📬",
       "name": "open mailbox with raised flag",
       "category": "Objects",
       "subcategory": "mail",
+      "codepoints": "1F4EC",
       "keyTerms": [
         "mail",
         "mailbox",
@@ -9530,11 +10070,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F4ED",
-      "char": "📭",
+      "emoji": "📭",
       "name": "open mailbox with lowered flag",
       "category": "Objects",
       "subcategory": "mail",
+      "codepoints": "1F4ED",
       "keyTerms": [
         "lowered",
         "mail",
@@ -9545,205 +10085,155 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F4EE",
-      "char": "📮",
+      "emoji": "📮",
       "name": "postbox",
       "category": "Objects",
       "subcategory": "mail",
-      "keyTerms": [
-        "mail",
-        "mailbox",
-        "postbox"
-      ]
+      "codepoints": "1F4EE",
+      "keyTerms": ["mail", "mailbox", "postbox"]
     },
     {
-      "codes": "1F5F3",
-      "char": "🗳",
+      "emoji": "🗳",
       "name": "ballot box with ballot",
       "category": "Objects",
       "subcategory": "mail",
-      "keyTerms": [
-        "ballot",
-        "ballot box with ballot",
-        "box"
-      ]
+      "codepoints": "1F5F3",
+      "keyTerms": ["ballot", "ballot box with ballot", "box"]
     },
     {
-      "codes": "270F",
-      "char": "✏",
+      "emoji": "✏",
       "name": "pencil",
       "category": "Objects",
       "subcategory": "writing",
-      "keyTerms": [
-        "pencil"
-      ]
+      "codepoints": "270F",
+      "keyTerms": ["pencil"]
     },
     {
-      "codes": "2712",
-      "char": "✒",
+      "emoji": "✒",
       "name": "black nib",
       "category": "Objects",
       "subcategory": "writing",
-      "keyTerms": [
-        "black nib",
-        "nib",
-        "pen"
-      ]
+      "codepoints": 2712,
+      "keyTerms": ["black nib", "nib", "pen"]
     },
     {
-      "codes": "1F58B",
-      "char": "🖋",
+      "emoji": "🖋",
       "name": "fountain pen",
       "category": "Objects",
       "subcategory": "writing",
-      "keyTerms": [
-        "fountain",
-        "pen"
-      ]
+      "codepoints": "1F58B",
+      "keyTerms": ["fountain", "pen"]
     },
     {
-      "codes": "1F58A",
-      "char": "🖊",
+      "emoji": "🖊",
       "name": "pen",
       "category": "Objects",
       "subcategory": "writing",
-      "keyTerms": [
-        "ballpoint",
-        "pen"
-      ]
+      "codepoints": "1F58A",
+      "keyTerms": ["ballpoint", "pen"]
     },
     {
-      "codes": "1F58C",
-      "char": "🖌",
+      "emoji": "🖌",
       "name": "paintbrush",
       "category": "Objects",
       "subcategory": "writing",
-      "keyTerms": [
-        "paintbrush",
-        "painting"
-      ]
+      "codepoints": "1F58C",
+      "keyTerms": ["paintbrush", "painting"]
     },
     {
-      "codes": "1F58D",
-      "char": "🖍",
+      "emoji": "🖍",
       "name": "crayon",
       "category": "Objects",
       "subcategory": "writing",
-      "keyTerms": [
-        "crayon"
-      ]
+      "codepoints": "1F58D",
+      "keyTerms": ["crayon"]
     },
     {
-      "codes": "1F4DD",
-      "char": "📝",
+      "emoji": "📝",
       "name": "memo",
       "category": "Objects",
       "subcategory": "writing",
-      "keyTerms": [
-        "memo",
-        "pencil"
-      ]
+      "codepoints": "1F4DD",
+      "keyTerms": ["memo", "pencil"]
     },
     {
-      "codes": "1F4C1",
-      "char": "📁",
+      "emoji": "💼",
+      "name": "briefcase",
+      "category": "Objects",
+      "subcategory": "office",
+      "codepoints": "1F4BC",
+      "keyTerms": ["briefcase"]
+    },
+    {
+      "emoji": "📁",
       "name": "file folder",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "file",
-        "folder"
-      ]
+      "codepoints": "1F4C1",
+      "keyTerms": ["file", "folder"]
     },
     {
-      "codes": "1F4C2",
-      "char": "📂",
+      "emoji": "📂",
       "name": "open file folder",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "file",
-        "folder",
-        "open"
-      ]
+      "codepoints": "1F4C2",
+      "keyTerms": ["file", "folder", "open"]
     },
     {
-      "codes": "1F5C2",
-      "char": "🗂",
+      "emoji": "🗂",
       "name": "card index dividers",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "card",
-        "dividers",
-        "index"
-      ]
+      "codepoints": "1F5C2",
+      "keyTerms": ["card", "dividers", "index"]
     },
     {
-      "codes": "1F4C5",
-      "char": "📅",
+      "emoji": "📅",
       "name": "calendar",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "calendar",
-        "date"
-      ]
+      "codepoints": "1F4C5",
+      "keyTerms": ["calendar", "date"]
     },
     {
-      "codes": "1F4C6",
-      "char": "📆",
+      "emoji": "📆",
       "name": "tear-off calendar",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "calendar",
-        "tear-off calendar"
-      ]
+      "codepoints": "1F4C6",
+      "keyTerms": ["calendar", "tear-off calendar"]
     },
     {
-      "codes": "1F5D2",
-      "char": "🗒",
+      "emoji": "🗒",
       "name": "spiral notepad",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "note",
-        "pad",
-        "spiral",
-        "spiral notepad"
-      ]
+      "codepoints": "1F5D2",
+      "keyTerms": ["note", "pad", "spiral", "spiral notepad"]
     },
     {
-      "codes": "1F5D3",
-      "char": "🗓",
+      "emoji": "🗓",
       "name": "spiral calendar",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "calendar",
-        "pad",
-        "spiral"
-      ]
+      "codepoints": "1F5D3",
+      "keyTerms": ["calendar", "pad", "spiral"]
     },
     {
-      "codes": "1F4C7",
-      "char": "📇",
+      "emoji": "📇",
       "name": "card index",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "card",
-        "index",
-        "rolodex"
-      ]
+      "codepoints": "1F4C7",
+      "keyTerms": ["card", "index", "rolodex"]
     },
     {
-      "codes": "1F4C8",
-      "char": "📈",
+      "emoji": "📈",
       "name": "chart increasing",
       "category": "Objects",
       "subcategory": "office",
+      "codepoints": "1F4C8",
       "keyTerms": [
         "chart",
         "chart increasing",
@@ -9754,465 +10244,338 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F4C9",
-      "char": "📉",
+      "emoji": "📉",
       "name": "chart decreasing",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "chart",
-        "chart decreasing",
-        "down",
-        "graph",
-        "trend"
-      ]
+      "codepoints": "1F4C9",
+      "keyTerms": ["chart", "chart decreasing", "down", "graph", "trend"]
     },
     {
-      "codes": "1F4CA",
-      "char": "📊",
+      "emoji": "📊",
       "name": "bar chart",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "bar",
-        "chart",
-        "graph"
-      ]
+      "codepoints": "1F4CA",
+      "keyTerms": ["bar", "chart", "graph"]
     },
     {
-      "codes": "1F4CB",
-      "char": "📋",
+      "emoji": "📋",
       "name": "clipboard",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "clipboard"
-      ]
+      "codepoints": "1F4CB",
+      "keyTerms": ["clipboard"]
     },
     {
-      "codes": "1F4CC",
-      "char": "📌",
+      "emoji": "📌",
       "name": "pushpin",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "pin",
-        "pushpin"
-      ]
+      "codepoints": "1F4CC",
+      "keyTerms": ["pin", "pushpin"]
     },
     {
-      "codes": "1F4CD",
-      "char": "📍",
+      "emoji": "📍",
       "name": "round pushpin",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "pin",
-        "pushpin",
-        "round pushpin"
-      ]
+      "codepoints": "1F4CD",
+      "keyTerms": ["pin", "pushpin", "round pushpin"]
     },
     {
-      "codes": "1F4CE",
-      "char": "📎",
+      "emoji": "📎",
       "name": "paperclip",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "paperclip"
-      ]
+      "codepoints": "1F4CE",
+      "keyTerms": ["paperclip"]
     },
     {
-      "codes": "1F587",
-      "char": "🖇",
+      "emoji": "🖇",
       "name": "linked paperclips",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "link",
-        "linked paperclips",
-        "paperclip"
-      ]
+      "codepoints": "1F587",
+      "keyTerms": ["link", "linked paperclips", "paperclip"]
     },
     {
-      "codes": "1F4CF",
-      "char": "📏",
+      "emoji": "📏",
       "name": "straight ruler",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "ruler",
-        "straight edge",
-        "straight ruler"
-      ]
+      "codepoints": "1F4CF",
+      "keyTerms": ["ruler", "straight edge", "straight ruler"]
     },
     {
-      "codes": "1F4D0",
-      "char": "📐",
+      "emoji": "📐",
       "name": "triangular ruler",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "ruler",
-        "set",
-        "triangle",
-        "triangular ruler"
-      ]
+      "codepoints": "1F4D0",
+      "keyTerms": ["ruler", "set", "triangle", "triangular ruler"]
     },
     {
-      "codes": "2702",
-      "char": "✂",
+      "emoji": "✂",
       "name": "scissors",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "cutting",
-        "scissors",
-        "tool"
-      ]
+      "codepoints": 2702,
+      "keyTerms": ["cutting", "scissors", "tool"]
     },
     {
-      "codes": "1F5C3",
-      "char": "🗃",
+      "emoji": "🗃",
       "name": "card file box",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "box",
-        "card",
-        "file"
-      ]
+      "codepoints": "1F5C3",
+      "keyTerms": ["box", "card", "file"]
     },
     {
-      "codes": "1F5C4",
-      "char": "🗄",
+      "emoji": "🗄",
       "name": "file cabinet",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "cabinet",
-        "file",
-        "filing"
-      ]
+      "codepoints": "1F5C4",
+      "keyTerms": ["cabinet", "file", "filing"]
     },
     {
-      "codes": "1F5D1",
-      "char": "🗑",
+      "emoji": "🗑",
       "name": "wastebasket",
       "category": "Objects",
       "subcategory": "office",
-      "keyTerms": [
-        "wastebasket"
-      ]
+      "codepoints": "1F5D1",
+      "keyTerms": ["wastebasket"]
     },
     {
-      "codes": "1F512",
-      "char": "🔒",
+      "emoji": "🔒",
       "name": "locked",
       "category": "Objects",
       "subcategory": "lock",
-      "keyTerms": [
-        "closed",
-        "locked"
-      ]
+      "codepoints": "1F512",
+      "keyTerms": ["closed", "locked"]
     },
     {
-      "codes": "1F513",
-      "char": "🔓",
+      "emoji": "🔓",
       "name": "unlocked",
       "category": "Objects",
       "subcategory": "lock",
-      "keyTerms": [
-        "lock",
-        "open",
-        "unlock",
-        "unlocked"
-      ]
+      "codepoints": "1F513",
+      "keyTerms": ["lock", "open", "unlock", "unlocked"]
     },
     {
-      "codes": "1F50F",
-      "char": "🔏",
+      "emoji": "🔏",
       "name": "locked with pen",
       "category": "Objects",
       "subcategory": "lock",
-      "keyTerms": [
-        "ink",
-        "lock",
-        "locked with pen",
-        "nib",
-        "pen",
-        "privacy"
-      ]
+      "codepoints": "1F50F",
+      "keyTerms": ["ink", "lock", "locked with pen", "nib", "pen", "privacy"]
     },
     {
-      "codes": "1F510",
-      "char": "🔐",
+      "emoji": "🔐",
       "name": "locked with key",
       "category": "Objects",
       "subcategory": "lock",
-      "keyTerms": [
-        "closed",
-        "key",
-        "lock",
-        "locked with key",
-        "secure"
-      ]
+      "codepoints": "1F510",
+      "keyTerms": ["closed", "key", "lock", "locked with key", "secure"]
     },
     {
-      "codes": "1F511",
-      "char": "🔑",
+      "emoji": "🔑",
       "name": "key",
       "category": "Objects",
       "subcategory": "lock",
-      "keyTerms": [
-        "key",
-        "lock",
-        "password"
-      ]
+      "codepoints": "1F511",
+      "keyTerms": ["key", "lock", "password"]
     },
     {
-      "codes": "1F5DD",
-      "char": "🗝",
+      "emoji": "🗝",
       "name": "old key",
       "category": "Objects",
       "subcategory": "lock",
-      "keyTerms": [
-        "clue",
-        "key",
-        "lock",
-        "old"
-      ]
+      "codepoints": "1F5DD",
+      "keyTerms": ["clue", "key", "lock", "old"]
     },
     {
-      "codes": "1F528",
-      "char": "🔨",
+      "emoji": "🔨",
       "name": "hammer",
       "category": "Objects",
       "subcategory": "tool",
-      "keyTerms": [
-        "hammer",
-        "tool"
-      ]
+      "codepoints": "1F528",
+      "keyTerms": ["hammer", "tool"]
     },
     {
-      "codes": "26CF",
-      "char": "⛏",
+      "emoji": "🪓",
+      "name": "axe",
+      "category": "Objects",
+      "subcategory": "tool",
+      "codepoints": "1FA93",
+      "keyTerms": ["axe", "chop", "hatchet", "split", "wood"]
+    },
+    {
+      "emoji": "⛏",
       "name": "pick",
       "category": "Objects",
       "subcategory": "tool",
-      "keyTerms": [
-        "mining",
-        "pick",
-        "tool"
-      ]
+      "codepoints": "26CF",
+      "keyTerms": ["mining", "pick", "tool"]
     },
     {
-      "codes": "2692",
-      "char": "⚒",
+      "emoji": "⚒",
       "name": "hammer and pick",
       "category": "Objects",
       "subcategory": "tool",
-      "keyTerms": [
-        "hammer",
-        "hammer and pick",
-        "pick",
-        "tool"
-      ]
+      "codepoints": 2692,
+      "keyTerms": ["hammer", "hammer and pick", "pick", "tool"]
     },
     {
-      "codes": "1F6E0",
-      "char": "🛠",
+      "emoji": "🛠",
       "name": "hammer and wrench",
       "category": "Objects",
       "subcategory": "tool",
-      "keyTerms": [
-        "hammer",
-        "hammer and wrench",
-        "spanner",
-        "tool",
-        "wrench"
-      ]
+      "codepoints": "1F6E0",
+      "keyTerms": ["hammer", "hammer and wrench", "spanner", "tool", "wrench"]
     },
     {
-      "codes": "1F5E1",
-      "char": "🗡",
+      "emoji": "🗡",
       "name": "dagger",
       "category": "Objects",
       "subcategory": "tool",
-      "keyTerms": [
-        "dagger",
-        "knife",
-        "weapon"
-      ]
+      "codepoints": "1F5E1",
+      "keyTerms": ["dagger", "knife", "weapon"]
     },
     {
-      "codes": "2694",
-      "char": "⚔",
+      "emoji": "⚔",
       "name": "crossed swords",
       "category": "Objects",
       "subcategory": "tool",
-      "keyTerms": [
-        "crossed",
-        "swords",
-        "weapon"
-      ]
+      "codepoints": 2694,
+      "keyTerms": ["crossed", "swords", "weapon"]
     },
     {
-      "codes": "1F52B",
-      "char": "🔫",
+      "emoji": "🔫",
       "name": "pistol",
       "category": "Objects",
       "subcategory": "tool",
-      "keyTerms": [
-        "gun",
-        "handgun",
-        "pistol",
-        "revolver",
-        "tool",
-        "weapon"
-      ]
+      "codepoints": "1F52B",
+      "keyTerms": ["gun", "handgun", "pistol", "revolver", "tool", "weapon"]
     },
     {
-      "codes": "1F6E1",
-      "char": "🛡",
-      "name": "shield",
+      "emoji": "🏹",
+      "name": "bow and arrow",
       "category": "Objects",
       "subcategory": "tool",
+      "codepoints": "1F3F9",
       "keyTerms": [
-        "shield",
-        "weapon"
-      ]
-    },
-    {
-      "codes": "1F527",
-      "char": "🔧",
-      "name": "wrench",
-      "category": "Objects",
-      "subcategory": "tool",
-      "keyTerms": [
-        "spanner",
-        "tool",
-        "wrench"
-      ]
-    },
-    {
-      "codes": "1F529",
-      "char": "🔩",
-      "name": "nut and bolt",
-      "category": "Objects",
-      "subcategory": "tool",
-      "keyTerms": [
-        "bolt",
-        "nut",
-        "nut and bolt",
-        "tool"
-      ]
-    },
-    {
-      "codes": "2699",
-      "char": "⚙",
-      "name": "gear",
-      "category": "Objects",
-      "subcategory": "tool",
-      "keyTerms": [
-        "cog",
-        "cogwheel",
-        "gear",
-        "tool"
-      ]
-    },
-    {
-      "codes": "1F5DC",
-      "char": "🗜",
-      "name": "clamp",
-      "category": "Objects",
-      "subcategory": "tool",
-      "keyTerms": [
-        "clamp",
-        "compress",
-        "tool",
-        "vice"
-      ]
-    },
-    {
-      "codes": "2696",
-      "char": "⚖",
-      "name": "balance scale",
-      "category": "Objects",
-      "subcategory": "tool",
-      "keyTerms": [
-        "balance",
-        "justice",
-        "Libra",
-        "scale",
+        "archer",
+        "arrow",
+        "bow",
+        "bow and arrow",
+        "Sagittarius",
         "zodiac"
       ]
     },
     {
-      "codes": "1F517",
-      "char": "🔗",
+      "emoji": "🛡",
+      "name": "shield",
+      "category": "Objects",
+      "subcategory": "tool",
+      "codepoints": "1F6E1",
+      "keyTerms": ["shield", "weapon"]
+    },
+    {
+      "emoji": "🔧",
+      "name": "wrench",
+      "category": "Objects",
+      "subcategory": "tool",
+      "codepoints": "1F527",
+      "keyTerms": ["spanner", "tool", "wrench"]
+    },
+    {
+      "emoji": "🔩",
+      "name": "nut and bolt",
+      "category": "Objects",
+      "subcategory": "tool",
+      "codepoints": "1F529",
+      "keyTerms": ["bolt", "nut", "nut and bolt", "tool"]
+    },
+    {
+      "emoji": "⚙",
+      "name": "gear",
+      "category": "Objects",
+      "subcategory": "tool",
+      "codepoints": 2699,
+      "keyTerms": ["cog", "cogwheel", "gear", "tool"]
+    },
+    {
+      "emoji": "🗜",
+      "name": "clamp",
+      "category": "Objects",
+      "subcategory": "tool",
+      "codepoints": "1F5DC",
+      "keyTerms": ["clamp", "compress", "tool", "vice"]
+    },
+    {
+      "emoji": "⚖",
+      "name": "balance scale",
+      "category": "Objects",
+      "subcategory": "tool",
+      "codepoints": 2696,
+      "keyTerms": ["balance", "justice", "Libra", "scale", "zodiac"]
+    },
+    {
+      "emoji": "🦯",
+      "name": "probing cane",
+      "category": "Objects",
+      "subcategory": "tool",
+      "codepoints": "1F9AF",
+      "keyTerms": ["accessibility", "blind", "probing cane"]
+    },
+    {
+      "emoji": "🔗",
       "name": "link",
       "category": "Objects",
       "subcategory": "tool",
-      "keyTerms": [
-        "link"
-      ]
+      "codepoints": "1F517",
+      "keyTerms": ["link"]
     },
     {
-      "codes": "26D3",
-      "char": "⛓",
+      "emoji": "⛓",
       "name": "chains",
       "category": "Objects",
       "subcategory": "tool",
-      "keyTerms": [
-        "chain",
-        "chains"
-      ]
+      "codepoints": "26D3",
+      "keyTerms": ["chain", "chains"]
     },
     {
-      "codes": "1F9F0",
-      "char": "🧰",
+      "emoji": "🧰",
       "name": "toolbox",
       "category": "Objects",
       "subcategory": "tool",
-      "keyTerms": [
-        "chest",
-        "mechanic",
-        "tool",
-        "toolbox"
-      ]
+      "codepoints": "1F9F0",
+      "keyTerms": ["chest", "mechanic", "tool", "toolbox"]
     },
     {
-      "codes": "1F9F2",
-      "char": "🧲",
+      "emoji": "🧲",
       "name": "magnet",
       "category": "Objects",
       "subcategory": "tool",
-      "keyTerms": [
-        "attraction",
-        "horseshoe",
-        "magnet",
-        "magnetic"
-      ]
+      "codepoints": "1F9F2",
+      "keyTerms": ["attraction", "horseshoe", "magnet", "magnetic"]
     },
     {
-      "codes": "2697",
-      "char": "⚗",
+      "emoji": "⚗",
       "name": "alembic",
       "category": "Objects",
       "subcategory": "science",
-      "keyTerms": [
-        "alembic",
-        "chemistry",
-        "tool"
-      ]
+      "codepoints": 2697,
+      "keyTerms": ["alembic", "chemistry", "tool"]
     },
     {
-      "codes": "1F9EA",
-      "char": "🧪",
+      "emoji": "🧪",
       "name": "test tube",
       "category": "Objects",
       "subcategory": "science",
+      "codepoints": "1F9EA",
       "keyTerms": [
         "chemist",
         "chemistry",
@@ -10223,11 +10586,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F9EB",
-      "char": "🧫",
+      "emoji": "🧫",
       "name": "petri dish",
       "category": "Objects",
       "subcategory": "science",
+      "codepoints": "1F9EB",
       "keyTerms": [
         "bacteria",
         "biologist",
@@ -10238,156 +10601,154 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F9EC",
-      "char": "🧬",
+      "emoji": "🧬",
       "name": "dna",
       "category": "Objects",
       "subcategory": "science",
-      "keyTerms": [
-        "biologist",
-        "dna",
-        "evolution",
-        "gene",
-        "genetics",
-        "life"
-      ]
+      "codepoints": "1F9EC",
+      "keyTerms": ["biologist", "dna", "evolution", "gene", "genetics", "life"]
     },
     {
-      "codes": "1F52C",
-      "char": "🔬",
+      "emoji": "🔬",
       "name": "microscope",
       "category": "Objects",
       "subcategory": "science",
-      "keyTerms": [
-        "microscope",
-        "science",
-        "tool"
-      ]
+      "codepoints": "1F52C",
+      "keyTerms": ["microscope", "science", "tool"]
     },
     {
-      "codes": "1F52D",
-      "char": "🔭",
+      "emoji": "🔭",
       "name": "telescope",
       "category": "Objects",
       "subcategory": "science",
-      "keyTerms": [
-        "science",
-        "telescope",
-        "tool"
-      ]
+      "codepoints": "1F52D",
+      "keyTerms": ["science", "telescope", "tool"]
     },
     {
-      "codes": "1F4E1",
-      "char": "📡",
+      "emoji": "📡",
       "name": "satellite antenna",
       "category": "Objects",
       "subcategory": "science",
-      "keyTerms": [
-        "antenna",
-        "dish",
-        "satellite"
-      ]
+      "codepoints": "1F4E1",
+      "keyTerms": ["antenna", "dish", "satellite"]
     },
     {
-      "codes": "1F489",
-      "char": "💉",
+      "emoji": "💉",
       "name": "syringe",
       "category": "Objects",
       "subcategory": "medical",
+      "codepoints": "1F489",
+      "keyTerms": ["medicine", "needle", "shot", "sick", "syringe"]
+    },
+    {
+      "emoji": "🩸",
+      "name": "drop of blood",
+      "category": "Objects",
+      "subcategory": "medical",
+      "codepoints": "1FA78",
       "keyTerms": [
+        "bleed",
+        "blood donation",
+        "drop of blood",
+        "injury",
         "medicine",
-        "needle",
-        "shot",
-        "sick",
-        "syringe"
+        "menstruation"
       ]
     },
     {
-      "codes": "1F48A",
-      "char": "💊",
+      "emoji": "💊",
       "name": "pill",
       "category": "Objects",
       "subcategory": "medical",
-      "keyTerms": [
-        "doctor",
-        "medicine",
-        "pill",
-        "sick"
-      ]
+      "codepoints": "1F48A",
+      "keyTerms": ["doctor", "medicine", "pill", "sick"]
     },
     {
-      "codes": "1F6AA",
-      "char": "🚪",
+      "emoji": "🩹",
+      "name": "adhesive bandage",
+      "category": "Objects",
+      "subcategory": "medical",
+      "codepoints": "1FA79",
+      "keyTerms": ["adhesive bandage", "bandage"]
+    },
+    {
+      "emoji": "🩺",
+      "name": "stethoscope",
+      "category": "Objects",
+      "subcategory": "medical",
+      "codepoints": "1FA7A",
+      "keyTerms": ["doctor", "heart", "medicine", "stethoscope"]
+    },
+    {
+      "emoji": "🚪",
       "name": "door",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "door"
-      ]
+      "codepoints": "1F6AA",
+      "keyTerms": ["door"]
     },
     {
-      "codes": "1F6CF",
-      "char": "🛏",
+      "emoji": "🛏",
       "name": "bed",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "bed",
-        "hotel",
-        "sleep"
-      ]
+      "codepoints": "1F6CF",
+      "keyTerms": ["bed", "hotel", "sleep"]
     },
     {
-      "codes": "1F6CB",
-      "char": "🛋",
+      "emoji": "🛋",
       "name": "couch and lamp",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "couch",
-        "couch and lamp",
-        "hotel",
-        "lamp"
-      ]
+      "codepoints": "1F6CB",
+      "keyTerms": ["couch", "couch and lamp", "hotel", "lamp"]
     },
     {
-      "codes": "1F6BD",
-      "char": "🚽",
+      "emoji": "🪑",
+      "name": "chair",
+      "category": "Objects",
+      "subcategory": "household",
+      "codepoints": "1FA91",
+      "keyTerms": ["chair", "seat", "sit"]
+    },
+    {
+      "emoji": "🚽",
       "name": "toilet",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "toilet"
-      ]
+      "codepoints": "1F6BD",
+      "keyTerms": ["toilet"]
     },
     {
-      "codes": "1F6BF",
-      "char": "🚿",
+      "emoji": "🚿",
       "name": "shower",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "shower",
-        "water"
-      ]
+      "codepoints": "1F6BF",
+      "keyTerms": ["shower", "water"]
     },
     {
-      "codes": "1F6C1",
-      "char": "🛁",
+      "emoji": "🛁",
       "name": "bathtub",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "bath",
-        "bathtub"
-      ]
+      "codepoints": "1F6C1",
+      "keyTerms": ["bath", "bathtub"]
     },
     {
-      "codes": "1F9F4",
-      "char": "🧴",
+      "emoji": "🪒",
+      "name": "razor",
+      "category": "Objects",
+      "subcategory": "household",
+      "codepoints": "1FA92",
+      "keyTerms": ["razor", "sharp", "shave"]
+    },
+    {
+      "emoji": "🧴",
       "name": "lotion bottle",
       "category": "Objects",
       "subcategory": "household",
+      "codepoints": "1F9F4",
       "keyTerms": [
         "lotion",
         "lotion bottle",
@@ -10397,277 +10758,221 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F9F7",
-      "char": "🧷",
+      "emoji": "🧷",
       "name": "safety pin",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "diaper",
-        "punk rock",
-        "safety pin"
-      ]
+      "codepoints": "1F9F7",
+      "keyTerms": ["diaper", "punk rock", "safety pin"]
     },
     {
-      "codes": "1F9F9",
-      "char": "🧹",
+      "emoji": "🧹",
       "name": "broom",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "broom",
-        "cleaning",
-        "sweeping",
-        "witch"
-      ]
+      "codepoints": "1F9F9",
+      "keyTerms": ["broom", "cleaning", "sweeping", "witch"]
     },
     {
-      "codes": "1F9FA",
-      "char": "🧺",
+      "emoji": "🧺",
       "name": "basket",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "basket",
-        "farming",
-        "laundry",
-        "picnic"
-      ]
+      "codepoints": "1F9FA",
+      "keyTerms": ["basket", "farming", "laundry", "picnic"]
     },
     {
-      "codes": "1F9FB",
-      "char": "🧻",
+      "emoji": "🧻",
       "name": "roll of paper",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "paper towels",
-        "roll of paper",
-        "toilet paper"
-      ]
+      "codepoints": "1F9FB",
+      "keyTerms": ["paper towels", "roll of paper", "toilet paper"]
     },
     {
-      "codes": "1F9FC",
-      "char": "🧼",
+      "emoji": "🧼",
       "name": "soap",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "bar",
-        "bathing",
-        "cleaning",
-        "lather",
-        "soap",
-        "soapdish"
-      ]
+      "codepoints": "1F9FC",
+      "keyTerms": ["bar", "bathing", "cleaning", "lather", "soap", "soapdish"]
     },
     {
-      "codes": "1F9FD",
-      "char": "🧽",
+      "emoji": "🧽",
       "name": "sponge",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "absorbing",
-        "cleaning",
-        "porous",
-        "sponge"
-      ]
+      "codepoints": "1F9FD",
+      "keyTerms": ["absorbing", "cleaning", "porous", "sponge"]
     },
     {
-      "codes": "1F9EF",
-      "char": "🧯",
+      "emoji": "🧯",
       "name": "fire extinguisher",
       "category": "Objects",
       "subcategory": "household",
-      "keyTerms": [
-        "extinguish",
-        "fire",
-        "fire extinguisher",
-        "quench"
-      ]
+      "codepoints": "1F9EF",
+      "keyTerms": ["extinguish", "fire", "fire extinguisher", "quench"]
     },
     {
-      "codes": "1F6AC",
-      "char": "🚬",
+      "emoji": "🛒",
+      "name": "shopping cart",
+      "category": "Objects",
+      "subcategory": "household",
+      "codepoints": "1F6D2",
+      "keyTerms": ["cart", "shopping", "trolley"]
+    },
+    {
+      "emoji": "🚬",
       "name": "cigarette",
       "category": "Objects",
       "subcategory": "other-object",
-      "keyTerms": [
-        "cigarette",
-        "smoking"
-      ]
+      "codepoints": "1F6AC",
+      "keyTerms": ["cigarette", "smoking"]
     },
     {
-      "codes": "26B0",
-      "char": "⚰",
+      "emoji": "⚰",
       "name": "coffin",
       "category": "Objects",
       "subcategory": "other-object",
-      "keyTerms": [
-        "coffin",
-        "death"
-      ]
+      "codepoints": "26B0",
+      "keyTerms": ["coffin", "death"]
     },
     {
-      "codes": "26B1",
-      "char": "⚱",
+      "emoji": "⚱",
       "name": "funeral urn",
       "category": "Objects",
       "subcategory": "other-object",
-      "keyTerms": [
-        "ashes",
-        "death",
-        "funeral",
-        "urn"
-      ]
+      "codepoints": "26B1",
+      "keyTerms": ["ashes", "death", "funeral", "urn"]
     },
     {
-      "codes": "1F5FF",
-      "char": "🗿",
+      "emoji": "🗿",
       "name": "moai",
       "category": "Objects",
       "subcategory": "other-object",
-      "keyTerms": [
-        "face",
-        "moai",
-        "moyai",
-        "statue"
-      ]
+      "codepoints": "1F5FF",
+      "keyTerms": ["face", "moai", "moyai", "statue"]
     }
   ],
   "symbol": [
     {
-      "codes": "1F3E7",
-      "char": "🏧",
+      "emoji": "🏧",
       "name": "ATM sign",
       "category": "Symbols",
       "subcategory": "transport-sign",
-      "keyTerms": [
-        "atm",
-        "ATM sign",
-        "automated",
-        "bank",
-        "teller"
-      ]
+      "codepoints": "1F3E7",
+      "keyTerms": ["atm", "ATM sign", "automated", "bank", "teller"]
     },
     {
-      "codes": "1F6AE",
-      "char": "🚮",
+      "emoji": "🚮",
       "name": "litter in bin sign",
       "category": "Symbols",
       "subcategory": "transport-sign",
-      "keyTerms": [
-        "litter",
-        "litter bin",
-        "litter in bin sign"
-      ]
+      "codepoints": "1F6AE",
+      "keyTerms": ["litter", "litter bin", "litter in bin sign"]
     },
     {
-      "codes": "1F6B0",
-      "char": "🚰",
+      "emoji": "🚰",
       "name": "potable water",
       "category": "Symbols",
       "subcategory": "transport-sign",
-      "keyTerms": [
-        "drinking",
-        "potable",
-        "water"
-      ]
+      "codepoints": "1F6B0",
+      "keyTerms": ["drinking", "potable", "water"]
     },
     {
-      "codes": "267F",
-      "char": "♿",
+      "emoji": "♿",
       "name": "wheelchair symbol",
       "category": "Symbols",
       "subcategory": "transport-sign",
-      "keyTerms": [
-        "access",
-        "wheelchair symbol"
-      ]
+      "codepoints": "267F",
+      "keyTerms": ["access", "wheelchair symbol"]
     },
     {
-      "codes": "1F6B9",
-      "char": "🚹",
+      "emoji": "🚹",
       "name": "men’s room",
       "category": "Symbols",
       "subcategory": "transport-sign",
-      "keyTerms": [
-        "lavatory",
-        "man",
-        "men’s room",
-        "restroom",
-        "wc"
-      ]
+      "codepoints": "1F6B9",
+      "keyTerms": ["lavatory", "man", "men’s room", "restroom", "wc"]
     },
     {
-      "codes": "1F6BA",
-      "char": "🚺",
+      "emoji": "🚺",
       "name": "women’s room",
       "category": "Symbols",
       "subcategory": "transport-sign",
-      "keyTerms": [
-        "lavatory",
-        "restroom",
-        "wc",
-        "woman",
-        "women’s room"
-      ]
+      "codepoints": "1F6BA",
+      "keyTerms": ["lavatory", "restroom", "wc", "woman", "women’s room"]
     },
     {
-      "codes": "1F6BB",
-      "char": "🚻",
+      "emoji": "🚻",
       "name": "restroom",
       "category": "Symbols",
       "subcategory": "transport-sign",
-      "keyTerms": [
-        "lavatory",
-        "restroom",
-        "WC"
-      ]
+      "codepoints": "1F6BB",
+      "keyTerms": ["lavatory", "restroom", "WC"]
     },
     {
-      "codes": "1F6BC",
-      "char": "🚼",
+      "emoji": "🚼",
       "name": "baby symbol",
       "category": "Symbols",
       "subcategory": "transport-sign",
-      "keyTerms": [
-        "baby",
-        "baby symbol",
-        "changing"
-      ]
+      "codepoints": "1F6BC",
+      "keyTerms": ["baby", "baby symbol", "changing"]
     },
     {
-      "codes": "1F6BE",
-      "char": "🚾",
+      "emoji": "🚾",
       "name": "water closet",
       "category": "Symbols",
       "subcategory": "transport-sign",
-      "keyTerms": [
-        "closet",
-        "lavatory",
-        "restroom",
-        "water",
-        "wc"
-      ]
+      "codepoints": "1F6BE",
+      "keyTerms": ["closet", "lavatory", "restroom", "water", "wc"]
     },
     {
-      "codes": "26A0",
-      "char": "⚠",
+      "emoji": "🛂",
+      "name": "passport control",
+      "category": "Symbols",
+      "subcategory": "transport-sign",
+      "codepoints": "1F6C2",
+      "keyTerms": ["control", "passport"]
+    },
+    {
+      "emoji": "🛃",
+      "name": "customs",
+      "category": "Symbols",
+      "subcategory": "transport-sign",
+      "codepoints": "1F6C3",
+      "keyTerms": ["customs"]
+    },
+    {
+      "emoji": "🛄",
+      "name": "baggage claim",
+      "category": "Symbols",
+      "subcategory": "transport-sign",
+      "codepoints": "1F6C4",
+      "keyTerms": ["baggage", "claim"]
+    },
+    {
+      "emoji": "🛅",
+      "name": "left luggage",
+      "category": "Symbols",
+      "subcategory": "transport-sign",
+      "codepoints": "1F6C5",
+      "keyTerms": ["baggage", "left luggage", "locker", "luggage"]
+    },
+    {
+      "emoji": "⚠",
       "name": "warning",
       "category": "Symbols",
       "subcategory": "warning",
-      "keyTerms": [
-        "warning"
-      ]
+      "codepoints": "26A0",
+      "keyTerms": ["warning"]
     },
     {
-      "codes": "1F6B8",
-      "char": "🚸",
+      "emoji": "🚸",
       "name": "children crossing",
       "category": "Symbols",
       "subcategory": "warning",
+      "codepoints": "1F6B8",
       "keyTerms": [
         "child",
         "children crossing",
@@ -10677,40 +10982,27 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "26D4",
-      "char": "⛔",
+      "emoji": "⛔",
       "name": "no entry",
       "category": "Symbols",
       "subcategory": "warning",
-      "keyTerms": [
-        "entry",
-        "forbidden",
-        "no",
-        "not",
-        "prohibited",
-        "traffic"
-      ]
+      "codepoints": "26D4",
+      "keyTerms": ["entry", "forbidden", "no", "not", "prohibited", "traffic"]
     },
     {
-      "codes": "1F6AB",
-      "char": "🚫",
+      "emoji": "🚫",
       "name": "prohibited",
       "category": "Symbols",
       "subcategory": "warning",
-      "keyTerms": [
-        "entry",
-        "forbidden",
-        "no",
-        "not",
-        "prohibited"
-      ]
+      "codepoints": "1F6AB",
+      "keyTerms": ["entry", "forbidden", "no", "not", "prohibited"]
     },
     {
-      "codes": "1F6B3",
-      "char": "🚳",
+      "emoji": "🚳",
       "name": "no bicycles",
       "category": "Symbols",
       "subcategory": "warning",
+      "codepoints": "1F6B3",
       "keyTerms": [
         "bicycle",
         "bike",
@@ -10721,25 +11013,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F6AD",
-      "char": "🚭",
+      "emoji": "🚭",
       "name": "no smoking",
       "category": "Symbols",
       "subcategory": "warning",
-      "keyTerms": [
-        "forbidden",
-        "no",
-        "not",
-        "prohibited",
-        "smoking"
-      ]
+      "codepoints": "1F6AD",
+      "keyTerms": ["forbidden", "no", "not", "prohibited", "smoking"]
     },
     {
-      "codes": "1F6AF",
-      "char": "🚯",
+      "emoji": "🚯",
       "name": "no littering",
       "category": "Symbols",
       "subcategory": "warning",
+      "codepoints": "1F6AF",
       "keyTerms": [
         "forbidden",
         "litter",
@@ -10750,23 +11036,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F6B1",
-      "char": "🚱",
+      "emoji": "🚱",
       "name": "non-potable water",
       "category": "Symbols",
       "subcategory": "warning",
-      "keyTerms": [
-        "non-drinking",
-        "non-potable",
-        "water"
-      ]
+      "codepoints": "1F6B1",
+      "keyTerms": ["non-drinking", "non-potable", "water"]
     },
     {
-      "codes": "1F6B7",
-      "char": "🚷",
+      "emoji": "🚷",
       "name": "no pedestrians",
       "category": "Symbols",
       "subcategory": "warning",
+      "codepoints": "1F6B7",
       "keyTerms": [
         "forbidden",
         "no",
@@ -10777,11 +11059,26 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F51E",
-      "char": "🔞",
+      "emoji": "📵",
+      "name": "no mobile phones",
+      "category": "Symbols",
+      "subcategory": "warning",
+      "codepoints": "1F4F5",
+      "keyTerms": [
+        "cell",
+        "forbidden",
+        "mobile",
+        "no",
+        "no mobile phones",
+        "phone"
+      ]
+    },
+    {
+      "emoji": "🔞",
       "name": "no one under eighteen",
       "category": "Symbols",
       "subcategory": "warning",
+      "codepoints": "1F51E",
       "keyTerms": [
         "18",
         "age restriction",
@@ -10792,47 +11089,35 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "2622",
-      "char": "☢",
+      "emoji": "☢",
       "name": "radioactive",
       "category": "Symbols",
       "subcategory": "warning",
-      "keyTerms": [
-        "radioactive",
-        "sign"
-      ]
+      "codepoints": 2622,
+      "keyTerms": ["radioactive", "sign"]
     },
     {
-      "codes": "2623",
-      "char": "☣",
+      "emoji": "☣",
       "name": "biohazard",
       "category": "Symbols",
       "subcategory": "warning",
-      "keyTerms": [
-        "biohazard",
-        "sign"
-      ]
+      "codepoints": 2623,
+      "keyTerms": ["biohazard", "sign"]
     },
     {
-      "codes": "2B06",
-      "char": "⬆",
+      "emoji": "⬆",
       "name": "up arrow",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "cardinal",
-        "direction",
-        "north",
-        "up arrow"
-      ]
+      "codepoints": "2B06",
+      "keyTerms": ["arrow", "cardinal", "direction", "north", "up arrow"]
     },
     {
-      "codes": "2197",
-      "char": "↗",
+      "emoji": "↗",
       "name": "up-right arrow",
       "category": "Symbols",
       "subcategory": "arrow",
+      "codepoints": 2197,
       "keyTerms": [
         "arrow",
         "direction",
@@ -10842,25 +11127,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "27A1",
-      "char": "➡",
+      "emoji": "➡",
       "name": "right arrow",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "cardinal",
-        "direction",
-        "east",
-        "right arrow"
-      ]
+      "codepoints": "27A1",
+      "keyTerms": ["arrow", "cardinal", "direction", "east", "right arrow"]
     },
     {
-      "codes": "2198",
-      "char": "↘",
+      "emoji": "↘",
       "name": "down-right arrow",
       "category": "Symbols",
       "subcategory": "arrow",
+      "codepoints": 2198,
       "keyTerms": [
         "arrow",
         "direction",
@@ -10870,25 +11149,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "2B07",
-      "char": "⬇",
+      "emoji": "⬇",
       "name": "down arrow",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "cardinal",
-        "direction",
-        "down",
-        "south"
-      ]
+      "codepoints": "2B07",
+      "keyTerms": ["arrow", "cardinal", "direction", "down", "south"]
     },
     {
-      "codes": "2199",
-      "char": "↙",
+      "emoji": "↙",
       "name": "down-left arrow",
       "category": "Symbols",
       "subcategory": "arrow",
+      "codepoints": 2199,
       "keyTerms": [
         "arrow",
         "direction",
@@ -10898,25 +11171,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "2B05",
-      "char": "⬅",
+      "emoji": "⬅",
       "name": "left arrow",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "cardinal",
-        "direction",
-        "left arrow",
-        "west"
-      ]
+      "codepoints": "2B05",
+      "keyTerms": ["arrow", "cardinal", "direction", "left arrow", "west"]
     },
     {
-      "codes": "2196",
-      "char": "↖",
+      "emoji": "↖",
       "name": "up-left arrow",
       "category": "Symbols",
       "subcategory": "arrow",
+      "codepoints": 2196,
       "keyTerms": [
         "arrow",
         "direction",
@@ -10926,91 +11193,67 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "2195",
-      "char": "↕",
+      "emoji": "↕",
       "name": "up-down arrow",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "up-down arrow"
-      ]
+      "codepoints": 2195,
+      "keyTerms": ["arrow", "up-down arrow"]
     },
     {
-      "codes": "2194",
-      "char": "↔",
+      "emoji": "↔",
       "name": "left-right arrow",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "left-right arrow"
-      ]
+      "codepoints": 2194,
+      "keyTerms": ["arrow", "left-right arrow"]
     },
     {
-      "codes": "21A9",
-      "char": "↩",
+      "emoji": "↩",
       "name": "right arrow curving left",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "right arrow curving left"
-      ]
+      "codepoints": "21A9",
+      "keyTerms": ["arrow", "right arrow curving left"]
     },
     {
-      "codes": "21AA",
-      "char": "↪",
+      "emoji": "↪",
       "name": "left arrow curving right",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "left arrow curving right"
-      ]
+      "codepoints": "21AA",
+      "keyTerms": ["arrow", "left arrow curving right"]
     },
     {
-      "codes": "2934",
-      "char": "⤴",
+      "emoji": "⤴",
       "name": "right arrow curving up",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "right arrow curving up"
-      ]
+      "codepoints": 2934,
+      "keyTerms": ["arrow", "right arrow curving up"]
     },
     {
-      "codes": "2935",
-      "char": "⤵",
+      "emoji": "⤵",
       "name": "right arrow curving down",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "down",
-        "right arrow curving down"
-      ]
+      "codepoints": 2935,
+      "keyTerms": ["arrow", "down", "right arrow curving down"]
     },
     {
-      "codes": "1F503",
-      "char": "🔃",
+      "emoji": "🔃",
       "name": "clockwise vertical arrows",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "clockwise",
-        "clockwise vertical arrows",
-        "reload"
-      ]
+      "codepoints": "1F503",
+      "keyTerms": ["arrow", "clockwise", "clockwise vertical arrows", "reload"]
     },
     {
-      "codes": "1F504",
-      "char": "🔄",
+      "emoji": "🔄",
       "name": "counterclockwise arrows button",
       "category": "Symbols",
       "subcategory": "arrow",
+      "codepoints": "1F504",
       "keyTerms": [
         "anticlockwise",
         "arrow",
@@ -11020,109 +11263,75 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F519",
-      "char": "🔙",
+      "emoji": "🔙",
       "name": "BACK arrow",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "back",
-        "BACK arrow"
-      ]
+      "codepoints": "1F519",
+      "keyTerms": ["arrow", "back", "BACK arrow"]
     },
     {
-      "codes": "1F51A",
-      "char": "🔚",
+      "emoji": "🔚",
       "name": "END arrow",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "end",
-        "END arrow"
-      ]
+      "codepoints": "1F51A",
+      "keyTerms": ["arrow", "end", "END arrow"]
     },
     {
-      "codes": "1F51B",
-      "char": "🔛",
+      "emoji": "🔛",
       "name": "ON! arrow",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "mark",
-        "on",
-        "ON! arrow"
-      ]
+      "codepoints": "1F51B",
+      "keyTerms": ["arrow", "mark", "on", "ON! arrow"]
     },
     {
-      "codes": "1F51C",
-      "char": "🔜",
+      "emoji": "🔜",
       "name": "SOON arrow",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "soon",
-        "SOON arrow"
-      ]
+      "codepoints": "1F51C",
+      "keyTerms": ["arrow", "soon", "SOON arrow"]
     },
     {
-      "codes": "1F51D",
-      "char": "🔝",
+      "emoji": "🔝",
       "name": "TOP arrow",
       "category": "Symbols",
       "subcategory": "arrow",
-      "keyTerms": [
-        "arrow",
-        "top",
-        "TOP arrow",
-        "up"
-      ]
+      "codepoints": "1F51D",
+      "keyTerms": ["arrow", "top", "TOP arrow", "up"]
     },
     {
-      "codes": "1F6D0",
-      "char": "🛐",
+      "emoji": "🛐",
       "name": "place of worship",
       "category": "Symbols",
       "subcategory": "religion",
-      "keyTerms": [
-        "place of worship",
-        "religion",
-        "worship"
-      ]
+      "codepoints": "1F6D0",
+      "keyTerms": ["place of worship", "religion", "worship"]
     },
     {
-      "codes": "269B",
-      "char": "⚛",
+      "emoji": "⚛",
       "name": "atom symbol",
       "category": "Symbols",
       "subcategory": "religion",
-      "keyTerms": [
-        "atheist",
-        "atom",
-        "atom symbol"
-      ]
+      "codepoints": "269B",
+      "keyTerms": ["atheist", "atom", "atom symbol"]
     },
     {
-      "codes": "1F549",
-      "char": "🕉",
+      "emoji": "🕉",
       "name": "om",
       "category": "Symbols",
       "subcategory": "religion",
-      "keyTerms": [
-        "Hindu",
-        "om",
-        "religion"
-      ]
+      "codepoints": "1F549",
+      "keyTerms": ["Hindu", "om", "religion"]
     },
     {
-      "codes": "2721",
-      "char": "✡",
+      "emoji": "✡",
       "name": "star of David",
       "category": "Symbols",
       "subcategory": "religion",
+      "codepoints": 2721,
       "keyTerms": [
         "David",
         "Jew",
@@ -11133,575 +11342,454 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "2638",
-      "char": "☸",
+      "emoji": "☸",
       "name": "wheel of dharma",
       "category": "Symbols",
       "subcategory": "religion",
-      "keyTerms": [
-        "Buddhist",
-        "dharma",
-        "religion",
-        "wheel",
-        "wheel of dharma"
-      ]
+      "codepoints": 2638,
+      "keyTerms": ["Buddhist", "dharma", "religion", "wheel", "wheel of dharma"]
     },
     {
-      "codes": "262F",
-      "char": "☯",
+      "emoji": "☯",
       "name": "yin yang",
       "category": "Symbols",
       "subcategory": "religion",
-      "keyTerms": [
-        "religion",
-        "tao",
-        "taoist",
-        "yang",
-        "yin"
-      ]
+      "codepoints": "262F",
+      "keyTerms": ["religion", "tao", "taoist", "yang", "yin"]
     },
     {
-      "codes": "271D",
-      "char": "✝",
+      "emoji": "✝",
       "name": "latin cross",
       "category": "Symbols",
       "subcategory": "religion",
-      "keyTerms": [
-        "Christian",
-        "cross",
-        "latin cross",
-        "religion"
-      ]
+      "codepoints": "271D",
+      "keyTerms": ["Christian", "cross", "latin cross", "religion"]
     },
     {
-      "codes": "2626",
-      "char": "☦",
+      "emoji": "☦",
       "name": "orthodox cross",
       "category": "Symbols",
       "subcategory": "religion",
-      "keyTerms": [
-        "Christian",
-        "cross",
-        "orthodox cross",
-        "religion"
-      ]
+      "codepoints": 2626,
+      "keyTerms": ["Christian", "cross", "orthodox cross", "religion"]
     },
     {
-      "codes": "262A",
-      "char": "☪",
+      "emoji": "☪",
       "name": "star and crescent",
       "category": "Symbols",
       "subcategory": "religion",
-      "keyTerms": [
-        "islam",
-        "Muslim",
-        "religion",
-        "star and crescent"
-      ]
+      "codepoints": "262A",
+      "keyTerms": ["islam", "Muslim", "religion", "star and crescent"]
     },
     {
-      "codes": "262E",
-      "char": "☮",
+      "emoji": "☮",
       "name": "peace symbol",
       "category": "Symbols",
       "subcategory": "religion",
-      "keyTerms": [
-        "peace",
-        "peace symbol"
-      ]
+      "codepoints": "262E",
+      "keyTerms": ["peace", "peace symbol"]
     },
     {
-      "codes": "1F54E",
-      "char": "🕎",
+      "emoji": "🕎",
       "name": "menorah",
       "category": "Symbols",
       "subcategory": "religion",
-      "keyTerms": [
-        "candelabrum",
-        "candlestick",
-        "menorah",
-        "religion"
-      ]
+      "codepoints": "1F54E",
+      "keyTerms": ["candelabrum", "candlestick", "menorah", "religion"]
     },
     {
-      "codes": "1F52F",
-      "char": "🔯",
+      "emoji": "🔯",
       "name": "dotted six-pointed star",
       "category": "Symbols",
       "subcategory": "religion",
-      "keyTerms": [
-        "dotted six-pointed star",
-        "fortune",
-        "star"
-      ]
+      "codepoints": "1F52F",
+      "keyTerms": ["dotted six-pointed star", "fortune", "star"]
     },
     {
-      "codes": "2648",
-      "char": "♈",
+      "emoji": "♈",
       "name": "Aries",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "Aries",
-        "ram",
-        "zodiac"
-      ]
+      "codepoints": 2648,
+      "keyTerms": ["Aries", "ram", "zodiac"]
     },
     {
-      "codes": "2649",
-      "char": "♉",
+      "emoji": "♉",
       "name": "Taurus",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "bull",
-        "ox",
-        "Taurus",
-        "zodiac"
-      ]
+      "codepoints": 2649,
+      "keyTerms": ["bull", "ox", "Taurus", "zodiac"]
     },
     {
-      "codes": "264A",
-      "char": "♊",
+      "emoji": "♊",
       "name": "Gemini",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "Gemini",
-        "twins",
-        "zodiac"
-      ]
+      "codepoints": "264A",
+      "keyTerms": ["Gemini", "twins", "zodiac"]
     },
     {
-      "codes": "264B",
-      "char": "♋",
+      "emoji": "♋",
       "name": "Cancer",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "Cancer",
-        "crab",
-        "zodiac"
-      ]
+      "codepoints": "264B",
+      "keyTerms": ["Cancer", "crab", "zodiac"]
     },
     {
-      "codes": "264C",
-      "char": "♌",
+      "emoji": "♌",
       "name": "Leo",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "Leo",
-        "lion",
-        "zodiac"
-      ]
+      "codepoints": "264C",
+      "keyTerms": ["Leo", "lion", "zodiac"]
     },
     {
-      "codes": "264D",
-      "char": "♍",
+      "emoji": "♍",
       "name": "Virgo",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "Virgo",
-        "zodiac"
-      ]
+      "codepoints": "264D",
+      "keyTerms": ["Virgo", "zodiac"]
     },
     {
-      "codes": "264E",
-      "char": "♎",
+      "emoji": "♎",
       "name": "Libra",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "balance",
-        "justice",
-        "Libra",
-        "scales",
-        "zodiac"
-      ]
+      "codepoints": "264E",
+      "keyTerms": ["balance", "justice", "Libra", "scales", "zodiac"]
     },
     {
-      "codes": "264F",
-      "char": "♏",
+      "emoji": "♏",
       "name": "Scorpio",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "Scorpio",
-        "scorpion",
-        "scorpius",
-        "zodiac"
-      ]
+      "codepoints": "264F",
+      "keyTerms": ["Scorpio", "scorpion", "scorpius", "zodiac"]
     },
     {
-      "codes": "2650",
-      "char": "♐",
+      "emoji": "♐",
       "name": "Sagittarius",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "archer",
-        "Sagittarius",
-        "zodiac"
-      ]
+      "codepoints": 2650,
+      "keyTerms": ["archer", "Sagittarius", "zodiac"]
     },
     {
-      "codes": "2651",
-      "char": "♑",
+      "emoji": "♑",
       "name": "Capricorn",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "Capricorn",
-        "goat",
-        "zodiac"
-      ]
+      "codepoints": 2651,
+      "keyTerms": ["Capricorn", "goat", "zodiac"]
     },
     {
-      "codes": "2652",
-      "char": "♒",
+      "emoji": "♒",
       "name": "Aquarius",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "Aquarius",
-        "bearer",
-        "water",
-        "zodiac"
-      ]
+      "codepoints": 2652,
+      "keyTerms": ["Aquarius", "bearer", "water", "zodiac"]
     },
     {
-      "codes": "2653",
-      "char": "♓",
+      "emoji": "♓",
       "name": "Pisces",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "fish",
-        "Pisces",
-        "zodiac"
-      ]
+      "codepoints": 2653,
+      "keyTerms": ["fish", "Pisces", "zodiac"]
     },
     {
-      "codes": "26CE",
-      "char": "⛎",
+      "emoji": "⛎",
       "name": "Ophiuchus",
       "category": "Symbols",
       "subcategory": "zodiac",
-      "keyTerms": [
-        "bearer",
-        "Ophiuchus",
-        "serpent",
-        "snake",
-        "zodiac"
-      ]
+      "codepoints": "26CE",
+      "keyTerms": ["bearer", "Ophiuchus", "serpent", "snake", "zodiac"]
     },
     {
-      "codes": "1F500",
-      "char": "🔀",
+      "emoji": "🔀",
       "name": "shuffle tracks button",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "arrow",
-        "crossed",
-        "shuffle tracks button"
-      ]
+      "codepoints": "1F500",
+      "keyTerms": ["arrow", "crossed", "shuffle tracks button"]
     },
     {
-      "codes": "1F501",
-      "char": "🔁",
+      "emoji": "🔁",
       "name": "repeat button",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "arrow",
-        "clockwise",
-        "repeat",
-        "repeat button"
-      ]
+      "codepoints": "1F501",
+      "keyTerms": ["arrow", "clockwise", "repeat", "repeat button"]
     },
     {
-      "codes": "1F502",
-      "char": "🔂",
+      "emoji": "🔂",
       "name": "repeat single button",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "arrow",
-        "clockwise",
-        "once",
-        "repeat single button"
-      ]
+      "codepoints": "1F502",
+      "keyTerms": ["arrow", "clockwise", "once", "repeat single button"]
     },
     {
-      "codes": "25B6",
-      "char": "▶",
+      "emoji": "▶",
       "name": "play button",
       "category": "Symbols",
       "subcategory": "av-symbol",
+      "codepoints": "25B6",
+      "keyTerms": ["arrow", "play", "play button", "right", "triangle"]
+    },
+    {
+      "emoji": "⏩",
+      "name": "fast-forward button",
+      "category": "Symbols",
+      "subcategory": "av-symbol",
+      "codepoints": 23000000000,
+      "keyTerms": ["arrow", "double", "fast", "fast-forward button", "forward"]
+    },
+    {
+      "emoji": "⏭",
+      "name": "next track button",
+      "category": "Symbols",
+      "subcategory": "av-symbol",
+      "codepoints": "23ED",
       "keyTerms": [
         "arrow",
+        "next scene",
+        "next track",
+        "next track button",
+        "triangle"
+      ]
+    },
+    {
+      "emoji": "⏯",
+      "name": "play or pause button",
+      "category": "Symbols",
+      "subcategory": "av-symbol",
+      "codepoints": "23EF",
+      "keyTerms": [
+        "arrow",
+        "pause",
         "play",
-        "play button",
+        "play or pause button",
         "right",
         "triangle"
       ]
     },
     {
-      "codes": "23E9",
-      "char": "⏩",
-      "name": "fast-forward button",
-      "category": "Symbols",
-      "subcategory": "av-symbol",
-      "keyTerms": [
-        "arrow",
-        "double",
-        "fast",
-        "fast-forward button",
-        "forward"
-      ]
-    },
-    {
-      "codes": "25C0",
-      "char": "◀",
+      "emoji": "◀",
       "name": "reverse button",
       "category": "Symbols",
       "subcategory": "av-symbol",
+      "codepoints": "25C0",
+      "keyTerms": ["arrow", "left", "reverse", "reverse button", "triangle"]
+    },
+    {
+      "emoji": "⏪",
+      "name": "fast reverse button",
+      "category": "Symbols",
+      "subcategory": "av-symbol",
+      "codepoints": "23EA",
+      "keyTerms": ["arrow", "double", "fast reverse button", "rewind"]
+    },
+    {
+      "emoji": "⏮",
+      "name": "last track button",
+      "category": "Symbols",
+      "subcategory": "av-symbol",
+      "codepoints": "23EE",
       "keyTerms": [
         "arrow",
-        "left",
-        "reverse",
-        "reverse button",
+        "last track button",
+        "previous scene",
+        "previous track",
         "triangle"
       ]
     },
     {
-      "codes": "23EA",
-      "char": "⏪",
-      "name": "fast reverse button",
-      "category": "Symbols",
-      "subcategory": "av-symbol",
-      "keyTerms": [
-        "arrow",
-        "double",
-        "fast reverse button",
-        "rewind"
-      ]
-    },
-    {
-      "codes": "1F53C",
-      "char": "🔼",
+      "emoji": "🔼",
       "name": "upwards button",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "arrow",
-        "button",
-        "red",
-        "upwards button"
-      ]
+      "codepoints": "1F53C",
+      "keyTerms": ["arrow", "button", "red", "upwards button"]
     },
     {
-      "codes": "23EB",
-      "char": "⏫",
+      "emoji": "⏫",
       "name": "fast up button",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "arrow",
-        "double",
-        "fast up button"
-      ]
+      "codepoints": "23EB",
+      "keyTerms": ["arrow", "double", "fast up button"]
     },
     {
-      "codes": "1F53D",
-      "char": "🔽",
+      "emoji": "🔽",
       "name": "downwards button",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "arrow",
-        "button",
-        "down",
-        "downwards button",
-        "red"
-      ]
+      "codepoints": "1F53D",
+      "keyTerms": ["arrow", "button", "down", "downwards button", "red"]
     },
     {
-      "codes": "23EC",
-      "char": "⏬",
+      "emoji": "⏬",
       "name": "fast down button",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "arrow",
-        "double",
-        "down",
-        "fast down button"
-      ]
+      "codepoints": "23EC",
+      "keyTerms": ["arrow", "double", "down", "fast down button"]
     },
     {
-      "codes": "23F9",
-      "char": "⏹",
+      "emoji": "⏸",
+      "name": "pause button",
+      "category": "Symbols",
+      "subcategory": "av-symbol",
+      "codepoints": "23F8",
+      "keyTerms": ["bar", "double", "pause", "pause button", "vertical"]
+    },
+    {
+      "emoji": "⏹",
       "name": "stop button",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "square",
-        "stop",
-        "stop button"
-      ]
+      "codepoints": "23F9",
+      "keyTerms": ["square", "stop", "stop button"]
     },
     {
-      "codes": "23CF",
-      "char": "⏏",
+      "emoji": "⏺",
+      "name": "record button",
+      "category": "Symbols",
+      "subcategory": "av-symbol",
+      "codepoints": "23FA",
+      "keyTerms": ["circle", "record", "record button"]
+    },
+    {
+      "emoji": "⏏",
       "name": "eject button",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "eject",
-        "eject button"
-      ]
+      "codepoints": "23CF",
+      "keyTerms": ["eject", "eject button"]
     },
     {
-      "codes": "1F3A6",
-      "char": "🎦",
+      "emoji": "🎦",
       "name": "cinema",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "camera",
-        "cinema",
-        "film",
-        "movie"
-      ]
+      "codepoints": "1F3A6",
+      "keyTerms": ["camera", "cinema", "film", "movie"]
     },
     {
-      "codes": "1F505",
-      "char": "🔅",
+      "emoji": "🔅",
       "name": "dim button",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "brightness",
-        "dim",
-        "dim button",
-        "low"
-      ]
+      "codepoints": "1F505",
+      "keyTerms": ["brightness", "dim", "dim button", "low"]
     },
     {
-      "codes": "1F506",
-      "char": "🔆",
+      "emoji": "🔆",
       "name": "bright button",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "bright",
-        "bright button",
-        "brightness"
-      ]
+      "codepoints": "1F506",
+      "keyTerms": ["bright", "bright button", "brightness"]
     },
     {
-      "codes": "1F4F6",
-      "char": "📶",
+      "emoji": "📶",
       "name": "antenna bars",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "antenna",
-        "antenna bars",
-        "bar",
-        "cell",
-        "mobile",
-        "phone"
-      ]
+      "codepoints": "1F4F6",
+      "keyTerms": ["antenna", "antenna bars", "bar", "cell", "mobile", "phone"]
     },
     {
-      "codes": "1F4F3",
-      "char": "📳",
+      "emoji": "📳",
       "name": "vibration mode",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "cell",
-        "mobile",
-        "mode",
-        "phone",
-        "telephone",
-        "vibration"
-      ]
+      "codepoints": "1F4F3",
+      "keyTerms": ["cell", "mobile", "mode", "phone", "telephone", "vibration"]
     },
     {
-      "codes": "1F4F4",
-      "char": "📴",
+      "emoji": "📴",
       "name": "mobile phone off",
       "category": "Symbols",
       "subcategory": "av-symbol",
-      "keyTerms": [
-        "cell",
-        "mobile",
-        "off",
-        "phone",
-        "telephone"
-      ]
+      "codepoints": "1F4F4",
+      "keyTerms": ["cell", "mobile", "off", "phone", "telephone"]
     },
     {
-      "codes": "267E",
-      "char": "♾",
+      "emoji": "♀",
+      "name": "female sign",
+      "category": "Symbols",
+      "subcategory": "gender",
+      "codepoints": 2640,
+      "keyTerms": ["female sign", "woman"]
+    },
+    {
+      "emoji": "♂",
+      "name": "male sign",
+      "category": "Symbols",
+      "subcategory": "gender",
+      "codepoints": 2642,
+      "keyTerms": ["male sign", "man"]
+    },
+    {
+      "emoji": "⚕",
+      "name": "medical symbol",
+      "category": "Symbols",
+      "subcategory": "other-symbol",
+      "codepoints": 2695,
+      "keyTerms": ["aesculapius", "medical symbol", "medicine", "staff"]
+    },
+    {
+      "emoji": "♾",
       "name": "infinity",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "forever",
-        "infinity",
-        "unbounded",
-        "universal"
-      ]
+      "codepoints": "267E",
+      "keyTerms": ["forever", "infinity", "unbounded", "universal"]
     },
     {
-      "codes": "267B",
-      "char": "♻",
+      "emoji": "♻",
       "name": "recycling symbol",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "recycle",
-        "recycling symbol"
-      ]
+      "codepoints": "267B",
+      "keyTerms": ["recycle", "recycling symbol"]
     },
     {
-      "codes": "1F531",
-      "char": "🔱",
+      "emoji": "⚜",
+      "name": "fleur-de-lis",
+      "category": "Symbols",
+      "subcategory": "other-symbol",
+      "codepoints": "269C",
+      "keyTerms": ["fleur-de-lis"]
+    },
+    {
+      "emoji": "🔱",
       "name": "trident emblem",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "anchor",
-        "emblem",
-        "ship",
-        "tool",
-        "trident"
-      ]
+      "codepoints": "1F531",
+      "keyTerms": ["anchor", "emblem", "ship", "tool", "trident"]
     },
     {
-      "codes": "1F4DB",
-      "char": "📛",
+      "emoji": "📛",
       "name": "name badge",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "badge",
-        "name"
-      ]
+      "codepoints": "1F4DB",
+      "keyTerms": ["badge", "name"]
     },
     {
-      "codes": "1F530",
-      "char": "🔰",
+      "emoji": "🔰",
       "name": "Japanese symbol for beginner",
       "category": "Symbols",
       "subcategory": "other-symbol",
+      "codepoints": "1F530",
       "keyTerms": [
         "beginner",
         "chevron",
@@ -11711,78 +11799,51 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "2B55",
-      "char": "⭕",
+      "emoji": "⭕",
       "name": "hollow red circle",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "circle",
-        "hollow red circle",
-        "large",
-        "o",
-        "red"
-      ]
+      "codepoints": "2B55",
+      "keyTerms": ["circle", "hollow red circle", "large", "o", "red"]
     },
     {
-      "codes": "2705",
-      "char": "✅",
+      "emoji": "✅",
       "name": "check mark button",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "✓",
-        "button",
-        "check",
-        "mark"
-      ]
+      "codepoints": 2705,
+      "keyTerms": ["✓", "button", "check", "mark"]
     },
     {
-      "codes": "2611",
-      "char": "☑",
+      "emoji": "☑",
       "name": "check box with check",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "✓",
-        "box",
-        "check",
-        "check box with check"
-      ]
+      "codepoints": 2611,
+      "keyTerms": ["✓", "box", "check", "check box with check"]
     },
     {
-      "codes": "2714",
-      "char": "✔",
+      "emoji": "✔",
       "name": "check mark",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "✓",
-        "check",
-        "mark"
-      ]
+      "codepoints": 2714,
+      "keyTerms": ["✓", "check", "mark"]
     },
     {
-      "codes": "2716",
-      "char": "✖",
+      "emoji": "✖",
       "name": "multiplication sign",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "×",
-        "cancel",
-        "multiplication",
-        "multiply",
-        "sign",
-        "x"
-      ]
+      "codepoints": 2716,
+      "keyTerms": ["×", "cancel", "multiplication", "multiply", "sign", "x"]
     },
     {
-      "codes": "274C",
-      "char": "❌",
+      "emoji": "❌",
       "name": "cross mark",
       "category": "Symbols",
       "subcategory": "other-symbol",
+      "codepoints": "274C",
       "keyTerms": [
         "×",
         "cancel",
@@ -11794,137 +11855,91 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "274E",
-      "char": "❎",
+      "emoji": "❎",
       "name": "cross mark button",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "×",
-        "cross mark button",
-        "mark",
-        "square",
-        "x"
-      ]
+      "codepoints": "274E",
+      "keyTerms": ["×", "cross mark button", "mark", "square", "x"]
     },
     {
-      "codes": "2795",
-      "char": "➕",
+      "emoji": "➕",
       "name": "plus sign",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "+",
-        "math",
-        "plus",
-        "sign"
-      ]
+      "codepoints": 2795,
+      "keyTerms": ["+", "math", "plus", "sign"]
     },
     {
-      "codes": "2796",
-      "char": "➖",
+      "emoji": "➖",
       "name": "minus sign",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "-",
-        "−",
-        "math",
-        "minus",
-        "sign"
-      ]
+      "codepoints": 2796,
+      "keyTerms": ["-", "−", "math", "minus", "sign"]
     },
     {
-      "codes": "2797",
-      "char": "➗",
+      "emoji": "➗",
       "name": "division sign",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "÷",
-        "division",
-        "math",
-        "sign"
-      ]
+      "codepoints": 2797,
+      "keyTerms": ["÷", "division", "math", "sign"]
     },
     {
-      "codes": "27B0",
-      "char": "➰",
+      "emoji": "➰",
       "name": "curly loop",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "curl",
-        "curly loop",
-        "loop"
-      ]
+      "codepoints": "27B0",
+      "keyTerms": ["curl", "curly loop", "loop"]
     },
     {
-      "codes": "27BF",
-      "char": "➿",
+      "emoji": "➿",
       "name": "double curly loop",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "curl",
-        "double",
-        "double curly loop",
-        "loop"
-      ]
+      "codepoints": "27BF",
+      "keyTerms": ["curl", "double", "double curly loop", "loop"]
     },
     {
-      "codes": "303D",
-      "char": "〽",
+      "emoji": "〽",
       "name": "part alternation mark",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "mark",
-        "part",
-        "part alternation mark"
-      ]
+      "codepoints": "303D",
+      "keyTerms": ["mark", "part", "part alternation mark"]
     },
     {
-      "codes": "2733",
-      "char": "✳",
+      "emoji": "✳",
       "name": "eight-spoked asterisk",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "*",
-        "asterisk",
-        "eight-spoked asterisk"
-      ]
+      "codepoints": 2733,
+      "keyTerms": ["*", "asterisk", "eight-spoked asterisk"]
     },
     {
-      "codes": "2734",
-      "char": "✴",
+      "emoji": "✴",
       "name": "eight-pointed star",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "*",
-        "eight-pointed star",
-        "star"
-      ]
+      "codepoints": 2734,
+      "keyTerms": ["*", "eight-pointed star", "star"]
     },
     {
-      "codes": "2747",
-      "char": "❇",
+      "emoji": "❇",
       "name": "sparkle",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "*",
-        "sparkle"
-      ]
+      "codepoints": 2747,
+      "keyTerms": ["*", "sparkle"]
     },
     {
-      "codes": "203C",
-      "char": "‼",
+      "emoji": "‼",
       "name": "double exclamation mark",
       "category": "Symbols",
       "subcategory": "other-symbol",
+      "codepoints": "203C",
       "keyTerms": [
         "!",
         "!!",
@@ -11935,11 +11950,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "2049",
-      "char": "⁉",
+      "emoji": "⁉",
       "name": "exclamation question mark",
       "category": "Symbols",
       "subcategory": "other-symbol",
+      "codepoints": 2049,
       "keyTerms": [
         "!",
         "!?",
@@ -11952,24 +11967,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "2753",
-      "char": "❓",
+      "emoji": "❓",
       "name": "question mark",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "?",
-        "mark",
-        "punctuation",
-        "question"
-      ]
+      "codepoints": 2753,
+      "keyTerms": ["?", "mark", "punctuation", "question"]
     },
     {
-      "codes": "2754",
-      "char": "❔",
+      "emoji": "❔",
       "name": "white question mark",
       "category": "Symbols",
       "subcategory": "other-symbol",
+      "codepoints": 2754,
       "keyTerms": [
         "?",
         "mark",
@@ -11980,11 +11990,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "2755",
-      "char": "❕",
+      "emoji": "❕",
       "name": "white exclamation mark",
       "category": "Symbols",
       "subcategory": "other-symbol",
+      "codepoints": 2755,
       "keyTerms": [
         "!",
         "exclamation",
@@ -11995,441 +12005,331 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "2757",
-      "char": "❗",
+      "emoji": "❗",
       "name": "exclamation mark",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "!",
-        "exclamation",
-        "mark",
-        "punctuation"
-      ]
+      "codepoints": 2757,
+      "keyTerms": ["!", "exclamation", "mark", "punctuation"]
     },
     {
-      "codes": "00A9",
-      "char": "©",
+      "emoji": "〰",
+      "name": "wavy dash",
+      "category": "Symbols",
+      "subcategory": "other-symbol",
+      "codepoints": 3030,
+      "keyTerms": ["dash", "punctuation", "wavy"]
+    },
+    {
+      "emoji": "©",
       "name": "copyright",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "c",
-        "copyright"
-      ]
+      "codepoints": "00A9",
+      "keyTerms": ["c", "copyright"]
     },
     {
-      "codes": "00AE",
-      "char": "®",
+      "emoji": "®",
       "name": "registered",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "r",
-        "registered"
-      ]
+      "codepoints": "00AE",
+      "keyTerms": ["r", "registered"]
     },
     {
-      "codes": "2122",
-      "char": "™",
+      "emoji": "™",
       "name": "trade mark",
       "category": "Symbols",
       "subcategory": "other-symbol",
-      "keyTerms": [
-        "mark",
-        "tm",
-        "trade mark",
-        "trademark"
-      ]
+      "codepoints": 2122,
+      "keyTerms": ["mark", "tm", "trade mark", "trademark"]
     },
     {
-      "codes": "0023 FE0F 20E3",
-      "char": "#️⃣",
-      "name": "keycap: #",
+      "emoji": "#️⃣",
+      "name": "#",
       "category": "Symbols",
       "subcategory": "keycap",
-      "keyTerms": [
-        "keycap"
-      ]
+      "codepoints": "0023 FE0F 20E3",
+      "keyTerms": ["keycap"]
     },
     {
-      "codes": "0030 FE0F 20E3",
-      "char": "0️⃣",
+      "emoji": "*️⃣",
+      "name": "keycap: *",
+      "category": "Symbols",
+      "subcategory": "keycap",
+      "codepoints": "002A FE0F 20E3",
+      "keyTerms": ["keycap"]
+    },
+    {
+      "emoji": "0️⃣",
       "name": "keycap: 0",
       "category": "Symbols",
       "subcategory": "keycap",
-      "keyTerms": [
-        "keycap"
-      ]
+      "codepoints": "0030 FE0F 20E3",
+      "keyTerms": ["keycap"]
     },
     {
-      "codes": "0031 FE0F 20E3",
-      "char": "1️⃣",
+      "emoji": "1️⃣",
       "name": "keycap: 1",
       "category": "Symbols",
       "subcategory": "keycap",
-      "keyTerms": [
-        "keycap"
-      ]
+      "codepoints": "0031 FE0F 20E3",
+      "keyTerms": ["keycap"]
     },
     {
-      "codes": "0032 FE0F 20E3",
-      "char": "2️⃣",
+      "emoji": "2️⃣",
       "name": "keycap: 2",
       "category": "Symbols",
       "subcategory": "keycap",
-      "keyTerms": [
-        "keycap"
-      ]
+      "codepoints": "0032 FE0F 20E3",
+      "keyTerms": ["keycap"]
     },
     {
-      "codes": "0033 FE0F 20E3",
-      "char": "3️⃣",
+      "emoji": "3️⃣",
       "name": "keycap: 3",
       "category": "Symbols",
       "subcategory": "keycap",
-      "keyTerms": [
-        "keycap"
-      ]
+      "codepoints": "0033 FE0F 20E3",
+      "keyTerms": ["keycap"]
     },
     {
-      "codes": "0034 FE0F 20E3",
-      "char": "4️⃣",
+      "emoji": "4️⃣",
       "name": "keycap: 4",
       "category": "Symbols",
       "subcategory": "keycap",
-      "keyTerms": [
-        "keycap"
-      ]
+      "codepoints": "0034 FE0F 20E3",
+      "keyTerms": ["keycap"]
     },
     {
-      "codes": "0035 FE0F 20E3",
-      "char": "5️⃣",
+      "emoji": "5️⃣",
       "name": "keycap: 5",
       "category": "Symbols",
       "subcategory": "keycap",
-      "keyTerms": [
-        "keycap"
-      ]
+      "codepoints": "0035 FE0F 20E3",
+      "keyTerms": ["keycap"]
     },
     {
-      "codes": "0036 FE0F 20E3",
-      "char": "6️⃣",
+      "emoji": "6️⃣",
       "name": "keycap: 6",
       "category": "Symbols",
       "subcategory": "keycap",
-      "keyTerms": [
-        "keycap"
-      ]
+      "codepoints": "0036 FE0F 20E3",
+      "keyTerms": ["keycap"]
     },
     {
-      "codes": "0037 FE0F 20E3",
-      "char": "7️⃣",
+      "emoji": "7️⃣",
       "name": "keycap: 7",
       "category": "Symbols",
       "subcategory": "keycap",
-      "keyTerms": [
-        "keycap"
-      ]
+      "codepoints": "0037 FE0F 20E3",
+      "keyTerms": ["keycap"]
     },
     {
-      "codes": "0038 FE0F 20E3",
-      "char": "8️⃣",
+      "emoji": "8️⃣",
       "name": "keycap: 8",
       "category": "Symbols",
       "subcategory": "keycap",
-      "keyTerms": [
-        "keycap"
-      ]
+      "codepoints": "0038 FE0F 20E3",
+      "keyTerms": ["keycap"]
     },
     {
-      "codes": "0039 FE0F 20E3",
-      "char": "9️⃣",
+      "emoji": "9️⃣",
       "name": "keycap: 9",
       "category": "Symbols",
       "subcategory": "keycap",
-      "keyTerms": [
-        "keycap"
-      ]
+      "codepoints": "0039 FE0F 20E3",
+      "keyTerms": ["keycap"]
     },
     {
-      "codes": "1F51F",
-      "char": "🔟",
+      "emoji": "🔟",
       "name": "keycap: 10",
       "category": "Symbols",
       "subcategory": "keycap",
-      "keyTerms": [
-        "keycap"
-      ]
+      "codepoints": "1F51F",
+      "keyTerms": ["keycap"]
     },
     {
-      "codes": "1F520",
-      "char": "🔠",
+      "emoji": "🔠",
       "name": "input latin uppercase",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "ABCD",
-        "input",
-        "latin",
-        "letters",
-        "uppercase"
-      ]
+      "codepoints": "1F520",
+      "keyTerms": ["ABCD", "input", "latin", "letters", "uppercase"]
     },
     {
-      "codes": "1F521",
-      "char": "🔡",
+      "emoji": "🔡",
       "name": "input latin lowercase",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "abcd",
-        "input",
-        "latin",
-        "letters",
-        "lowercase"
-      ]
+      "codepoints": "1F521",
+      "keyTerms": ["abcd", "input", "latin", "letters", "lowercase"]
     },
     {
-      "codes": "1F522",
-      "char": "🔢",
+      "emoji": "🔢",
       "name": "input numbers",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "1234",
-        "input",
-        "numbers"
-      ]
+      "codepoints": "1F522",
+      "keyTerms": ["1234", "input", "numbers"]
     },
     {
-      "codes": "1F523",
-      "char": "🔣",
+      "emoji": "🔣",
       "name": "input symbols",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "〒♪&%",
-        "input",
-        "input symbols"
-      ]
+      "codepoints": "1F523",
+      "keyTerms": ["〒♪&amp;%", "input", "input symbols"]
     },
     {
-      "codes": "1F524",
-      "char": "🔤",
+      "emoji": "🔤",
       "name": "input latin letters",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "abc",
-        "alphabet",
-        "input",
-        "latin",
-        "letters"
-      ]
+      "codepoints": "1F524",
+      "keyTerms": ["abc", "alphabet", "input", "latin", "letters"]
     },
     {
-      "codes": "1F170",
-      "char": "🅰",
+      "emoji": "🅰",
       "name": "A button (blood type)",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "a",
-        "A button (blood type)",
-        "blood type"
-      ]
+      "codepoints": "1F170",
+      "keyTerms": ["a", "A button (blood type)", "blood type"]
     },
     {
-      "codes": "1F18E",
-      "char": "🆎",
+      "emoji": "🆎",
       "name": "AB button (blood type)",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "ab",
-        "AB button (blood type)",
-        "blood type"
-      ]
+      "codepoints": "1F18E",
+      "keyTerms": ["ab", "AB button (blood type)", "blood type"]
     },
     {
-      "codes": "1F171",
-      "char": "🅱",
+      "emoji": "🅱",
       "name": "B button (blood type)",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "b",
-        "B button (blood type)",
-        "blood type"
-      ]
+      "codepoints": "1F171",
+      "keyTerms": ["b", "B button (blood type)", "blood type"]
     },
     {
-      "codes": "1F191",
-      "char": "🆑",
+      "emoji": "🆑",
       "name": "CL button",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "cl",
-        "CL button"
-      ]
+      "codepoints": "1F191",
+      "keyTerms": ["cl", "CL button"]
     },
     {
-      "codes": "1F192",
-      "char": "🆒",
+      "emoji": "🆒",
       "name": "COOL button",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "cool",
-        "COOL button"
-      ]
+      "codepoints": "1F192",
+      "keyTerms": ["cool", "COOL button"]
     },
     {
-      "codes": "1F193",
-      "char": "🆓",
+      "emoji": "🆓",
       "name": "FREE button",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "free",
-        "FREE button"
-      ]
+      "codepoints": "1F193",
+      "keyTerms": ["free", "FREE button"]
     },
     {
-      "codes": "2139",
-      "char": "ℹ",
+      "emoji": "ℹ",
       "name": "information",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "i",
-        "information"
-      ]
+      "codepoints": 2139,
+      "keyTerms": ["i", "information"]
     },
     {
-      "codes": "1F194",
-      "char": "🆔",
+      "emoji": "🆔",
       "name": "ID button",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "id",
-        "ID button",
-        "identity"
-      ]
+      "codepoints": "1F194",
+      "keyTerms": ["id", "ID button", "identity"]
     },
     {
-      "codes": "24C2",
-      "char": "Ⓜ",
+      "emoji": "Ⓜ",
       "name": "circled M",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "circle",
-        "circled M",
-        "m"
-      ]
+      "codepoints": "24C2",
+      "keyTerms": ["circle", "circled M", "m"]
     },
     {
-      "codes": "1F195",
-      "char": "🆕",
+      "emoji": "🆕",
       "name": "NEW button",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "new",
-        "NEW button"
-      ]
+      "codepoints": "1F195",
+      "keyTerms": ["new", "NEW button"]
     },
     {
-      "codes": "1F196",
-      "char": "🆖",
+      "emoji": "🆖",
       "name": "NG button",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "ng",
-        "NG button"
-      ]
+      "codepoints": "1F196",
+      "keyTerms": ["ng", "NG button"]
     },
     {
-      "codes": "1F17E",
-      "char": "🅾",
+      "emoji": "🅾",
       "name": "O button (blood type)",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "blood type",
-        "o",
-        "O button (blood type)"
-      ]
+      "codepoints": "1F17E",
+      "keyTerms": ["blood type", "o", "O button (blood type)"]
     },
     {
-      "codes": "1F197",
-      "char": "🆗",
+      "emoji": "🆗",
       "name": "OK button",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "OK",
-        "OK button"
-      ]
+      "codepoints": "1F197",
+      "keyTerms": ["OK", "OK button"]
     },
     {
-      "codes": "1F17F",
-      "char": "🅿",
+      "emoji": "🅿",
       "name": "P button",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "P button",
-        "parking"
-      ]
+      "codepoints": "1F17F",
+      "keyTerms": ["P button", "parking"]
     },
     {
-      "codes": "1F198",
-      "char": "🆘",
+      "emoji": "🆘",
       "name": "SOS button",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "help",
-        "sos",
-        "SOS button"
-      ]
+      "codepoints": "1F198",
+      "keyTerms": ["help", "sos", "SOS button"]
     },
     {
-      "codes": "1F199",
-      "char": "🆙",
+      "emoji": "🆙",
       "name": "UP! button",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "mark",
-        "up",
-        "UP! button"
-      ]
+      "codepoints": "1F199",
+      "keyTerms": ["mark", "up", "UP! button"]
     },
     {
-      "codes": "1F19A",
-      "char": "🆚",
+      "emoji": "🆚",
       "name": "VS button",
       "category": "Symbols",
       "subcategory": "alphanum",
-      "keyTerms": [
-        "versus",
-        "vs",
-        "VS button"
-      ]
+      "codepoints": "1F19A",
+      "keyTerms": ["versus", "vs", "VS button"]
     },
     {
-      "codes": "1F201",
-      "char": "🈁",
+      "emoji": "🈁",
       "name": "Japanese “here” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F201",
       "keyTerms": [
         "“here”",
         "Japanese",
@@ -12439,11 +12339,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F202",
-      "char": "🈂",
+      "emoji": "🈂",
       "name": "Japanese “service charge” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F202",
       "keyTerms": [
         "“service charge”",
         "Japanese",
@@ -12453,11 +12353,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F237",
-      "char": "🈷",
+      "emoji": "🈷",
       "name": "Japanese “monthly amount” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F237",
       "keyTerms": [
         "“monthly amount”",
         "ideograph",
@@ -12467,11 +12367,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F236",
-      "char": "🈶",
+      "emoji": "🈶",
       "name": "Japanese “not free of charge” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F236",
       "keyTerms": [
         "“not free of charge”",
         "ideograph",
@@ -12481,11 +12381,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F22F",
-      "char": "🈯",
+      "emoji": "🈯",
       "name": "Japanese “reserved” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F22F",
       "keyTerms": [
         "“reserved”",
         "ideograph",
@@ -12495,11 +12395,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F250",
-      "char": "🉐",
+      "emoji": "🉐",
       "name": "Japanese “bargain” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F250",
       "keyTerms": [
         "“bargain”",
         "ideograph",
@@ -12509,11 +12409,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F239",
-      "char": "🈹",
+      "emoji": "🈹",
       "name": "Japanese “discount” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F239",
       "keyTerms": [
         "“discount”",
         "ideograph",
@@ -12523,11 +12423,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F21A",
-      "char": "🈚",
+      "emoji": "🈚",
       "name": "Japanese “free of charge” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F21A",
       "keyTerms": [
         "“free of charge”",
         "ideograph",
@@ -12537,11 +12437,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F232",
-      "char": "🈲",
+      "emoji": "🈲",
       "name": "Japanese “prohibited” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F232",
       "keyTerms": [
         "“prohibited”",
         "ideograph",
@@ -12551,11 +12451,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F251",
-      "char": "🉑",
+      "emoji": "🉑",
       "name": "Japanese “acceptable” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F251",
       "keyTerms": [
         "“acceptable”",
         "ideograph",
@@ -12565,11 +12465,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F238",
-      "char": "🈸",
+      "emoji": "🈸",
       "name": "Japanese “application” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F238",
       "keyTerms": [
         "“application”",
         "ideograph",
@@ -12579,11 +12479,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F234",
-      "char": "🈴",
+      "emoji": "🈴",
       "name": "Japanese “passing grade” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F234",
       "keyTerms": [
         "“passing grade”",
         "ideograph",
@@ -12593,11 +12493,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F233",
-      "char": "🈳",
+      "emoji": "🈳",
       "name": "Japanese “vacancy” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F233",
       "keyTerms": [
         "“vacancy”",
         "ideograph",
@@ -12607,11 +12507,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "3297",
-      "char": "㊗",
+      "emoji": "㊗",
       "name": "Japanese “congratulations” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": 3297,
       "keyTerms": [
         "“congratulations”",
         "ideograph",
@@ -12621,11 +12521,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "3299",
-      "char": "㊙",
+      "emoji": "㊙",
       "name": "Japanese “secret” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": 3299,
       "keyTerms": [
         "“secret”",
         "ideograph",
@@ -12635,11 +12535,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F23A",
-      "char": "🈺",
+      "emoji": "🈺",
       "name": "Japanese “open for business” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F23A",
       "keyTerms": [
         "“open for business”",
         "ideograph",
@@ -12649,11 +12549,11 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F235",
-      "char": "🈵",
+      "emoji": "🈵",
       "name": "Japanese “no vacancy” button",
       "category": "Symbols",
       "subcategory": "alphanum",
+      "codepoints": "1F235",
       "keyTerms": [
         "“no vacancy”",
         "ideograph",
@@ -12663,232 +12563,251 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F534",
-      "char": "🔴",
+      "emoji": "🔴",
       "name": "red circle",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "circle",
-        "geometric",
-        "red"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "1F534",
+      "keyTerms": ["circle", "geometric", "red"]
     },
     {
-      "codes": "1F535",
-      "char": "🔵",
+      "emoji": "🟠",
+      "name": "orange circle",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F7E0",
+      "keyTerms": ["circle", "orange"]
+    },
+    {
+      "emoji": "🟡",
+      "name": "yellow circle",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F7E1",
+      "keyTerms": ["circle", "yellow"]
+    },
+    {
+      "emoji": "🟢",
+      "name": "green circle",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F7E2",
+      "keyTerms": ["circle", "green"]
+    },
+    {
+      "emoji": "🔵",
       "name": "blue circle",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "blue",
-        "circle",
-        "geometric"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "1F535",
+      "keyTerms": ["blue", "circle", "geometric"]
     },
     {
-      "codes": "26AB",
-      "char": "⚫",
+      "emoji": "🟣",
+      "name": "purple circle",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F7E3",
+      "keyTerms": ["circle", "purple"]
+    },
+    {
+      "emoji": "🟤",
+      "name": "brown circle",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F7E4",
+      "keyTerms": ["brown", "circle"]
+    },
+    {
+      "emoji": "⚫",
       "name": "black circle",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "black circle",
-        "circle",
-        "geometric"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "26AB",
+      "keyTerms": ["black circle", "circle", "geometric"]
     },
     {
-      "codes": "26AA",
-      "char": "⚪",
+      "emoji": "⚪",
       "name": "white circle",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "circle",
-        "geometric",
-        "white circle"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "26AA",
+      "keyTerms": ["circle", "geometric", "white circle"]
     },
     {
-      "codes": "2B1B",
-      "char": "⬛",
+      "emoji": "🟥",
+      "name": "red square",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F7E5",
+      "keyTerms": ["red", "square"]
+    },
+    {
+      "emoji": "🟧",
+      "name": "orange square",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F7E7",
+      "keyTerms": ["orange", "square"]
+    },
+    {
+      "emoji": "🟨",
+      "name": "yellow square",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F7E8",
+      "keyTerms": ["square", "yellow"]
+    },
+    {
+      "emoji": "🟩",
+      "name": "green square",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F7E9",
+      "keyTerms": ["green", "square"]
+    },
+    {
+      "emoji": "🟦",
+      "name": "blue square",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F7E6",
+      "keyTerms": ["blue", "square"]
+    },
+    {
+      "emoji": "🟪",
+      "name": "purple square",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F7EA",
+      "keyTerms": ["purple", "square"]
+    },
+    {
+      "emoji": "🟫",
+      "name": "brown square",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F7EB",
+      "keyTerms": ["brown", "square"]
+    },
+    {
+      "emoji": "⬛",
       "name": "black large square",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "black large square",
-        "geometric",
-        "square"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "2B1B",
+      "keyTerms": ["black large square", "geometric", "square"]
     },
     {
-      "codes": "2B1C",
-      "char": "⬜",
+      "emoji": "⬜",
       "name": "white large square",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "geometric",
-        "square",
-        "white large square"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "2B1C",
+      "keyTerms": ["geometric", "square", "white large square"]
     },
     {
-      "codes": "25FC",
-      "char": "◼",
+      "emoji": "◼",
       "name": "black medium square",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "black medium square",
-        "geometric",
-        "square"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "25FC",
+      "keyTerms": ["black medium square", "geometric", "square"]
     },
     {
-      "codes": "25FB",
-      "char": "◻",
+      "emoji": "◻",
       "name": "white medium square",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "geometric",
-        "square",
-        "white medium square"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "25FB",
+      "keyTerms": ["geometric", "square", "white medium square"]
     },
     {
-      "codes": "25FE",
-      "char": "◾",
+      "emoji": "◾",
       "name": "black medium-small square",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "black medium-small square",
-        "geometric",
-        "square"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "25FE",
+      "keyTerms": ["black medium-small square", "geometric", "square"]
     },
     {
-      "codes": "25FD",
-      "char": "◽",
+      "emoji": "◽",
       "name": "white medium-small square",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "geometric",
-        "square",
-        "white medium-small square"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "25FD",
+      "keyTerms": ["geometric", "square", "white medium-small square"]
     },
     {
-      "codes": "25AA",
-      "char": "▪",
+      "emoji": "▪",
       "name": "black small square",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "black small square",
-        "geometric",
-        "square"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "25AA",
+      "keyTerms": ["black small square", "geometric", "square"]
     },
     {
-      "codes": "25AB",
-      "char": "▫",
+      "emoji": "▫",
       "name": "white small square",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "geometric",
-        "square",
-        "white small square"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "25AB",
+      "keyTerms": ["geometric", "square", "white small square"]
     },
     {
-      "codes": "1F536",
-      "char": "🔶",
+      "emoji": "🔶",
       "name": "large orange diamond",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "diamond",
-        "geometric",
-        "large orange diamond",
-        "orange"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "1F536",
+      "keyTerms": ["diamond", "geometric", "large orange diamond", "orange"]
     },
     {
-      "codes": "1F537",
-      "char": "🔷",
+      "emoji": "🔷",
       "name": "large blue diamond",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "blue",
-        "diamond",
-        "geometric",
-        "large blue diamond"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "1F537",
+      "keyTerms": ["blue", "diamond", "geometric", "large blue diamond"]
     },
     {
-      "codes": "1F538",
-      "char": "🔸",
+      "emoji": "🔸",
       "name": "small orange diamond",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "diamond",
-        "geometric",
-        "orange",
-        "small orange diamond"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "1F538",
+      "keyTerms": ["diamond", "geometric", "orange", "small orange diamond"]
     },
     {
-      "codes": "1F539",
-      "char": "🔹",
+      "emoji": "🔹",
       "name": "small blue diamond",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "blue",
-        "diamond",
-        "geometric",
-        "small blue diamond"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "1F539",
+      "keyTerms": ["blue", "diamond", "geometric", "small blue diamond"]
     },
     {
-      "codes": "1F53A",
-      "char": "🔺",
+      "emoji": "🔺",
       "name": "red triangle pointed up",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "geometric",
-        "red",
-        "red triangle pointed up"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "1F53A",
+      "keyTerms": ["geometric", "red", "red triangle pointed up"]
     },
     {
-      "codes": "1F53B",
-      "char": "🔻",
+      "emoji": "🔻",
       "name": "red triangle pointed down",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "down",
-        "geometric",
-        "red",
-        "red triangle pointed down"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "1F53B",
+      "keyTerms": ["down", "geometric", "red", "red triangle pointed down"]
     },
     {
-      "codes": "1F4A0",
-      "char": "💠",
+      "emoji": "💠",
       "name": "diamond with a dot",
       "category": "Symbols",
-      "subcategory": "symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F4A0",
       "keyTerms": [
         "comic",
         "diamond",
@@ -12898,11 +12817,19 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F533",
-      "char": "🔳",
+      "emoji": "🔘",
+      "name": "radio button",
+      "category": "Symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F518",
+      "keyTerms": ["button", "geometric", "radio"]
+    },
+    {
+      "emoji": "🔳",
       "name": "white square button",
       "category": "Symbols",
-      "subcategory": "symbols",
+      "subcategory": "geometric",
+      "codepoints": "1F533",
       "keyTerms": [
         "button",
         "geometric",
@@ -12912,47 +12839,37 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F532",
-      "char": "🔲",
+      "emoji": "🔲",
       "name": "black square button",
       "category": "Symbols",
-      "subcategory": "symbols",
-      "keyTerms": [
-        "black square button",
-        "button",
-        "geometric",
-        "square"
-      ]
+      "subcategory": "geometric",
+      "codepoints": "1F532",
+      "keyTerms": ["black square button", "button", "geometric", "square"]
     }
   ],
   "flag": [
     {
-      "codes": "1F3C1",
-      "char": "🏁",
+      "emoji": "🏁",
       "name": "chequered flag",
       "category": "Flags",
-      "keyTerms": [
-        "checkered",
-        "chequered",
-        "chequered flag",
-        "racing"
-      ]
+      "subcategory": "flag",
+      "codepoints": "1F3C1",
+      "keyTerms": ["checkered", "chequered", "chequered flag", "racing"]
     },
     {
-      "codes": "1F6A9",
-      "char": "🚩",
+      "emoji": "🚩",
       "name": "triangular flag",
       "category": "Flags",
-      "keyTerms": [
-        "post",
-        "triangular flag"
-      ]
+      "subcategory": "flag",
+      "codepoints": "1F6A9",
+      "keyTerms": ["post", "triangular flag"]
     },
     {
-      "codes": "1F38C",
-      "char": "🎌",
+      "emoji": "🎌",
       "name": "crossed flags",
       "category": "Flags",
+      "subcategory": "flag",
+      "codepoints": "1F38C",
       "keyTerms": [
         "celebration",
         "cross",
@@ -12962,1861 +12879,2130 @@ export const emojidata = {
       ]
     },
     {
-      "codes": "1F3F4",
-      "char": "🏴",
+      "emoji": "🏴",
       "name": "black flag",
       "category": "Flags",
-      "keyTerms": [
-        "black flag",
-        "waving"
-      ]
+      "subcategory": "flag",
+      "codepoints": "1F3F4",
+      "keyTerms": ["black flag", "waving"]
     },
     {
-      "codes": "1F3F3",
-      "char": "🏳",
+      "emoji": "🏳",
       "name": "white flag",
       "category": "Flags",
-      "keyTerms": [
-        "waving",
-        "white flag"
-      ]
+      "subcategory": "flag",
+      "codepoints": "1F3F3",
+      "keyTerms": ["waving", "white flag"]
     },
     {
-      "codes": "1F3F3 FE0F 200D 1F308",
-      "char": "🏳️‍🌈",
+      "emoji": "🏳️‍🌈",
       "name": "rainbow flag",
       "category": "Flags",
+      "subcategory": "flag",
+      "codepoints": "1F3F3 FE0F 200D 1F308",
+      "keyTerms": ["pride", "rainbow", "rainbow flag"]
+    },
+    {
+      "emoji": "🏴‍☠️",
+      "name": "pirate flag",
+      "category": "Flags",
+      "subcategory": "flag",
+      "codepoints": "1F3F4 200D 2620 FE0F",
       "keyTerms": [
-        "rainbow",
-        "rainbow flag"
+        "Jolly Roger",
+        "pirate",
+        "pirate flag",
+        "plunder",
+        "treasure"
       ]
     },
     {
-      "codes": "1F1E6 1F1E8",
-      "char": "🇦🇨",
+      "emoji": "🇦🇨",
       "name": "flag: Ascension Island",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1E8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1E9",
-      "char": "🇦🇩",
+      "emoji": "🇦🇩",
       "name": "flag: Andorra",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1E9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1EA",
-      "char": "🇦🇪",
+      "emoji": "🇦🇪",
       "name": "flag: United Arab Emirates",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1EB",
-      "char": "🇦🇫",
+      "emoji": "🇦🇫",
       "name": "flag: Afghanistan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1EB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1EC",
-      "char": "🇦🇬",
+      "emoji": "🇦🇬",
       "name": "flag: Antigua & Barbuda",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1EE",
-      "char": "🇦🇮",
+      "emoji": "🇦🇮",
       "name": "flag: Anguilla",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1EE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1F1",
-      "char": "🇦🇱",
+      "emoji": "🇦🇱",
       "name": "flag: Albania",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1F1",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1F2",
-      "char": "🇦🇲",
+      "emoji": "🇦🇲",
       "name": "flag: Armenia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1F4",
-      "char": "🇦🇴",
+      "emoji": "🇦🇴",
       "name": "flag: Angola",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1F4",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1F6",
-      "char": "🇦🇶",
+      "emoji": "🇦🇶",
       "name": "flag: Antarctica",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1F6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1F7",
-      "char": "🇦🇷",
+      "emoji": "🇦🇷",
       "name": "flag: Argentina",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1F8",
-      "char": "🇦🇸",
+      "emoji": "🇦🇸",
       "name": "flag: American Samoa",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1F8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1F9",
-      "char": "🇦🇹",
+      "emoji": "🇦🇹",
       "name": "flag: Austria",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1F9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1FA",
-      "char": "🇦🇺",
+      "emoji": "🇦🇺",
       "name": "flag: Australia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1FA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1FC",
-      "char": "🇦🇼",
+      "emoji": "🇦🇼",
       "name": "flag: Aruba",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1FC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1FD",
-      "char": "🇦🇽",
+      "emoji": "🇦🇽",
       "name": "flag: Åland Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1FD",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E6 1F1FF",
-      "char": "🇦🇿",
+      "emoji": "🇦🇿",
       "name": "flag: Azerbaijan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E6 1F1FF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1E6",
-      "char": "🇧🇦",
+      "emoji": "🇧🇦",
       "name": "flag: Bosnia & Herzegovina",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1E7",
-      "char": "🇧🇧",
+      "emoji": "🇧🇧",
       "name": "flag: Barbados",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1E7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1E9",
-      "char": "🇧🇩",
+      "emoji": "🇧🇩",
       "name": "flag: Bangladesh",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1E9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1EA",
-      "char": "🇧🇪",
+      "emoji": "🇧🇪",
       "name": "flag: Belgium",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1EB",
-      "char": "🇧🇫",
+      "emoji": "🇧🇫",
       "name": "flag: Burkina Faso",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1EB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1EC",
-      "char": "🇧🇬",
+      "emoji": "🇧🇬",
       "name": "flag: Bulgaria",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1ED",
-      "char": "🇧🇭",
+      "emoji": "🇧🇭",
       "name": "flag: Bahrain",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1ED",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1EE",
-      "char": "🇧🇮",
+      "emoji": "🇧🇮",
       "name": "flag: Burundi",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1EE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1EF",
-      "char": "🇧🇯",
+      "emoji": "🇧🇯",
       "name": "flag: Benin",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1EF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1F1",
-      "char": "🇧🇱",
+      "emoji": "🇧🇱",
       "name": "flag: St. Barthélemy",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1F1",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1F2",
-      "char": "🇧🇲",
+      "emoji": "🇧🇲",
       "name": "flag: Bermuda",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1F3",
-      "char": "🇧🇳",
+      "emoji": "🇧🇳",
       "name": "flag: Brunei",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1F3",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1F4",
-      "char": "🇧🇴",
+      "emoji": "🇧🇴",
       "name": "flag: Bolivia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1F4",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1F6",
-      "char": "🇧🇶",
+      "emoji": "🇧🇶",
       "name": "flag: Caribbean Netherlands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1F6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1F7",
-      "char": "🇧🇷",
+      "emoji": "🇧🇷",
       "name": "flag: Brazil",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1F8",
-      "char": "🇧🇸",
+      "emoji": "🇧🇸",
       "name": "flag: Bahamas",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1F8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1F9",
-      "char": "🇧🇹",
+      "emoji": "🇧🇹",
       "name": "flag: Bhutan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1F9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1FB",
-      "char": "🇧🇻",
+      "emoji": "🇧🇻",
       "name": "flag: Bouvet Island",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1FB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1FC",
-      "char": "🇧🇼",
+      "emoji": "🇧🇼",
       "name": "flag: Botswana",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1FC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1FE",
-      "char": "🇧🇾",
+      "emoji": "🇧🇾",
       "name": "flag: Belarus",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1FE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E7 1F1FF",
-      "char": "🇧🇿",
+      "emoji": "🇧🇿",
       "name": "flag: Belize",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E7 1F1FF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1E6",
-      "char": "🇨🇦",
+      "emoji": "🇨🇦",
       "name": "flag: Canada",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1E8",
-      "char": "🇨🇨",
+      "emoji": "🇨🇨",
       "name": "flag: Cocos (Keeling) Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1E8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1E9",
-      "char": "🇨🇩",
+      "emoji": "🇨🇩",
       "name": "flag: Congo - Kinshasa",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1E9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1EB",
-      "char": "🇨🇫",
+      "emoji": "🇨🇫",
       "name": "flag: Central African Republic",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1EB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1EC",
-      "char": "🇨🇬",
+      "emoji": "🇨🇬",
       "name": "flag: Congo - Brazzaville",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1ED",
-      "char": "🇨🇭",
+      "emoji": "🇨🇭",
       "name": "flag: Switzerland",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1ED",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1EE",
-      "char": "🇨🇮",
+      "emoji": "🇨🇮",
       "name": "flag: Côte d’Ivoire",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1EE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1F0",
-      "char": "🇨🇰",
+      "emoji": "🇨🇰",
       "name": "flag: Cook Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1F0",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1F1",
-      "char": "🇨🇱",
+      "emoji": "🇨🇱",
       "name": "flag: Chile",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1F1",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1F2",
-      "char": "🇨🇲",
+      "emoji": "🇨🇲",
       "name": "flag: Cameroon",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1F3",
-      "char": "🇨🇳",
+      "emoji": "🇨🇳",
       "name": "flag: China",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1F3",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1F4",
-      "char": "🇨🇴",
+      "emoji": "🇨🇴",
       "name": "flag: Colombia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1F4",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1F5",
-      "char": "🇨🇵",
+      "emoji": "🇨🇵",
       "name": "flag: Clipperton Island",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1F5",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1F7",
-      "char": "🇨🇷",
+      "emoji": "🇨🇷",
       "name": "flag: Costa Rica",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1FA",
-      "char": "🇨🇺",
+      "emoji": "🇨🇺",
       "name": "flag: Cuba",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1FA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1FB",
-      "char": "🇨🇻",
+      "emoji": "🇨🇻",
       "name": "flag: Cape Verde",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1FB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1FC",
-      "char": "🇨🇼",
+      "emoji": "🇨🇼",
       "name": "flag: Curaçao",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1FC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1FD",
-      "char": "🇨🇽",
+      "emoji": "🇨🇽",
       "name": "flag: Christmas Island",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1FD",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1FE",
-      "char": "🇨🇾",
+      "emoji": "🇨🇾",
       "name": "flag: Cyprus",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1FE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E8 1F1FF",
-      "char": "🇨🇿",
+      "emoji": "🇨🇿",
       "name": "flag: Czechia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E8 1F1FF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E9 1F1EA",
-      "char": "🇩🇪",
+      "emoji": "🇩🇪",
       "name": "flag: Germany",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E9 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E9 1F1EC",
-      "char": "🇩🇬",
+      "emoji": "🇩🇬",
       "name": "flag: Diego Garcia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E9 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E9 1F1EF",
-      "char": "🇩🇯",
+      "emoji": "🇩🇯",
       "name": "flag: Djibouti",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E9 1F1EF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E9 1F1F0",
-      "char": "🇩🇰",
+      "emoji": "🇩🇰",
       "name": "flag: Denmark",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E9 1F1F0",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E9 1F1F2",
-      "char": "🇩🇲",
+      "emoji": "🇩🇲",
       "name": "flag: Dominica",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E9 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E9 1F1F4",
-      "char": "🇩🇴",
+      "emoji": "🇩🇴",
       "name": "flag: Dominican Republic",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E9 1F1F4",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1E9 1F1FF",
-      "char": "🇩🇿",
+      "emoji": "🇩🇿",
       "name": "flag: Algeria",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1E9 1F1FF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EA 1F1E6",
-      "char": "🇪🇦",
+      "emoji": "🇪🇦",
       "name": "flag: Ceuta & Melilla",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EA 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EA 1F1E8",
-      "char": "🇪🇨",
+      "emoji": "🇪🇨",
       "name": "flag: Ecuador",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EA 1F1E8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EA 1F1EA",
-      "char": "🇪🇪",
+      "emoji": "🇪🇪",
       "name": "flag: Estonia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EA 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EA 1F1EC",
-      "char": "🇪🇬",
+      "emoji": "🇪🇬",
       "name": "flag: Egypt",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EA 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EA 1F1ED",
-      "char": "🇪🇭",
+      "emoji": "🇪🇭",
       "name": "flag: Western Sahara",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EA 1F1ED",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EA 1F1F7",
-      "char": "🇪🇷",
+      "emoji": "🇪🇷",
       "name": "flag: Eritrea",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EA 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EA 1F1F8",
-      "char": "🇪🇸",
+      "emoji": "🇪🇸",
       "name": "flag: Spain",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EA 1F1F8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EA 1F1F9",
-      "char": "🇪🇹",
+      "emoji": "🇪🇹",
       "name": "flag: Ethiopia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EA 1F1F9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EA 1F1FA",
-      "char": "🇪🇺",
+      "emoji": "🇪🇺",
       "name": "flag: European Union",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EA 1F1FA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EB 1F1EE",
-      "char": "🇫🇮",
+      "emoji": "🇫🇮",
       "name": "flag: Finland",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EB 1F1EE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EB 1F1EF",
-      "char": "🇫🇯",
+      "emoji": "🇫🇯",
       "name": "flag: Fiji",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EB 1F1EF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EB 1F1F0",
-      "char": "🇫🇰",
+      "emoji": "🇫🇰",
       "name": "flag: Falkland Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EB 1F1F0",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EB 1F1F2",
-      "char": "🇫🇲",
+      "emoji": "🇫🇲",
       "name": "flag: Micronesia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EB 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EB 1F1F4",
-      "char": "🇫🇴",
+      "emoji": "🇫🇴",
       "name": "flag: Faroe Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EB 1F1F4",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EB 1F1F7",
-      "char": "🇫🇷",
+      "emoji": "🇫🇷",
       "name": "flag: France",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EB 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1E6",
-      "char": "🇬🇦",
+      "emoji": "🇬🇦",
       "name": "flag: Gabon",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1E7",
-      "char": "🇬🇧",
+      "emoji": "🇬🇧",
       "name": "flag: United Kingdom",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1E7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1E9",
-      "char": "🇬🇩",
+      "emoji": "🇬🇩",
       "name": "flag: Grenada",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1E9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1EA",
-      "char": "🇬🇪",
+      "emoji": "🇬🇪",
       "name": "flag: Georgia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1EB",
-      "char": "🇬🇫",
+      "emoji": "🇬🇫",
       "name": "flag: French Guiana",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1EB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1EC",
-      "char": "🇬🇬",
+      "emoji": "🇬🇬",
       "name": "flag: Guernsey",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1ED",
-      "char": "🇬🇭",
+      "emoji": "🇬🇭",
       "name": "flag: Ghana",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1ED",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1EE",
-      "char": "🇬🇮",
+      "emoji": "🇬🇮",
       "name": "flag: Gibraltar",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1EE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1F1",
-      "char": "🇬🇱",
+      "emoji": "🇬🇱",
       "name": "flag: Greenland",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1F1",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1F2",
-      "char": "🇬🇲",
+      "emoji": "🇬🇲",
       "name": "flag: Gambia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1F3",
-      "char": "🇬🇳",
+      "emoji": "🇬🇳",
       "name": "flag: Guinea",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1F3",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1F5",
-      "char": "🇬🇵",
+      "emoji": "🇬🇵",
       "name": "flag: Guadeloupe",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1F5",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1F6",
-      "char": "🇬🇶",
+      "emoji": "🇬🇶",
       "name": "flag: Equatorial Guinea",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1F6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1F7",
-      "char": "🇬🇷",
+      "emoji": "🇬🇷",
       "name": "flag: Greece",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1F8",
-      "char": "🇬🇸",
+      "emoji": "🇬🇸",
       "name": "flag: South Georgia & South Sandwich Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1F8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1F9",
-      "char": "🇬🇹",
+      "emoji": "🇬🇹",
       "name": "flag: Guatemala",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1F9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1FA",
-      "char": "🇬🇺",
+      "emoji": "🇬🇺",
       "name": "flag: Guam",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1FA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1FC",
-      "char": "🇬🇼",
+      "emoji": "🇬🇼",
       "name": "flag: Guinea-Bissau",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1FC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EC 1F1FE",
-      "char": "🇬🇾",
+      "emoji": "🇬🇾",
       "name": "flag: Guyana",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EC 1F1FE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1ED 1F1F0",
-      "char": "🇭🇰",
+      "emoji": "🇭🇰",
       "name": "flag: Hong Kong SAR China",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1ED 1F1F0",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1ED 1F1F2",
-      "char": "🇭🇲",
+      "emoji": "🇭🇲",
       "name": "flag: Heard & McDonald Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1ED 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1ED 1F1F3",
-      "char": "🇭🇳",
+      "emoji": "🇭🇳",
       "name": "flag: Honduras",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1ED 1F1F3",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1ED 1F1F7",
-      "char": "🇭🇷",
+      "emoji": "🇭🇷",
       "name": "flag: Croatia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1ED 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1ED 1F1F9",
-      "char": "🇭🇹",
+      "emoji": "🇭🇹",
       "name": "flag: Haiti",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1ED 1F1F9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1ED 1F1FA",
-      "char": "🇭🇺",
+      "emoji": "🇭🇺",
       "name": "flag: Hungary",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1ED 1F1FA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EE 1F1E8",
-      "char": "🇮🇨",
+      "emoji": "🇮🇨",
       "name": "flag: Canary Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EE 1F1E8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EE 1F1E9",
-      "char": "🇮🇩",
+      "emoji": "🇮🇩",
       "name": "flag: Indonesia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EE 1F1E9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EE 1F1EA",
-      "char": "🇮🇪",
+      "emoji": "🇮🇪",
       "name": "flag: Ireland",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EE 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EE 1F1F1",
-      "char": "🇮🇱",
+      "emoji": "🇮🇱",
       "name": "flag: Israel",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EE 1F1F1",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EE 1F1F2",
-      "char": "🇮🇲",
+      "emoji": "🇮🇲",
       "name": "flag: Isle of Man",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EE 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EE 1F1F3",
-      "char": "🇮🇳",
+      "emoji": "🇮🇳",
       "name": "flag: India",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EE 1F1F3",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EE 1F1F4",
-      "char": "🇮🇴",
+      "emoji": "🇮🇴",
       "name": "flag: British Indian Ocean Territory",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EE 1F1F4",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EE 1F1F6",
-      "char": "🇮🇶",
+      "emoji": "🇮🇶",
       "name": "flag: Iraq",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EE 1F1F6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EE 1F1F7",
-      "char": "🇮🇷",
+      "emoji": "🇮🇷",
       "name": "flag: Iran",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EE 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EE 1F1F8",
-      "char": "🇮🇸",
+      "emoji": "🇮🇸",
       "name": "flag: Iceland",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EE 1F1F8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EE 1F1F9",
-      "char": "🇮🇹",
+      "emoji": "🇮🇹",
       "name": "flag: Italy",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EE 1F1F9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EF 1F1EA",
-      "char": "🇯🇪",
+      "emoji": "🇯🇪",
       "name": "flag: Jersey",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EF 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EF 1F1F2",
-      "char": "🇯🇲",
+      "emoji": "🇯🇲",
       "name": "flag: Jamaica",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EF 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EF 1F1F4",
-      "char": "🇯🇴",
+      "emoji": "🇯🇴",
       "name": "flag: Jordan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EF 1F1F4",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1EF 1F1F5",
-      "char": "🇯🇵",
+      "emoji": "🇯🇵",
       "name": "flag: Japan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1EF 1F1F5",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F0 1F1EA",
-      "char": "🇰🇪",
+      "emoji": "🇰🇪",
       "name": "flag: Kenya",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F0 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F0 1F1EC",
-      "char": "🇰🇬",
+      "emoji": "🇰🇬",
       "name": "flag: Kyrgyzstan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F0 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F0 1F1ED",
-      "char": "🇰🇭",
+      "emoji": "🇰🇭",
       "name": "flag: Cambodia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F0 1F1ED",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F0 1F1EE",
-      "char": "🇰🇮",
+      "emoji": "🇰🇮",
       "name": "flag: Kiribati",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F0 1F1EE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F0 1F1F2",
-      "char": "🇰🇲",
+      "emoji": "🇰🇲",
       "name": "flag: Comoros",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F0 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F0 1F1F3",
-      "char": "🇰🇳",
+      "emoji": "🇰🇳",
       "name": "flag: St. Kitts & Nevis",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F0 1F1F3",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F0 1F1F5",
-      "char": "🇰🇵",
+      "emoji": "🇰🇵",
       "name": "flag: North Korea",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F0 1F1F5",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F0 1F1F7",
-      "char": "🇰🇷",
+      "emoji": "🇰🇷",
       "name": "flag: South Korea",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F0 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F0 1F1FC",
-      "char": "🇰🇼",
+      "emoji": "🇰🇼",
       "name": "flag: Kuwait",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F0 1F1FC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F0 1F1FE",
-      "char": "🇰🇾",
+      "emoji": "🇰🇾",
       "name": "flag: Cayman Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F0 1F1FE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F0 1F1FF",
-      "char": "🇰🇿",
+      "emoji": "🇰🇿",
       "name": "flag: Kazakhstan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F0 1F1FF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F1 1F1E6",
-      "char": "🇱🇦",
+      "emoji": "🇱🇦",
       "name": "flag: Laos",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F1 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F1 1F1E7",
-      "char": "🇱🇧",
+      "emoji": "🇱🇧",
       "name": "flag: Lebanon",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F1 1F1E7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F1 1F1E8",
-      "char": "🇱🇨",
+      "emoji": "🇱🇨",
       "name": "flag: St. Lucia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F1 1F1E8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F1 1F1EE",
-      "char": "🇱🇮",
+      "emoji": "🇱🇮",
       "name": "flag: Liechtenstein",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F1 1F1EE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F1 1F1F0",
-      "char": "🇱🇰",
+      "emoji": "🇱🇰",
       "name": "flag: Sri Lanka",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F1 1F1F0",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F1 1F1F7",
-      "char": "🇱🇷",
+      "emoji": "🇱🇷",
       "name": "flag: Liberia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F1 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F1 1F1F8",
-      "char": "🇱🇸",
+      "emoji": "🇱🇸",
       "name": "flag: Lesotho",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F1 1F1F8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F1 1F1F9",
-      "char": "🇱🇹",
+      "emoji": "🇱🇹",
       "name": "flag: Lithuania",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F1 1F1F9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F1 1F1FA",
-      "char": "🇱🇺",
+      "emoji": "🇱🇺",
       "name": "flag: Luxembourg",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F1 1F1FA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F1 1F1FB",
-      "char": "🇱🇻",
+      "emoji": "🇱🇻",
       "name": "flag: Latvia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F1 1F1FB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F1 1F1FE",
-      "char": "🇱🇾",
+      "emoji": "🇱🇾",
       "name": "flag: Libya",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F1 1F1FE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1E6",
-      "char": "🇲🇦",
+      "emoji": "🇲🇦",
       "name": "flag: Morocco",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1E8",
-      "char": "🇲🇨",
+      "emoji": "🇲🇨",
       "name": "flag: Monaco",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1E8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1E9",
-      "char": "🇲🇩",
+      "emoji": "🇲🇩",
       "name": "flag: Moldova",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1E9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1EA",
-      "char": "🇲🇪",
+      "emoji": "🇲🇪",
       "name": "flag: Montenegro",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1EB",
-      "char": "🇲🇫",
+      "emoji": "🇲🇫",
       "name": "flag: St. Martin",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1EB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1EC",
-      "char": "🇲🇬",
+      "emoji": "🇲🇬",
       "name": "flag: Madagascar",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1ED",
-      "char": "🇲🇭",
+      "emoji": "🇲🇭",
       "name": "flag: Marshall Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1ED",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1F0",
-      "char": "🇲🇰",
+      "emoji": "🇲🇰",
       "name": "flag: Macedonia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1F0",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1F1",
-      "char": "🇲🇱",
+      "emoji": "🇲🇱",
       "name": "flag: Mali",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1F1",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1F2",
-      "char": "🇲🇲",
+      "emoji": "🇲🇲",
       "name": "flag: Myanmar (Burma)",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1F3",
-      "char": "🇲🇳",
+      "emoji": "🇲🇳",
       "name": "flag: Mongolia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1F3",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1F4",
-      "char": "🇲🇴",
+      "emoji": "🇲🇴",
       "name": "flag: Macao SAR China",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1F4",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1F5",
-      "char": "🇲🇵",
+      "emoji": "🇲🇵",
       "name": "flag: Northern Mariana Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1F5",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1F6",
-      "char": "🇲🇶",
+      "emoji": "🇲🇶",
       "name": "flag: Martinique",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1F6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1F7",
-      "char": "🇲🇷",
+      "emoji": "🇲🇷",
       "name": "flag: Mauritania",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1F8",
-      "char": "🇲🇸",
+      "emoji": "🇲🇸",
       "name": "flag: Montserrat",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1F8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1F9",
-      "char": "🇲🇹",
+      "emoji": "🇲🇹",
       "name": "flag: Malta",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1F9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1FA",
-      "char": "🇲🇺",
+      "emoji": "🇲🇺",
       "name": "flag: Mauritius",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1FA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1FB",
-      "char": "🇲🇻",
+      "emoji": "🇲🇻",
       "name": "flag: Maldives",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1FB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1FC",
-      "char": "🇲🇼",
+      "emoji": "🇲🇼",
       "name": "flag: Malawi",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1FC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1FD",
-      "char": "🇲🇽",
+      "emoji": "🇲🇽",
       "name": "flag: Mexico",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1FD",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1FE",
-      "char": "🇲🇾",
+      "emoji": "🇲🇾",
       "name": "flag: Malaysia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1FE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F2 1F1FF",
-      "char": "🇲🇿",
+      "emoji": "🇲🇿",
       "name": "flag: Mozambique",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F2 1F1FF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F3 1F1E6",
-      "char": "🇳🇦",
+      "emoji": "🇳🇦",
       "name": "flag: Namibia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F3 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F3 1F1E8",
-      "char": "🇳🇨",
+      "emoji": "🇳🇨",
       "name": "flag: New Caledonia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F3 1F1E8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F3 1F1EA",
-      "char": "🇳🇪",
+      "emoji": "🇳🇪",
       "name": "flag: Niger",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F3 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F3 1F1EB",
-      "char": "🇳🇫",
+      "emoji": "🇳🇫",
       "name": "flag: Norfolk Island",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F3 1F1EB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F3 1F1EC",
-      "char": "🇳🇬",
+      "emoji": "🇳🇬",
       "name": "flag: Nigeria",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F3 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F3 1F1EE",
-      "char": "🇳🇮",
+      "emoji": "🇳🇮",
       "name": "flag: Nicaragua",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F3 1F1EE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F3 1F1F1",
-      "char": "🇳🇱",
+      "emoji": "🇳🇱",
       "name": "flag: Netherlands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F3 1F1F1",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F3 1F1F4",
-      "char": "🇳🇴",
+      "emoji": "🇳🇴",
       "name": "flag: Norway",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F3 1F1F4",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F3 1F1F5",
-      "char": "🇳🇵",
+      "emoji": "🇳🇵",
       "name": "flag: Nepal",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F3 1F1F5",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F3 1F1F7",
-      "char": "🇳🇷",
+      "emoji": "🇳🇷",
       "name": "flag: Nauru",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F3 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F3 1F1FA",
-      "char": "🇳🇺",
+      "emoji": "🇳🇺",
       "name": "flag: Niue",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F3 1F1FA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F3 1F1FF",
-      "char": "🇳🇿",
+      "emoji": "🇳🇿",
       "name": "flag: New Zealand",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F3 1F1FF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F4 1F1F2",
-      "char": "🇴🇲",
+      "emoji": "🇴🇲",
       "name": "flag: Oman",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F4 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1E6",
-      "char": "🇵🇦",
+      "emoji": "🇵🇦",
       "name": "flag: Panama",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1EA",
-      "char": "🇵🇪",
+      "emoji": "🇵🇪",
       "name": "flag: Peru",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1EB",
-      "char": "🇵🇫",
+      "emoji": "🇵🇫",
       "name": "flag: French Polynesia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1EB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1EC",
-      "char": "🇵🇬",
+      "emoji": "🇵🇬",
       "name": "flag: Papua New Guinea",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1ED",
-      "char": "🇵🇭",
+      "emoji": "🇵🇭",
       "name": "flag: Philippines",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1ED",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1F0",
-      "char": "🇵🇰",
+      "emoji": "🇵🇰",
       "name": "flag: Pakistan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1F0",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1F1",
-      "char": "🇵🇱",
+      "emoji": "🇵🇱",
       "name": "flag: Poland",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1F1",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1F2",
-      "char": "🇵🇲",
+      "emoji": "🇵🇲",
       "name": "flag: St. Pierre & Miquelon",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1F3",
-      "char": "🇵🇳",
+      "emoji": "🇵🇳",
       "name": "flag: Pitcairn Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1F3",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1F7",
-      "char": "🇵🇷",
+      "emoji": "🇵🇷",
       "name": "flag: Puerto Rico",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1F8",
-      "char": "🇵🇸",
+      "emoji": "🇵🇸",
       "name": "flag: Palestinian Territories",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1F8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1F9",
-      "char": "🇵🇹",
+      "emoji": "🇵🇹",
       "name": "flag: Portugal",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1F9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1FC",
-      "char": "🇵🇼",
+      "emoji": "🇵🇼",
       "name": "flag: Palau",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1FC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F5 1F1FE",
-      "char": "🇵🇾",
+      "emoji": "🇵🇾",
       "name": "flag: Paraguay",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F5 1F1FE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F6 1F1E6",
-      "char": "🇶🇦",
+      "emoji": "🇶🇦",
       "name": "flag: Qatar",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F6 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F7 1F1EA",
-      "char": "🇷🇪",
+      "emoji": "🇷🇪",
       "name": "flag: Réunion",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F7 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F7 1F1F4",
-      "char": "🇷🇴",
+      "emoji": "🇷🇴",
       "name": "flag: Romania",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F7 1F1F4",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F7 1F1F8",
-      "char": "🇷🇸",
+      "emoji": "🇷🇸",
       "name": "flag: Serbia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F7 1F1F8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F7 1F1FA",
-      "char": "🇷🇺",
+      "emoji": "🇷🇺",
       "name": "flag: Russia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F7 1F1FA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F7 1F1FC",
-      "char": "🇷🇼",
+      "emoji": "🇷🇼",
       "name": "flag: Rwanda",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F7 1F1FC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1E6",
-      "char": "🇸🇦",
+      "emoji": "🇸🇦",
       "name": "flag: Saudi Arabia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1E7",
-      "char": "🇸🇧",
+      "emoji": "🇸🇧",
       "name": "flag: Solomon Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1E7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1E8",
-      "char": "🇸🇨",
+      "emoji": "🇸🇨",
       "name": "flag: Seychelles",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1E8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1E9",
-      "char": "🇸🇩",
+      "emoji": "🇸🇩",
       "name": "flag: Sudan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1E9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1EA",
-      "char": "🇸🇪",
+      "emoji": "🇸🇪",
       "name": "flag: Sweden",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1EC",
-      "char": "🇸🇬",
+      "emoji": "🇸🇬",
       "name": "flag: Singapore",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1ED",
-      "char": "🇸🇭",
+      "emoji": "🇸🇭",
       "name": "flag: St. Helena",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1ED",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1EE",
-      "char": "🇸🇮",
+      "emoji": "🇸🇮",
       "name": "flag: Slovenia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1EE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1EF",
-      "char": "🇸🇯",
+      "emoji": "🇸🇯",
       "name": "flag: Svalbard & Jan Mayen",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1EF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1F0",
-      "char": "🇸🇰",
+      "emoji": "🇸🇰",
       "name": "flag: Slovakia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1F0",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1F1",
-      "char": "🇸🇱",
+      "emoji": "🇸🇱",
       "name": "flag: Sierra Leone",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1F1",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1F2",
-      "char": "🇸🇲",
+      "emoji": "🇸🇲",
       "name": "flag: San Marino",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1F3",
-      "char": "🇸🇳",
+      "emoji": "🇸🇳",
       "name": "flag: Senegal",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1F3",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1F4",
-      "char": "🇸🇴",
+      "emoji": "🇸🇴",
       "name": "flag: Somalia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1F4",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1F7",
-      "char": "🇸🇷",
+      "emoji": "🇸🇷",
       "name": "flag: Suriname",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1F8",
-      "char": "🇸🇸",
+      "emoji": "🇸🇸",
       "name": "flag: South Sudan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1F8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1F9",
-      "char": "🇸🇹",
+      "emoji": "🇸🇹",
       "name": "flag: São Tomé & Príncipe",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1F9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1FB",
-      "char": "🇸🇻",
+      "emoji": "🇸🇻",
       "name": "flag: El Salvador",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1FB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1FD",
-      "char": "🇸🇽",
+      "emoji": "🇸🇽",
       "name": "flag: Sint Maarten",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1FD",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1FE",
-      "char": "🇸🇾",
+      "emoji": "🇸🇾",
       "name": "flag: Syria",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1FE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F8 1F1FF",
-      "char": "🇸🇿",
+      "emoji": "🇸🇿",
       "name": "flag: Eswatini",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F8 1F1FF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1E6",
-      "char": "🇹🇦",
+      "emoji": "🇹🇦",
       "name": "flag: Tristan da Cunha",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1E8",
-      "char": "🇹🇨",
+      "emoji": "🇹🇨",
       "name": "flag: Turks & Caicos Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1E8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1E9",
-      "char": "🇹🇩",
+      "emoji": "🇹🇩",
       "name": "flag: Chad",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1E9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1EB",
-      "char": "🇹🇫",
+      "emoji": "🇹🇫",
       "name": "flag: French Southern Territories",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1EB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1EC",
-      "char": "🇹🇬",
+      "emoji": "🇹🇬",
       "name": "flag: Togo",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1ED",
-      "char": "🇹🇭",
+      "emoji": "🇹🇭",
       "name": "flag: Thailand",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1ED",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1EF",
-      "char": "🇹🇯",
+      "emoji": "🇹🇯",
       "name": "flag: Tajikistan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1EF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1F0",
-      "char": "🇹🇰",
+      "emoji": "🇹🇰",
       "name": "flag: Tokelau",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1F0",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1F1",
-      "char": "🇹🇱",
+      "emoji": "🇹🇱",
       "name": "flag: Timor-Leste",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1F1",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1F2",
-      "char": "🇹🇲",
+      "emoji": "🇹🇲",
       "name": "flag: Turkmenistan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1F3",
-      "char": "🇹🇳",
+      "emoji": "🇹🇳",
       "name": "flag: Tunisia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1F3",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1F4",
-      "char": "🇹🇴",
+      "emoji": "🇹🇴",
       "name": "flag: Tonga",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1F4",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1F7",
-      "char": "🇹🇷",
+      "emoji": "🇹🇷",
       "name": "flag: Turkey",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1F7",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1F9",
-      "char": "🇹🇹",
+      "emoji": "🇹🇹",
       "name": "flag: Trinidad & Tobago",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1F9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1FB",
-      "char": "🇹🇻",
+      "emoji": "🇹🇻",
       "name": "flag: Tuvalu",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1FB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1FC",
-      "char": "🇹🇼",
+      "emoji": "🇹🇼",
       "name": "flag: Taiwan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1FC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1F9 1F1FF",
-      "char": "🇹🇿",
+      "emoji": "🇹🇿",
       "name": "flag: Tanzania",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1F9 1F1FF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FA 1F1E6",
-      "char": "🇺🇦",
+      "emoji": "🇺🇦",
       "name": "flag: Ukraine",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FA 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FA 1F1EC",
-      "char": "🇺🇬",
+      "emoji": "🇺🇬",
       "name": "flag: Uganda",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FA 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FA 1F1F2",
-      "char": "🇺🇲",
+      "emoji": "🇺🇲",
       "name": "flag: U.S. Outlying Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FA 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FA 1F1F3",
-      "char": "🇺🇳",
+      "emoji": "🇺🇳",
       "name": "flag: United Nations",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FA 1F1F3",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FA 1F1F8",
-      "char": "🇺🇸",
+      "emoji": "🇺🇸",
       "name": "flag: United States",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FA 1F1F8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FA 1F1FE",
-      "char": "🇺🇾",
+      "emoji": "🇺🇾",
       "name": "flag: Uruguay",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FA 1F1FE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FA 1F1FF",
-      "char": "🇺🇿",
+      "emoji": "🇺🇿",
       "name": "flag: Uzbekistan",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FA 1F1FF",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FB 1F1E6",
-      "char": "🇻🇦",
+      "emoji": "🇻🇦",
       "name": "flag: Vatican City",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FB 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FB 1F1E8",
-      "char": "🇻🇨",
+      "emoji": "🇻🇨",
       "name": "flag: St. Vincent & Grenadines",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FB 1F1E8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FB 1F1EA",
-      "char": "🇻🇪",
+      "emoji": "🇻🇪",
       "name": "flag: Venezuela",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FB 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FB 1F1EC",
-      "char": "🇻🇬",
+      "emoji": "🇻🇬",
       "name": "flag: British Virgin Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FB 1F1EC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FB 1F1EE",
-      "char": "🇻🇮",
+      "emoji": "🇻🇮",
       "name": "flag: U.S. Virgin Islands",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FB 1F1EE",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FB 1F1F3",
-      "char": "🇻🇳",
+      "emoji": "🇻🇳",
       "name": "flag: Vietnam",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FB 1F1F3",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FB 1F1FA",
-      "char": "🇻🇺",
+      "emoji": "🇻🇺",
       "name": "flag: Vanuatu",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FB 1F1FA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FC 1F1EB",
-      "char": "🇼🇫",
+      "emoji": "🇼🇫",
       "name": "flag: Wallis & Futuna",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FC 1F1EB",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FC 1F1F8",
-      "char": "🇼🇸",
+      "emoji": "🇼🇸",
       "name": "flag: Samoa",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FC 1F1F8",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FD 1F1F0",
-      "char": "🇽🇰",
+      "emoji": "🇽🇰",
       "name": "flag: Kosovo",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FD 1F1F0",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FE 1F1EA",
-      "char": "🇾🇪",
+      "emoji": "🇾🇪",
       "name": "flag: Yemen",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FE 1F1EA",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FE 1F1F9",
-      "char": "🇾🇹",
+      "emoji": "🇾🇹",
       "name": "flag: Mayotte",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FE 1F1F9",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FF 1F1E6",
-      "char": "🇿🇦",
+      "emoji": "🇿🇦",
       "name": "flag: South Africa",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FF 1F1E6",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FF 1F1F2",
-      "char": "🇿🇲",
+      "emoji": "🇿🇲",
       "name": "flag: Zambia",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FF 1F1F2",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F1FF 1F1FC",
-      "char": "🇿🇼",
+      "emoji": "🇿🇼",
       "name": "flag: Zimbabwe",
       "category": "Flags",
-      "keyTerms": []
+      "subcategory": "country-flag",
+      "codepoints": "1F1FF 1F1FC",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F3F4 E0067 E0062 E0065 E006E E0067 E007F",
-      "char": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "emoji": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "name": "flag: England",
-      "category": "subdivision-flag",
-      "keyTerms": []
+      "category": "Flags",
+      "subcategory": "subdivision-flag",
+      "codepoints": "1F3F4 E0067 E0062 E0065 E006E E0067 E007F",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F3F4 E0067 E0062 E0073 E0063 E0074 E007F",
-      "char": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "emoji": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "name": "flag: Scotland",
-      "category": "subdivision-flag",
-      "keyTerms": []
+      "category": "Flags",
+      "subcategory": "subdivision-flag",
+      "codepoints": "1F3F4 E0067 E0062 E0073 E0063 E0074 E007F",
+      "keyTerms": ["flag"]
     },
     {
-      "codes": "1F3F4 E0067 E0062 E0077 E006C E0073 E007F",
-      "char": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+      "emoji": "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
       "name": "flag: Wales",
-      "category": "subdivision-flag",
-      "keyTerms": []
+      "category": "Flags",
+      "subcategory": "subdivision-flag",
+      "codepoints": "1F3F4 E0067 E0062 E0077 E006C E0073 E007F",
+      "keyTerms": ["flag"]
     }
   ]
 }

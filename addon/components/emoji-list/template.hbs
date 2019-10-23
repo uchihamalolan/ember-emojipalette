@@ -1,18 +1,18 @@
-<div class="emojidex-icon-palette {{unless searchEnabled 'emojidex-top-component'}} {{if isCompleteList 'emojidex-bottom-component'}}">
-{{#if isCompleteList}}
-  {{#each categories as |category|}}
-    <label class="emojidex-list-category-label">{{get categoryNames category}}</label>
-    <div class="emojidex-emoji-list emojidex-{{category}}-list {{if isCompleteList 'emojidex-complete-list'}}">
-      {{#each (get emojiList category) as |emoji|}}
-        <span role="image" class="emojidex-list-item" {{action "selectEmoji" emoji}}>{{emoji}}</span>
+<div class="emojidex-icon-palette {{if isCompleteList "emojidex-bottom-component"}}">
+  {{#if isCompleteList}}
+    {{#each categories as |category|}}
+      <label class="emojidex-list-category-label">{{get categoryNames category}}</label>
+      <div class="emojidex-emoji-list emojidex-{{category}}-list {{if isCompleteList "emojidex-complete-list"}}">
+        {{#each (get emojiList category) as |emoji|}}
+          <span role="button" class="emojidex-list-item" {{action "selectEmoji" emoji}}>{{emoji}}</span>
+        {{/each}}
+      </div>
+    {{/each}}
+  {{else}}
+    <div class="emojidex-emoji-list emojidex-{{listType}}-list">
+      {{#each emojiList as |emoji|}}
+        <span role="button" class="emojidex-list-item" {{action "selectEmoji" emoji}}>{{emoji}}</span>
       {{/each}}
     </div>
-  {{/each}}
-{{else}}
-  <div class="emojidex-emoji-list emojidex-{{listType}}-list">
-    {{#each emojiList as |emoji|}}
-      <span role="image" class="emojidex-list-item" {{action "selectEmoji" emoji}}>{{emoji}}</span>
-    {{/each}}
-  </div>
-{{/if}}
+  {{/if}}
 </div>
