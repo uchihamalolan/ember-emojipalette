@@ -9,6 +9,8 @@ view [demo](https://uchihamalolan.github.io/ember-emojipalette/) here.
 
 ```bash
 ember install ember-emojipalette
+# or
+npm install ember-emojipalette
 ```
 
 ## Usage
@@ -20,10 +22,17 @@ ember install ember-emojipalette
 ```
 ### Preferences
 - This addon by default displays category and does not allow infinite scroll
-- if you wish not to display categories and allow infinite scrolls pass `hideCategories=true` to the `emoji-palette` component 
+
+- if you wish not to display categories and allow infinite scrolls pass `hideCategories=true` to the `emoji-palette` component. (by default it is set to `false`) 
 ```htmlbars
   {{ember-emojipalette selectedEmoji=emoji hideCategories=true}}
 ```
+
+- search facility can be enabled or disabled using `searchEnabled` attribute (by default it is set to `false`)
+```htmlbars
+  {{ember-emojipalette selectedEmoji=emoji searchEnabled=true}}
+```
+
 - if you wish not to have certain categories at all, you can use `excludeCategories` key to specify them. Value should be an array of category keys that you do not want to show.
 ```htmlbars
   {{ember-emojipalette selectedEmoji=emoji excludeCategories=excludeCategories}}
@@ -41,6 +50,24 @@ ember install ember-emojipalette
    * flag
    */ 
 ```
+
+- Some emojis might not render in old OS systems. So you can choose not to display emojis of that particular version altogeather, if you choose to.
+```htmlbars
+  {{ember emojipalette selectedEmoji=emoji emojiVersion="9"}}
+```
+[here](https://unicode.org/emoji/charts/emoji-versions.html) you can find more about emoji versions
+
+- You can enable close on backdrop click by `closeOnBackdropClick=true`.
+- `onClose` action can be used to perform the actions before closing the palette
+```htmlbars
+  {{ember emojipalette 
+      selectedEmoji=emoji
+      emojiVersion="9"
+      closeOnBackdropClick=true
+      onClose=(action "closeAction")
+  }}
+```
+
 ## About
 
 - This addon uses unicode for rendering emojis, instead of using spritesheets
@@ -50,6 +77,7 @@ ember install ember-emojipalette
   - Less dependencies
 - Disadvantages:
   - Renders slightly different on different OS and browsers
+  - Some emojis that are rendered in latest version of OS might not render in older versions of the same OS
 
 ## Installation
 
