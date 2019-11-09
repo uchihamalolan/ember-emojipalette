@@ -1,12 +1,10 @@
 /* eslint-disable no-fallthrough */
-// conditionally import emojidata and emojilist
 import { emojidata } from './emojidata';
 import { emojiListVersion } from './emojiListVersion';
 import { emojilist } from './emojilist';
 
 export const emojidex = {
-  // emojidata: emojidata,
-  // emojiListVersion: emojiListVersion,
+
   emojilist: emojilist,
   filteredEmojiData: {},
 
@@ -43,9 +41,7 @@ export const emojidex = {
     Object.entries(emojilist).forEach(entry => {
       let category = entry[0];
       let emojis = entry[1];
-      filteredEmojiList[category] = emojis.filter(
-        emoji => !unsupportedEmojis.includes(emoji)
-      );
+      filteredEmojiList[category] = emojis.filter(emoji => !unsupportedEmojis.includes(emoji));
     });
     return filteredEmojiList;
   },
@@ -76,7 +72,7 @@ export const emojidex = {
         emojis.filter(emoji => {
           return (
             (emoji.keyTerms && emoji.keyTerms.includes(searchTerm)) ||
-            (emoji.subcategory && this._searchInSubcategory(searchTerm, emoji))
+            (emoji.subcategory && this._findInSubcategory(searchTerm, emoji.subcategory))
           );
         }).map(emoji => emoji.emoji)
       );
@@ -84,12 +80,9 @@ export const emojidex = {
     return searchResults.flat();
   },
 
-  _searchInSubcategory(searchTerm, emoji) {
-    return emoji.subcategory
-      .split(/[- ]/)
+  _findInSubcategory(searchTerm, subcategory) {
+    return subcategory.split(/[- ]/)
       .filter(word => word.length > 1)
       .includes(searchTerm);
   }
 };
-
-// export { emojidex, emojilist, emojidata };
