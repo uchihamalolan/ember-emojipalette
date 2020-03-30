@@ -78,6 +78,12 @@ npm install ember-emojipalette
 - Disadvantages:
   - Renders slightly different on different OS and browsers
   - Some emojis that are rendered in latest version of OS might not render in older versions of the same OS
+  
+## Future
+- Optional use of emoji images using iamcal/emoji-data/
+  - pruning emoji-json to have only neede info
+  - or just importing background image position data from that
+  - using (html data attributes and using them in css to set background position), no js involved...
 
 ## Installation
 
