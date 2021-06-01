@@ -1,3 +1,6 @@
+# THIS PROJECT IS ARCHIVED.<br>PLEASE CHEKOUT [emojinx/ember-emoji-picker](https://github.com/emojinx/ember-emoji-picker)
+
+
 # ember-emojipalette
 
 To display an emoji palette for usage within your applications
